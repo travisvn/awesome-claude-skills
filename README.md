@@ -26,6 +26,18 @@ Claude Skills are specialized folders containing instructions, scripts, and reso
 - [Claude Developer Platform](https://docs.claude.com/) - Official documentation
 - [Skills API Endpoint](https://docs.claude.com/en/api/skills) - `/v1/skills` API documentation
 
+## Quick Start
+
+### Claude Code
+
+```bash
+/plugin marketplace add anthropics/skills
+```
+
+### Claude Desktop
+
+[Enable Skills here](https://claude.ai/settings/capabilities)
+
 ## Documentation
 
 - [Skills Overview](https://www.anthropic.com/news/skills) - Introduction to Claude Skills
