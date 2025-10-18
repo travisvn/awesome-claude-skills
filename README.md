@@ -17,50 +17,48 @@ Claude Skills are specialized folders containing instructions, scripts, and reso
 
 ## Contents
 
-**Getting Started**
-- [Official Resources](#official-resources)
-- [Quick Start](#quick-start)
-- [Recent Updates](#recent-updates)
-- [Installation & Setup](#installation--setup)
-- [Creating Your First Skill](#creating-your-first-skill)
+**🚀 Getting Started**
 
-**Skills Catalog**
-- [Official Skills](#official-skills)
+- [Quick Start](#-quick-start)
+- [Installation & Setup](#hammer_and_wrench-installation--setup)
+- [Creating Your First Skill](#pencil2-creating-your-first-skill)
+
+**🎯 Skills Catalog**
+
+- [Official Skills](#-official-skills)
   - [Document Skills](#document-skills)
   - [Design & Creative](#design--creative)
   - [Development](#development)
   - [Communication](#communication)
   - [Skill Creation](#skill-creation)
-- [Community Skills](#community-skills)
+- [Community Skills](#-community-skills)
 
-**Learning Resources**
-- [Documentation](#documentation)
-- [Tutorials & Guides](#tutorials--guides)
-- [Articles & Blog Posts](#articles--blog-posts)
+**📚 Learning Resources**
 
-**Understanding Skills**
-- [Key Features](#key-features)
-- [Skills vs Other Approaches](#skills-vs-other-approaches)
-- [Availability](#availability)
-- [Use Cases](#use-cases)
+- [Official Resources](#-official-resources)
+- [Documentation](#-documentation)
+- [Tutorials & Guides](#-tutorials--guides)
+- [Articles & Blog Posts](#-articles--blog-posts)
 
-**Reference & Support**
-- [Tools & Utilities](#tools--utilities)
-- [FAQ](#faq)
-- [Troubleshooting](#troubleshooting)
-- [Security & Best Practices](#security--best-practices)
+**💡 Understanding Skills**
 
-**Community & Contributing**
-- [Contributing](#contributing)
+- [Key Features](#-key-features)
+- [Skills vs Other Approaches](#-skills-vs-other-approaches)
+- [Use Cases](#-use-cases)
 
-## Official Resources
+**🔧 Reference & Support**
 
-- [Claude Skills Announcement](https://www.anthropic.com/news/skills) - Official announcement from Anthropic
-- [anthropics/skills](https://github.com/anthropics/skills) - Official public repository for Skills
-- [Claude Developer Platform](https://docs.claude.com/) - Official documentation
-- [Skills API Endpoint](https://docs.claude.com/en/api/skills) - `/v1/skills` API documentation
+- [Recent Updates](#-recent-updates)
+- [Tools & Utilities](#-tools--utilities)
+- [FAQ](#-faq)
+- [Troubleshooting](#hammer_and_wrench-troubleshooting)
+- [Security & Best Practices](#-security--best-practices)
 
-## Quick Start
+**🤝 Community & Contributing**
+
+- [Contributing](#-contributing)
+
+## 🚀 Quick Start
 
 ### Claude Code
 
@@ -72,23 +70,37 @@ Claude Skills are specialized folders containing instructions, scripts, and reso
 
 [Enable Skills here](https://claude.ai/settings/capabilities)
 
-## Recent Updates
+## :hammer_and_wrench: Installation & Setup
 
-### October 2025
+### Claude.ai Web Interface
 
-- **Oct 18**: Major community repositories emerge: [obra/superpowers](https://github.com/obra/superpowers) skills library
-- **Oct 17**: Community publishes practical tutorials on DEV.to and Medium
-- **Oct 16**: 🎉 **Claude Skills officially announced** - Available across Claude.ai, Code, and API
-- **Oct 16**: Initial skills released including docx, pdf, pptx, xlsx, algorithmic-art, canvas-design, and more
+1. Go to [Settings > Capabilities](https://claude.ai/settings/capabilities)
+2. Enable Skills toggle
+3. Browse available skills or upload custom skills
+4. **For Team/Enterprise**: Admin must enable Skills organization-wide first
 
-## Documentation
+### Claude Code CLI
 
-- [Skills Overview](https://www.anthropic.com/news/skills) - Introduction to Claude Skills
-- [Equipping Agents with Skills](https://www.anthropic.com/engineering/equipping-agents-for-the-real-world-with-agent-skills) - Engineering blog post on Agent Skills
-- [Claude Cookbooks - Skills](https://github.com/anthropics/claude-cookbooks/tree/main/skills) - Example notebooks and tutorials
-- [Anthropic Cookbook - Skills](https://github.com/anthropics/anthropic-cookbook/tree/main/skills) - Additional skill examples and guides
+```bash
+# Install skills from marketplace
+/plugin marketplace add anthropics/skills
 
-## Official Skills
+# Or install from local directory
+/plugin add /path/to/skill-directory
+```
+
+### Claude API
+
+Skills are accessible via the `/v1/skills` API endpoint. See the [Skills API documentation](https://docs.claude.com/en/api/skills) for detailed integration examples.
+
+```python
+import anthropic
+
+client = anthropic.Client(api_key="your-api-key")
+# See API docs for full implementation details
+```
+
+## 🎯 Official Skills
 
 ### Document Skills
 
@@ -120,7 +132,7 @@ Skills for working with complex file formats:
 
 - **[skill-creator](https://github.com/anthropics/skills/tree/main/skill-creator)** - Interactive skill creation tool that guides you through building new skills with Q&A
 
-## Community Skills
+## 🌟 Community Skills
 
 ### Skills Collections & Libraries
 
@@ -135,42 +147,10 @@ Skills for working with complex file formats:
 
 _More community skills coming soon! Submit a PR to add your skill._
 
-## Installation & Setup
-
-### Claude.ai Web Interface
-
-1. Go to [Settings > Capabilities](https://claude.ai/settings/capabilities)
-2. Enable Skills toggle
-3. Browse available skills or upload custom skills
-4. **For Team/Enterprise**: Admin must enable Skills organization-wide first
-
-### Claude Code CLI
-
-```bash
-# Install skills from marketplace
-/plugin marketplace add anthropics/skills
-
-# Or install from local directory
-/plugin add /path/to/skill-directory
-```
-
-### Claude API
-
-Skills are accessible via the `/v1/skills` API endpoint. See the [Skills API documentation](https://docs.claude.com/en/api/skills) for detailed integration examples.
-
-```python
-import anthropic
-
-client = anthropic.Client(api_key="your-api-key")
-# See API docs for full implementation details
-```
-
-## Creating Your First Skill
+## :pencil2: Creating Your First Skill
 
 <details>
-<summary><strong>Step-by-Step Guide (Click to expand)</strong></summary>
-
-<br>
+<summary><strong>Step-by-Step Guide</strong></summary>
 
 ### Method 1: Use skill-creator (Recommended)
 
@@ -184,6 +164,7 @@ The easiest way to create a skill is to use the built-in `skill-creator`:
 ### Method 2: Manual Creation
 
 1. **Create folder structure**:
+
    ```
    my-skill/
    ├── SKILL.md          # Main skill file with frontmatter
@@ -194,6 +175,7 @@ The easiest way to create a skill is to use the built-in `skill-creator`:
    ```
 
 2. **Create SKILL.md with frontmatter**:
+
    ```yaml
    ---
    name: my-skill
@@ -212,10 +194,12 @@ The easiest way to create a skill is to use the built-in `skill-creator`:
    ```
 
 3. **Add executable scripts** (optional):
+
    - Python, JavaScript, or other scripts Claude can execute
    - Reference them in your SKILL.md instructions
 
 4. **Test locally**:
+
    - Install the skill in Claude Code or Claude Desktop
    - Test with relevant tasks
    - Iterate and refine
@@ -236,39 +220,62 @@ The easiest way to create a skill is to use the built-in `skill-creator`:
 
 </details>
 
-## Skills vs Other Approaches
+## 📚 Official Resources
+
+- [Claude Skills Announcement](https://www.anthropic.com/news/skills) - Official announcement from Anthropic
+- [anthropics/skills](https://github.com/anthropics/skills) - Official public repository for Skills
+- [Claude Developer Platform](https://docs.claude.com/) - Official documentation
+- [Skills API Endpoint](https://docs.claude.com/en/api/skills) - `/v1/skills` API documentation
+
+## 📅 Recent Updates
+
+### October 2025
+
+- **Oct 18**: Major community repositories emerge: [obra/superpowers](https://github.com/obra/superpowers) skills library
+- **Oct 17**: Community publishes practical tutorials on DEV.to and Medium
+- **Oct 16**: 🎉 **Claude Skills officially announced** - Available across Claude.ai, Code, and API
+- **Oct 16**: Initial skills released including docx, pdf, pptx, xlsx, algorithmic-art, canvas-design, and more
+
+## 📘 Documentation
+
+- [Skills Overview](https://www.anthropic.com/news/skills) - Introduction to Claude Skills
+- [Equipping Agents with Skills](https://www.anthropic.com/engineering/equipping-agents-for-the-real-world-with-agent-skills) - Engineering blog post on Agent Skills
+- [Claude Cookbooks - Skills](https://github.com/anthropics/claude-cookbooks/tree/main/skills) - Example notebooks and tutorials
+- [Anthropic Cookbook - Skills](https://github.com/anthropics/anthropic-cookbook/tree/main/skills) - Additional skill examples and guides
+
+## 💡 Skills vs Other Approaches
 
 ### Skills vs MCP (Model Context Protocol)
 
-| Feature | Skills | MCP |
-|---------|--------|-----|
-| **Purpose** | Task-specific expertise and workflows | External data/API integration |
-| **Portability** | Same format everywhere (Claude.ai, Code, API) | Requires server configuration |
-| **Code Execution** | Can include executable scripts | Provides tools/resources |
-| **Token Efficiency** | 30-50 tokens until loaded | Varies by implementation |
-| **Best For** | Repeatable tasks, document workflows | Database access, API integrations |
+| Feature              | Skills                                        | MCP                               |
+| -------------------- | --------------------------------------------- | --------------------------------- |
+| **Purpose**          | Task-specific expertise and workflows         | External data/API integration     |
+| **Portability**      | Same format everywhere (Claude.ai, Code, API) | Requires server configuration     |
+| **Code Execution**   | Can include executable scripts                | Provides tools/resources          |
+| **Token Efficiency** | 30-50 tokens until loaded                     | Varies by implementation          |
+| **Best For**         | Repeatable tasks, document workflows          | Database access, API integrations |
 
 **Use Together**: Skills can create MCP servers! The `mcp-server` skill helps build high-quality MCP integrations.
 
 ### Skills vs System Prompts
 
-| Feature | Skills | System Prompts |
-|---------|--------|----------------|
-| **Structure** | Folder with YAML frontmatter, instructions, scripts | Plain text instructions |
-| **Reusability** | Version-controlled, shareable, composable | Copy-paste, conversation-specific |
-| **Loading** | On-demand (only when relevant) | Always in context |
-| **Maintenance** | Centralized updates | Manual updates per conversation |
-| **Composability** | Multiple skills stack automatically | Manual combination |
+| Feature           | Skills                                              | System Prompts                    |
+| ----------------- | --------------------------------------------------- | --------------------------------- |
+| **Structure**     | Folder with YAML frontmatter, instructions, scripts | Plain text instructions           |
+| **Reusability**   | Version-controlled, shareable, composable           | Copy-paste, conversation-specific |
+| **Loading**       | On-demand (only when relevant)                      | Always in context                 |
+| **Maintenance**   | Centralized updates                                 | Manual updates per conversation   |
+| **Composability** | Multiple skills stack automatically                 | Manual combination                |
 
 **Key Advantage**: Skills are loaded on-demand, consuming only 30-50 tokens until needed, keeping Claude fast while providing specialized expertise.
 
-## Tools & Utilities
+## 🔧 Tools & Utilities
 
 - **Claude Code** - Use Skills through the `anthropics/skills` marketplace
 - **Claude API** - Access Skills programmatically via the `/v1/skills` endpoint
 - **Claude Agent SDK** - Build custom agents that leverage Skills
 
-## Tutorials & Guides
+## 📖 Tutorials & Guides
 
 ### Written Tutorials
 
@@ -290,7 +297,7 @@ _Video tutorials coming soon! Have a good video about Claude Skills? Submit a PR
 - Enterprise deployment strategies
 </details>
 
-## Articles & Blog Posts
+## 📰 Articles & Blog Posts
 
 - [Simon Willison: Claude Skills are awesome, maybe a bigger deal than MCP](https://simonwillison.net/2025/Oct/16/claude-skills/) - Technical deep dive and analysis
 - [Equipping agents for the real world with Agent Skills](https://www.anthropic.com/engineering/equipping-agents-for-the-real-world-with-agent-skills) - Anthropic engineering blog post
@@ -298,14 +305,12 @@ _Video tutorials coming soon! Have a good video about Claude Skills? Submit a PR
 - [Claude Skills Unlocks Enterprise-Grade AI Customization](https://www.startuphub.ai/ai-news/ai-video/2025/claude-skills-unlocks-enterprise-grade-ai-customization/) - Enterprise use cases
 - [Supercharging Front-End Development with Claude Skills](https://dev.to/rio14/supercharging-front-end-development-with-claude-skills-22bj) - DEV Community practical guide
 
-## Security & Best Practices
+## 🔒 Security & Best Practices
 
 ⚠️ **Important**: Skills can execute arbitrary code in Claude's environment. Only install skills from trusted sources.
 
 <details>
 <summary><strong>Security Guidelines & Best Practices</strong></summary>
-
-<br>
 
 ### Vetting Skills
 
@@ -339,16 +344,15 @@ _Video tutorials coming soon! Have a good video about Claude Skills? Submit a PR
 
 </details>
 
-## Troubleshooting
+## :hammer_and_wrench: Troubleshooting
 
 <details>
 <summary><strong>Known Issues & Common Problems</strong></summary>
 
-<br>
-
 ### Known Issues
 
 - **Linux path bug (Oct 18, 2025)**: Agent SDK uses hardcoded macOS paths instead of environment home directory
+
   - [Issue #268](https://github.com/anthropics/claude-agent-sdk-python/issues/268)
   - Workaround: Manually specify skill paths
 
@@ -359,21 +363,25 @@ _Video tutorials coming soon! Have a good video about Claude Skills? Submit a PR
 ### Common Problems
 
 **Skills not appearing in Claude**
+
 - Check Settings > Capabilities to ensure Skills are enabled
 - For Team/Enterprise: Verify admin has enabled Skills organization-wide
 - Restart Claude after installing new skills
 
 **Skills not loading/activating**
+
 - Verify SKILL.md has proper YAML frontmatter format
 - Check that `name` and `description` fields are present
 - Ensure file structure matches expected format
 
 **Permission errors**
+
 - Review admin settings for Team/Enterprise accounts
 - Check file permissions in skill directories
 - Verify API key has appropriate permissions
 
 **Skill execution failures**
+
 - Check script dependencies are installed
 - Review error logs for specific issues
 - Test scripts independently outside of Claude
@@ -386,12 +394,10 @@ _Video tutorials coming soon! Have a good video about Claude Skills? Submit a PR
 
 </details>
 
-## FAQ
+## ❓ FAQ
 
 <details open>
-<summary><strong>Common Questions (Click to expand/collapse)</strong></summary>
-
-<br>
+<summary><strong>Common Questions</strong></summary>
 
 **Q: How much do skills impact token usage?**
 
@@ -400,6 +406,7 @@ A: Skills are highly efficient. Each skill only uses 30-50 tokens until it's loa
 **Q: Can I share skills with my team?**
 
 A: Yes! Skills can be shared via:
+
 - Git repositories (recommended)
 - Internal file sharing
 - Claude API for programmatic distribution
@@ -435,7 +442,7 @@ A: For skills from git repositories, pull the latest changes. For manually insta
 
 </details>
 
-## Key Features
+## ⭐ Key Features
 
 ### Composable
 
@@ -458,16 +465,7 @@ Claude only loads what's needed, when it's needed. Skills don't slow down Claude
 
 Skills can include executable code for tasks where traditional programming is more reliable than token generation.
 
-## Availability
-
-Skills are available to:
-
-- Pro users
-- Max users
-- Team users (admin must enable)
-- Enterprise users (admin must enable)
-
-## Use Cases
+## 💼 Use Cases
 
 - Formatting Excel formulas and spreadsheets
 - Applying company branding to PowerPoint decks
@@ -478,7 +476,7 @@ Skills are available to:
 - Generating consistent internal communications
 - Creating branded visual content
 
-## Contributing
+## 🤝 Contributing
 
 Contributions are welcome! Please read the [contribution guidelines](CONTRIBUTING.md) first.
 
