@@ -17,10 +17,14 @@ Claude Skills are specialized folders containing instructions, scripts, and reso
 
 ## Contents
 
+**Getting Started**
 - [Official Resources](#official-resources)
 - [Quick Start](#quick-start)
 - [Recent Updates](#recent-updates)
-- [Documentation](#documentation)
+- [Installation & Setup](#installation--setup)
+- [Creating Your First Skill](#creating-your-first-skill)
+
+**Skills Catalog**
 - [Official Skills](#official-skills)
   - [Document Skills](#document-skills)
   - [Design & Creative](#design--creative)
@@ -28,20 +32,27 @@ Claude Skills are specialized folders containing instructions, scripts, and reso
   - [Communication](#communication)
   - [Skill Creation](#skill-creation)
 - [Community Skills](#community-skills)
-- [Installation & Setup](#installation--setup)
-- [Creating Your First Skill](#creating-your-first-skill)
-- [Skills vs Other Approaches](#skills-vs-other-approaches)
-- [Tools & Utilities](#tools--utilities)
+
+**Learning Resources**
+- [Documentation](#documentation)
 - [Tutorials & Guides](#tutorials--guides)
-- [Videos & Tutorials](#videos--tutorials)
 - [Articles & Blog Posts](#articles--blog-posts)
-- [Community](#community)
-- [Security & Best Practices](#security--best-practices)
-- [Troubleshooting](#troubleshooting)
-- [FAQ](#faq)
+
+**Understanding Skills**
 - [Key Features](#key-features)
+- [Skills vs Other Approaches](#skills-vs-other-approaches)
 - [Availability](#availability)
 - [Use Cases](#use-cases)
+
+**Reference & Support**
+- [Tools & Utilities](#tools--utilities)
+- [FAQ](#faq)
+- [Troubleshooting](#troubleshooting)
+- [Security & Best Practices](#security--best-practices)
+
+**Community & Contributing**
+- [Community](#community)
+- [See Also](#see-also)
 - [Contributing](#contributing)
 
 ## Official Resources
@@ -67,7 +78,9 @@ Claude Skills are specialized folders containing instructions, scripts, and reso
 
 ### October 2025
 
+- **Oct 18**: Major community repositories emerge: [obra/superpowers](https://github.com/obra/superpowers) skills library, [hesreallyhim/awesome-claude-code](https://github.com/hesreallyhim/awesome-claude-code) (12k+ stars)
 - **Oct 18**: Linux path bug reported in Agent SDK ([#268](https://github.com/anthropics/claude-agent-sdk-python/issues/268))
+- **Oct 17**: Community publishes practical tutorials on DEV.to and Medium
 - **Oct 16**: 🎉 **Claude Skills officially announced** - Available across Claude.ai, Code, and API
 - **Oct 16**: Initial skills released including docx, pdf, pptx, xlsx, algorithmic-art, canvas-design, and more
 
@@ -112,7 +125,20 @@ Skills for working with complex file formats:
 
 ## Community Skills
 
-- [simonw/claude-skills](https://github.com/simonw/claude-skills) - Extracted contents of `/mnt/skills` from Claude's code interpreter environment
+### Skills Collections & Libraries
+
+- **[obra/superpowers](https://github.com/obra/superpowers)** - Core skills library for Claude Code with 20+ battle-tested skills including TDD, debugging, and collaboration patterns
+  - Features `/brainstorm`, `/write-plan`, `/execute-plan` commands and skills-search tool
+  - [superpowers-skills](https://github.com/obra/superpowers-skills) - Community-editable skills repository
+  - [Blog: Superpowers](https://blog.fsck.com/2025/10/09/superpowers/) - Author's overview by Jesse Vincent
+  - Installation: `/plugin marketplace add obra/superpowers-marketplace`
+- **[tfriedel/claude-office-skills](https://github.com/tfriedel/claude-office-skills)** - Professional Office document workflows for Claude Code CLI (PPTX, DOCX, XLSX, PDF)
+- **[simonw/claude-skills](https://github.com/simonw/claude-skills)** - Extracted contents of `/mnt/skills` from Claude's code interpreter environment
+
+### Related Awesome Lists
+
+- **[hesreallyhim/awesome-claude-code](https://github.com/hesreallyhim/awesome-claude-code)** ⭐ 12.1k - Curated list of commands, files, and workflows for Claude Code
+- **[hesreallyhim/awesome-claude-code-agents](https://github.com/hesreallyhim/awesome-claude-code-agents)** - Collection of Claude Code Sub-Agents
 
 _More community skills coming soon! Submit a PR to add your skill._
 
@@ -147,6 +173,11 @@ client = anthropic.Client(api_key="your-api-key")
 ```
 
 ## Creating Your First Skill
+
+<details>
+<summary><strong>Step-by-Step Guide (Click to expand)</strong></summary>
+
+<br>
 
 ### Method 1: Use skill-creator (Recommended)
 
@@ -210,6 +241,8 @@ The easiest way to create a skill is to use the built-in `skill-creator`:
 - **Document dependencies** - List any prerequisites or required packages
 - **Test thoroughly** - Verify your skill works across different scenarios
 
+</details>
+
 ## Skills vs Other Approaches
 
 ### Skills vs MCP (Model Context Protocol)
@@ -244,27 +277,34 @@ The easiest way to create a skill is to use the built-in `skill-creator`:
 
 ## Tutorials & Guides
 
+### Written Tutorials
+
 - [Classification Skill Guide](https://github.com/anthropics/anthropic-cookbook/blob/main/skills/classification/guide.ipynb) - Tutorial on creating classification skills
 - [Contextual Embeddings](https://github.com/anthropics/anthropic-cookbook/tree/main/skills/contextual-embeddings) - Using Skills with embeddings
 - [How to Create Your First Claude Skill](https://skywork.ai/blog/ai-agent/how-to-create-claude-skill-step-by-step-guide/) - Step-by-step tutorial with examples
+- [How to Use Skills in Claude Code](https://skywork.ai/blog/how-to-use-skills-in-claude-code-install-path-project-scoping-testing/) - Installation, project scoping, and testing guide
 
-## Videos & Tutorials
+### Video Tutorials
 
 _Video tutorials coming soon! Have a good video about Claude Skills? Submit a PR!_
 
-Example topics we'd love to see:
+<details>
+<summary>Example topics we'd love to see</summary>
+
 - Getting started with Claude Skills
 - Building your first custom skill
 - Skills vs MCP comparison
 - Enterprise deployment strategies
+</details>
 
 ## Articles & Blog Posts
 
-- [Claude Skills Unlocks Enterprise-Grade AI Customization](https://www.startuphub.ai/ai-news/ai-video/2025/claude-skills-unlocks-enterprise-grade-ai-customization/) - Analysis of enterprise use cases
-- [Claude just got customizable 'Skills'](https://www.tomsguide.com/ai/claude-just-got-customizable-skills-heres-how-they-could-supercharge-your-workflow) - Tom's Guide overview
-- [Simon Willison: Claude Skills](https://simonwillison.net/2025/Oct/10/claude-skills/) - Technical deep dive and skill extraction
+- [Simon Willison: Claude Skills are awesome, maybe a bigger deal than MCP](https://simonwillison.net/2025/Oct/16/claude-skills/) - Technical deep dive and analysis
+- [Equipping agents for the real world with Agent Skills](https://www.anthropic.com/engineering/equipping-agents-for-the-real-world-with-agent-skills) - Anthropic engineering blog post
 - [How Anthropic's 'Skills' make Claude faster, cheaper, and more consistent](https://venturebeat.com/ai/how-anthropics-skills-make-claude-faster-cheaper-and-more-consistent-for) - VentureBeat analysis
-- [Skills for Claude!](https://blog.fsck.com/2025/10/16/skills-for-claude/) - Community perspective
+- [Claude Skills Unlocks Enterprise-Grade AI Customization](https://www.startuphub.ai/ai-news/ai-video/2025/claude-skills-unlocks-enterprise-grade-ai-customization/) - Enterprise use cases
+- [Supercharging Front-End Development with Claude Skills](https://dev.to/rio14/supercharging-front-end-development-with-claude-skills-22bj) - DEV Community practical guide
+- [Claude just got customizable 'Skills'](https://www.tomsguide.com/ai/claude-just-got-customizable-skills-heres-how-they-could-supercharge-your-workflow) - Tom's Guide overview
 
 ## Community
 
@@ -291,9 +331,14 @@ Looking for inspiration or want to request a skill?
 
 ## Security & Best Practices
 
-### Vetting Skills
+⚠️ **Important**: Skills can execute arbitrary code in Claude's environment. Only install skills from trusted sources.
 
-⚠️ **Important**: Skills can execute arbitrary code in Claude's environment.
+<details>
+<summary><strong>Security Guidelines & Best Practices (Click to expand)</strong></summary>
+
+<br>
+
+### Vetting Skills
 
 - **Only install skills from trusted sources**
 - **Review SKILL.md and all scripts** before enabling a skill
@@ -305,6 +350,7 @@ Looking for inspiration or want to request a skill?
 - **Malicious skills** may introduce vulnerabilities or enable data exfiltration
 - **Prompt injection attacks** could be amplified through compromised skills
 - **Sandboxing limitations** - Understand the security model before enterprise deployment
+- **Security research**: [Weaponizing Claude Code Skills](https://medium.com/@yossifqassim/weaponizing-claude-code-skills-from-5-5-to-remote-shell-a14af2d109c9) - Analysis of potential security risks
 
 ### Best Practices
 
@@ -322,7 +368,14 @@ Looking for inspiration or want to request a skill?
 - Establish clear policies for skill vetting and approval
 - Monitor skill usage and performance
 
+</details>
+
 ## Troubleshooting
+
+<details>
+<summary><strong>Known Issues & Common Problems (Click to expand)</strong></summary>
+
+<br>
 
 ### Known Issues
 
@@ -362,7 +415,14 @@ Looking for inspiration or want to request a skill?
 - [Claude Documentation](https://docs.claude.com/)
 - [Community Discussions](https://github.com/anthropics/skills/discussions)
 
+</details>
+
 ## FAQ
+
+<details open>
+<summary><strong>Common Questions (Click to expand/collapse)</strong></summary>
+
+<br>
 
 **Q: How much do skills impact token usage?**
 
@@ -403,6 +463,8 @@ A: Currently, there is no official marketplace for paid skills. Anthropic has me
 **Q: How do I update a skill?**
 
 A: For skills from git repositories, pull the latest changes. For manually installed skills, replace the skill folder with the updated version. Always test updates in a non-production environment first.
+
+</details>
 
 ## Key Features
 
@@ -446,6 +508,14 @@ Skills are available to:
 - Testing web applications automatically
 - Generating consistent internal communications
 - Creating branded visual content
+
+## See Also
+
+Complementary resources for working with Claude:
+
+- **[awesome-claude-code](https://github.com/hesreallyhim/awesome-claude-code)** - Curated list of commands, CLAUDE.md templates, and workflows for Claude Code
+- **[Claude Documentation](https://docs.claude.com/)** - Official Claude platform documentation
+- **[Model Context Protocol (MCP)](https://modelcontextprotocol.io/)** - Connect Claude to external data sources and APIs
 
 ## Contributing
 
