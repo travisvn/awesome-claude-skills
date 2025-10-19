@@ -29,7 +29,7 @@ They are specialized folders containing instructions, scripts, and resources.
 
 [Enable Skills here](https://claude.ai/settings/capabilities)
 
-## :hammer_and_wrench: Installation & Setup
+## 🛠️ Installation & Setup
 
 ### Claude.ai Web Interface
 
@@ -100,13 +100,15 @@ Skills for working with complex file formats:
   - [superpowers-skills](https://github.com/obra/superpowers-skills) - Community-editable skills repository
   - [Blog: Superpowers](https://blog.fsck.com/2025/10/09/superpowers/) - Author's overview by Jesse Vincent
   - Installation: `/plugin marketplace add obra/superpowers-marketplace`
-- **[tfriedel/claude-office-skills](https://github.com/tfriedel/claude-office-skills)** - Professional Office document workflows for Claude Code CLI (PPTX, DOCX, XLSX, PDF)
+- ~[tfriedel/claude-office-skills](https://github.com/tfriedel/claude-office-skills) - Professional Office document workflows for Claude Code CLI (PPTX, DOCX, XLSX, PDF)~
+  - _Now part of Anthropic's skills repo under [document-skills](https://github.com/anthropics/skills/tree/main/document-skills)_
+  - _(Keeping link for now as insight into early Skill development)_
 - ~[simonw/claude-skills](https://github.com/simonw/claude-skills) - Extracted contents of `/mnt/skills` from Claude's code interpreter environment~
   - _Now part of Anthropic's skills repo under [document-skills](https://github.com/anthropics/skills/tree/main/document-skills)_
 
 _More community skills coming soon! Submit a PR to add your skill._
 
-## :pencil2: Creating Your First Skill
+## ✏️ Creating Your First Skill
 
 <details>
 <summary><strong>Step-by-Step Guide</strong></summary>
@@ -219,7 +221,7 @@ The easiest way to create a skill is to use the built-in `skill-creator`:
 | **Token Efficiency** | 30-50 tokens until loaded                     | Varies by implementation          |
 | **Best For**         | Repeatable tasks, document workflows          | Database access, API integrations |
 
-**Use Together**: Skills can create MCP servers! The `mcp-server` skill helps build high-quality MCP integrations.
+**Use Together**: Skills can create MCP servers! The `mcp-builder` skill helps build high-quality MCP integrations.
 
 ### Skills vs System Prompts
 
@@ -296,7 +298,7 @@ _Video tutorials coming soon! Have a good video about Claude Skills? Submit a PR
 
 </details>
 
-## :hammer_and_wrench: Troubleshooting
+## 🛠️ Troubleshooting
 
 <details>
 <summary><strong>Known Issues & Common Problems</strong></summary>
@@ -382,7 +384,7 @@ A: Claude scans all available skills' frontmatter (name and description), evalua
 
 **Q: Can I use Skills and MCP together?**
 
-A: Absolutely! They complement each other. Use Skills for task-specific workflows and MCP for external data/API integration. The `mcp-server` skill can even help you build MCP servers.
+A: Absolutely! They complement each other. Use Skills for task-specific workflows and MCP for external data/API integration. The `mcp-builder` skill can even help you build MCP servers.
 
 **Q: Are there any costs beyond my Claude subscription?**
 
