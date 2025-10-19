@@ -400,51 +400,31 @@ A: For skills from git repositories, pull the latest changes. For manually insta
 
 ## ⭐ Key Features
 
-### Composable
+<details>
+<summary><strong>What makes Skills powerful?</strong></summary>
 
-Skills stack together automatically. Claude identifies which skills are needed and coordinates their use without manual intervention.
+**Composable** - Skills stack together automatically. Claude identifies which skills are needed and coordinates their use without manual intervention.
 
-### Portable
+**Portable** - Skills use the same format everywhere. Build once, use across Claude.ai, Claude Code CLI, Claude API, and custom agents.
 
-Skills use the same format everywhere. Build once, use across:
+**Efficient** - Claude only loads what's needed, when it's needed. Each skill uses just 30-50 tokens until loaded, keeping Claude fast.
 
-- Claude.ai web interface
-- Claude Code CLI
-- Claude API integrations
-- Custom agents via SDK
+**Powerful** - Skills can include executable code for tasks where traditional programming is more reliable than token generation.
 
-### Efficient
-
-Claude only loads what's needed, when it's needed. Skills don't slow down Claude - they enhance it with on-demand expertise.
-
-### Powerful
-
-Skills can include executable code for tasks where traditional programming is more reliable than token generation.
+</details>
 
 ## 💼 Use Cases
 
-- Formatting Excel formulas and spreadsheets
-- Applying company branding to PowerPoint decks
-- Following legal policies when reviewing contracts
-- Creating specialized document workflows
-- Building custom API integrations via MCP
-- Testing web applications automatically
-- Generating consistent internal communications
-- Creating branded visual content
+<details>
+<summary><strong>Common scenarios where Skills excel</strong></summary>
+
+- Document workflows: Excel formulas, PowerPoint branding, contract reviews
+- Development: API integrations via MCP, automated web app testing
+- Communications: Consistent internal messaging, branded visual content
+- Specialized tasks: Legal policy compliance, company style guides
+
+</details>
 
 ## 🤝 Contributing
 
-Contributions are welcome! Please read the [contribution guidelines](CONTRIBUTING.md) first.
-
-To add a new skill or resource:
-
-1. Fork this repository
-2. Add your item to the appropriate section
-3. Submit a pull request
-
-Please ensure your contribution:
-
-- Follows the existing format
-- Includes a clear description
-- Links to the relevant resource
-- Is related to Claude Skills
+Contributions welcome! See [contribution guidelines](CONTRIBUTING.md) for details. To add a skill or resource: fork, add to appropriate section, submit PR.
