@@ -241,7 +241,6 @@ The easiest way to create a skill is to use the built-in `skill-creator`:
 - [Skills Overview](https://www.anthropic.com/news/skills) - Introduction to Claude Skills
 - [Equipping Agents with Skills](https://www.anthropic.com/engineering/equipping-agents-for-the-real-world-with-agent-skills) - Engineering blog post on Agent Skills
 - [Claude Cookbooks - Skills](https://github.com/anthropics/claude-cookbooks/tree/main/skills) - Example notebooks and tutorials
-- [Anthropic Cookbook - Skills](https://github.com/anthropics/anthropic-cookbook/tree/main/skills) - Additional skill examples and guides
 
 ## 💡 Skills vs Other Approaches
 
@@ -279,8 +278,6 @@ The easiest way to create a skill is to use the built-in `skill-creator`:
 
 ### Written Tutorials
 
-- [Classification Skill Guide](https://github.com/anthropics/anthropic-cookbook/blob/main/skills/classification/guide.ipynb) - Tutorial on creating classification skills
-- [Contextual Embeddings](https://github.com/anthropics/anthropic-cookbook/tree/main/skills/contextual-embeddings) - Using Skills with embeddings
 - [How to Create Your First Claude Skill](https://skywork.ai/blog/ai-agent/how-to-create-claude-skill-step-by-step-guide/) - Step-by-step tutorial with examples
 - [How to Use Skills in Claude Code](https://skywork.ai/blog/how-to-use-skills-in-claude-code-install-path-project-scoping-testing/) - Installation, project scoping, and testing guide
 
@@ -301,9 +298,6 @@ _Video tutorials coming soon! Have a good video about Claude Skills? Submit a PR
 
 - [Simon Willison: Claude Skills are awesome, maybe a bigger deal than MCP](https://simonwillison.net/2025/Oct/16/claude-skills/) - Technical deep dive and analysis
 - [Equipping agents for the real world with Agent Skills](https://www.anthropic.com/engineering/equipping-agents-for-the-real-world-with-agent-skills) - Anthropic engineering blog post
-- [How Anthropic's 'Skills' make Claude faster, cheaper, and more consistent](https://venturebeat.com/ai/how-anthropics-skills-make-claude-faster-cheaper-and-more-consistent-for) - VentureBeat analysis
-- [Claude Skills Unlocks Enterprise-Grade AI Customization](https://www.startuphub.ai/ai-news/ai-video/2025/claude-skills-unlocks-enterprise-grade-ai-customization/) - Enterprise use cases
-- [Supercharging Front-End Development with Claude Skills](https://dev.to/rio14/supercharging-front-end-development-with-claude-skills-22bj) - DEV Community practical guide
 
 ## 🔒 Security & Best Practices
 
