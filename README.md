@@ -93,20 +93,27 @@ Skills for working with complex file formats:
 
 ## 🌟 Community Skills
 
-### Skills Collections & Libraries
+### Collections & Libraries
 
 - **[obra/superpowers](https://github.com/obra/superpowers)** - Core skills library for Claude Code with 20+ battle-tested skills including TDD, debugging, and collaboration patterns
   - Features `/brainstorm`, `/write-plan`, `/execute-plan` commands and skills-search tool
   - [superpowers-skills](https://github.com/obra/superpowers-skills) - Community-editable skills repository
   - [Blog: Superpowers](https://blog.fsck.com/2025/10/09/superpowers/) - Author's overview by Jesse Vincent
   - Installation: `/plugin marketplace add obra/superpowers-marketplace`
-- ~[tfriedel/claude-office-skills](https://github.com/tfriedel/claude-office-skills) - Professional Office document workflows for Claude Code CLI (PPTX, DOCX, XLSX, PDF)~
-  - _Now part of Anthropic's skills repo under [document-skills](https://github.com/anthropics/skills/tree/main/document-skills)_
-  - _(Keeping link for now as insight into early Skill development)_
-- ~[simonw/claude-skills](https://github.com/simonw/claude-skills) - Extracted contents of `/mnt/skills` from Claude's code interpreter environment~
-  - _Now part of Anthropic's skills repo under [document-skills](https://github.com/anthropics/skills/tree/main/document-skills)_
+
+
+### Individual Skills
+
+| Skill | Description | Verified? |
+| --- | --- | --- |
+| [ios-simulator-skill](https://github.com/conorluddy/ios-simulator-skill) | iOS app building, navigation, and testing through automation | [❌](https://github.com/travisvn/awesome-claude-skills/discussions/categories/skill-verification) |
+| [ffuf-web-fuzzing](https://github.com/jthack/ffuf_claude_skill) | Expert guidance for ffuf web fuzzing during penetration testing, including authenticated fuzzing with raw requests, auto-calibration, and result analysis |  [❌](https://github.com/travisvn/awesome-claude-skills/discussions/categories/skill-verification) |
 
 _More community skills coming soon! Submit a PR to add your skill._
+
+### Tools
+
+- **[yusufkaraaslan/Skill_Seekers](https://github.com/yusufkaraaslan/Skill_Seekers)** - Convert documentation websites into Claude Skills
 
 ## ✏️ Creating Your First Skill
 
