@@ -13,50 +13,9 @@
 
 > A curated list of awesome Claude Skills, resources, and tools for customizing Claude AI workflows
 
-Claude Skills are specialized folders containing instructions, scripts, and resources that enhance Claude's performance on specific tasks. Announced on October 16, 2025, Skills are composable, portable, efficient, and powerful.
+**Claude Skills** teach Claude how to **perform tasks in a repeatable way**
 
-## Contents
-
-**🚀 Getting Started**
-
-- [Quick Start](#-quick-start)
-- [Installation & Setup](#hammer_and_wrench-installation--setup)
-- [Creating Your First Skill](#pencil2-creating-your-first-skill)
-
-**🎯 Skills Catalog**
-
-- [Official Skills](#-official-skills)
-  - [Document Skills](#document-skills)
-  - [Design & Creative](#design--creative)
-  - [Development](#development)
-  - [Communication](#communication)
-  - [Skill Creation](#skill-creation)
-- [Community Skills](#-community-skills)
-
-**📚 Learning Resources**
-
-- [Official Resources](#-official-resources)
-- [Documentation](#-documentation)
-- [Tutorials & Guides](#-tutorials--guides)
-- [Articles & Blog Posts](#-articles--blog-posts)
-
-**💡 Understanding Skills**
-
-- [Key Features](#-key-features)
-- [Skills vs Other Approaches](#-skills-vs-other-approaches)
-- [Use Cases](#-use-cases)
-
-**🔧 Reference & Support**
-
-- [Recent Updates](#-recent-updates)
-- [Tools & Utilities](#-tools--utilities)
-- [FAQ](#-faq)
-- [Troubleshooting](#hammer_and_wrench-troubleshooting)
-- [Security & Best Practices](#-security--best-practices)
-
-**🤝 Community & Contributing**
-
-- [Contributing](#-contributing)
+They are specialized folders containing instructions, scripts, and resources.
 
 ## 🚀 Quick Start
 
@@ -268,12 +227,6 @@ The easiest way to create a skill is to use the built-in `skill-creator`:
 
 **Key Advantage**: Skills are loaded on-demand, consuming only 30-50 tokens until needed, keeping Claude fast while providing specialized expertise.
 
-## 🔧 Tools & Utilities
-
-- **Claude Code** - Use Skills through the `anthropics/skills` marketplace
-- **Claude API** - Access Skills programmatically via the `/v1/skills` endpoint
-- **Claude Agent SDK** - Build custom agents that leverage Skills
-
 ## 📖 Tutorials & Guides
 
 ### Written Tutorials
@@ -390,7 +343,7 @@ _Video tutorials coming soon! Have a good video about Claude Skills? Submit a PR
 
 ## ❓ FAQ
 
-<details open>
+<details>
 <summary><strong>Common Questions</strong></summary>
 
 **Q: How much do skills impact token usage?**
