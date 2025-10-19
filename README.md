@@ -179,12 +179,24 @@ The easiest way to create a skill is to use the built-in `skill-creator`:
 
 </details>
 
-## 📚 Official Resources
+## 📚 Official Documentation & Resources
+
+### Getting Started
+
+- [What are Skills?](https://support.claude.com/en/articles/12512176-what-are-skills) - Official support article explaining Claude Skills
+- [Using Skills in Claude](https://support.claude.com/en/articles/12512180-using-skills-in-claude) - How to enable and use skills
+
+### Documentation
 
 - [Claude Skills Announcement](https://www.anthropic.com/news/skills) - Official announcement from Anthropic
-- [anthropics/skills](https://github.com/anthropics/skills) - Official public repository for Skills
+- [Equipping Agents with Skills](https://www.anthropic.com/engineering/equipping-agents-for-the-real-world-with-agent-skills) - Engineering deep dive on Agent Skills
 - [Claude Developer Platform](https://docs.claude.com/) - Official documentation
 - [Skills API Endpoint](https://docs.claude.com/en/api/skills) - `/v1/skills` API documentation
+
+### Repositories & Examples
+
+- [anthropics/skills](https://github.com/anthropics/skills) - Official public repository for Skills
+- [Claude Cookbooks - Skills](https://github.com/anthropics/claude-cookbooks/tree/main/skills) - Example notebooks and tutorials
 
 ## 📅 Recent Updates
 
@@ -194,12 +206,6 @@ The easiest way to create a skill is to use the built-in `skill-creator`:
 - **Oct 17**: Community publishes practical tutorials on DEV.to and Medium
 - **Oct 16**: 🎉 **Claude Skills officially announced** - Available across Claude.ai, Code, and API
 - **Oct 16**: Initial skills released including docx, pdf, pptx, xlsx, algorithmic-art, canvas-design, and more
-
-## 📘 Documentation
-
-- [Skills Overview](https://www.anthropic.com/news/skills) - Introduction to Claude Skills
-- [Equipping Agents with Skills](https://www.anthropic.com/engineering/equipping-agents-for-the-real-world-with-agent-skills) - Engineering blog post on Agent Skills
-- [Claude Cookbooks - Skills](https://github.com/anthropics/claude-cookbooks/tree/main/skills) - Example notebooks and tutorials
 
 ## 💡 Skills vs Other Approaches
 
@@ -250,7 +256,6 @@ _Video tutorials coming soon! Have a good video about Claude Skills? Submit a PR
 ## 📰 Articles & Blog Posts
 
 - [Simon Willison: Claude Skills are awesome, maybe a bigger deal than MCP](https://simonwillison.net/2025/Oct/16/claude-skills/) - Technical deep dive and analysis
-- [Equipping agents for the real world with Agent Skills](https://www.anthropic.com/engineering/equipping-agents-for-the-real-world-with-agent-skills) - Anthropic engineering blog post
 
 ## 🔒 Security & Best Practices
 
@@ -349,6 +354,10 @@ _Video tutorials coming soon! Have a good video about Claude Skills? Submit a PR
 **Q: How much do skills impact token usage?**
 
 A: Skills are highly efficient. Each skill only uses 30-50 tokens until it's loaded. The full skill content only loads when Claude determines it's relevant to the task.
+
+**Q: What's the difference between Claude Skills and Agent Skills?**
+
+A: They are the same thing.
 
 **Q: Can I share skills with my team?**
 
