@@ -112,7 +112,8 @@ Skills for working with complex file formats:
 | Skill | Description | Verified? |
 | --- | --- | --- |
 | **[ios-simulator-skill](https://github.com/conorluddy/ios-simulator-skill)** | iOS app building, navigation, and testing through automation | [❌](https://github.com/travisvn/awesome-claude-skills/discussions/categories/skill-verification) |
-| **[ffuf-web-fuzzing](https://github.com/jthack/ffuf_claude_skill)** | Expert guidance for ffuf web fuzzing during penetration testing, including authenticated fuzzing with raw requests, auto-calibration, and result analysis |  [❌](https://github.com/travisvn/awesome-claude-skills/discussions/categories/skill-verification) |
+| **[ffuf-web-fuzzing](https://github.com/jthack/ffuf_claude_skill)** | Expert guidance for ffuf web fuzzing during penetration testing, including authenticated fuzzing with raw requests, auto-calibration, and result analysis | [❌](https://github.com/travisvn/awesome-claude-skills/discussions/categories/skill-verification) |
+| **[playwright-skill](https://github.com/lackeyjb/playwright-skill)** | General-purpose browser automation using Playwright | [❌](https://github.com/travisvn/awesome-claude-skills/discussions/categories/skill-verification) |
 
 _More community skills coming soon! Submit a PR to add your skill._
 
