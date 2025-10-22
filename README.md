@@ -111,13 +111,13 @@ Skills for working with complex file formats:
 
 > These will be broken down into categories once there are enough community skills available to list
 
-| Skill | Description | Verified? |
+| Skill | Description | Verification |
 | --- | --- | --- |
-| **[ios-simulator-skill](https://github.com/conorluddy/ios-simulator-skill)** | iOS app building, navigation, and testing through automation | [❌](https://github.com/travisvn/awesome-claude-skills/discussions/categories/skill-verification) |
-| **[ffuf-web-fuzzing](https://github.com/jthack/ffuf_claude_skill)** | Expert guidance for ffuf web fuzzing during penetration testing, including authenticated fuzzing with raw requests, auto-calibration, and result analysis | [❌](https://github.com/travisvn/awesome-claude-skills/discussions/categories/skill-verification) |
-| **[playwright-skill](https://github.com/lackeyjb/playwright-skill)** | General-purpose browser automation using Playwright | [❌](https://github.com/travisvn/awesome-claude-skills/discussions/categories/skill-verification) |
-| **[claude-d3js-skill](https://github.com/chrisvoncsefalvay/claude-d3js-skill)** | Visualizations in d3.js | [❌](https://github.com/travisvn/awesome-claude-skills/discussions/categories/skill-verification) |
-| **[claude-scientific-skills](https://github.com/K-Dense-AI/claude-scientific-skills)** | Comprehensive collection of ready-to-use scientific skills, including working with specialized scientific libraries and databases | [❌](https://github.com/travisvn/awesome-claude-skills/discussions/categories/skill-verification) |
+| **[ios-simulator-skill](https://github.com/conorluddy/ios-simulator-skill)** | iOS app building, navigation, and testing through automation | [⏳](https://github.com/travisvn/awesome-claude-skills/discussions/categories/skill-verification) |
+| **[ffuf-web-fuzzing](https://github.com/jthack/ffuf_claude_skill)** | Expert guidance for ffuf web fuzzing during penetration testing, including authenticated fuzzing with raw requests, auto-calibration, and result analysis | [⏳](https://github.com/travisvn/awesome-claude-skills/discussions/categories/skill-verification) |
+| **[playwright-skill](https://github.com/lackeyjb/playwright-skill)** | General-purpose browser automation using Playwright | [⏳](https://github.com/travisvn/awesome-claude-skills/discussions/categories/skill-verification) |
+| **[claude-d3js-skill](https://github.com/chrisvoncsefalvay/claude-d3js-skill)** | Visualizations in d3.js | [⏳](https://github.com/travisvn/awesome-claude-skills/discussions/categories/skill-verification) |
+| **[claude-scientific-skills](https://github.com/K-Dense-AI/claude-scientific-skills)** | Comprehensive collection of ready-to-use scientific skills, including working with specialized scientific libraries and databases | [⏳](https://github.com/travisvn/awesome-claude-skills/discussions/categories/skill-verification) |
 
 _More community skills coming soon! Submit a PR to add your skill._
 
