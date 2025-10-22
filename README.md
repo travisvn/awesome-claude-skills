@@ -106,6 +106,12 @@ Skills for working with complex file formats:
   - [Blog: Superpowers](https://blog.fsck.com/2025/10/09/superpowers/) - Author's overview by Jesse Vincent
   - Installation: `/plugin marketplace add obra/superpowers-marketplace`
 
+- **[picahq/awesome-pica/claude-skills](https://github.com/picahq/awesome-pica/tree/main/claude-skills)** - Claude Skills collection powered by Pica MCP Server with integrations to 100+ third-party platforms
+  - Features workflow automation and productivity enhancement through AI-driven task execution
+  - [daily-pulse](https://github.com/picahq/awesome-pica/tree/main/claude-skills/daily-pulse) - Personalized morning briefing that analyzes Google Calendar and Gmail to generate strategic daily overviews with prioritized tasks
+  - Requires [Pica MCP Server](https://github.com/picahq/mcp) for platform integrations
+  - Get started: https://picaos.com
+
 
 ### Individual Skills
 
