@@ -60,6 +60,10 @@ Examples:
 - **[Claude Skills Tutorial](https://example.com/tutorial)** - Step-by-step guide to creating your first skill
 ```
 
+#### Adding an individual skill
+
+Add a row to the individual skills table using the same pattern as the other rows.
+
 ### Skill Submissions
 
 When submitting a skill, please include:
@@ -75,6 +79,10 @@ The skill should:
 - Include documentation (README or SKILL.md)
 - Follow Claude Skills best practices
 - Be functional and tested
+
+Above all else, the skill should be a value-add. Trivial functionalities that were whipped up with a session or two with Claude Code are not likely to be worthwhile skills for community members to make use of almost by definition (i.e. if the skill could be created that quickly, it would probably be something an individual would implement by themselves to match their own particular use case)
+
+While not an absolute requirement, a strong general guideline would be that more exists to the skill than a single `SKILL.md` file. 
 
 ### Article/Resource Submissions
 
