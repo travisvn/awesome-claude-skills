@@ -95,7 +95,7 @@ Skills for working with complex file formats:
 
 > [!Warning]
 > Skills can execute arbitrary code in Claude's environment.
-> 
+>
 > See [Security & Best Practices](#-security--best-practices) for more information
 
 ### Collections & Libraries
@@ -105,7 +105,7 @@ Skills for working with complex file formats:
   - [superpowers-skills](https://github.com/obra/superpowers-skills) - Community-editable skills repository
   - [Blog: Superpowers](https://blog.fsck.com/2025/10/09/superpowers/) - Author's overview by Jesse Vincent
   - Installation: `/plugin marketplace add obra/superpowers-marketplace`
- 
+
 - **[obra/superpowers-lab](https://github.com/obra/superpowers-lab)** - Experimental skills for `Claude Code Superpowers` (see above)
   - Uses new techniques that are still being refined and tested (i.e. skills here may change over time)
   - [Blog post about its development](https://blog.fsck.com/2025/10/23/naming-claude-plugins/)
@@ -123,6 +123,7 @@ Skills for working with complex file formats:
 | **[playwright-skill](https://github.com/lackeyjb/playwright-skill)** | General-purpose browser automation using Playwright | [⏳](https://github.com/travisvn/awesome-claude-skills/discussions/categories/skill-verification) |
 | **[claude-d3js-skill](https://github.com/chrisvoncsefalvay/claude-d3js-skill)** | Visualizations in d3.js | [⏳](https://github.com/travisvn/awesome-claude-skills/discussions/categories/skill-verification) |
 | **[claude-scientific-skills](https://github.com/K-Dense-AI/claude-scientific-skills)** | Comprehensive collection of ready-to-use scientific skills, including working with specialized scientific libraries and databases | [⏳](https://github.com/travisvn/awesome-claude-skills/discussions/categories/skill-verification) |
+| **[architecture-design](https://github.com/vukhanhtruong/claude-rock)** | Creates comprehensive software architecture design documentation | [⏳](https://github.com/travisvn/awesome-claude-skills/discussions/categories/skill-verification) |
 
 _More community skills coming soon! Submit a PR to add your skill._
 
