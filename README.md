@@ -123,6 +123,7 @@ Skills for working with complex file formats:
 | **[playwright-skill](https://github.com/lackeyjb/playwright-skill)** | General-purpose browser automation using Playwright | [⏳](https://github.com/travisvn/awesome-claude-skills/discussions/categories/skill-verification) |
 | **[claude-d3js-skill](https://github.com/chrisvoncsefalvay/claude-d3js-skill)** | Visualizations in d3.js | [⏳](https://github.com/travisvn/awesome-claude-skills/discussions/categories/skill-verification) |
 | **[claude-scientific-skills](https://github.com/K-Dense-AI/claude-scientific-skills)** | Comprehensive collection of ready-to-use scientific skills, including working with specialized scientific libraries and databases | [⏳](https://github.com/travisvn/awesome-claude-skills/discussions/categories/skill-verification) |
+| **[codex integration](https://github.com/skills-directory/skill-codex)** | Enables you to conveniently query codex from inside claude code. | [⏳]([https://github.com/travisvn/awesome-claude-skills/discussions/categories/skill-verification](https://github.com/skills-directory/skill-codex)) |
 
 _More community skills coming soon! Submit a PR to add your skill._
 
