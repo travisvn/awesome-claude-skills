@@ -124,6 +124,7 @@ Skills for working with complex file formats:
 | **[claude-d3js-skill](https://github.com/chrisvoncsefalvay/claude-d3js-skill)** | Visualizations in d3.js | [⏳](https://github.com/travisvn/awesome-claude-skills/discussions/categories/skill-verification) |
 | **[claude-scientific-skills](https://github.com/K-Dense-AI/claude-scientific-skills)** | Comprehensive collection of ready-to-use scientific skills, including working with specialized scientific libraries and databases | [⏳](https://github.com/travisvn/awesome-claude-skills/discussions/categories/skill-verification) |
 | **[web-asset-generator](https://github.com/alonw0/web-asset-generator)** | Generates web assets like favicons, app icons, and social media images | [⏳](https://github.com/travisvn/awesome-claude-skills/discussions/categories/skill-verification) |
+[shownotes](https://github.com/forcequit/shownotes-skill) - Extract transcripts from podcasts and YouTube, create show notes
 
 _More community skills coming soon! Submit a PR to add your skill._
 
