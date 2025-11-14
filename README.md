@@ -7,7 +7,7 @@
 # Awesome Claude Skills
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-[![Last Updated](https://img.shields.io/badge/updated-Oct%202025-green.svg)]()
+[![Last Updated](https://img.shields.io/badge/updated-Nov%202025-green.svg)]()
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
 [![License](https://img.shields.io/badge/license-CC0--1.0-blue.svg)](LICENSE)
 
@@ -15,7 +15,17 @@
 
 **Claude Skills** teach Claude how to **perform tasks in a repeatable way**
 
-They are specialized folders containing instructions, scripts, and resources.
+They are specialized folders containing instructions, scripts, and resources that Claude dynamically discovers and loads when relevant to tasks.
+
+### How Skills Work
+
+Skills employ a **progressive disclosure architecture** for efficiency:
+
+1. **Metadata loading** (~100 tokens): Claude scans available Skills to identify relevant matches
+2. **Full instructions** (<5k tokens): Load when Claude determines the Skill applies
+3. **Bundled resources**: Files and executable code load only as needed
+
+This design allows multiple Skills to remain available without overwhelming Claude's context window.
 
 ## 🚀 Quick Start
 
@@ -225,6 +235,10 @@ The easiest way to create a skill is to use the built-in `skill-creator`:
 
 ## 📅 Recent Updates
 
+### November 2025
+
+- **Nov 13**: Anthropic publishes [Skills Explained](https://claude.com/blog/skills-explained) - Comprehensive guide covering progressive disclosure architecture, decision matrices for Skills vs Prompts/Subagents/Projects, and best practices
+
 ### October 2025
 
 - **Oct 18**: Major community repositories emerge: [obra/superpowers](https://github.com/obra/superpowers) skills library
@@ -234,7 +248,31 @@ The easiest way to create a skill is to use the built-in `skill-creator`:
 
 ## 💡 Skills vs Other Approaches
 
-### Skills vs MCP (Model Context Protocol)
+### Quick Reference: When to Use What
+
+| Tool | Best For |
+|------|----------|
+| **Skills** | Reusable procedural knowledge across conversations |
+| **Prompts** | One-time instructions and immediate context |
+| **Projects** | Persistent background knowledge within workspaces |
+| **Subagents** | Independent task execution with specific permissions |
+| **MCP** | Connecting Claude to external data sources |
+
+**Use Skills when**: Capabilities should be accessible to any Claude instance. They're portable expertise.
+
+**Use Subagents when**: You need self-contained agents designed for specific purposes with independent workflows and restricted tool access.
+
+**Combined approach**: Subagents can leverage Skills for specialized expertise, merging independence with portable knowledge.
+
+### Detailed Comparisons
+
+#### Skills vs Prompts
+
+Choose **prompts** for conversational, one-time instructions requiring immediate context. Select **Skills** when procedures or expertise recur across multiple conversations.
+
+**Key insight**: *If you find yourself typing the same prompt repeatedly across multiple conversations, it's time to create a Skill.*
+
+#### Skills vs MCP (Model Context Protocol)
 
 | Feature              | Skills                                        | MCP                               |
 | -------------------- | --------------------------------------------- | --------------------------------- |
@@ -246,7 +284,7 @@ The easiest way to create a skill is to use the built-in `skill-creator`:
 
 **Use Together**: Skills can create MCP servers! The `mcp-builder` skill helps build high-quality MCP integrations.
 
-### Skills vs System Prompts
+#### Skills vs System Prompts
 
 | Feature           | Skills                                              | System Prompts                    |
 | ----------------- | --------------------------------------------------- | --------------------------------- |
@@ -256,7 +294,7 @@ The easiest way to create a skill is to use the built-in `skill-creator`:
 | **Maintenance**   | Centralized updates                                 | Manual updates per conversation   |
 | **Composability** | Multiple skills stack automatically                 | Manual combination                |
 
-**Key Advantage**: Skills are loaded on-demand, consuming only 30-50 tokens until needed, keeping Claude fast while providing specialized expertise.
+**Key Advantage**: Skills are loaded on-demand using progressive disclosure—consuming only ~100 tokens for metadata scanning, then <5k tokens for full instructions when activated—keeping Claude fast while providing specialized expertise.
 
 ## 📖 Tutorials & Guides
 
@@ -280,6 +318,7 @@ _Video tutorials coming soon! Have a good video about Claude Skills? Submit a PR
 
 ## 📰 Articles & Blog Posts
 
+- [Skills Explained](https://claude.com/blog/skills-explained) - Official Anthropic blog post covering progressive disclosure, use cases, and when to use Skills vs other tools
 - [Simon Willison: Claude Skills are awesome, maybe a bigger deal than MCP](https://simonwillison.net/2025/Oct/16/claude-skills/) - Technical deep dive and analysis
 
 ## 🔒 Security & Best Practices
@@ -378,7 +417,7 @@ _Video tutorials coming soon! Have a good video about Claude Skills? Submit a PR
 
 **Q: How much do skills impact token usage?**
 
-A: Skills are highly efficient. Each skill only uses 30-50 tokens until it's loaded. The full skill content only loads when Claude determines it's relevant to the task.
+A: Skills are highly efficient thanks to progressive disclosure. Each skill uses only ~100 tokens during metadata scanning to determine relevance. When activated, the full skill content loads at <5k tokens. Bundled resources only load as needed.
 
 **Q: What's the difference between Claude Skills and Agent Skills?**
 
@@ -432,7 +471,7 @@ A: For skills from git repositories, pull the latest changes. For manually insta
 
 **Portable** - Skills use the same format everywhere. Build once, use across Claude.ai, Claude Code CLI, Claude API, and custom agents.
 
-**Efficient** - Claude only loads what's needed, when it's needed. Each skill uses just 30-50 tokens until loaded, keeping Claude fast.
+**Efficient** - Claude only loads what's needed, when it's needed through progressive disclosure. Skills use ~100 tokens for metadata scanning, <5k tokens for full instructions when activated, keeping Claude fast.
 
 **Powerful** - Skills can include executable code for tasks where traditional programming is more reliable than token generation.
 
@@ -443,10 +482,24 @@ A: For skills from git repositories, pull the latest changes. For manually insta
 <details>
 <summary><strong>Common scenarios where Skills excel</strong></summary>
 
-- Document workflows: Excel formulas, PowerPoint branding, contract reviews
-- Development: API integrations via MCP, automated web app testing
-- Communications: Consistent internal messaging, branded visual content
-- Specialized tasks: Legal policy compliance, company style guides
+Skills excel in scenarios requiring reusable procedural knowledge:
+
+### Organizational Workflows
+- **Brand guidelines**: Color palettes, typography rules, and layout specifications that automatically apply when Claude creates presentations or documents
+- **Compliance procedures**: Legal policy checks, security reviews, data handling protocols
+- **Document templates**: Standardized contract reviews, report formatting, meeting notes
+
+### Domain Expertise
+- **Excel formulas**: Complex spreadsheet calculations, data analysis patterns, visualization templates
+- **PDF manipulation**: Text extraction, form handling, document merging and splitting
+- **Data analysis techniques**: Statistical methods, data cleaning workflows, reporting standards
+
+### Personal Preferences
+- **Note-taking systems**: Personal organizational methods, documentation styles
+- **Coding patterns**: Preferred frameworks, testing approaches, code review checklists
+- **Research methodologies**: Literature review processes, citation management, analysis frameworks
+
+**Example**: A brand guidelines skill containing your company's color palette (#2E5EAA, #F4B400), typography rules (Helvetica for headings, Georgia for body), and layout specifications automatically applies these standards whenever Claude creates presentations or documents—ensuring consistency without manual intervention.
 
 </details>
 
