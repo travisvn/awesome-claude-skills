@@ -121,6 +121,12 @@ Skills for working with complex file formats:
   - [Blog post about its development](https://blog.fsck.com/2025/10/23/naming-claude-plugins/)
   - Install from `superpowers-marketplace` plugin
 
+- **[raintree-technology/claude-starter](https://github.com/raintree-technology/claude-starter)** - Production-ready Claude Code configuration template with 40 auto-activating skills, TOON format support (30-60% token savings), and comprehensive documentation
+  - Features 40 skills across 8 domains: AI (Anthropic API, Claude Code CLI), Payments (Stripe, Whop, Shopify), Banking (Plaid), Blockchain (Aptos, Shelby, Decibel), Backend (Supabase), Mobile (Expo, iOS), and Data (TOON formatter)
+  - Includes 7 slash commands for TOON conversion, token analysis, and skill marketplace integration
+  - Native Zig TOON encoder/decoder with format utilities (convert, encode, decode, validate, analyze)
+  - Installation: Copy `.claude/` directory to your project or selectively copy specific skill domains
+
 
 ### Individual Skills
 
