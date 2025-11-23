@@ -27,19 +27,7 @@ Skills employ a **progressive disclosure architecture** for efficiency:
 
 This design allows multiple Skills to remain available without overwhelming Claude's context window.
 
-## 🚀 Quick Start
-
-### Claude Code
-
-```bash
-/plugin marketplace add anthropics/skills
-```
-
-### Claude Desktop
-
-[Enable Skills here](https://claude.ai/settings/capabilities)
-
-## 🛠️ Installation & Setup
+## 🚀 Getting Started
 
 ### Claude.ai Web Interface
 
@@ -264,15 +252,9 @@ The easiest way to create a skill is to use the built-in `skill-creator`:
 
 **Combined approach**: Subagents can leverage Skills for specialized expertise, merging independence with portable knowledge.
 
-### Detailed Comparisons
-
-#### Skills vs Prompts
-
-Choose **prompts** for conversational, one-time instructions requiring immediate context. Select **Skills** when procedures or expertise recur across multiple conversations.
-
 **Key insight**: *If you find yourself typing the same prompt repeatedly across multiple conversations, it's time to create a Skill.*
 
-#### Skills vs MCP (Model Context Protocol)
+### Skills vs MCP (Model Context Protocol)
 
 | Feature              | Skills                                        | MCP                               |
 | -------------------- | --------------------------------------------- | --------------------------------- |
@@ -293,8 +275,6 @@ Choose **prompts** for conversational, one-time instructions requiring immediate
 | **Loading**       | On-demand (only when relevant)                      | Always in context                 |
 | **Maintenance**   | Centralized updates                                 | Manual updates per conversation   |
 | **Composability** | Multiple skills stack automatically                 | Manual combination                |
-
-**Key Advantage**: Skills are loaded on-demand using progressive disclosure—consuming only ~100 tokens for metadata scanning, then <5k tokens for full instructions when activated—keeping Claude fast while providing specialized expertise.
 
 ## 📖 Tutorials & Guides
 
@@ -459,47 +439,6 @@ A: Currently, there is no official marketplace for paid skills. Anthropic has me
 **Q: How do I update a skill?**
 
 A: For skills from git repositories, pull the latest changes. For manually installed skills, replace the skill folder with the updated version. Always test updates in a non-production environment first.
-
-</details>
-
-## ⭐ Key Features
-
-<details>
-<summary><strong>What makes Skills powerful?</strong></summary>
-
-**Composable** - Skills stack together automatically. Claude identifies which skills are needed and coordinates their use without manual intervention.
-
-**Portable** - Skills use the same format everywhere. Build once, use across Claude.ai, Claude Code CLI, Claude API, and custom agents.
-
-**Efficient** - Claude only loads what's needed, when it's needed through progressive disclosure. Skills use ~100 tokens for metadata scanning, <5k tokens for full instructions when activated, keeping Claude fast.
-
-**Powerful** - Skills can include executable code for tasks where traditional programming is more reliable than token generation.
-
-</details>
-
-## 💼 Use Cases
-
-<details>
-<summary><strong>Common scenarios where Skills excel</strong></summary>
-
-Skills excel in scenarios requiring reusable procedural knowledge:
-
-### Organizational Workflows
-- **Brand guidelines**: Color palettes, typography rules, and layout specifications that automatically apply when Claude creates presentations or documents
-- **Compliance procedures**: Legal policy checks, security reviews, data handling protocols
-- **Document templates**: Standardized contract reviews, report formatting, meeting notes
-
-### Domain Expertise
-- **Excel formulas**: Complex spreadsheet calculations, data analysis patterns, visualization templates
-- **PDF manipulation**: Text extraction, form handling, document merging and splitting
-- **Data analysis techniques**: Statistical methods, data cleaning workflows, reporting standards
-
-### Personal Preferences
-- **Note-taking systems**: Personal organizational methods, documentation styles
-- **Coding patterns**: Preferred frameworks, testing approaches, code review checklists
-- **Research methodologies**: Literature review processes, citation management, analysis frameworks
-
-**Example**: A brand guidelines skill containing your company's color palette (#2E5EAA, #F4B400), typography rules (Helvetica for headings, Georgia for body), and layout specifications automatically applies these standards whenever Claude creates presentations or documents—ensuring consistency without manual intervention.
 
 </details>
 
