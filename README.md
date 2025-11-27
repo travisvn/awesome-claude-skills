@@ -109,6 +109,12 @@ Skills for working with complex file formats:
   - [Blog post about its development](https://blog.fsck.com/2025/10/23/naming-claude-plugins/)
   - Install from `superpowers-marketplace` plugin
 
+- **[damienlaine/agentic-sprint](https://github.com/damienlaine/agentic-sprint)** - Spec-driven, self-iterative multi-agent framework that turns Claude Code into an autonomous development team
+  - Project Architect coordinates specialized agents (Python, Next.js, CI/CD, QA, UI Testing)
+  - Convergent sprint approach where specs shrink and errors get erased with each iteration
+  - Features `/sprint`, `/new-sprint`, `/generate-map` commands
+  - [Website](https://damienlaine.github.io/agentic-sprint/)
+
 
 ### Individual Skills
 
