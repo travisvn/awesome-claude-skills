@@ -63,31 +63,31 @@ client = anthropic.Client(api_key="your-api-key")
 
 Skills for working with complex file formats:
 
-- **[docx](https://github.com/anthropics/skills/tree/main/document-skills/docx)** - Create, edit, and analyze Word documents with support for tracked changes, comments, formatting preservation, and text extraction
-- **[pdf](https://github.com/anthropics/skills/tree/main/document-skills/pdf)** - Comprehensive PDF manipulation toolkit for extracting text and tables, creating new PDFs, merging/splitting documents, and handling forms
-- **[pptx](https://github.com/anthropics/skills/tree/main/document-skills/pptx)** - Create, edit, and analyze PowerPoint presentations with support for layouts, templates, charts, and automated slide generation
-- **[xlsx](https://github.com/anthropics/skills/tree/main/document-skills/xlsx)** - Create, edit, and analyze Excel spreadsheets with support for formulas, formatting, data analysis, and visualization
+- **[docx](https://github.com/anthropics/skills/tree/main/skills/docx)** - Create, edit, and analyze Word documents with support for tracked changes, comments, formatting preservation, and text extraction
+- **[pdf](https://github.com/anthropics/skills/tree/main/skills/pdf)** - Comprehensive PDF manipulation toolkit for extracting text and tables, creating new PDFs, merging/splitting documents, and handling forms
+- **[pptx](https://github.com/anthropics/skills/tree/main/skills/pptx)** - Create, edit, and analyze PowerPoint presentations with support for layouts, templates, charts, and automated slide generation
+- **[xlsx](https://github.com/anthropics/skills/tree/main/skills/xlsx)** - Create, edit, and analyze Excel spreadsheets with support for formulas, formatting, data analysis, and visualization
 
 ### Design & Creative
 
-- **[algorithmic-art](https://github.com/anthropics/skills/tree/main/algorithmic-art)** - Create generative art using p5.js with seeded randomness, flow fields, and particle systems
-- **[canvas-design](https://github.com/anthropics/skills/tree/main/canvas-design)** - Design beautiful visual art in .png and .pdf formats using design philosophies
-- **[slack-gif-creator](https://github.com/anthropics/skills/tree/main/slack-gif-creator)** - Create animated GIFs optimized for Slack's size constraints
+- **[algorithmic-art](https://github.com/anthropics/skills/tree/main/skills/algorithmic-art)** - Create generative art using p5.js with seeded randomness, flow fields, and particle systems
+- **[canvas-design](https://github.com/anthropics/skills/tree/main/skills/canvas-design)** - Design beautiful visual art in .png and .pdf formats using design philosophies
+- **[slack-gif-creator](https://github.com/anthropics/skills/tree/main/skills/slack-gif-creator)** - Create animated GIFs optimized for Slack's size constraints
 
 ### Development
 
-- **[artifacts-builder](https://github.com/anthropics/skills/tree/main/artifacts-builder)** - Build complex claude.ai HTML artifacts using React, Tailwind CSS, and shadcn/ui components
-- **[mcp-builder](https://github.com/anthropics/skills/tree/main/mcp-builder)** - Guide for creating high-quality MCP servers to integrate external APIs and services
-- **[webapp-testing](https://github.com/anthropics/skills/tree/main/webapp-testing)** - Test local web applications using Playwright for UI verification and debugging
+- **[artifacts-builder](https://github.com/anthropics/skills/tree/main/skills/artifacts-builder)** - Build complex claude.ai HTML artifacts using React, Tailwind CSS, and shadcn/ui components
+- **[mcp-builder](https://github.com/anthropics/skills/tree/main/skills/mcp-builder)** - Guide for creating high-quality MCP servers to integrate external APIs and services
+- **[webapp-testing](https://github.com/anthropics/skills/tree/main/skills/webapp-testing)** - Test local web applications using Playwright for UI verification and debugging
 
 ### Communication
 
-- **[brand-guidelines](https://github.com/anthropics/skills/tree/main/brand-guidelines)** - Apply Anthropic's official brand colors and typography to artifacts
-- **[internal-comms](https://github.com/anthropics/skills/tree/main/internal-comms)** - Write internal communications like status reports, newsletters, and FAQs
+- **[brand-guidelines](https://github.com/anthropics/skills/tree/main/skills/brand-guidelines)** - Apply Anthropic's official brand colors and typography to artifacts
+- **[internal-comms](https://github.com/anthropics/skills/tree/main/skills/internal-comms)** - Write internal communications like status reports, newsletters, and FAQs
 
 ### Skill Creation
 
-- **[skill-creator](https://github.com/anthropics/skills/tree/main/skill-creator)** - Interactive skill creation tool that guides you through building new skills with Q&A
+- **[skill-creator](https://github.com/anthropics/skills/tree/main/skills/skill-creator)** - Interactive skill creation tool that guides you through building new skills with Q&A
 
 ## 🌟 Community Skills
 
