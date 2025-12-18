@@ -109,6 +109,9 @@ Skills for working with complex file formats:
   - [Blog post about its development](https://blog.fsck.com/2025/10/23/naming-claude-plugins/)
   - Install from `superpowers-marketplace` plugin
 
+- **[athola/claude-night-market](https://github.com/athola/claude-night-market)** - Modular plugin ecosystem with 12+ specialized plugins for Claude Code workflows
+  - [Capabilities Reference](https://github.com/athola/claude-night-market/blob/master/docs/capabilities-reference.md) - Full list of skills, commands, agents, and hooks
+  - Installation: `/plugin marketplace add athola/claude-night-market`
 
 ### Individual Skills
 
