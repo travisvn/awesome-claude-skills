@@ -110,6 +110,9 @@ Skills for working with complex file formats:
   - [Blog post about its development](https://blog.fsck.com/2025/10/23/naming-claude-plugins/)
   - Install from `superpowers-marketplace` plugin
 
+- **[dev-agent-skills](https://github.com/fvadicamo/dev-agent-skills)** - Agent skills for Git and GitHub workflows (Conventional Commits, PR lifecycle). 5 skills in 2 plugins: github-workflow (git-commit, github-pr-creation, github-pr-merge, github-pr-review) and skill-authoring (creating-skills)
+  - Install: `/plugin marketplace add fvadicamo/dev-agent-skills && /plugin install github-workflow@dev-agent-skills`
+
 
 ### Individual Skills
 
