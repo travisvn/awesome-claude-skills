@@ -117,6 +117,7 @@ Skills for working with complex file formats:
 
 | Skill | Description |
 | --- | --- |
+| **[claude-bootstrap](https://github.com/alinaqi/claude-bootstrap)** | Opinionated project initialization with security-first guardrails, spec-driven atomic todos, LLM testing patterns, and CLI orchestration |
 | **[ios-simulator-skill](https://github.com/conorluddy/ios-simulator-skill)** | iOS app building, navigation, and testing through automation |
 | **[ffuf-web-fuzzing](https://github.com/jthack/ffuf_claude_skill)** | Expert guidance for ffuf web fuzzing during penetration testing, including authenticated fuzzing with raw requests, auto-calibration, and result analysis |
 | **[playwright-skill](https://github.com/lackeyjb/playwright-skill)** | General-purpose browser automation using Playwright |
