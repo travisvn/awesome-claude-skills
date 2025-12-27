@@ -48,7 +48,7 @@ This design allows multiple Skills to remain available without overwhelming Clau
 
 ### Claude API
 
-Skills are accessible via the `/v1/skills` API endpoint. See the [Skills API documentation](https://docs.claude.com/en/api/skills) for detailed integration examples.
+Skills are accessible via the `/v1/skills` API endpoint. See the [Skills API documentation](https://platform.claude.com/docs/en/api/beta/skills) for detailed integration examples.
 
 ```python
 import anthropic
