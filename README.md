@@ -48,7 +48,7 @@ This design allows multiple Skills to remain available without overwhelming Clau
 
 ### Claude API
 
-Skills are accessible via the `/v1/skills` API endpoint. See the [Skills API documentation](https://docs.claude.com/en/api/skills) for detailed integration examples.
+Skills are accessible via the `/v1/skills` API endpoint. See the [Skills API documentation](https://platform.claude.com/docs/en/api/beta/skills) for detailed integration examples.
 
 ```python
 import anthropic
@@ -215,7 +215,7 @@ The easiest way to create a skill is to use the built-in `skill-creator`:
 - [Claude Skills Announcement](https://www.anthropic.com/news/skills) - Official announcement from Anthropic
 - [Equipping Agents with Skills](https://www.anthropic.com/engineering/equipping-agents-for-the-real-world-with-agent-skills) - Engineering deep dive on Agent Skills
 - [Claude Developer Platform](https://docs.claude.com/) - Official documentation
-- [Skills API Endpoint](https://docs.claude.com/en/api/skills) - `/v1/skills` API documentation
+- [Skills API Endpoint](https://platform.claude.com/docs/en/api/beta/skills) - `/v1/skills` API documentation
 
 ### Repositories & Examples
 
