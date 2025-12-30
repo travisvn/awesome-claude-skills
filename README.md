@@ -109,6 +109,12 @@ Skills for working with complex file formats:
   - [Blog post about its development](https://blog.fsck.com/2025/10/23/naming-claude-plugins/)
   - Install from `superpowers-marketplace` plugin
 
+- **[vibeship-spawner-skills](https://github.com/vibeforge1111/vibeship-spawner-skills)** - 273 production-grade AI skills with sharp edges, validations, and collaboration patterns
+  - 25 categories: development, AI/ML, marketing, strategy, legal, finance, biotech, space, and more
+  - Each skill includes: identity, patterns, anti-patterns, and real-world gotchas with detection patterns
+  - Deep format: `skill.yaml`, `sharp-edges.yaml`, `validations.yaml`, `collaboration.yaml` per skill
+  - Install: `npx vibeship-spawner-skills install`
+
 
 ### Individual Skills
 
