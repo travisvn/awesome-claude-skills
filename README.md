@@ -122,6 +122,10 @@ Skills for working with complex file formats:
 | **[claude-d3js-skill](https://github.com/chrisvoncsefalvay/claude-d3js-skill)** | Visualizations in d3.js |
 | **[claude-scientific-skills](https://github.com/K-Dense-AI/claude-scientific-skills)** | Comprehensive collection of ready-to-use scientific skills, including working with specialized scientific libraries and databases |
 | **[web-asset-generator](https://github.com/alonw0/web-asset-generator)** | Generates web assets like favicons, app icons, and social media images |
+| **[faf-expert](https://github.com/anthropics/skills/tree/main/skills/faf-expert)** | Expert in .faf (Foundational AI-context Format) - IANA-registered format for persistent project context, CLAUDE.md bi-sync, and AI-readiness scoring |
+| **[n8n-builder](https://github.com/anthropics/skills/tree/main/skills/n8n-builder)** | Expert in building n8n workflows from scratch - node configuration, API integration, webhooks, and automation patterns |
+| **[n8n-debugger](https://github.com/anthropics/skills/tree/main/skills/n8n-debugger)** | Expert in debugging broken n8n workflows - error diagnosis, expression fixes, HTTP debugging, and performance optimization |
+| **[wjttc-tester](https://github.com/anthropics/skills/tree/main/skills/wjttc-tester)** | F1-inspired software testing expert - championship-grade testing standards with detailed WJTTC reports |
 
 _More community skills coming soon! Submit a PR to add your skill._
 
