@@ -116,6 +116,7 @@ Skills for working with complex file formats:
 
 | Skill | Description |
 | --- | --- |
+| **[fastlane-skill](https://github.com/greenstevester/fastlane-skill)** | iOS/macOS app automation with Fastlane — setup, TestFlight uploads, and App Store submissions |
 | **[ios-simulator-skill](https://github.com/conorluddy/ios-simulator-skill)** | iOS app building, navigation, and testing through automation |
 | **[ffuf-web-fuzzing](https://github.com/jthack/ffuf_claude_skill)** | Expert guidance for ffuf web fuzzing during penetration testing, including authenticated fuzzing with raw requests, auto-calibration, and result analysis |
 | **[playwright-skill](https://github.com/lackeyjb/playwright-skill)** | General-purpose browser automation using Playwright |
