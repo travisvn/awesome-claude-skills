@@ -109,6 +109,10 @@ Skills for working with complex file formats:
   - [Blog post about its development](https://blog.fsck.com/2025/10/23/naming-claude-plugins/)
   - Install from `superpowers-marketplace` plugin
 
+- **[scout-dot-ai/claude-code](https://github.com/scoutqa-dot-ai/claude-code)** - Run AI-powered exploratory tests on web applications using natural language prompts.
+  - ScoutQA automatically tests your websites for accessibility issues, broken user flows, and usability problems — all from simple English instructions.
+  - [Website](https://scoutqa.ai), [Docs](https://docs.scoutqa.ai)
+  - Install: `/plugin marketplace add https://github.com/scoutqa-dot-ai/claude-code`
 
 ### Individual Skills
 
