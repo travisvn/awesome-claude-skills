@@ -2,6 +2,9 @@
 
 Thank you for your interest in contributing to Awesome Claude Skills! This document provides guidelines for contributing to this list.
 
+> [!NOTE]
+> Given the growth in assisted skill development, a new requirement of "social proof" has been added to skill submissions
+
 ## How to Contribute
 
 1. **Fork the repository** - Click the "Fork" button in the top right corner
@@ -83,6 +86,11 @@ The skill should:
 Above all else, the skill should be a value-add. Trivial functionalities that were whipped up with a session or two with Claude Code are not likely to be worthwhile skills for community members to make use of almost by definition (i.e. if the skill could be created that quickly, it would probably be something an individual would implement by themselves to match their own particular use case)
 
 While not an absolute requirement, a strong general guideline would be that more exists to the skill than a single `SKILL.md` file. 
+
+#### Social Proof
+Skills must have gathered enough attention from the community so-as to have acquired a number of GitHub stars to be considered in most cases. 
+
+_This is due to the increase in PR submissions of either newly completed and untested skills or narrow-focused and not generalizable skills that simply do not make sense in a GitHub Awesome list meant to appeal to a wide audience._
 
 ### Article/Resource Submissions
 
