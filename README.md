@@ -129,6 +129,7 @@ _More community skills coming soon! Submit a PR to add your skill._
 ### Tools
 
 - **[yusufkaraaslan/Skill_Seekers](https://github.com/yusufkaraaslan/Skill_Seekers)** - Convert documentation websites into Claude Skills
+- **[iiYeung/git-annual-summary-skill](https://github.com/iiYeung/git-annual-summary-skill)** - Generate comprehensive year-end summary reports for your Git repositories
 
 ## ✏️ Creating Your First Skill
 
