@@ -109,6 +109,10 @@ Skills for working with complex file formats:
   - [Blog post about its development](https://blog.fsck.com/2025/10/23/naming-claude-plugins/)
   - Install from `superpowers-marketplace` plugin
 
+- **[voxel51/fiftyone-skills](https://github.com/voxel51/fiftyone-skills)** - Expert computer vision workflows powered by [FiftyOne](https://github.com/voxel51/fiftyone) and the [FiftyOne MCP Server](https://github.com/voxel51/fiftyone-mcp-server)
+  - 9 skills: dataset import/export, find duplicates, run inference, model evaluation, embeddings visualization, plugin development, code style, issue triage
+  - Installation: `/plugin marketplace add voxel51/fiftyone-skills`
+
 
 ### Individual Skills
 
@@ -123,7 +127,6 @@ Skills for working with complex file formats:
 | **[claude-scientific-skills](https://github.com/K-Dense-AI/claude-scientific-skills)** | Comprehensive collection of ready-to-use scientific skills, including working with specialized scientific libraries and databases |
 | **[web-asset-generator](https://github.com/alonw0/web-asset-generator)** | Generates web assets like favicons, app icons, and social media images |
 | **[loki-mode](https://github.com/asklokesh/claudeskill-loki-mode)** | Multi-agent autonomous startup system - orchestrates 37 AI agents across 6 swarms to build, deploy, and operate a complete startup from PRD to revenue |
-
 _More community skills coming soon! Submit a PR to add your skill._
 
 ### Tools
