@@ -7,7 +7,7 @@
 # Awesome Claude Skills
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-[![Last Updated](https://img.shields.io/badge/updated-Dec%202025-green.svg)]()
+[![Last Updated](https://img.shields.io/badge/updated-Jan%202026-green.svg)]()
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
 
 > A curated list of awesome Claude Skills, resources, and tools for customizing Claude AI workflows
