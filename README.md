@@ -130,6 +130,7 @@ _More community skills coming soon! Submit a PR to add your skill._
 ### Tools
 
 - **[yusufkaraaslan/Skill_Seekers](https://github.com/yusufkaraaslan/Skill_Seekers)** - Convert documentation websites into Claude Skills
+- **[SkillCheck-Free](https://github.com/olgasafonova/SkillCheck-Free)** - Validate skills against the agentskills spec. Catches structure, naming, semantic issues and recognizes quality patterns
 
 ## ✏️ Creating Your First Skill
 
