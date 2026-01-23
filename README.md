@@ -108,7 +108,10 @@ Skills for working with complex file formats:
   - Uses new techniques that are still being refined and tested (i.e. skills here may change over time)
   - [Blog post about its development](https://blog.fsck.com/2025/10/23/naming-claude-plugins/)
   - Install from `superpowers-marketplace` plugin
-
+  
+- **[kukapay/crypto-skills](https://github.com/kukapay/crypto-skills)** - A collection of agent skills focused on cryptocurrency, web3 and blockchain operations.
+  - Features `evm-swiss-army`, `market-sentiment`, `trading-strategist` and more skills.
+  - Installation: `npx skills add kukapay/crypto-skills`  
 
 ### Individual Skills
 
