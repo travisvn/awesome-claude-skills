@@ -104,6 +104,9 @@ Skills must have gathered enough attention from the community so-as to have acqu
 
 *This is due to the increase in PR submissions of either newly completed and untested skills or narrow-focused and not generalizable skills that simply do not make sense in a GitHub Awesome list meant to appeal to a wide audience.*
 
+> [!NOTE]
+> Due to the volume of PR submissions that do not conform to these contribution guidelines, if your skill hasn't acquired a basic 10 stars, it will be closed automatically.
+
 ### Article/Resource Submissions
 
 When submitting articles or resources:

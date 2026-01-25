@@ -7,7 +7,7 @@
 # Awesome Claude Skills
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-[![Last Updated](https://img.shields.io/badge/updated-Dec%202025-green.svg)]()
+[![Last Updated](https://img.shields.io/badge/updated-Jan%202026-green.svg)]()
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
 
 > A curated list of awesome Claude Skills, resources, and tools for customizing Claude AI workflows
@@ -124,6 +124,7 @@ Skills for working with complex file formats:
 | **[web-asset-generator](https://github.com/alonw0/web-asset-generator)** | Generates web assets like favicons, app icons, and social media images |
 | **[loki-mode](https://github.com/asklokesh/claudeskill-loki-mode)** | Multi-agent autonomous startup system - orchestrates 37 AI agents across 6 swarms to build, deploy, and operate a complete startup from PRD to revenue |
 | **[recursive-decomposition-skill](https://github.com/massimodeluisa/recursive-decomposition-skill)** | Handle long-context tasks (100+ files, 50k+ tokens) through recursive decomposition strategies based on RLM research |
+| **[Trail of Bits Security Skills](https://github.com/trailofbits/skills)** | Security skills for static analysis with CodeQL/Semgrep, variant analysis, code auditing, and vulnerability detection |
 
 _More community skills coming soon! Submit a PR to add your skill._
 
