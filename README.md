@@ -124,6 +124,7 @@ Skills for working with complex file formats:
 | **[web-asset-generator](https://github.com/alonw0/web-asset-generator)** | Generates web assets like favicons, app icons, and social media images |
 | **[loki-mode](https://github.com/asklokesh/claudeskill-loki-mode)** | Multi-agent autonomous startup system - orchestrates 37 AI agents across 6 swarms to build, deploy, and operate a complete startup from PRD to revenue |
 | **[infinite-gratitude](https://github.com/sstklen/infinite-gratitude)** | 🐾 Multi-agent research skill - 10 agents, 3 waves, 9 reports. Made by 28 cats & dogs from Japan. **Meta: This PR was created using the skill itself!** |
+| **[claude-api-cost-optimization](https://github.com/sstklen/claude-api-cost-optimization)** | 💰 Save 50-90% on Claude API costs with Batch API, Prompt Caching, and Extended Thinking. Production-ready examples in Python. Made by Washin Village (28 cats & dogs from Japan). |
 | **[Trail of Bits Security Skills](https://github.com/trailofbits/skills)** | Security skills for static analysis with CodeQL/Semgrep, variant analysis, code auditing, and vulnerability detection |
 
 _More community skills coming soon! Submit a PR to add your skill._
