@@ -124,7 +124,9 @@ Skills for working with complex file formats:
 | **[web-asset-generator](https://github.com/alonw0/web-asset-generator)** | Generates web assets like favicons, app icons, and social media images |
 | **[loki-mode](https://github.com/asklokesh/claudeskill-loki-mode)** | Multi-agent autonomous startup system - orchestrates 37 AI agents across 6 swarms to build, deploy, and operate a complete startup from PRD to revenue |
 | **[Trail of Bits Security Skills](https://github.com/trailofbits/skills)** | Security skills for static analysis with CodeQL/Semgrep, variant analysis, code auditing, and vulnerability detection |
+| **[auto-tidy](https://github.com/sstklen/auto-tidy)** | 🧹 Zero-effort file organization - say "goodnight" and your project gets organized automatically. Light cleanup or deep cleanup modes |
 | **[file-placement-guide](https://github.com/sstklen/file-placement-guide)** | 🥕 One carrot, one hole - AI places files correctly from the start. Standard project structure, file type lookup tables, and naming conventions |
+| **[project-index](https://github.com/sstklen/project-index)** | 🔍 Auto-generate project index - AI finds files instantly (2 seconds vs 5 minutes). No more digging through 500 files |
 
 _More community skills coming soon! Submit a PR to add your skill._
 
