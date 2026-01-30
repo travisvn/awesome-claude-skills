@@ -109,6 +109,14 @@ Skills for working with complex file formats:
   - [Blog post about its development](https://blog.fsck.com/2025/10/23/naming-claude-plugins/)
   - Install from `superpowers-marketplace` plugin
 
+- **[merlin-build/merlin-skills](https://github.com/merlin-build/merlin-skills)** - Superpowers for Claude Code — instant codebase understanding, structured workflows, and video creation
+  - **merlin-sights**: Knowledge layer with semantic search, context retrieval, and codebase memory
+  - **merlin-workflows**: Structured planning from requirements → roadmap → phases → execution → verification
+  - **merlin-lite**: Free file-based context for small repos (under 5K lines)
+  - **merlin-video**: Programmatic video creation with React components
+  - [Website](https://merlin.build) | [How it Works](https://merlin.build/how-it-works)
+  - Installation: `/plugin marketplace add merlin-build/merlin-skills`
+
 
 ### Individual Skills
 
