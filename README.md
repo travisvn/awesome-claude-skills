@@ -98,6 +98,11 @@ Skills for working with complex file formats:
 
 ### Collections & Libraries
 
+- **[jezweb/claude-skills](https://github.com/jezweb/claude-skills)** - 87 production-ready skills for Cloudflare Workers, React, Tailwind v4, AI/LLM integrations, and more
+  - Includes 39 bundled agents for debugging, deployment, testing, and code review
+  - ~60% average token savings with 400+ documented errors prevented
+  - Installation: `/plugin marketplace add jezweb/claude-skills`
+
 - **[obra/superpowers](https://github.com/obra/superpowers)** - Core skills library for Claude Code with 20+ battle-tested skills including TDD, debugging, and collaboration patterns
   - Features `/brainstorm`, `/write-plan`, `/execute-plan` commands and skills-search tool
   - [superpowers-skills](https://github.com/obra/superpowers-skills) - Community-editable skills repository
