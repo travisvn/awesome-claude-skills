@@ -131,6 +131,12 @@ _More community skills coming soon! Submit a PR to add your skill._
 
 - **[yusufkaraaslan/Skill_Seekers](https://github.com/yusufkaraaslan/Skill_Seekers)** - Convert documentation websites into Claude Skills
 
+### Compatible AI Coding Agents
+
+| Agent | Description |
+| --- | --- |
+| **[AdaL](https://sylph.ai/)** | Self-evolving AI coding agent compatible with Claude Code skills and plugins. Lets models collaborate (Claude, GPT, Gemini), runs locally. Built on [AdalFlow](https://github.com/SylphAI-Inc/AdalFlow). [Docs](https://docs.sylph.ai/) |
+
 ## ✏️ Creating Your First Skill
 
 <details>
