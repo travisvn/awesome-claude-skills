@@ -116,6 +116,8 @@ Skills for working with complex file formats:
 
 | Skill | Description |
 | --- | --- |
+| **[agentkits-memory](https://github.com/aitytech/agentkits-memory)** | Persistent memory for AI coding assistants with hybrid search (FTS5 + vector), session tracking, 8 MCP tools, and web viewer. Available as Claude Code plugin and npm package. |
+| **[agentkits-marketing](https://github.com/aitytech/agentkits-marketing)** | Complete AI marketing toolkit — 18 specialized agents, 93 slash commands, 28 marketing skills (SEO, CRO, copywriting, email), 19 training modules in 11 languages. |
 | **[ios-simulator-skill](https://github.com/conorluddy/ios-simulator-skill)** | iOS app building, navigation, and testing through automation |
 | **[ffuf-web-fuzzing](https://github.com/jthack/ffuf_claude_skill)** | Expert guidance for ffuf web fuzzing during penetration testing, including authenticated fuzzing with raw requests, auto-calibration, and result analysis |
 | **[playwright-skill](https://github.com/lackeyjb/playwright-skill)** | General-purpose browser automation using Playwright |
