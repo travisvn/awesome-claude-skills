@@ -124,6 +124,7 @@ Skills for working with complex file formats:
 | **[web-asset-generator](https://github.com/alonw0/web-asset-generator)** | Generates web assets like favicons, app icons, and social media images |
 | **[loki-mode](https://github.com/asklokesh/claudeskill-loki-mode)** | Multi-agent autonomous startup system - orchestrates 37 AI agents across 6 swarms to build, deploy, and operate a complete startup from PRD to revenue |
 | **[Trail of Bits Security Skills](https://github.com/trailofbits/skills)** | Security skills for static analysis with CodeQL/Semgrep, variant analysis, code auditing, and vulnerability detection |
+| **[claude-ai-models](https://github.com/Tontoon7/claude-ai-models)** | Fetches the latest AI model IDs from Anthropic, OpenAI & Google so Claude always uses up-to-date model names in code. No API keys needed |
 
 _More community skills coming soon! Submit a PR to add your skill._
 
