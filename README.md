@@ -124,6 +124,8 @@ Skills for working with complex file formats:
 | **[web-asset-generator](https://github.com/alonw0/web-asset-generator)** | Generates web assets like favicons, app icons, and social media images |
 | **[loki-mode](https://github.com/asklokesh/claudeskill-loki-mode)** | Multi-agent autonomous startup system - orchestrates 37 AI agents across 6 swarms to build, deploy, and operate a complete startup from PRD to revenue |
 | **[Trail of Bits Security Skills](https://github.com/trailofbits/skills)** | Security skills for static analysis with CodeQL/Semgrep, variant analysis, code auditing, and vulnerability detection |
+| **[ditto-product-research-skill](https://github.com/Ask-Ditto/ditto-product-research-skill)** | Run synthetic customer research via Ditto API - pain discovery, concept validation, pricing tests, competitive analysis with 300K+ AI personas |
+| **[ditto-product-marketing](https://github.com/Ask-Ditto/ditto-product-marketing)** | PMM research skill - positioning validation, messaging testing, competitive intelligence, pricing, GTM, launches, buyer personas, and brand tracking |
 
 _More community skills coming soon! Submit a PR to add your skill._
 
