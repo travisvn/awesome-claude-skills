@@ -130,6 +130,7 @@ _More community skills coming soon! Submit a PR to add your skill._
 ### Tools
 
 - **[yusufkaraaslan/Skill_Seekers](https://github.com/yusufkaraaslan/Skill_Seekers)** - Convert documentation websites into Claude Skills
+- **[techgangboss/agentstore](https://github.com/techgangboss/agentstore)** - Open-source marketplace for Claude Code plugins and agents. Install plugins with `agentstore install`, or publish your own with a 3-field API call. Gasless USDC payments via x402.
 
 ## ✏️ Creating Your First Skill
 
