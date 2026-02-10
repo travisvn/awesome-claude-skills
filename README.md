@@ -302,6 +302,7 @@ _Video tutorials coming soon! Have a good video about Claude Skills? Submit a PR
 
 - [Skills Explained](https://claude.com/blog/skills-explained) - Official Anthropic blog post covering progressive disclosure, use cases, and when to use Skills vs other tools
 - [Simon Willison: Claude Skills are awesome, maybe a bigger deal than MCP](https://simonwillison.net/2025/Oct/16/claude-skills/) - Technical deep dive and analysis
+- [Agent Skills: A Data-Driven Analysis of Claude Skills for Extending Large Language Model Functionality](https://arxiv.org/abs/2602.08004) - Data-driven analysis: the ecosystem, opportunities, and risks behind 40,000+ Claude Skills
 
 ## 🔒 Security & Best Practices
 
