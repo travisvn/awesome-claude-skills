@@ -124,6 +124,8 @@ Skills for working with complex file formats:
 | **[web-asset-generator](https://github.com/alonw0/web-asset-generator)** | Generates web assets like favicons, app icons, and social media images |
 | **[loki-mode](https://github.com/asklokesh/claudeskill-loki-mode)** | Multi-agent autonomous startup system - orchestrates 37 AI agents across 6 swarms to build, deploy, and operate a complete startup from PRD to revenue |
 | **[Trail of Bits Security Skills](https://github.com/trailofbits/skills)** | Security skills for static analysis with CodeQL/Semgrep, variant analysis, code auditing, and vulnerability detection |
+| **[ui-ux-design](https://github.com/hicay/claude-code-skills/tree/main/ui-ux-design)** | Design and redesign interfaces using Dieter Rams' 10 principles — includes design tokens, component library (SwiftUI/React/CSS), and 60+ point review checklist |
+| **[formcarry](https://github.com/hicay/claude-code-skills/tree/main/formcarry)** | Build and deploy forms without a backend using Formcarry — 16 framework examples (React, Vue, Next.js, Astro), spam protection, file uploads, and full API reference |
 
 _More community skills coming soon! Submit a PR to add your skill._
 
