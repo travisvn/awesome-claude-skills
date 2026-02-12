@@ -130,6 +130,7 @@ _More community skills coming soon! Submit a PR to add your skill._
 ### Tools
 
 - **[yusufkaraaslan/Skill_Seekers](https://github.com/yusufkaraaslan/Skill_Seekers)** - Convert documentation websites into Claude Skills
+- **[taskade/mcp](https://github.com/taskade/mcp)** - Official Taskade MCP server. Connect Claude to Taskade workspaces for project management, notes, mind maps, AI agents, and workflow automation. Includes OpenAPI-to-MCP codegen.
 
 ## ✏️ Creating Your First Skill
 
