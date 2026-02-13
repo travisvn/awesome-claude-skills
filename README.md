@@ -109,6 +109,10 @@ Skills for working with complex file formats:
   - [Blog post about its development](https://blog.fsck.com/2025/10/23/naming-claude-plugins/)
   - Install from `superpowers-marketplace` plugin
 
+- **[avifenesh/agentsys](https://github.com/avifenesh/agentsys)** - Agent runtime and orchestration system with 12 plugins, 41 agents, and 27 skills for Claude Code, OpenCode, and Codex
+  - Handles task discovery, planning, implementation, code review, CI monitoring, and PR delivery end-to-end
+  - Commands include `/next-task`, `/ship`, `/enhance`, `/audit-project`, `/perf`, `/deslop`, and more
+  - Installation: `npm install -g agentsys`
 
 ### Individual Skills
 
