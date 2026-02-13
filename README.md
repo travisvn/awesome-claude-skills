@@ -124,6 +124,7 @@ Skills for working with complex file formats:
 | **[web-asset-generator](https://github.com/alonw0/web-asset-generator)** | Generates web assets like favicons, app icons, and social media images |
 | **[loki-mode](https://github.com/asklokesh/claudeskill-loki-mode)** | Multi-agent autonomous startup system - orchestrates 37 AI agents across 6 swarms to build, deploy, and operate a complete startup from PRD to revenue |
 | **[Trail of Bits Security Skills](https://github.com/trailofbits/skills)** | Security skills for static analysis with CodeQL/Semgrep, variant analysis, code auditing, and vulnerability detection |
+| **[chitin-id](https://clawhub.ai/EijiAC24/chitin-id)** | Birth certificates for AI agents — on-chain identity registration, soul hash verification, chronicle tracking, and selective disclosure via ERC-8004 + soulbound tokens on Base L2. Also available as an [MCP server](https://www.npmjs.com/package/chitin-mcp-server) |
 
 _More community skills coming soon! Submit a PR to add your skill._
 
