@@ -91,6 +91,8 @@ Skills for working with complex file formats:
 
 ## 🌟 Community Skills
 
+- [Orchard Kit](https://github.com/OrchardHarmonics/orchard-kit) — Alignment, safety & cognitive architecture for autonomous AI agents. Membrane security, epistemic tagger, self-audit, beacon, cognitive architecture (The Loom), collective cognition (The Choir). Zero dependencies.
+
 > [!Warning]
 > Skills can execute arbitrary code in Claude's environment.
 > 
