@@ -131,6 +131,11 @@ _More community skills coming soon! Submit a PR to add your skill._
 
 - **[yusufkaraaslan/Skill_Seekers](https://github.com/yusufkaraaslan/Skill_Seekers)** - Convert documentation websites into Claude Skills
 
+### MCP Servers
+
+- **[mcp-interactive-terminal](https://github.com/amol21p/mcp-interactive-terminal)** - Real interactive terminal sessions for REPLs, SSH, database clients, and any interactive CLI — with clean text output, smart completion detection, and multi-layer security
+  - Install: `claude mcp add terminal -- npx -y mcp-interactive-terminal`
+
 ## ✏️ Creating Your First Skill
 
 <details>
