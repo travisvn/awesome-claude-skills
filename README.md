@@ -109,6 +109,10 @@ Skills for working with complex file formats:
   - [Blog post about its development](https://blog.fsck.com/2025/10/23/naming-claude-plugins/)
   - Install from `superpowers-marketplace` plugin
 
+- **[product-on-purpose/pm-skills](https://github.com/product-on-purpose/pm-skills)** - 24 product management skills covering the full PM lifecycle from discovery to delivery, following the [agentskills.io](https://agentskills.io/specification) specification
+  - Organized across 6 Triple Diamond phases with templates and workflow bundles
+  - [pm-skills-mcp](https://github.com/product-on-purpose/pm-skills-mcp) - MCP server for instant access to all 24 skills
+
 
 ### Individual Skills
 
