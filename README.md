@@ -127,6 +127,10 @@ Skills for working with complex file formats:
 
 _More community skills coming soon! Submit a PR to add your skill._
 
+### Statusline
+
+- **[npow/oh-my-claude](https://github.com/npow/oh-my-claude)** - Like oh-my-zsh but for Claude Code. Extensible statusline framework with themes (tamagotchi, boss-battle, RPG, narrator, and more), dozens of mix-and-match segments, and a plugin system. Zero npm dependencies.
+
 ### Tools
 
 - **[yusufkaraaslan/Skill_Seekers](https://github.com/yusufkaraaslan/Skill_Seekers)** - Convert documentation websites into Claude Skills
