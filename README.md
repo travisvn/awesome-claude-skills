@@ -129,6 +129,7 @@ _More community skills coming soon! Submit a PR to add your skill._
 
 ### Tools
 
+- **[mantra-hq/mantra](https://mantra.gonewx.com)** - Time-travel debugger for AI coding sessions — replay, inspect, and understand what happened during any Claude Code session. Releases at [mantra-releases](https://github.com/mantra-hq/mantra-releases)
 - **[yusufkaraaslan/Skill_Seekers](https://github.com/yusufkaraaslan/Skill_Seekers)** - Convert documentation websites into Claude Skills
 
 ## ✏️ Creating Your First Skill
