@@ -130,6 +130,7 @@ _More community skills coming soon! Submit a PR to add your skill._
 ### Tools
 
 - **[yusufkaraaslan/Skill_Seekers](https://github.com/yusufkaraaslan/Skill_Seekers)** - Convert documentation websites into Claude Skills
+- **[syntropic](https://github.com/petercholford-ship-it/syntropic-cli)** - CLI tool (npx syntropic init) that scaffolds CLAUDE.md, SKILL.md, and instruction files for Claude Code, Cursor, Windsurf, Copilot, and Codex with a battle-tested development methodology
 
 ## ✏️ Creating Your First Skill
 
