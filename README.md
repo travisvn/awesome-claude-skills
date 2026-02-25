@@ -130,6 +130,7 @@ _More community skills coming soon! Submit a PR to add your skill._
 
 ### Tools
 
+- **[Silicon Friendly](https://github.com/unlikefraction/silicon-friendly)** - MCP server that searches and rates websites on AI-agent friendliness using a 30-criteria L0-L5 taxonomy. Check if any site has llms.txt, agent-friendly APIs, or structured data. *By [@unlikefraction](https://github.com/unlikefraction)*
 - **[yusufkaraaslan/Skill_Seekers](https://github.com/yusufkaraaslan/Skill_Seekers)** - Convert documentation websites into Claude Skills
 
 ## ✏️ Creating Your First Skill
