@@ -125,6 +125,7 @@ Skills for working with complex file formats:
 | **[loki-mode](https://github.com/asklokesh/claudeskill-loki-mode)** | Multi-agent autonomous startup system - orchestrates 37 AI agents across 6 swarms to build, deploy, and operate a complete startup from PRD to revenue |
 | **[Trail of Bits Security Skills](https://github.com/trailofbits/skills)** | Security skills for static analysis with CodeQL/Semgrep, variant analysis, code auditing, and vulnerability detection |
 | **[frontend-slides](https://github.com/zarazhangrui/frontend-slides)** | Create animation-rich HTML presentations — from scratch or by converting PowerPoint files |
+| **[claude-skill-up](https://github.com/clawdioversace-beep/claude-skill-up)** | Gamified command discovery — daily quests, XP, streaks, and achievements that teach you the /commands you've been missing |
 
 _More community skills coming soon! Submit a PR to add your skill._
 
