@@ -109,6 +109,10 @@ Skills for working with complex file formats:
   - [Blog post about its development](https://blog.fsck.com/2025/10/23/naming-claude-plugins/)
   - Install from `superpowers-marketplace` plugin
 
+- **[OpenPaw](https://github.com/daxaur/openpaw)** - 38-skill bundle that turns Claude Code into a personal assistant. Includes git, Telegram, Discord, Obsidian, daily briefing, and more
+  - No daemon, no cloud, MIT licensed
+  - Installation: `npx pawmode`
+
 
 ### Individual Skills
 
