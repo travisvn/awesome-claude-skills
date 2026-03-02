@@ -131,6 +131,7 @@ _More community skills coming soon! Submit a PR to add your skill._
 
 ### Tools
 
+- **[PUIUX-Cloud/puiux-pilot](https://github.com/PUIUX-Cloud/puiux-pilot)** - Auto-configures Claude Code hooks, MCPs, and skills for any project. Scans 95+ project types and installs the relevant configuration. Includes quality scoring and cross-tool config translation.
 - **[yusufkaraaslan/Skill_Seekers](https://github.com/yusufkaraaslan/Skill_Seekers)** - Convert documentation websites into Claude Skills
 
 ## ✏️ Creating Your First Skill
