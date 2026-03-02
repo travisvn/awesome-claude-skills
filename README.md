@@ -133,6 +133,7 @@ _More community skills coming soon! Submit a PR to add your skill._
 
 - **[yusufkaraaslan/Skill_Seekers](https://github.com/yusufkaraaslan/Skill_Seekers)** - Convert documentation websites into Claude Skills
 
+- **[Claude Recall](https://github.com/zchdu/claude-recall)** - Automatically discovers repeated workflows from Claude Code usage logs and generates reusable skills. Uses a PostToolUse hook for silent logging and `/analyze-patterns` for cross-session pattern detection.
 ## ✏️ Creating Your First Skill
 
 <details>
