@@ -107,6 +107,20 @@ Skills must have gathered enough attention from the community so-as to have acqu
 > [!NOTE]
 > Due to the volume of PR submissions that do not conform to these contribution guidelines, if your skill hasn't acquired a basic 10 stars, it will be closed automatically.
 
+#### AI Automated Submissions
+
+Due to the influx of PRs, there is a requirement now that the PR not be explicitly generated / submitted with AI-assistance. 
+
+It's too untenable to try and review the entire codebase of an LLM-generated project that was also submitted with the help of generative AI. This requirement is intended to serve as a quick filter (which is honestly surprising, given that AI coding assistants are easily capable of ingesting the language of a `CONTRIBUTING.md` file of a repository).
+
+PRs will be closed without comment if the submitter has failed to acknowledge this or adhere by its basic tenets in order to weed out the low-effort submissions. 
+
+#### SaaS Submissions
+
+If the skill you're submitting is based around a SaaS, it's unlikely to get reviewed and will be closed. 
+
+This awesome list is not a jumping off point for your new venture — it's intended to be mostly for skills that improve the DX or UX of Claude / Claude Code without requiring requests going through your server.
+
 ### Article/Resource Submissions
 
 When submitting articles or resources:
