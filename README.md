@@ -132,6 +132,7 @@ _More community skills coming soon! Submit a PR to add your skill._
 ### Tools
 
 - **[yusufkaraaslan/Skill_Seekers](https://github.com/yusufkaraaslan/Skill_Seekers)** - Convert documentation websites into Claude Skills
+- **[claude-code-rag-setup](https://github.com/glowElephant/claude-code-rag-setup)** - Hybrid RAG system (FAISS + NetworkX graph + BM25) as MCP server for Claude Code with multi-PC sync and safety hooks
 
 ## ✏️ Creating Your First Skill
 
