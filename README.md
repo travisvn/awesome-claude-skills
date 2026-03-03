@@ -126,6 +126,8 @@ Skills for working with complex file formats:
 | **[Trail of Bits Security Skills](https://github.com/trailofbits/skills)** | Security skills for static analysis with CodeQL/Semgrep, variant analysis, code auditing, and vulnerability detection |
 | **[frontend-slides](https://github.com/zarazhangrui/frontend-slides)** | Create animation-rich HTML presentations — from scratch or by converting PowerPoint files |
 | **[Expo Skills](https://github.com/expo/skills)** | Official skills by the Expo team for developing Expo apps |
+| **[Everflow Sync](https://github.com/iscale-llc/claude-code-everflow-sync)** | Slash commands for syncing offers between Everflow affiliate network accounts -- URLs, creatives, geo targeting, payout rules, and postback pixels |
+| **[Domain Finder](https://github.com/iscale-llc/domain-finder-claude-code)** | Interactive domain brainstorming with instant .com availability checks via Namecheap API |
 
 _More community skills coming soon! Submit a PR to add your skill._
 
