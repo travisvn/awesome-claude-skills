@@ -131,6 +131,7 @@ _More community skills coming soon! Submit a PR to add your skill._
 
 ### Tools
 
+- **[GeiserX/LynxPrompt](https://github.com/GeiserX/LynxPrompt)** - Self-hostable platform for managing AI IDE configuration files — generates, syncs, and shares CLAUDE.md files (and configs for 30+ other AI coding assistants) via web UI, REST API, CLI, and federated blueprint marketplace ([website](https://lynxprompt.com))
 - **[yusufkaraaslan/Skill_Seekers](https://github.com/yusufkaraaslan/Skill_Seekers)** - Convert documentation websites into Claude Skills
 
 ## ✏️ Creating Your First Skill
