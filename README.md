@@ -131,6 +131,7 @@ _More community skills coming soon! Submit a PR to add your skill._
 
 ### Tools
 
+- **[q1uf3ng/claude-scope](https://github.com/q1uf3ng/claude-scope)** - Local-first DevTools for Claude API and Claude Code. Transparent proxy with real-time timeline, cost dashboard, token usage breakdown, and session export. `npx @q1uf3ng/claude-scope`
 - **[yusufkaraaslan/Skill_Seekers](https://github.com/yusufkaraaslan/Skill_Seekers)** - Convert documentation websites into Claude Skills
 
 ## ✏️ Creating Your First Skill
