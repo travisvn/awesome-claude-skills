@@ -129,6 +129,12 @@ Skills for working with complex file formats:
 
 _More community skills coming soon! Submit a PR to add your skill._
 
+### MCP Servers
+
+| Server | Description |
+| --- | --- |
+| **[frostbyte-mcp](https://github.com/Robocular/frostbyte-mcp)** | Remote MCP server providing 13+ developer tools — crypto prices, DNS/WHOIS lookups, screenshots, web scraping, code execution, PDF generation, and more. Works with Claude Desktop, Claude Code, Cursor, and VS Code via SSE or Streamable HTTP |
+
 ### Tools
 
 - **[yusufkaraaslan/Skill_Seekers](https://github.com/yusufkaraaslan/Skill_Seekers)** - Convert documentation websites into Claude Skills
