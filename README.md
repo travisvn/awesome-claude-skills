@@ -109,6 +109,11 @@ Skills for working with complex file formats:
   - [Blog post about its development](https://blog.fsck.com/2025/10/23/naming-claude-plugins/)
   - Install from `superpowers-marketplace` plugin
 
+- **[Accessibility Multiskill](https://github.com/lukeslp/accessibility-multiskill)** - WCAG 2.2 AA accessibility skill for Claude Code covering motor, cognitive, visual, and communication disabilities
+  - 10 stdlib-only Python audit scripts: contrast, alt text, focus order, landmark structure, target size, and more
+  - Production CSS utilities and copy-paste JS patterns included
+  - Installation: `git clone https://github.com/lukeslp/accessibility-multiskill.git .claude/skills/accessibility`
+
 
 ### Individual Skills
 
