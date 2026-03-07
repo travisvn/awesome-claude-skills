@@ -126,6 +126,7 @@ Skills for working with complex file formats:
 | **[Trail of Bits Security Skills](https://github.com/trailofbits/skills)** | Security skills for static analysis with CodeQL/Semgrep, variant analysis, code auditing, and vulnerability detection |
 | **[frontend-slides](https://github.com/zarazhangrui/frontend-slides)** | Create animation-rich HTML presentations — from scratch or by converting PowerPoint files |
 | **[Expo Skills](https://github.com/expo/skills)** | Official skills by the Expo team for developing Expo apps |
+| **[Google Ads Keyword Segmentation](https://github.com/AmanPHashim/google-ads-keyword-segmentation)** | Transforms Google Ads Keyword Planner exports into campaign-ready structures — filters, segments into 10-15 campaigns, and generates formatted Excel workbooks with phased strategy reports |
 
 _More community skills coming soon! Submit a PR to add your skill._
 
