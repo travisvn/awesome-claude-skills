@@ -98,6 +98,10 @@ Skills for working with complex file formats:
 
 ### Collections & Libraries
 
+- **[Geepers](https://github.com/lukeslp/geepers)** - 72 specialized agents for Claude Code spanning accessibility, performance, deployment, corpus linguistics, and more
+  - Install: `/plugin add lukeslp/geepers`
+  - Also on PyPI: `pip install geepers-llm`
+
 - **[obra/superpowers](https://github.com/obra/superpowers)** - Core skills library for Claude Code with 20+ battle-tested skills including TDD, debugging, and collaboration patterns
   - Features `/brainstorm`, `/write-plan`, `/execute-plan` commands and skills-search tool
   - [superpowers-skills](https://github.com/obra/superpowers-skills) - Community-editable skills repository
