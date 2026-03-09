@@ -126,6 +126,7 @@ Skills for working with complex file formats:
 | **[Trail of Bits Security Skills](https://github.com/trailofbits/skills)** | Security skills for static analysis with CodeQL/Semgrep, variant analysis, code auditing, and vulnerability detection |
 | **[frontend-slides](https://github.com/zarazhangrui/frontend-slides)** | Create animation-rich HTML presentations — from scratch or by converting PowerPoint files |
 | **[Expo Skills](https://github.com/expo/skills)** | Official skills by the Expo team for developing Expo apps |
+| **[encode-toolkit](https://github.com/ammawla/encode-toolkit)** | 48 genomics research skills + 20 MCP tools for the ENCODE Project — search experiments, download files with MD5 verification, run analysis pipelines, and cross-reference 14 databases |
 
 _More community skills coming soon! Submit a PR to add your skill._
 
