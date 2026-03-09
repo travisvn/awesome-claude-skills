@@ -126,6 +126,7 @@ Skills for working with complex file formats:
 | **[Trail of Bits Security Skills](https://github.com/trailofbits/skills)** | Security skills for static analysis with CodeQL/Semgrep, variant analysis, code auditing, and vulnerability detection |
 | **[frontend-slides](https://github.com/zarazhangrui/frontend-slides)** | Create animation-rich HTML presentations — from scratch or by converting PowerPoint files |
 | **[Expo Skills](https://github.com/expo/skills)** | Official skills by the Expo team for developing Expo apps |
+| **[capacitor-google-auth-skill](https://github.com/sukibk/capacitor-google-auth-skill)** | Native Google Sign-In for Capacitor apps — handles the WKWebView OAuth block with platform-aware auth flow using @capgo/capacitor-social-login |
 
 _More community skills coming soon! Submit a PR to add your skill._
 
