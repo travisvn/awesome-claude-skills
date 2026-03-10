@@ -127,6 +127,9 @@ Skills for working with complex file formats:
 | **[frontend-slides](https://github.com/zarazhangrui/frontend-slides)** | Create animation-rich HTML presentations — from scratch or by converting PowerPoint files |
 | **[Expo Skills](https://github.com/expo/skills)** | Official skills by the Expo team for developing Expo apps |
 
+| **[daily.dev](https://github.com/dailydotdev/daily/tree/master/skills/daily.dev)** | Overcome LLM knowledge cutoffs with real-time developer content. Search articles from thousands of sources, manage feeds, and access community-validated technical content via the daily.dev API |
+| **[daily-dev-ask](https://github.com/dailydotdev/daily/tree/master/skills/daily-dev-ask)** | Answer technical questions using daily.dev's knowledge base. Searches articles from the developer community and synthesizes answers with source links |
+
 _More community skills coming soon! Submit a PR to add your skill._
 
 ### Tools
