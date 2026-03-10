@@ -126,6 +126,7 @@ Skills for working with complex file formats:
 | **[Trail of Bits Security Skills](https://github.com/trailofbits/skills)** | Security skills for static analysis with CodeQL/Semgrep, variant analysis, code auditing, and vulnerability detection |
 | **[frontend-slides](https://github.com/zarazhangrui/frontend-slides)** | Create animation-rich HTML presentations — from scratch or by converting PowerPoint files |
 | **[Expo Skills](https://github.com/expo/skills)** | Official skills by the Expo team for developing Expo apps |
+| **[PM AI Partner](https://github.com/ahmedkhaledmohamed/PM-AI-Partner-Framework)** | 12 PM-specific agent skills (thought partner, devil's advocate, technical analyst, writer, builder, data analyst, product brief, meeting prep, stakeholder update, strategic clarity, hypothesis tester, competitor analyst), 6 workflow commands, 3 hooks. Install: `npx pm-ai-partner@latest` |
 
 _More community skills coming soon! Submit a PR to add your skill._
 
