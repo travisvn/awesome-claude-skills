@@ -126,6 +126,7 @@ Skills for working with complex file formats:
 | **[Trail of Bits Security Skills](https://github.com/trailofbits/skills)** | Security skills for static analysis with CodeQL/Semgrep, variant analysis, code auditing, and vulnerability detection |
 | **[frontend-slides](https://github.com/zarazhangrui/frontend-slides)** | Create animation-rich HTML presentations — from scratch or by converting PowerPoint files |
 | **[Expo Skills](https://github.com/expo/skills)** | Official skills by the Expo team for developing Expo apps |
+| **[blueprint](https://github.com/antbotlab/blueprint)** | Turn a one-line objective into a step-by-step construction plan any agent can execute cold — each step has a self-contained context brief, adversarial review gate, dependency graph, and plan mutation protocol. Pure markdown, zero runtime risk. |
 
 _More community skills coming soon! Submit a PR to add your skill._
 
