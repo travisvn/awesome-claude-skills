@@ -126,6 +126,7 @@ Skills for working with complex file formats:
 | **[Trail of Bits Security Skills](https://github.com/trailofbits/skills)** | Security skills for static analysis with CodeQL/Semgrep, variant analysis, code auditing, and vulnerability detection |
 | **[frontend-slides](https://github.com/zarazhangrui/frontend-slides)** | Create animation-rich HTML presentations — from scratch or by converting PowerPoint files |
 | **[Expo Skills](https://github.com/expo/skills)** | Official skills by the Expo team for developing Expo apps |
+| **[bulkgen](https://github.com/oil-oil/bulkgen-skill)** | Bulk AI image generation — generate 9 AI images for the cost of 1 via the BulkGen API. One grid request, auto-split into separate assets, ~89% cost savings vs individual generations |
 
 _More community skills coming soon! Submit a PR to add your skill._
 
