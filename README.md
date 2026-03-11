@@ -127,6 +127,8 @@ Skills for working with complex file formats:
 | **[frontend-slides](https://github.com/zarazhangrui/frontend-slides)** | Create animation-rich HTML presentations — from scratch or by converting PowerPoint files |
 | **[Expo Skills](https://github.com/expo/skills)** | Official skills by the Expo team for developing Expo apps |
 
+| **[LendTrain Mortgage Refinance](https://github.com/lendtrain/mortgage)** | AI-native mortgage refinance plugin with real-time institutional pricing, state-specific closing costs, FHA Streamline/VA IRRRL detection, weighted recommendation scoring, and regulatory compliance. No API key required. |
+
 _More community skills coming soon! Submit a PR to add your skill._
 
 ### Tools
