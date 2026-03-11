@@ -126,6 +126,16 @@ Skills for working with complex file formats:
 | **[Trail of Bits Security Skills](https://github.com/trailofbits/skills)** | Security skills for static analysis with CodeQL/Semgrep, variant analysis, code auditing, and vulnerability detection |
 | **[frontend-slides](https://github.com/zarazhangrui/frontend-slides)** | Create animation-rich HTML presentations — from scratch or by converting PowerPoint files |
 | **[Expo Skills](https://github.com/expo/skills)** | Official skills by the Expo team for developing Expo apps |
+| **[ORBWEVA Founder Toolkit](https://github.com/ORBWEVA)** | 9-repo founder & solopreneur toolkit (92 commands). Integrated skills covering customer discovery, design thinking, GTM/SEO/GEO, startup metrics, pitch/fundraise, legal/hiring/retention, solopreneur ops, AI agent recipes, and the CORE Method. Each skill feeds the next. Pure markdown, zero dependencies. Install individually: |
+| ↳ [founder-discovery](https://github.com/ORBWEVA/founder-discovery) | Customer discovery — Mom Test interviews, surveys, JTBD mapping, research synthesis (5 commands) |
+| ↳ [dt-skill](https://github.com/ORBWEVA/dt-skill) | Design thinking — empathize, define, ideate, prototype, test, audit (8 commands) |
+| ↳ [gtm-skills](https://github.com/ORBWEVA/gtm-skills) | GTM + GEO + SEO — positioning, channels, pricing, outreach, landing, launch, metrics, growth + AI search optimization (17 commands) |
+| ↳ [founder-metrics](https://github.com/ORBWEVA/founder-metrics) | Startup metrics — PMF, unit economics, churn, runway, funnel, growth curves, moat, fundraise readiness (10 commands) |
+| ↳ [founder-pitch](https://github.com/ORBWEVA/founder-pitch) | Pitch & fundraise — deck structure, financial models, investor emails, objection handling (5 commands) |
+| ↳ [founder-ops](https://github.com/ORBWEVA/founder-ops) | Startup ops — legal templates, hiring frameworks, retention playbooks (15 commands) |
+| ↳ [solo-skills](https://github.com/ORBWEVA/solo-skills) | Solopreneur business — offer design, revenue, audience, content, sales, bookkeeping, tax, time audit (15 commands) |
+| ↳ [solo-agents](https://github.com/ORBWEVA/solo-agents) | AI agent recipes — automation audit, agent design, n8n + Claude API build guides, 8 pre-built agent templates (12 commands) |
+| ↳ [orbweva-method](https://github.com/ORBWEVA/orbweva-method) | CORE Method — strategic glue connecting all skills to CORE/ARC/AER/Grow methodology (5 commands) |
 
 _More community skills coming soon! Submit a PR to add your skill._
 
