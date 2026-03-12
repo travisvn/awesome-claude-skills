@@ -109,6 +109,8 @@ Skills for working with complex file formats:
   - [Blog post about its development](https://blog.fsck.com/2025/10/23/naming-claude-plugins/)
   - Install from `superpowers-marketplace` plugin
 
+- **[yorrick/claude-code-plugins](https://github.com/yorrick/claude-code-plugins)** - Collection of Claude Code plugins, including `dev-loop` for automated implementation and review workflows and `self-improve-skill` for session reflection
+
 
 ### Individual Skills
 
