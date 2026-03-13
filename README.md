@@ -126,6 +126,7 @@ Skills for working with complex file formats:
 | **[Trail of Bits Security Skills](https://github.com/trailofbits/skills)** | Security skills for static analysis with CodeQL/Semgrep, variant analysis, code auditing, and vulnerability detection |
 | **[frontend-slides](https://github.com/zarazhangrui/frontend-slides)** | Create animation-rich HTML presentations — from scratch or by converting PowerPoint files |
 | **[Expo Skills](https://github.com/expo/skills)** | Official skills by the Expo team for developing Expo apps |
+| **[code-review-skill](https://github.com/meaLuda/Claude-Code-Skill---Code-Reviewer)** | Structured 7-step code review with architecture mapping, false-positive verification, confidence scoring, and approval-gated fixes |
 
 _More community skills coming soon! Submit a PR to add your skill._
 
