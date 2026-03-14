@@ -318,6 +318,7 @@ _Video tutorials coming soon! Have a good video about Claude Skills? Submit a PR
 - **Review SKILL.md and all scripts** before enabling a skill
 - **Be cautious of skills** that request sensitive data access
 - **Audit carefully** before deploying to production or enterprise environments
+- **Use automated scanning** — [AgentShield](https://github.com/elliotllliu/agent-shield) can scan skills for prompt injection, data exfiltration, and backdoors before installation (`npx @elliotllliu/agent-shield scan ./skill/`)
 
 ### Security Concerns
 
