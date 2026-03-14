@@ -109,6 +109,8 @@ Skills for working with complex file formats:
   - [Blog post about its development](https://blog.fsck.com/2025/10/23/naming-claude-plugins/)
   - Install from `superpowers-marketplace` plugin
 
+- **[myths-labs/muse](https://github.com/myths-labs/muse)** - Pure-Markdown operating system for AI pair programming with cross-conversation memory, 48 reusable skills, role-based governance (8 specialized roles), and workflow commands (`/resume`, `/bye`). Works with Claude Code, Cursor, Windsurf, OpenClaw, Gemini CLI, Codex CLI. Zero dependencies, MIT licensed.
+
 
 ### Individual Skills
 
