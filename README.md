@@ -109,6 +109,9 @@ Skills for working with complex file formats:
   - [Blog post about its development](https://blog.fsck.com/2025/10/23/naming-claude-plugins/)
   - Install from `superpowers-marketplace` plugin
 
+- **[Claudify](https://claudify.tech)** - Complete operating system for Claude Code with 1,700+ skills across 31 categories, specialist agents with persistent memory, slash commands, and automated quality checks
+  - One-command install via `npx create-claudify`
+  - Works with Claude Code, Cursor, Windsurf, and other AI coding tools
 
 ### Individual Skills
 
