@@ -126,6 +126,7 @@ Skills for working with complex file formats:
 | **[Trail of Bits Security Skills](https://github.com/trailofbits/skills)** | Security skills for static analysis with CodeQL/Semgrep, variant analysis, code auditing, and vulnerability detection |
 | **[frontend-slides](https://github.com/zarazhangrui/frontend-slides)** | Create animation-rich HTML presentations — from scratch or by converting PowerPoint files |
 | **[Expo Skills](https://github.com/expo/skills)** | Official skills by the Expo team for developing Expo apps |
+| **[business-tracker](https://github.com/k1r3zz/kira-claude-code/tree/main/skills/business-tracker)** | Auto-extract business logic from any codebase into living documentation. Supports Flutter, Node.js, Go, Python, Java, .NET, Rust, Ruby, PHP, iOS |
 
 _More community skills coming soon! Submit a PR to add your skill._
 
