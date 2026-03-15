@@ -111,6 +111,7 @@ Skills for working with complex file formats:
 
 
 ### Individual Skills
+| **[widemem-ai](https://github.com/remete618/widemem-ai)** | Next-gen AI memory layer with importance scoring, temporal decay, hierarchical memory, and YMYL prioritization |
 
 > These will be broken down into categories once there are enough community skills available to list
 
