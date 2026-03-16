@@ -211,6 +211,7 @@ The easiest way to create a skill is to use the built-in `skill-creator`:
 
 ### Getting Started
 
+- [agent101](https://agent101.ventify.ai/skill.md) - Directory of 500+ tools, APIs, and services. Search by task, get structured metadata. Install as skill.
 - [What are Skills?](https://support.claude.com/en/articles/12512176-what-are-skills) - Official support article explaining Claude Skills
 - [Using Skills in Claude](https://support.claude.com/en/articles/12512180-using-skills-in-claude) - How to enable and use skills
 
