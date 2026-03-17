@@ -133,6 +133,7 @@ _More community skills coming soon! Submit a PR to add your skill._
 ### Tools
 
 - **[yusufkaraaslan/Skill_Seekers](https://github.com/yusufkaraaslan/Skill_Seekers)** - Convert documentation websites into Claude Skills
+- **[holysheep123/holysheep-cli](https://github.com/holysheep123/holysheep-cli)** - One command to configure all AI coding tools (Claude Code, Codex, Gemini CLI, Cursor, Aider) with API relay
 
 ## ✏️ Creating Your First Skill
 
