@@ -132,6 +132,7 @@ _More community skills coming soon! Submit a PR to add your skill._
 
 ### Tools
 
+- **[GAL](https://gal.run)** - Enterprise governance platform for organizations deploying AI coding agents. Centralizes approved Claude Code configurations (CLAUDE.md, settings, commands, hooks, MCP) across your entire org — set policies via dashboard, developers pull with `gal sync --pull`. Multi-agent: Claude Code, Cursor, Copilot, Gemini, Codex.
 - **[yusufkaraaslan/Skill_Seekers](https://github.com/yusufkaraaslan/Skill_Seekers)** - Convert documentation websites into Claude Skills
 
 ## ✏️ Creating Your First Skill
