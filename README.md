@@ -109,6 +109,11 @@ Skills for working with complex file formats:
   - [Blog post about its development](https://blog.fsck.com/2025/10/23/naming-claude-plugins/)
   - Install from `superpowers-marketplace` plugin
 
+- **[jord0.skills](https://github.com/jord0-cmd/jord0.skills)** - 13 production-grade skills for Claude Code covering visual code comprehension, interactive image toolkits, AI image generation, immersive web creation, and session context management
+  - Includes REFRAX (visual code comprehension), LOCUS (interactive image toolkit), OPTIC (AI image pipeline), CANVAS (immersive web), PORTAL (context portals), and 8 more
+  - [Documentation site](https://jord0-cmd.github.io/jord0.skills/) with full guides for each skill
+  - Follows the Agent Skills open standard — compatible with Claude Code, Cursor, Gemini CLI, and 25+ tools
+
 
 ### Individual Skills
 
