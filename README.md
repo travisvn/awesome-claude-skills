@@ -133,6 +133,7 @@ _More community skills coming soon! Submit a PR to add your skill._
 ### Tools
 
 - **[yusufkaraaslan/Skill_Seekers](https://github.com/yusufkaraaslan/Skill_Seekers)** - Convert documentation websites into Claude Skills
+- **[wd041216-bit/openclaw-github-repo-commander](https://github.com/wd041216-bit/openclaw-github-repo-commander)** - 7-stage super workflow for GitHub repo audit, cleanup, PR review, and competitor analysis
 
 ## ✏️ Creating Your First Skill
 
