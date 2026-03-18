@@ -211,6 +211,7 @@ The easiest way to create a skill is to use the built-in `skill-creator`:
 
 ### Getting Started
 
+- [Arch Tools MCP](https://archtools.dev) - 58 production API tools for Claude agents with x402 USDC payments. Web scraping, AI generation, crypto data, OCR, browser automation. `npx @deesmo/arch-tools-mcp`. Patent-pending agent auth. ([GitHub](https://github.com/Deesmo/Arch-AI-Tools))
 - [What are Skills?](https://support.claude.com/en/articles/12512176-what-are-skills) - Official support article explaining Claude Skills
 - [Using Skills in Claude](https://support.claude.com/en/articles/12512180-using-skills-in-claude) - How to enable and use skills
 
