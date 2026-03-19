@@ -98,6 +98,8 @@ Skills for working with complex file formats:
 
 ### Collections & Libraries
 
+- **[vibeeval/vibecosystem](https://github.com/vibeeval/vibecosystem)** - Complete AI software team for Claude Code with 119 agents, 202 skills, 48 hooks, self-learning pipeline, and cross-project pattern promotion
+
 - **[obra/superpowers](https://github.com/obra/superpowers)** - Core skills library for Claude Code with 20+ battle-tested skills including TDD, debugging, and collaboration patterns
   - Features `/brainstorm`, `/write-plan`, `/execute-plan` commands and skills-search tool
   - [superpowers-skills](https://github.com/obra/superpowers-skills) - Community-editable skills repository
