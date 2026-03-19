@@ -133,6 +133,7 @@ _More community skills coming soon! Submit a PR to add your skill._
 ### Tools
 
 - **[yusufkaraaslan/Skill_Seekers](https://github.com/yusufkaraaslan/Skill_Seekers)** - Convert documentation websites into Claude Skills
+- **[liaoandi/skill_miner](https://github.com/liaoandi/skill_miner)** - Mine reusable skills from your AI agent session history. Scans Claude Code, Codex, OpenClaw, and Gemini CLI sessions to find recurring workflows and generate SKILL.md files
 
 ## ✏️ Creating Your First Skill
 
