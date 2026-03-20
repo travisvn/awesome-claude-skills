@@ -128,6 +128,10 @@ Skills for working with complex file formats:
 | **[Expo Skills](https://github.com/expo/skills)** | Official skills by the Expo team for developing Expo apps |
 | **[shadcn/ui](https://ui.shadcn.com/docs/skills)** | Give Claude Code context on shadcn components as well as pattern enforcement |
 
+| **[graphify-infographic-engine](https://graphifymd.com)** | Generate interactive HTML infographics for textbooks and courses — 8 layout types (process flow, comparison, timeline, concept map, etc.), dark theme, self-contained, D3.js when needed. Built for the YODA educational pipeline. |
+| **[graphify-learn-engine](https://graphifymd.com)** | Conversational learning engine with 5-layer answer architecture: one-liner → analogy → mechanism → relationship map → comprehension check. Adapts to learner domain, supports voice mode, outputs as dialogue, textbook sections, FAQ, or flashcards. |
+| **[graphify-context-extractor](https://graphifymd.com)** | Transforms any source — transcripts, PDFs, web pages, voice memos, raw text — into a portable knowledge graph compressed to .md. 170x token density, 93% compression. Output works in Claude, ChatGPT, Cursor, MCP, or any AI environment. |
+
 _More community skills coming soon! Submit a PR to add your skill._
 
 ### Tools
