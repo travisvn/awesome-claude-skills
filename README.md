@@ -128,6 +128,12 @@ Skills for working with complex file formats:
 | **[Expo Skills](https://github.com/expo/skills)** | Official skills by the Expo team for developing Expo apps |
 | **[shadcn/ui](https://ui.shadcn.com/docs/skills)** | Give Claude Code context on shadcn components as well as pattern enforcement |
 
+| **[skill-overnight-worker](https://github.com/fullstackcrew-alpha/skill-overnight-worker)** | Autonomous overnight work agent. Assign tasks before sleep, get structured results by morning |
+| **[skill-cost-optimizer](https://github.com/fullstackcrew-alpha/skill-cost-optimizer)** | Save 60-80% on AI token costs with smart model routing, context compression, and heartbeat tuning |
+| **[skill-devops-agent](https://github.com/fullstackcrew-alpha/skill-devops-agent)** | One-click deploy, monitoring setup, scheduled backups, fault diagnosis with safety-first design |
+| **[skill-cn-content-matrix](https://github.com/fullstackcrew-alpha/skill-cn-content-matrix)** | Chinese multi-platform content generator for Xiaohongshu, WeChat, Douyin, Bilibili with true style transfer |
+| **[skill-smart-pr-review](https://github.com/fullstackcrew-alpha/skill-smart-pr-review)** | Opinionated AI code reviewer with 6-layer deep review, Devil's Advocate mode, MUST FIX/SHOULD FIX/SUGGESTION output |
+
 _More community skills coming soon! Submit a PR to add your skill._
 
 ### Tools
