@@ -128,6 +128,7 @@ Skills for working with complex file formats:
 | **[Expo Skills](https://github.com/expo/skills)** | Official skills by the Expo team for developing Expo apps |
 | **[shadcn/ui](https://ui.shadcn.com/docs/skills)** | Give Claude Code context on shadcn components as well as pattern enforcement |
 
+| **[cost-optimizer](https://github.com/fullstackcrew-alpha/skill-cost-optimizer)** | Save 60-80% on AI token costs with smart model routing, context compression, heartbeat tuning, usage reports, and config generation |
 _More community skills coming soon! Submit a PR to add your skill._
 
 ### Tools
