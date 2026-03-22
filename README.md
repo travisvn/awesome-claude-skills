@@ -71,6 +71,7 @@ Skills for working with complex file formats:
 
 - **[algorithmic-art](https://github.com/anthropics/skills/tree/main/skills/algorithmic-art)** - Create generative art using p5.js with seeded randomness, flow fields, and particle systems
 - **[canvas-design](https://github.com/anthropics/skills/tree/main/skills/canvas-design)** - Design beautiful visual art in .png and .pdf formats using design philosophies
+- **[hand-drawn-diagrams](https://github.com/muthuishere/hand-drawn-diagrams)** - Generate hand-drawn Excalidraw diagrams from a prompt — animated SVG, hosted edit link, and PNG export. Works with Claude Code, Codex, and any agent supporting standard skill paths
 - **[slack-gif-creator](https://github.com/anthropics/skills/tree/main/skills/slack-gif-creator)** - Create animated GIFs optimized for Slack's size constraints
 
 ### Development
