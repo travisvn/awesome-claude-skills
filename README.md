@@ -122,7 +122,7 @@ Skills for working with complex file formats:
 | **[claude-d3js-skill](https://github.com/chrisvoncsefalvay/claude-d3js-skill)** | Visualizations in d3.js |
 | **[claude-scientific-skills](https://github.com/K-Dense-AI/claude-scientific-skills)** | Comprehensive collection of ready-to-use scientific skills, including working with specialized scientific libraries and databases |
 | **[web-asset-generator](https://github.com/alonw0/web-asset-generator)** | Generates web assets like favicons, app icons, and social media images |
-| **[faf-skills](https://github.com/Wolfe-Jam/faf-skills)** | 17 skills for AI-context, testing, and MCP development. Create `.faf` project DNA, score AI-readiness (0-100%), sync with CLAUDE.md, build MCP servers, and generate test suites. IANA-registered format with 36,000+ downloads |
+| **[faf-skills](https://github.com/Wolfe-Jam/faf-skills)** | 31 skills for persistent project context (.faf format). Scoring, sync, testing, publishing, MCP server creation, architecture docs. Anthropic MCP #2759 |
 
 _More community skills coming soon! Submit a PR to add your skill._
 
