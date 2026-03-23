@@ -104,6 +104,8 @@ Skills for working with complex file formats:
   - [Blog: Superpowers](https://blog.fsck.com/2025/10/09/superpowers/) - Author's overview by Jesse Vincent
   - Installation: `/plugin marketplace add obra/superpowers-marketplace`
  
+- **[mergisi/claude-recipes](https://github.com/mergisi/claude-recipes)** - 30+ ready-to-use Claude Code workflows for SEO, DevOps, analytics, GitHub automation, and more. Copy-paste recipes with real commands.
+
 - **[obra/superpowers-lab](https://github.com/obra/superpowers-lab)** - Experimental skills for `Claude Code Superpowers` (see above)
   - Uses new techniques that are still being refined and tested (i.e. skills here may change over time)
   - [Blog post about its development](https://blog.fsck.com/2025/10/23/naming-claude-plugins/)
