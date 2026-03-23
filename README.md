@@ -133,6 +133,8 @@ _More community skills coming soon! Submit a PR to add your skill._
 ### Tools
 
 - **[yusufkaraaslan/Skill_Seekers](https://github.com/yusufkaraaslan/Skill_Seekers)** - Convert documentation websites into Claude Skills
+- **[cc-safe-setup](https://github.com/yurukusa/cc-safe-setup)** - One-command safety hooks for Claude Code. Blocks destructive commands, force-push, secret leaks. `npx cc-safe-setup`
+- **[cc-hook-test](https://github.com/yurukusa/cc-hook-test)** - Test runner for Claude Code hooks. Auto-detects hook type and generates test cases. `npx cc-hook-test <hook.sh>`
 
 ## ✏️ Creating Your First Skill
 
