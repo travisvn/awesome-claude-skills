@@ -132,6 +132,7 @@ _More community skills coming soon! Submit a PR to add your skill._
 
 ### Tools
 
+- **[claw-army/claude-node](https://github.com/claw-army/claude-node)** - Python subprocess bridge for Claude Code CLI, giving Python code direct access to Claude Code native capabilities via stream-json.
 - **[yusufkaraaslan/Skill_Seekers](https://github.com/yusufkaraaslan/Skill_Seekers)** - Convert documentation websites into Claude Skills
 
 ## ✏️ Creating Your First Skill
