@@ -111,6 +111,7 @@ Skills for working with complex file formats:
 
 
 ### Individual Skills
+| **[skills-janitor](https://github.com/khendzel/skills-janitor)** | Audit, deduplicate, check, fix, and track usage of your Claude Code skills — 9 actions, zero dependencies |
 
 > These will be broken down into categories once there are enough community skills available to list
 
