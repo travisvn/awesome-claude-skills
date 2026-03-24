@@ -127,6 +127,7 @@ Skills for working with complex file formats:
 | **[frontend-slides](https://github.com/zarazhangrui/frontend-slides)** | Create animation-rich HTML presentations — from scratch or by converting PowerPoint files |
 | **[Expo Skills](https://github.com/expo/skills)** | Official skills by the Expo team for developing Expo apps |
 | **[shadcn/ui](https://ui.shadcn.com/docs/skills)** | Give Claude Code context on shadcn components as well as pattern enforcement |
+| **[xvary-stock-research](https://github.com/xvary-research/claude-code-stock-analysis-skill)** | Thesis-driven equity analysis from public SEC EDGAR and market data; `/analyze`, `/score`, and `/compare` workflows with bundled Python tools and pytest coverage (MIT). Optional: `pip install requests` for the local fetch scripts. |
 
 _More community skills coming soon! Submit a PR to add your skill._
 
