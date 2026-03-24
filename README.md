@@ -93,7 +93,7 @@ Skills for working with complex file formats:
 
 > [!Warning]
 > Skills can execute arbitrary code in Claude's environment.
-> 
+>
 > See [Security & Best Practices](#-security--best-practices) for more information
 
 ### Collections & Libraries
@@ -103,30 +103,30 @@ Skills for working with complex file formats:
   - [superpowers-skills](https://github.com/obra/superpowers-skills) - Community-editable skills repository
   - [Blog: Superpowers](https://blog.fsck.com/2025/10/09/superpowers/) - Author's overview by Jesse Vincent
   - Installation: `/plugin marketplace add obra/superpowers-marketplace`
- 
+
 - **[obra/superpowers-lab](https://github.com/obra/superpowers-lab)** - Experimental skills for `Claude Code Superpowers` (see above)
   - Uses new techniques that are still being refined and tested (i.e. skills here may change over time)
   - [Blog post about its development](https://blog.fsck.com/2025/10/23/naming-claude-plugins/)
   - Install from `superpowers-marketplace` plugin
 
-
 ### Individual Skills
 
 > These will be broken down into categories once there are enough community skills available to list
 
-| Skill | Description |
-| --- | --- |
-| **[ios-simulator-skill](https://github.com/conorluddy/ios-simulator-skill)** | iOS app building, navigation, and testing through automation |
-| **[ffuf-web-fuzzing](https://github.com/jthack/ffuf_claude_skill)** | Expert guidance for ffuf web fuzzing during penetration testing, including authenticated fuzzing with raw requests, auto-calibration, and result analysis |
-| **[playwright-skill](https://github.com/lackeyjb/playwright-skill)** | General-purpose browser automation using Playwright |
-| **[claude-d3js-skill](https://github.com/chrisvoncsefalvay/claude-d3js-skill)** | Visualizations in d3.js |
-| **[claude-scientific-skills](https://github.com/K-Dense-AI/claude-scientific-skills)** | Comprehensive collection of ready-to-use scientific skills, including working with specialized scientific libraries and databases |
-| **[web-asset-generator](https://github.com/alonw0/web-asset-generator)** | Generates web assets like favicons, app icons, and social media images |
-| **[loki-mode](https://github.com/asklokesh/claudeskill-loki-mode)** | Multi-agent autonomous startup system - orchestrates 37 AI agents across 6 swarms to build, deploy, and operate a complete startup from PRD to revenue |
-| **[Trail of Bits Security Skills](https://github.com/trailofbits/skills)** | Security skills for static analysis with CodeQL/Semgrep, variant analysis, code auditing, and vulnerability detection |
-| **[frontend-slides](https://github.com/zarazhangrui/frontend-slides)** | Create animation-rich HTML presentations — from scratch or by converting PowerPoint files |
-| **[Expo Skills](https://github.com/expo/skills)** | Official skills by the Expo team for developing Expo apps |
-| **[shadcn/ui](https://ui.shadcn.com/docs/skills)** | Give Claude Code context on shadcn components as well as pattern enforcement |
+| Skill                                                                                  | Description                                                                                                                                               |
+| -------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **[ios-simulator-skill](https://github.com/conorluddy/ios-simulator-skill)**           | iOS app building, navigation, and testing through automation                                                                                              |
+| **[ffuf-web-fuzzing](https://github.com/jthack/ffuf_claude_skill)**                    | Expert guidance for ffuf web fuzzing during penetration testing, including authenticated fuzzing with raw requests, auto-calibration, and result analysis |
+| **[playwright-skill](https://github.com/lackeyjb/playwright-skill)**                   | General-purpose browser automation using Playwright                                                                                                       |
+| **[claude-d3js-skill](https://github.com/chrisvoncsefalvay/claude-d3js-skill)**        | Visualizations in d3.js                                                                                                                                   |
+| **[claude-scientific-skills](https://github.com/K-Dense-AI/claude-scientific-skills)** | Comprehensive collection of ready-to-use scientific skills, including working with specialized scientific libraries and databases                         |
+| **[web-asset-generator](https://github.com/alonw0/web-asset-generator)**               | Generates web assets like favicons, app icons, and social media images                                                                                    |
+| **[loki-mode](https://github.com/asklokesh/claudeskill-loki-mode)**                    | Multi-agent autonomous startup system - orchestrates 37 AI agents across 6 swarms to build, deploy, and operate a complete startup from PRD to revenue    |
+| **[Trail of Bits Security Skills](https://github.com/trailofbits/skills)**             | Security skills for static analysis with CodeQL/Semgrep, variant analysis, code auditing, and vulnerability detection                                     |
+| **[frontend-slides](https://github.com/zarazhangrui/frontend-slides)**                 | Create animation-rich HTML presentations — from scratch or by converting PowerPoint files                                                                 |
+| **[Expo Skills](https://github.com/expo/skills)**                                      | Official skills by the Expo team for developing Expo apps                                                                                                 |
+| **[shadcn/ui](https://ui.shadcn.com/docs/skills)**                                     | Give Claude Code context on shadcn components as well as pattern enforcement                                                                              |
+| **[godmode-lite](https://github.com/Lotron-Electrical/godmode-lite)**                  | Free 4-layer execution protocol — deep context loading, complete execution with edge cases, exhaustive test generation, and polish pass on every task     |
 
 _More community skills coming soon! Submit a PR to add your skill._
 
@@ -181,12 +181,10 @@ The easiest way to create a skill is to use the built-in `skill-creator`:
    ```
 
 3. **Add executable scripts** (optional):
-
    - Python, JavaScript, or other scripts Claude can execute
    - Reference them in your SKILL.md instructions
 
 4. **Test locally**:
-
    - Install the skill in Claude Code or Claude Desktop
    - Test with relevant tasks
    - Iterate and refine
@@ -243,13 +241,13 @@ The easiest way to create a skill is to use the built-in `skill-creator`:
 
 ### Quick Reference: When to Use What
 
-| Tool | Best For |
-|------|----------|
-| **Skills** | Reusable procedural knowledge across conversations |
-| **Prompts** | One-time instructions and immediate context |
-| **Projects** | Persistent background knowledge within workspaces |
+| Tool          | Best For                                             |
+| ------------- | ---------------------------------------------------- |
+| **Skills**    | Reusable procedural knowledge across conversations   |
+| **Prompts**   | One-time instructions and immediate context          |
+| **Projects**  | Persistent background knowledge within workspaces    |
 | **Subagents** | Independent task execution with specific permissions |
-| **MCP** | Connecting Claude to external data sources |
+| **MCP**       | Connecting Claude to external data sources           |
 
 **Use Skills when**: Capabilities should be accessible to any Claude instance. They're portable expertise.
 
@@ -257,7 +255,7 @@ The easiest way to create a skill is to use the built-in `skill-creator`:
 
 **Combined approach**: Subagents can leverage Skills for specialized expertise, merging independence with portable knowledge.
 
-**Key insight**: *If you find yourself typing the same prompt repeatedly across multiple conversations, it's time to create a Skill.*
+**Key insight**: _If you find yourself typing the same prompt repeatedly across multiple conversations, it's time to create a Skill._
 
 ### Skills vs MCP (Model Context Protocol)
 
@@ -353,7 +351,6 @@ _Video tutorials coming soon! Have a good video about Claude Skills? Submit a PR
 ### Known Issues
 
 - **Linux path bug (Oct 18, 2025)**: Agent SDK uses hardcoded macOS paths instead of environment home directory
-
   - [Issue #268](https://github.com/anthropics/claude-agent-sdk-python/issues/268)
   - Workaround: Manually specify skill paths
 
