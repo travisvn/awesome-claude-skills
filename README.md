@@ -127,6 +127,7 @@ Skills for working with complex file formats:
 | **[frontend-slides](https://github.com/zarazhangrui/frontend-slides)** | Create animation-rich HTML presentations — from scratch or by converting PowerPoint files |
 | **[Expo Skills](https://github.com/expo/skills)** | Official skills by the Expo team for developing Expo apps |
 | **[shadcn/ui](https://ui.shadcn.com/docs/skills)** | Give Claude Code context on shadcn components as well as pattern enforcement |
+| **[adhx](https://github.com/itsmemeworks/adhx)** | Fetch any X/Twitter post as clean LLM-friendly JSON via a public API — no browser, no scraping. Supports regular tweets and full X Articles. Install: `/plugin marketplace add itsmemeworks/adhx` |
 
 _More community skills coming soon! Submit a PR to add your skill._
 
