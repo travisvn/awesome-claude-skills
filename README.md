@@ -127,6 +127,7 @@ Skills for working with complex file formats:
 | **[frontend-slides](https://github.com/zarazhangrui/frontend-slides)** | Create animation-rich HTML presentations — from scratch or by converting PowerPoint files |
 | **[Expo Skills](https://github.com/expo/skills)** | Official skills by the Expo team for developing Expo apps |
 | **[shadcn/ui](https://ui.shadcn.com/docs/skills)** | Give Claude Code context on shadcn components as well as pattern enforcement |
+| **[SpecFusion](https://github.com/wxkingstar/SpecFusion)** | Search 15 Chinese open platform API docs (WeChat Work, Feishu, DingTalk, Taobao, Xiaohongshu, Douyin, WeChat Mini Program, WeChat Shop, Pinduoduo, Youzan, WeChat Pay, Alipay, JD, SHEIN, Dewu) directly in Claude Code. 26,840+ docs with Chinese FTS5 search, zero config |
 
 _More community skills coming soon! Submit a PR to add your skill._
 
