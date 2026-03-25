@@ -110,6 +110,8 @@ Skills for working with complex file formats:
   - Install from `superpowers-marketplace` plugin
 
 
+- **[SkillFlow](https://skillflow.builders)** - AI skills marketplace with 500+ curated skills. MCP Server available: `npx skillflow-mcp-server`. Browse, search, and install skills directly from your AI agent. ([GitHub](https://github.com/rafsilva85/skillflow-mcp-server))
+
 ### Individual Skills
 
 > These will be broken down into categories once there are enough community skills available to list
