@@ -132,6 +132,7 @@ _More community skills coming soon! Submit a PR to add your skill._
 
 ### Tools
 
+- **[Schliff](https://github.com/Zandereins/schliff)** - Deterministic quality linter for SKILL.md files with scoring, anti-gaming detection, and autonomous improvement loop. `pip install schliff`
 - **[yusufkaraaslan/Skill_Seekers](https://github.com/yusufkaraaslan/Skill_Seekers)** - Convert documentation websites into Claude Skills
 
 ## ✏️ Creating Your First Skill
