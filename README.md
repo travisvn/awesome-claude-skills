@@ -139,6 +139,8 @@ _More community skills coming soon! Submit a PR to add your skill._
 <details>
 <summary><strong>Step-by-Step Guide</strong></summary>
 
+- **[Clarvia MCP](https://github.com/clarvia-project/scanner)** - AEO (Agent Engine Optimization) tool discovery and scoring. Gives Claude access to quality scores, reviews, and comparisons for 15,400+ AI agent tools via `npx clarvia-mcp-server`.
+
 ### Method 1: Use skill-creator (Recommended)
 
 The easiest way to create a skill is to use the built-in `skill-creator`:
