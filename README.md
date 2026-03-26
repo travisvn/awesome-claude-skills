@@ -127,6 +127,8 @@ Skills for working with complex file formats:
 | **[frontend-slides](https://github.com/zarazhangrui/frontend-slides)** | Create animation-rich HTML presentations — from scratch or by converting PowerPoint files |
 | **[Expo Skills](https://github.com/expo/skills)** | Official skills by the Expo team for developing Expo apps |
 | **[shadcn/ui](https://ui.shadcn.com/docs/skills)** | Give Claude Code context on shadcn components as well as pattern enforcement |
+| **[CoinPaprika API](https://github.com/coinpaprika/skills/tree/main/coinpaprika-api)** | Crypto market data for 12,000+ coins and 350+ exchanges. Tickers, OHLCV, historical prices, contract lookups. Free, no API key |
+| **[DexPaprika API](https://github.com/coinpaprika/skills/tree/main/dexpaprika-api)** | Free DEX data across 34 blockchains. 30M+ pools, 27M+ tokens, real-time SSE streaming, OHLCV. No API key, no rate limits |
 
 _More community skills coming soon! Submit a PR to add your skill._
 
