@@ -128,6 +128,8 @@ Skills for working with complex file formats:
 | **[Expo Skills](https://github.com/expo/skills)** | Official skills by the Expo team for developing Expo apps |
 | **[shadcn/ui](https://ui.shadcn.com/docs/skills)** | Give Claude Code context on shadcn components as well as pattern enforcement |
 
+| **[humanize-chinese](https://github.com/voidborne-d/humanize-chinese)** | Detect & remove AI fingerprints from Chinese text. 0-100 scoring, academic paper AIGC reduction, 7 style transforms. Pure Python, no deps. |
+| **[emotion-system](https://github.com/voidborne-d/emotion-system)** | Seven-layer emotional architecture for AI agents — PAD vectors, cognitive appraisal, drive dynamics, somatic markers. |
 _More community skills coming soon! Submit a PR to add your skill._
 
 ### Tools
