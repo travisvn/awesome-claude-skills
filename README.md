@@ -109,6 +109,9 @@ Skills for working with complex file formats:
   - [Blog post about its development](https://blog.fsck.com/2025/10/23/naming-claude-plugins/)
   - Install from `superpowers-marketplace` plugin
 
+- **[nardovibecoding/claude-curated](https://github.com/nardovibecoding/claude-curated)** - Collection of 8 production-tested Claude Code skills covering security scanning, memory lifecycle, CLAUDE.md optimization, adversarial code review, and more
+  - MIT licensed, works on macOS/Linux/Windows
+  - Individual skills: skill-guard, memory-keeper, claude-md-trim, red-alert, and others
 
 ### Individual Skills
 
@@ -127,6 +130,10 @@ Skills for working with complex file formats:
 | **[frontend-slides](https://github.com/zarazhangrui/frontend-slides)** | Create animation-rich HTML presentations — from scratch or by converting PowerPoint files |
 | **[Expo Skills](https://github.com/expo/skills)** | Official skills by the Expo team for developing Expo apps |
 | **[shadcn/ui](https://ui.shadcn.com/docs/skills)** | Give Claude Code context on shadcn components as well as pattern enforcement |
+| **[skill-guard](https://github.com/nardovibecoding/claude-curated)** | Security scanner that detects CVEs, secrets, and dependency vulnerabilities before they reach production |
+| **[memory-keeper](https://github.com/nardovibecoding/claude-curated)** | Memory lifecycle manager that handles creation, pruning, and cross-session persistence of CLAUDE.md memory files |
+| **[claude-md-trim](https://github.com/nardovibecoding/claude-curated)** | CLAUDE.md optimizer that trims bloated instruction files to stay within token budgets while preserving critical context |
+| **[red-alert](https://github.com/nardovibecoding/claude-curated)** | Adversarial code reviewer that stress-tests implementations by simulating edge cases, race conditions, and failure modes |
 
 _More community skills coming soon! Submit a PR to add your skill._
 
