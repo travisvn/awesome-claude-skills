@@ -41,6 +41,7 @@ This design allows multiple Skills to remain available without overwhelming Clau
 # Install skills from marketplace
 /plugin marketplace add anthropics/skills
 
+- [SkillFlow](https://skillflow.builders) - Curated AI Skills Marketplace. Search, discover, and install verified skills for Claude, GPT, Cursor, and other AI platforms via MCP.
 # Or install from local directory
 /plugin add /path/to/skill-directory
 ```
