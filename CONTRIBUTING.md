@@ -115,6 +115,12 @@ It's too untenable to try and review the entire codebase of an LLM-generated pro
 
 PRs will be closed without comment if the submitter has failed to acknowledge this or adhere by its basic tenets in order to weed out the low-effort submissions. 
 
+#### SaaS Submissions
+
+If the skill you're submitting is based around a SaaS, it's unlikely to get reviewed and will be closed. 
+
+This awesome list is not a jumping off point for your new venture — it's intended to be mostly for skills that improve the DX or UX of Claude / Claude Code without requiring requests going through your server.
+
 ### Article/Resource Submissions
 
 When submitting articles or resources:
