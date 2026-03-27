@@ -127,7 +127,7 @@ Skills for working with complex file formats:
 | **[frontend-slides](https://github.com/zarazhangrui/frontend-slides)** | Create animation-rich HTML presentations — from scratch or by converting PowerPoint files |
 | **[Expo Skills](https://github.com/expo/skills)** | Official skills by the Expo team for developing Expo apps |
 | **[shadcn/ui](https://ui.shadcn.com/docs/skills)** | Give Claude Code context on shadcn components as well as pattern enforcement |
-| **[shipwise](https://github.com/harmansidhudev/shipwise)** | Webapp launch lifecycle plugin — 15 skills (idea validation → architecture → security → billing → launch → growth), 4 automatic hooks, codebase auditor, experience-level calibration. 12/12 test scenarios passed, 2× auth security improvement validated. |
+| **[shipwise](https://github.com/harmansidhudev/shipwise)** | Webapp launch lifecycle plugin — 15 skills (idea validation → architecture → security → billing → launch → growth), 4 automatic hooks, 60+ reference docs, codebase auditor, experience-level calibration. 25/25 test scenarios passed, 2× auth security improvement validated. |
 
 _More community skills coming soon! Submit a PR to add your skill._
 
