@@ -132,6 +132,7 @@ _More community skills coming soon! Submit a PR to add your skill._
 
 ### Tools
 
+- **[claude-dash](https://github.com/krabat-l/claude-dash)** - Real-time statusline plugin showing context, quota, cost, cache, tools, and git status below your Claude Code prompt. 13 components, 5 themes, zero dependencies.
 - **[yusufkaraaslan/Skill_Seekers](https://github.com/yusufkaraaslan/Skill_Seekers)** - Convert documentation websites into Claude Skills
 
 ## ✏️ Creating Your First Skill
