@@ -127,6 +127,11 @@ Skills for working with complex file formats:
 | **[frontend-slides](https://github.com/zarazhangrui/frontend-slides)** | Create animation-rich HTML presentations — from scratch or by converting PowerPoint files |
 | **[Expo Skills](https://github.com/expo/skills)** | Official skills by the Expo team for developing Expo apps |
 | **[shadcn/ui](https://ui.shadcn.com/docs/skills)** | Give Claude Code context on shadcn components as well as pattern enforcement |
+| **[bouch-skills](https://github.com/paulieb89/bouch-skills)** | 9 free skills for UK professionals: property comps (MCP), P6 schedule summary (MCP), legislation lookup (MCP), Pine Script v6 lookup (MCP), content humaniser, meeting actions, client prep, workflow auditor, AI policy generator |
+| **[property-shared](https://github.com/paulieb89/property-shared)** | UK property data MCP server: Land Registry comps, EPC, Rightmove, rental yields, stamp duty, Companies House, planning |
+| **[pyp6xer-mcp](https://github.com/paulieb89/pyp6xer-mcp)** | Primavera P6 XER schedule analysis MCP server: critical path, earned value, float, quality checks, CSV export |
+| **[uk-legal-mcp](https://github.com/paulieb89/uk-legal-mcp)** | UK legal research MCP server: case law, legislation, Hansard debates, HMRC guidance, OSCOLA citations |
+| **[pinescript-mcp](https://github.com/paulieb89/pinescript-mcp)** | Pine Script v6 MCP server: documentation lookup, function validation, linting |
 
 _More community skills coming soon! Submit a PR to add your skill._
 
