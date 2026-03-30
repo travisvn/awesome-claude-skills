@@ -127,6 +127,7 @@ Skills for working with complex file formats:
 | **[frontend-slides](https://github.com/zarazhangrui/frontend-slides)** | Create animation-rich HTML presentations — from scratch or by converting PowerPoint files |
 | **[Expo Skills](https://github.com/expo/skills)** | Official skills by the Expo team for developing Expo apps |
 | **[shadcn/ui](https://ui.shadcn.com/docs/skills)** | Give Claude Code context on shadcn components as well as pattern enforcement |
+| **[persona-compass](https://github.com/snowyowlmia/persona-compass) - Build AI personality models of colleagues using Big Five, DISC, and conflict frameworks. Predict behavior, generate persona-calibrated message drafts, map relationship networks, and navigate office politics. Privacy-first codename system. Cross-cultural engine (CN/US/JP/KR). Works on Claude Code and Claude.ai. Zero dependencies.
 
 _More community skills coming soon! Submit a PR to add your skill._
 
