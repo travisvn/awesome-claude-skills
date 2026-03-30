@@ -79,6 +79,7 @@ Skills for working with complex file formats:
 - **[web-artifacts-builder](https://github.com/anthropics/skills/tree/main/skills/web-artifacts-builder)** - Build complex claude.ai HTML artifacts using React, Tailwind CSS, and shadcn/ui components
 - **[mcp-builder](https://github.com/anthropics/skills/tree/main/skills/mcp-builder)** - Guide for creating high-quality MCP servers to integrate external APIs and services
 - **[webapp-testing](https://github.com/anthropics/skills/tree/main/skills/webapp-testing)** - Test local web applications using Playwright for UI verification and debugging
+- **[code-review](https://github.com/Wubabalala/claude-skills)** - Two-layer code review with auto-generated project-specific checklists, P0-P3 severity grading, blast radius analysis, and 1-10 code scoring.
 
 ### Communication
 
