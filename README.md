@@ -109,6 +109,8 @@ Skills for working with complex file formats:
   - [Blog post about its development](https://blog.fsck.com/2025/10/23/naming-claude-plugins/)
   - Install from `superpowers-marketplace` plugin
 
+- **[finsilabs/awesome-ecommerce-skills](https://github.com/finsilabs/awesome-ecommerce-skills)** - Open-source library of 82+ AI skills for Claude Code, Cursor, Copilot, and other AI coding assistants. Each skill teaches platform-specific ecommerce best practices for Shopify, WooCommerce, BigCommerce, Magento, and headless setups. Automated evals: quality improved from 66% to 96%. Free (MIT License). [awesome-ecommerce-skills.com](https://awesome-ecommerce-skills.com)
+
 
 ### Individual Skills
 
