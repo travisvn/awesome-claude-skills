@@ -127,6 +127,7 @@ Skills for working with complex file formats:
 | **[frontend-slides](https://github.com/zarazhangrui/frontend-slides)** | Create animation-rich HTML presentations — from scratch or by converting PowerPoint files |
 | **[Expo Skills](https://github.com/expo/skills)** | Official skills by the Expo team for developing Expo apps |
 | **[shadcn/ui](https://ui.shadcn.com/docs/skills)** | Give Claude Code context on shadcn components as well as pattern enforcement |
+| **[claudebase](https://github.com/rohithzr/claudebase)** | Back up, restore, and sync your Claude Code config (settings, skills, agents, hooks, rules, memory) to a private GitHub repo with named profiles and secret scanning |
 
 _More community skills coming soon! Submit a PR to add your skill._
 
