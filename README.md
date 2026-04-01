@@ -447,6 +447,10 @@ A: For skills from git repositories, pull the latest changes. For manually insta
 
 </details>
 
+## 🌐 Directories & Aggregators
+
+- [powerpoint.md](https://powerpoint.md) — Curated directory of 33 AI PowerPoint & Excel skills for Claude Code agents. Includes install commands, ratings, and detail pages for every skill. Agent-friendly with [/llms.txt](https://powerpoint.md/llms.txt).
+
 ## 🤝 Contributing
 
 Contributions welcome! See [contribution guidelines](CONTRIBUTING.md) for details. To add a skill or resource: fork, add to appropriate section, submit PR.
