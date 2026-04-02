@@ -125,6 +125,8 @@ Skills for working with complex file formats:
 | **[loki-mode](https://github.com/asklokesh/claudeskill-loki-mode)** | Multi-agent autonomous startup system - orchestrates 37 AI agents across 6 swarms to build, deploy, and operate a complete startup from PRD to revenue |
 | **[Trail of Bits Security Skills](https://github.com/trailofbits/skills)** | Security skills for static analysis with CodeQL/Semgrep, variant analysis, code auditing, and vulnerability detection |
 | **[frontend-slides](https://github.com/zarazhangrui/frontend-slides)** | Create animation-rich HTML presentations — from scratch or by converting PowerPoint files |
+| **[github-optimization-skill](https://github.com/199-biotechnologies/github-optimization-skill)** | Turn any GitHub repo into a star-magnet landing page — README optimization, SEO, and repo marketing |
+| **[humanise-text-skill](https://github.com/199-biotechnologies/humanise-text-skill)** | Strip AI writing patterns from any text with a 507-entry banned word list, structural pattern detection, and 12-check validation |
 | **[Expo Skills](https://github.com/expo/skills)** | Official skills by the Expo team for developing Expo apps |
 | **[shadcn/ui](https://ui.shadcn.com/docs/skills)** | Give Claude Code context on shadcn components as well as pattern enforcement |
 
