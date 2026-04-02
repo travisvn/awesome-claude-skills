@@ -345,6 +345,8 @@ _Video tutorials coming soon! Have a good video about Claude Skills? Submit a PR
 
 </details>
 
+- [skill-taxonomy](https://github.com/SeeleAI/skill-taxonomy) - Analyze and visualize OpenClaw skill systems with interactive reports for dependencies, routing conflicts, duplicates, and missing abstractions.
+
 ## 🛠️ Troubleshooting
 
 <details>
