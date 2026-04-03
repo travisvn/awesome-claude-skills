@@ -110,6 +110,8 @@ Skills for working with complex file formats:
   - Install from `superpowers-marketplace` plugin
 
 
+- **[A.S.K. — Agent Skills Kernel](https://github.com/srmbsrg/ask-kernel)** - Versioned, composable skill library for AI agents. Define capabilities once in SKILL.md files, invoke by name across sessions. Ships as a plugin with 65+ cross-domain skills (finance, engineering, marketing, ops, data).
+
 ### Individual Skills
 
 > These will be broken down into categories once there are enough community skills available to list
