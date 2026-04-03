@@ -79,6 +79,7 @@ Skills for working with complex file formats:
 - **[web-artifacts-builder](https://github.com/anthropics/skills/tree/main/skills/web-artifacts-builder)** - Build complex claude.ai HTML artifacts using React, Tailwind CSS, and shadcn/ui components
 - **[mcp-builder](https://github.com/anthropics/skills/tree/main/skills/mcp-builder)** - Guide for creating high-quality MCP servers to integrate external APIs and services
 - **[webapp-testing](https://github.com/anthropics/skills/tree/main/skills/webapp-testing)** - Test local web applications using Playwright for UI verification and debugging
+- **[templateclaw](https://github.com/jeromwolf/templateclaw)** - Developer template hub with 32 production-ready templates for project scaffolding. Covers landing pages, dashboards, UI components, dev methodology, and project setup across 7 slash commands.
 
 ### Communication
 
@@ -127,6 +128,7 @@ Skills for working with complex file formats:
 | **[frontend-slides](https://github.com/zarazhangrui/frontend-slides)** | Create animation-rich HTML presentations — from scratch or by converting PowerPoint files |
 | **[Expo Skills](https://github.com/expo/skills)** | Official skills by the Expo team for developing Expo apps |
 | **[shadcn/ui](https://ui.shadcn.com/docs/skills)** | Give Claude Code context on shadcn components as well as pattern enforcement |
+| **[TemplateClaw](https://github.com/jeromwolf/templateclaw)** | 32 production-ready templates as 7 Claude Code skills — landing pages, dashboards, UI components, project setup, and dev methodology. Includes 54 brand design systems (Stripe, Vercel, Linear, Claude, etc.) via `--brand` flag |
 
 _More community skills coming soon! Submit a PR to add your skill._
 
