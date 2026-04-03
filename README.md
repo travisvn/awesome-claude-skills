@@ -127,6 +127,7 @@ Skills for working with complex file formats:
 | **[frontend-slides](https://github.com/zarazhangrui/frontend-slides)** | Create animation-rich HTML presentations — from scratch or by converting PowerPoint files |
 | **[Expo Skills](https://github.com/expo/skills)** | Official skills by the Expo team for developing Expo apps |
 | **[shadcn/ui](https://ui.shadcn.com/docs/skills)** | Give Claude Code context on shadcn components as well as pattern enforcement |
+| **[tommy](https://github.com/deeprpatel2/tommy)** | Dog companion persona for Claude Code / OpenClaw. Pick a breed (8 options), get breed-matched personality for every task + real dog photos fetched mid-session via dog.ceo API. Free. |
 
 _More community skills coming soon! Submit a PR to add your skill._
 
