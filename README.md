@@ -128,6 +128,7 @@ Skills for working with complex file formats:
 | **[frontend-slides](https://github.com/zarazhangrui/frontend-slides)** | Create animation-rich HTML presentations — from scratch or by converting PowerPoint files |
 | **[Expo Skills](https://github.com/expo/skills)** | Official skills by the Expo team for developing Expo apps |
 | **[shadcn/ui](https://ui.shadcn.com/docs/skills)** | Give Claude Code context on shadcn components as well as pattern enforcement |
+| **[TemplateClaw](https://github.com/jeromwolf/templateclaw)** | 32 production-ready templates as 7 Claude Code skills — landing pages, dashboards, UI components, project setup, and dev methodology. Includes 54 brand design systems (Stripe, Vercel, Linear, Claude, etc.) via `--brand` flag |
 
 _More community skills coming soon! Submit a PR to add your skill._
 
