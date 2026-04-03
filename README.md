@@ -133,6 +133,7 @@ _More community skills coming soon! Submit a PR to add your skill._
 ### Tools
 
 - **[yusufkaraaslan/Skill_Seekers](https://github.com/yusufkaraaslan/Skill_Seekers)** - Convert documentation websites into Claude Skills
+- **[raphaelchristi/harness-evolver](https://github.com/raphaelchristi/harness-evolver)** - LangSmith-native autonomous agent optimization. Multi-agent proposers evolve prompts, routing, tools, and architecture in isolated git worktrees
 
 ## ✏️ Creating Your First Skill
 
