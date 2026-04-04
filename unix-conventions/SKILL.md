@@ -7,7 +7,7 @@ description: Use when reviewing or writing CLI tools, shell scripts, C programs,
 
 ## Overview
 
-Enforce code and documentation against three canonical sources: *The Art of Unix Programming* (ESR), POSIX, and the GNU Coding Standards.
+Enforce code and documentation against four canonical sources: *The Art of Unix Programming* (ESR), POSIX, the GNU Coding Standards, and "Worse is Better" (R.P. Gabriel).
 
 ## Task Dispatch
 
