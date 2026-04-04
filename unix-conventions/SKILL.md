@@ -1,85 +1,140 @@
 ---
 name: unix-conventions
-description: Reviews CLI tools, shell scripts, C programs, and man pages against POSIX, GNU Coding Standards, and Unix philosophy — flags violations with exact fixes.
+description: Use when reviewing or writing CLI tools, shell scripts, C programs, man pages, --help output, error messages, or any artifact where Unix/POSIX/GNU conventions apply. Also use when the user asks if something "follows Unix conventions" or "Unix philosophy".
 ---
 
 # Unix Conventions
 
-Enforces code and documentation against three canonical Unix standards: *The Art of Unix Programming* (ESR), POSIX (IEEE Std 1003.1), and the GNU Coding Standards. Covers option syntax, exit codes, stream usage, error message format, shell script hygiene, C program correctness, and man page structure.
+## Overview
 
-> **Claude Code only.** Clone [agiacalone/unix-conventions](https://github.com/agiacalone/unix-conventions) and run `./install.sh`, which copies the skill and reference documents to `~/.claude/skills/unix-conventions/`.
+Enforce code and documentation against three canonical sources: *The Art of Unix Programming* (ESR), POSIX, and the GNU Coding Standards.
 
-## When to Use This Skill
+## Task Dispatch
 
-- Reviewing a CLI tool for option, exit code, or stream convention violations
-- Auditing a shell script for portability and correctness issues
-- Checking a C program's error handling and resource management
-- Writing or reviewing a man page
-- Evaluating a tool's design against Unix philosophy
+| Task | References to load |
+|------|--------------------|
+| Review CLI tool (options, exit codes, streams) | `cli-conventions.md`, `taoup-principles.md` |
+| Review shell script | `cli-conventions.md`, `gnu-coding-standards.md` |
+| Review C program | `gnu-coding-standards.md`, `cli-conventions.md` |
+| Write or review man page | `man-page-format.md` |
+| Review `--help` / `--version` output | `cli-conventions.md`, `gnu-coding-standards.md` |
+| Unix philosophy / design review | `taoup-principles.md`, `worse-is-better.md` |
 
-## What This Skill Does
+Load only the references needed for the task. All references are in the `references/` subdirectory of this skill.
 
-1. **Loads targeted references** — pulls only the documents relevant to the task (POSIX, GNU, TAOUP, man page conventions) rather than applying everything at once
-2. **Resolves standard conflicts explicitly** — POSIX and GNU disagree on several points (`-h`, long options, shebang, `printf` vs `echo`); the skill asks rather than silently picking one
-3. **Reports violations in a structured format** — every finding includes location, what was found, what was expected, and an exact fix
-4. **Applies the Worse is Better design lens** — flags tradeoffs between implementation simplicity and interface elegance during design reviews
+## Configuration
 
-## How to Use
+Load preferences in this order (highest to lowest precedence):
 
-### Basic Usage
+1. `.unix-conventions` in the project root
+2. `~/.config/unix-conventions/config` (user config)
+3. Skill defaults — ask
+
+Read whichever files exist and merge them, with higher-precedence files winning. If a setting is `ask` or absent in all files, follow the conflict rules below.
+
+## Conflicts Between Standards
+
+The three sources disagree on these points. **Do not assume — ask the user** unless the config file resolves it.
+
+| Conflict | POSIX | GNU | Resolution |
+|----------|-------|-----|------------|
+| `-h` option | Not reserved; tools use it for domain purposes (e.g., human-readable) | Reserved strictly for `--help` | Ask: is `-h` for help or domain use? |
+| Long options | Not defined | Required alongside short options | Ask: require long options, optional, or none? |
+| Options after operands | First non-option ends option parsing | Freely permuted | Ask: POSIX strict or GNU permutation? |
+| Shebang | `#!/bin/sh` for portability | `#!/bin/bash` when bash features used | Ask: must it be portable to non-bash? |
+| `printf` vs `echo` | Both defined; `echo` behaviour varies | Prefer `printf` | Ask: portability requirement? |
+| C indentation | Not specified | 2 spaces | Ask: gnu, kr (8-space tabs), or linux? |
+| `error()` function | Not defined | Recommended when on glibc | Ask: glibc-only acceptable? |
+
+When a conflict arises during review and no config setting covers it, stop and ask:
+
+> "This touches a conflict between [standard A] and [standard B]: [describe the conflict].
+> Which do you prefer, or should I note it as a warning without enforcing either?"
+
+Do not silently pick one. Do not assume GNU because it is more common.
+
+## Checklists
+
+### CLI Tool
+
+1. Option syntax: POSIX short (`-x`), GNU long (`--foo`), clustering, `--` terminator
+2. Exit codes: 0=success, 1=error, 2=misuse
+3. Streams: errors → stderr, data → stdout, never reversed
+4. Error format: `progname: description` (lowercase, no period)
+5. `--help`: correct format, exits 0
+6. `--version`: correct format, exits 0
+7. Reserved options: `-h/--help`, `-V/--version`, `-v/--verbose`, `-q/--quiet`, `-n/--dry-run`
+8. Rule of Silence: silent on success by default; no chatty progress output unless `-v`
+9. Unix philosophy: does one thing, composes via stdin/stdout
+
+### Shell Script
+
+1. Shebang: `#!/bin/sh` for portable, `#!/bin/bash` only when bash features are used
+2. `set -euo pipefail` present
+3. All variable expansions quoted: `"$var"`, `"$@"`, `"${var}"`
+4. Command substitution uses `$()` not backticks
+5. Error messages go to stderr, include script name
+6. Temp files via `mktemp`, cleaned up with `trap ... EXIT`
+7. No parsing of `ls` output; use globs
+8. Exit codes correct
+
+### C Program
+
+1. All system call return values checked
+2. Error messages: `progname: description` format
+3. `progname` set from `argv[0]` (path stripped)
+4. No resource leaks: file descriptors, memory, temp files
+5. Signal handling: SIGINT, SIGTERM handled gracefully
+6. Option parsing handles `--` terminator
+
+### Man Page
+
+1. Sections present in canonical order: NAME, SYNOPSIS, DESCRIPTION, OPTIONS, EXIT STATUS, FILES, ENVIRONMENT, EXAMPLES, SEE ALSO
+2. NAME: one line, `\-` separator, lowercase description, no period
+3. SYNOPSIS: program bold, meta-variables italic, brackets for optional, ellipsis for repeatable
+4. OPTIONS: each in its own `.TP` block
+5. EXIT STATUS: all non-zero codes documented
+6. SEE ALSO: section numbers in parens, alphabetical, comma-separated
+7. Style: third person, present tense, terse
+
+### `--help` / `--version`
+
+1. `Usage:` line with uppercase meta-variables (`FILE`, `DIR`, `NUM`)
+2. Two-column option list, `-h`/`-V` listed last
+3. Bug report contact at end
+4. Exits 0
+
+### Worse is Better Design Review
+
+Controlled by the `worse_is_better` config key (`yes | no | ask`, default: `ask`).
+
+- `yes` — always apply this lens; flag any design that favors interface elegance over implementation simplicity
+- `no` — skip this checklist entirely
+- `ask` — when a design tradeoff arises where the two approaches diverge, stop and ask: "This is a Worse is Better tradeoff: [describe it]. Apply the lens, skip it, or note it as informational?"
+
+When applying the lens:
+
+1. **Implementation simplicity** — if two designs differ in implementation complexity, prefer the simpler one even if its interface is slightly more awkward
+2. **Edge cases pushed out** — are unusual inputs rejected cleanly (error + exit 1) rather than handled with complex internal logic?
+3. **Completeness last** — are missing features documented limitations rather than half-implemented handlers?
+4. **Not a bug excuse** — correctness violations (unchecked return values, reversed streams, wrong exit codes) are bugs, not tradeoffs
+
+When a design decision pits interface elegance against implementation simplicity, note it explicitly:
+
+> "DESIGN NOTE: [option A] is simpler to implement; [option B] is cleaner to use. Worse is Better favors [option A]."
+
+## Reporting Format
 
 ```
-Review this shell script against Unix conventions
+VIOLATION: [rule or convention name]
+LOCATION:  [file:line or section]
+FOUND:     [current state]
+EXPECTED:  [correct state]
+FIX:       [exact correction]
 ```
 
-```
-Does this CLI tool follow POSIX option conventions?
-```
+Group by severity: **errors** (must fix) → **warnings** (should fix) → **suggestions** (consider).
 
-### Advanced Usage
+## Tone
 
-Per-project preferences can be set in a `.unix-conventions` file at the project root to resolve conflicts between standards without being prompted each time:
-
-```
-# .unix-conventions
-standard = gnu          # gnu | posix | ask
-shebang = bash          # bash | sh | ask
-echo_or_printf = printf # printf | echo | ask
-worse_is_better = yes   # yes | no | ask
-```
-
-## Example
-
-**User**: "Review fetch-taoup.sh against Unix conventions"
-
-**Output**:
-```
-WARNINGS
-
-VIOLATION: echo_or_printf = printf
-LOCATION:  fetch-taoup.sh:28
-FOUND:     echo "fetch-taoup: $*" >&2
-EXPECTED:  printf output to stderr with program name prefix
-FIX:       printf 'fetch-taoup: %s\n' "$*" >&2
-
-VIOLATION: echo_or_printf = printf
-LOCATION:  fetch-taoup.sh:43
-FOUND:     echo "fetch-taoup: warning: could not parse..." >&2
-EXPECTED:  printf for all diagnostic output
-FIX:       printf 'fetch-taoup: warning: could not parse chapter order from index.html, falling back to filename order\n' >&2
-```
-
-**Inspired by:** Eric S. Raymond's *The Art of Unix Programming*, the GNU Coding Standards, and Richard P. Gabriel's "Worse is Better"
-
-## Tips
-
-- Set `standard = posix` for tools that must run on macOS, OpenBSD, or musl-based systems; set `gnu` for Linux-only tools
-- Set `worse_is_better = yes` in projects that prioritize implementation simplicity — the skill will flag over-engineered designs
-- The skill only loads references relevant to the task — you won't get man page rules when reviewing a shell script
-
-## Common Use Cases
-
-- Auditing scripts in a new repo before publishing them
-- Reviewing student or junior developer CLI tools against established conventions
-- Ensuring a new tool composes cleanly in pipelines (Rule of Silence, filter pattern)
-- Writing man pages that follow the canonical section order and macro conventions
+Direct and technical. Show the corrected form; minimize explanation of why it is wrong.
