@@ -132,6 +132,7 @@ _More community skills coming soon! Submit a PR to add your skill._
 
 ### Tools
 
+- **[skill-installer](https://github.com/renekann/skill-installer)** - CLI tool (`ski`) for installing, updating, listing, and removing Claude Code skills from GitHub. Supports Homebrew and pipx.
 - **[yusufkaraaslan/Skill_Seekers](https://github.com/yusufkaraaslan/Skill_Seekers)** - Convert documentation websites into Claude Skills
 
 ## ✏️ Creating Your First Skill
@@ -299,6 +300,7 @@ _Video tutorials coming soon! Have a good video about Claude Skills? Submit a PR
 - Building your first custom skill
 - Skills vs MCP comparison
 - Enterprise deployment strategies
+
 </details>
 
 ## 📰 Articles & Blog Posts
