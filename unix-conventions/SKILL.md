@@ -1,13 +1,19 @@
 ---
 name: unix-conventions
-description: Use when reviewing or writing CLI tools, shell scripts, C programs, man pages, --help output, error messages, or any artifact where Unix/POSIX/GNU conventions apply. Also use when the user asks if something "follows Unix conventions" or "Unix philosophy".
+description: Use when reviewing or writing CLI tools, shell scripts, C programs, man pages, --help output, or error messages. Also use when writing documentation or explanations for a Unix/hacker audience, or when the user asks if something "follows Unix conventions" or "Unix philosophy".
 ---
 
 # Unix Conventions
 
 ## Overview
 
-Enforce code and documentation against four canonical sources: *The Art of Unix Programming* (ESR), POSIX, the GNU Coding Standards, and "Worse is Better" (R.P. Gabriel).
+Honor Unix tradition in code, documentation, and design. Five canonical sources:
+
+- *The Art of Unix Programming* (ESR) — the 17 Rules; the philosophy behind why Unix works
+- POSIX — option syntax, exit codes, streams; the portable baseline every Unix tool must meet
+- GNU Coding Standards — error format, standard options, shell scripting; what GNU tools actually do
+- "Worse is Better" (R.P. Gabriel) — when implementation simplicity beats interface elegance
+- The Jargon File — hacker vocabulary and lore; how to write for an audience that groks the tradition
 
 ## Task Dispatch
 
@@ -18,8 +24,7 @@ Enforce code and documentation against four canonical sources: *The Art of Unix 
 | Review C program | `gnu-coding-standards.md`, `cli-conventions.md` |
 | Write or review man page | `man-page-format.md` |
 | Review `--help` / `--version` output | `cli-conventions.md`, `gnu-coding-standards.md` |
-| Unix philosophy / design review | `taoup-principles.md`, `worse-is-better.md`, `jargon-lore.md` |
-| Code/design quality vocabulary review | `jargon-terms.md`, `taoup-principles.md` |
+| Unix philosophy / design review | `taoup-principles.md`, `worse-is-better.md`, `jargon-lore.md`, `jargon-terms.md` |
 
 Load only the references needed for the task. All references are in the `references/` subdirectory of this skill.
 
@@ -35,7 +40,7 @@ Read whichever files exist and merge them, with higher-precedence files winning.
 
 ## Conflicts Between Standards
 
-The three sources disagree on these points. **Do not assume — ask the user** unless the config file resolves it.
+POSIX, GNU, and TAOUP disagree on these points. **Do not assume — ask the user** unless the config file resolves it.
 
 | Conflict | POSIX | GNU | Resolution |
 |----------|-------|-----|------------|
@@ -50,7 +55,7 @@ The three sources disagree on these points. **Do not assume — ask the user** u
 When a conflict arises during review and no config setting covers it, stop and ask:
 
 > "This touches a conflict between [standard A] and [standard B]: [describe the conflict].
-> Which do you prefer, or should I note it as a warning without enforcing either?"
+> Which do you prefer, or should I note it as a warning without favoring either?"
 
 Do not silently pick one. Do not assume GNU because it is more common.
 
@@ -124,25 +129,23 @@ When a design decision pits interface elegance against implementation simplicity
 
 > "DESIGN NOTE: [option A] is simpler to implement; [option B] is cleaner to use. Worse is Better favors [option A]."
 
-### Jargon Lore Review
+### Jargon File
 
-Loaded for Unix philosophy and design reviews alongside `taoup-principles.md`.
-All references must be drawn from `jargon-lore.md` — never invent folklore.
+The Jargon File is a cultural resource, not a ruleset. Use it for:
 
-1. When a design pattern matches a known incident or koan in `jargon-lore.md`, cite it by name
-2. Format citations as: "DESIGN NOTE: This mirrors [entry] — [one-sentence description]."
-3. Use cultural context to explain *why* a pattern is valued or avoided, not just *that* it is
-4. Do not invent or paraphrase entries not present in `jargon-lore.md`
+- **Vocabulary:** When writing docs, comments, or explanations, reach for the right hacker
+  term. "Crufty", "kludge", "elegant", "hairy" — these carry precise meaning to Unix people
+  and communicate more than a generic description would.
+- **Analogies:** When explaining why a design pattern is good or bad, a Jargon File analogy
+  can make it immediately recognizable. A Unix person who hears "cargo cult programming" or
+  "creeping featurism" understands instantly.
+- **Lore:** When writing for an audience of hackers, cultural touchstones (foo/bar, the Great
+  Worm, ITS, the hacker ethic) create shared context and signal that the author knows the
+  tradition.
 
-### Jargon Terms Review
-
-Loaded for code/design quality reviews. Use vocabulary from `jargon-terms.md`
-to name design smells precisely. Terms appear at SUGGESTION level only.
-
-1. Apply positive/negative quality terms accurately (elegant, kludge, bletcherous, etc.)
-2. Terms supplement but do not replace VIOLATION/WARNING entries for convention violations
-3. Format as: "SUGGESTION: This design is [term] — [definition]. Consider [alternative]."
-4. Never use a term not defined in `jargon-terms.md`
+Use `jargon-terms.md` for design vocabulary and `jargon-lore.md` for cultural references.
+For anything not covered there, `documentation/jargon.md` has the full text. Don't invent
+entries or use terms you're not confident about — the Jargon File is authoritative.
 
 ## Reporting Format
 
@@ -158,4 +161,6 @@ Group by severity: **errors** (must fix) → **warnings** (should fix) → **sug
 
 ## Tone
 
-Direct and technical. Show the corrected form; minimize explanation of why it is wrong.
+Direct and technical. Show the corrected form; don't handwave. The Unix tradition values
+correctness and terseness over diplomacy — a bletcherous interface is bletcherous whether
+or not its author intended it. Name things accurately.
