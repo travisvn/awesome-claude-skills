@@ -127,6 +127,7 @@ Skills for working with complex file formats:
 | **[frontend-slides](https://github.com/zarazhangrui/frontend-slides)** | Create animation-rich HTML presentations — from scratch or by converting PowerPoint files |
 | **[Expo Skills](https://github.com/expo/skills)** | Official skills by the Expo team for developing Expo apps |
 | **[shadcn/ui](https://ui.shadcn.com/docs/skills)** | Give Claude Code context on shadcn components as well as pattern enforcement |
+| **[imessage-sms-agent](https://github.com/emotion-machine-org/imessage-sms-agent)** | Give any AI agent iMessage, RCS & SMS capabilities. No Mac required. Works with Claude Code, Codex, Cursor, Gemini CLI. Powered by Claw Messenger ($5/mo). Install: `npx skills add emotion-machine-org/imessage-sms-agent` |
 
 _More community skills coming soon! Submit a PR to add your skill._
 
