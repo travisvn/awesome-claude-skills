@@ -135,6 +135,7 @@ _More community skills coming soon! Submit a PR to add your skill._
 
 - **[yusufkaraaslan/Skill_Seekers](https://github.com/yusufkaraaslan/Skill_Seekers)** - Convert documentation websites into Claude Skills
 
+- [guardian-agent-prompts](https://github.com/milkomida77/guardian-agent-prompts) - 49 production-tested AGENT.md system prompts for multi-agent AI systems. Includes orchestrator, trading, security, OSINT, and 45 more specialized agents from a 57-agent system running 24/7.
 ## ✏️ Creating Your First Skill
 
 <details>
