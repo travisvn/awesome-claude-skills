@@ -132,6 +132,7 @@ _More community skills coming soon! Submit a PR to add your skill._
 
 ### Tools
 
+- **[ctxlint](https://github.com/YawLabs/ctxlint)** - Lints CLAUDE.md and other AI context files against your codebase. Includes MCP server for agent self-auditing.
 - **[yusufkaraaslan/Skill_Seekers](https://github.com/yusufkaraaslan/Skill_Seekers)** - Convert documentation websites into Claude Skills
 
 ## ✏️ Creating Your First Skill
