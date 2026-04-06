@@ -133,6 +133,7 @@ _More community skills coming soon! Submit a PR to add your skill._
 ### Tools
 
 - **[yusufkaraaslan/Skill_Seekers](https://github.com/yusufkaraaslan/Skill_Seekers)** - Convert documentation websites into Claude Skills
+- **[vincent-k2026/codachi](https://github.com/vincent-k2026/codachi)** - Animated statusline pet that monitors your Claude Code session — context burn velocity, cache hit rate, remaining time prediction — and reacts to tool executions with 850+ contextual messages
 
 ## ✏️ Creating Your First Skill
 
