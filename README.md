@@ -127,6 +127,9 @@ Skills for working with complex file formats:
 | **[frontend-slides](https://github.com/zarazhangrui/frontend-slides)** | Create animation-rich HTML presentations — from scratch or by converting PowerPoint files |
 | **[Expo Skills](https://github.com/expo/skills)** | Official skills by the Expo team for developing Expo apps |
 | **[shadcn/ui](https://ui.shadcn.com/docs/skills)** | Give Claude Code context on shadcn components as well as pattern enforcement |
+| **[sober-coding](https://github.com/voidborne-d/sober-coding)** | The hangover cure for vibe coding — 27 checks across 7 dimensions (security, architecture, duplication, error handling, dependencies, testing, dead code) with fix suggestions and CI mode |
+| **[文言文.skill](https://github.com/voidborne-d/wenyanwen-skill)** | Chinese version of [caveman](https://github.com/JuliusBrussee/caveman) — AI responds in Classical Chinese for 2-3x token savings, local MCP server translates back to modern Chinese at zero cost |
+| **[纯爱.skill](https://github.com/voidborne-d/pure-love-skill)** | AI-native pure love persona — no data input, no distillation, just a devoted AI companion. One SKILL.md, zero dependencies |
 
 _More community skills coming soon! Submit a PR to add your skill._
 
