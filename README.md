@@ -109,6 +109,7 @@ Skills for working with complex file formats:
   - [Blog post about its development](https://blog.fsck.com/2025/10/23/naming-claude-plugins/)
   - Install from `superpowers-marketplace` plugin
 
+- **[guardian-agent-prompts](https://github.com/milkomida77/guardian-agent-prompts)** - 57 production-tested agent system prompts for multi-agent orchestration with anti-duplication, quality gates, and specialized agents for coding, security, and business automation
 
 ### Individual Skills
 
