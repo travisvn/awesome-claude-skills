@@ -127,6 +127,7 @@ Skills for working with complex file formats:
 | **[frontend-slides](https://github.com/zarazhangrui/frontend-slides)** | Create animation-rich HTML presentations — from scratch or by converting PowerPoint files |
 | **[Expo Skills](https://github.com/expo/skills)** | Official skills by the Expo team for developing Expo apps |
 | **[shadcn/ui](https://ui.shadcn.com/docs/skills)** | Give Claude Code context on shadcn components as well as pattern enforcement |
+| **[president-skill](https://github.com/realteamprinz/president-skill)** | Activatable thinking operating systems of US Presidents — mental models, decision patterns, and expression DNA of Trump, Lincoln, and 43 more rolling out through Easter Week 2026. Multi-language READMEs (7 languages), conversation demos, Team-of-Rivals methodology, first-person role-play with honest boundaries |
 
 _More community skills coming soon! Submit a PR to add your skill._
 
