@@ -127,6 +127,7 @@ Skills for working with complex file formats:
 | **[frontend-slides](https://github.com/zarazhangrui/frontend-slides)** | Create animation-rich HTML presentations — from scratch or by converting PowerPoint files |
 | **[Expo Skills](https://github.com/expo/skills)** | Official skills by the Expo team for developing Expo apps |
 | **[shadcn/ui](https://ui.shadcn.com/docs/skills)** | Give Claude Code context on shadcn components as well as pattern enforcement |
+| **[tbd-vote-cli](https://github.com/ego-protocol/tbd-vote-cli)** | Trade on TBD, a Solana-based prediction market for human opinions, via the `@tbd-vote/cli` package; defers to an [AGENTS.md](https://www.tbd.vote/agents/AGENTS.md) spec for autonomous-loop instructions and HTTP fallback |
 
 _More community skills coming soon! Submit a PR to add your skill._
 
