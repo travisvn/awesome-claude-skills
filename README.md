@@ -134,6 +134,8 @@ _More community skills coming soon! Submit a PR to add your skill._
 
 - **[yusufkaraaslan/Skill_Seekers](https://github.com/yusufkaraaslan/Skill_Seekers)** - Convert documentation websites into Claude Skills
 
+- **[RemoteOpenClaw](https://remoteopenclaw.com)** - Open marketplace for AI skills and personas built on OpenClaw. Discover, share, and sell community-built agent capabilities.
+
 ## ✏️ Creating Your First Skill
 
 <details>
