@@ -128,6 +128,8 @@ Skills for working with complex file formats:
 | **[Expo Skills](https://github.com/expo/skills)** | Official skills by the Expo team for developing Expo apps |
 | **[shadcn/ui](https://ui.shadcn.com/docs/skills)** | Give Claude Code context on shadcn components as well as pattern enforcement |
 
+| **[vaultweaver](https://github.com/Apexlify/vaultweaver)** | LLM Knowledge Base compiler — drop files, get an interconnected Obsidian-compatible wiki. Based on Karpathy's LLM Wiki pattern. Auto-ingest, BM25 search, drift detection |
+
 _More community skills coming soon! Submit a PR to add your skill._
 
 ### Tools
