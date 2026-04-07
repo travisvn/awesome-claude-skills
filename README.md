@@ -127,6 +127,7 @@ Skills for working with complex file formats:
 | **[frontend-slides](https://github.com/zarazhangrui/frontend-slides)** | Create animation-rich HTML presentations — from scratch or by converting PowerPoint files |
 | **[Expo Skills](https://github.com/expo/skills)** | Official skills by the Expo team for developing Expo apps |
 | **[shadcn/ui](https://ui.shadcn.com/docs/skills)** | Give Claude Code context on shadcn components as well as pattern enforcement |
+| **[Master-skill](https://github.com/xr843/Master-skill)** | Chinese Buddhist master AI teaching personas powered by FoJin. 8 pre-built masters with CBETA source citations. AgentSkills standard. |
 
 _More community skills coming soon! Submit a PR to add your skill._
 
