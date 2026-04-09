@@ -112,7 +112,7 @@ Skills for working with complex file formats:
 - **[SciAgent-Skills](https://github.com/jaechang-hits/SciAgent-Skills)** - 197 life science skills for Claude Code covering genomics, proteomics, drug discovery, and more
   - Achieved 92.0% on the BixBench bioinformatics benchmark (+26.7 percentage points over baseline)
   - Categories include molecular biology, structural biology, biostatistics, scientific computing, and scientific writing
-  - Fork of [K-Dense-AI/claude-scientific-skills](https://github.com/K-Dense-AI/claude-scientific-skills), expanded with registry validation and quality tests
+  - Includes registry validation, quality tests, and Claude Code plugin support
 
 ### Individual Skills
 
