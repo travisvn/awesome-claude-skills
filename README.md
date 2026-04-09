@@ -109,6 +109,10 @@ Skills for working with complex file formats:
   - [Blog post about its development](https://blog.fsck.com/2025/10/23/naming-claude-plugins/)
   - Install from `superpowers-marketplace` plugin
 
+- **[2389-research/claude-plugins](https://github.com/2389-research/claude-plugins)** - Marketplace of 25+ open-source Claude Code plugins and MCP servers covering development, testing, multi-agent orchestration, and more
+  - Includes plugins like [simmer](https://github.com/2389-research/simmer) (iterative refinement), [test-kitchen](https://github.com/2389-research/test-kitchen) (parallel exploration), [fresh-eyes-review](https://github.com/2389-research/fresh-eyes-review) (pre-commit review), and [review-squad](https://github.com/2389-research/review-squad) (multi-agent code review)
+  - Each plugin lives in its own repo with docs, install instructions, and a generated [marketplace site](https://2389-research.github.io/claude-plugins)
+
 
 ### Individual Skills
 
