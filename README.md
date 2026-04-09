@@ -109,6 +109,10 @@ Skills for working with complex file formats:
   - [Blog post about its development](https://blog.fsck.com/2025/10/23/naming-claude-plugins/)
   - Install from `superpowers-marketplace` plugin
 
+- **[SciAgent-Skills](https://github.com/jaechang-hits/SciAgent-Skills)** - 197 life science skills for Claude Code covering genomics, proteomics, drug discovery, and more
+  - Achieved 92.0% on the BixBench bioinformatics benchmark (+26.7 percentage points over baseline)
+  - Categories include molecular biology, structural biology, biostatistics, scientific computing, and scientific writing
+  - Fork of [K-Dense-AI/claude-scientific-skills](https://github.com/K-Dense-AI/claude-scientific-skills), expanded with registry validation and quality tests
 
 ### Individual Skills
 
