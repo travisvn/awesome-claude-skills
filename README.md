@@ -127,6 +127,7 @@ Skills for working with complex file formats:
 | **[frontend-slides](https://github.com/zarazhangrui/frontend-slides)** | Create animation-rich HTML presentations — from scratch or by converting PowerPoint files |
 | **[Expo Skills](https://github.com/expo/skills)** | Official skills by the Expo team for developing Expo apps |
 | **[shadcn/ui](https://ui.shadcn.com/docs/skills)** | Give Claude Code context on shadcn components as well as pattern enforcement |
+| **[x-twitter-scraper](https://github.com/Xquik-dev/x-twitter-scraper)** | X (Twitter) data platform for AI agents — 122 API endpoints, 2 MCP tools, 23 extraction types. Search tweets, user lookup, post, monitor, run giveaways. $0.00015/read. |
 
 _More community skills coming soon! Submit a PR to add your skill._
 
