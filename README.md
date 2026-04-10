@@ -134,6 +134,7 @@ _More community skills coming soon! Submit a PR to add your skill._
 
 - **[yusufkaraaslan/Skill_Seekers](https://github.com/yusufkaraaslan/Skill_Seekers)** - Convert documentation websites into Claude Skills
 
+- [Gitstar](https://dev.gitstar.ai?utm_medium=github_readme&utm_source=awesome_list&utm_campaign=travisvn_awesome-claude-skills) - Follow experienced devs on GitHub and see what repos they find worth starring. Great for learning.
 ## ✏️ Creating Your First Skill
 
 <details>
