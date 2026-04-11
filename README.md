@@ -127,6 +127,7 @@ Skills for working with complex file formats:
 | **[frontend-slides](https://github.com/zarazhangrui/frontend-slides)** | Create animation-rich HTML presentations — from scratch or by converting PowerPoint files |
 | **[Expo Skills](https://github.com/expo/skills)** | Official skills by the Expo team for developing Expo apps |
 | **[shadcn/ui](https://ui.shadcn.com/docs/skills)** | Give Claude Code context on shadcn components as well as pattern enforcement |
+| **[toprank](https://github.com/nowork-studio/toprank)** | SEO + Google Ads skills for Claude Code — audits Search Console data, finds wasted ad spend, rewrites meta tags, generates schema markup, and ships the fixes |
 
 _More community skills coming soon! Submit a PR to add your skill._
 
