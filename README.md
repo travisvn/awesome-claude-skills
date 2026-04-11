@@ -127,6 +127,7 @@ Skills for working with complex file formats:
 | **[frontend-slides](https://github.com/zarazhangrui/frontend-slides)** | Create animation-rich HTML presentations — from scratch or by converting PowerPoint files |
 | **[Expo Skills](https://github.com/expo/skills)** | Official skills by the Expo team for developing Expo apps |
 | **[shadcn/ui](https://ui.shadcn.com/docs/skills)** | Give Claude Code context on shadcn components as well as pattern enforcement |
+| **[voice-to-instrument-guide](https://github.com/stark-ydq/voice-to-instrument-skills)** | Expert guidance for converting voice recordings into realistic instrument sounds — recording best practices, instrument-specific tips (piano, guitar, violin, drums, saxophone, and more), and prompt engineering for music AI tools |
 
 _More community skills coming soon! Submit a PR to add your skill._
 
