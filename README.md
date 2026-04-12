@@ -127,6 +127,7 @@ Skills for working with complex file formats:
 | **[frontend-slides](https://github.com/zarazhangrui/frontend-slides)** | Create animation-rich HTML presentations — from scratch or by converting PowerPoint files |
 | **[Expo Skills](https://github.com/expo/skills)** | Official skills by the Expo team for developing Expo apps |
 | **[shadcn/ui](https://ui.shadcn.com/docs/skills)** | Give Claude Code context on shadcn components as well as pattern enforcement |
+| **[macsweep](https://github.com/leoncuhk/macsweep)** | Complete macOS system maintenance — deep app uninstall (20+ locations), startup service audit, disk cleanup with 3-tier safety classification, system health check. Replaces CleanMyMac / Tencent Lemon / Pearcleaner with zero overhead |
 
 _More community skills coming soon! Submit a PR to add your skill._
 
