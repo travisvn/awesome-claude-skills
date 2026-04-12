@@ -287,6 +287,7 @@ The easiest way to create a skill is to use the built-in `skill-creator`:
 
 - [How to Create Your First Claude Skill](https://skywork.ai/blog/ai-agent/how-to-create-claude-skill-step-by-step-guide/) - Step-by-step tutorial with examples
 - [How to Use Skills in Claude Code](https://skywork.ai/blog/how-to-use-skills-in-claude-code-install-path-project-scoping-testing/) - Installation, project scoping, and testing guide
+- [ChatGPT Plus Guide](https://github.com/xyzm6/chatgpt-plus-guide) - Practical guide for ChatGPT Plus/Pro subscribers — regional pricing, payment methods for blocked regions, account safety checklist
 
 ### Video Tutorials
 
