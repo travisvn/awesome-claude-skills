@@ -98,6 +98,11 @@ Skills for working with complex file formats:
 
 ### Collections & Libraries
 
+- **[CLSkills.in Free Samples](https://github.com/Samarth0211/claude-skills-free)** - 50 curated Claude Code skills across 16 categories (React, Python, DevOps, Security, Docker, etc.)
+  - Hand-tested, production-ready skills with real instructions
+  - Full library of 2,300+ skills at [clskills.in/browse](https://clskills.in/browse)
+  - [Free 40-page Claude Guide](https://clskills.in/guide) covering setup, MCP, agents, and prompt codes
+
 - **[obra/superpowers](https://github.com/obra/superpowers)** - Core skills library for Claude Code with 20+ battle-tested skills including TDD, debugging, and collaboration patterns
   - Features `/brainstorm`, `/write-plan`, `/execute-plan` commands and skills-search tool
   - [superpowers-skills](https://github.com/obra/superpowers-skills) - Community-editable skills repository
