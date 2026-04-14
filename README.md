@@ -123,6 +123,7 @@ Skills for working with complex file formats:
 | **[claude-scientific-skills](https://github.com/K-Dense-AI/claude-scientific-skills)** | Comprehensive collection of ready-to-use scientific skills, including working with specialized scientific libraries and databases |
 | **[web-asset-generator](https://github.com/alonw0/web-asset-generator)** | Generates web assets like favicons, app icons, and social media images |
 | **[loki-mode](https://github.com/asklokesh/claudeskill-loki-mode)** | Multi-agent autonomous startup system - orchestrates 37 AI agents across 6 swarms to build, deploy, and operate a complete startup from PRD to revenue |
+| **[Hail Hydra](https://github.com/AR6420/Hail_Hydra)** | Multi-agent orchestration SKILL.md for Claude Code. Routes tasks to 10 specialized Haiku/Sonnet subagents (scout, coder, runner, scribe, guard, git, analyst, sentinel, preflight) with Opus as orchestrator. Includes preflight validation and security scanning. `npx hail-hydra-cc@latest` |
 | **[Trail of Bits Security Skills](https://github.com/trailofbits/skills)** | Security skills for static analysis with CodeQL/Semgrep, variant analysis, code auditing, and vulnerability detection |
 | **[frontend-slides](https://github.com/zarazhangrui/frontend-slides)** | Create animation-rich HTML presentations — from scratch or by converting PowerPoint files |
 | **[Expo Skills](https://github.com/expo/skills)** | Official skills by the Expo team for developing Expo apps |
