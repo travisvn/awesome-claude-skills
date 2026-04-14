@@ -127,6 +127,11 @@ Skills for working with complex file formats:
 | **[frontend-slides](https://github.com/zarazhangrui/frontend-slides)** | Create animation-rich HTML presentations — from scratch or by converting PowerPoint files |
 | **[Expo Skills](https://github.com/expo/skills)** | Official skills by the Expo team for developing Expo apps |
 | **[shadcn/ui](https://ui.shadcn.com/docs/skills)** | Give Claude Code context on shadcn components as well as pattern enforcement |
+| **[sun-tzu-strategist](https://github.com/Layton2617/sun-tzu-strategist)** | Art of War strategic reasoning engine for business & tech decisions — 5-step analysis framework, 3 interaction modes (consultation/war room/dialogue), bilingual CN/EN |
+| **[cloud-bridge](https://github.com/Layton2617/cloud-bridge)** | Multi-cloud DevOps from your terminal — Vercel, Cloudflare, AWS, Fly.io, Netlify status checker + Claude Code Skill |
+| **[devpilot-tui](https://github.com/Layton2617/devpilot-tui)** | Multi-agent context handoff between Claude Code, Gemini CLI and Codex — session viewer + handoff document generator |
+| **[shield-scan](https://github.com/Layton2617/shield-scan)** | AI-powered security scanner — SAST, secret detection, dependency analysis. Claude Code Skill + standalone Bash scanner |
+| **[code-sensei](https://github.com/Layton2617/code-sensei)** | Transforms any codebase into structured learning courses with exercises — includes standalone analyzer |
 
 _More community skills coming soon! Submit a PR to add your skill._
 
