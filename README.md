@@ -98,6 +98,8 @@ Skills for working with complex file formats:
 
 ### Collections & Libraries
 
+- **[atelier](https://github.com/EthanY33/atelier)** - Design-automation plugin for Claude Code: seven skills around a shared `brand-memory` schema — design tokens, OG cards, responsive images, brand assets, accessibility audit, HTML→video. MIT.
+
 - **[obra/superpowers](https://github.com/obra/superpowers)** - Core skills library for Claude Code with 20+ battle-tested skills including TDD, debugging, and collaboration patterns
   - Features `/brainstorm`, `/write-plan`, `/execute-plan` commands and skills-search tool
   - [superpowers-skills](https://github.com/obra/superpowers-skills) - Community-editable skills repository
