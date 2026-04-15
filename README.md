@@ -128,11 +128,14 @@ Skills for working with complex file formats:
 | **[Expo Skills](https://github.com/expo/skills)** | Official skills by the Expo team for developing Expo apps |
 | **[shadcn/ui](https://ui.shadcn.com/docs/skills)** | Give Claude Code context on shadcn components as well as pattern enforcement |
 
+| **[samkshipta](https://github.com/MukundaKatta/samkshipta)** | Sanskrit-inspired aphoristic compression — 60-70% fewer output tokens in formal register. Three intensity levels (lite / saṃkṣipta / sūtra). Formal sibling of caveman-style compression, for code review and client-facing contexts where grunts don't land. |
+
 _More community skills coming soon! Submit a PR to add your skill._
 
 ### Tools
 
 - **[yusufkaraaslan/Skill_Seekers](https://github.com/yusufkaraaslan/Skill_Seekers)** - Convert documentation websites into Claude Skills
+- **[MukundaKatta/claude-skill-linter](https://github.com/MukundaKatta/claude-skill-linter)** - GitHub Action that validates `SKILL.md` frontmatter on every push — catches missing required fields, malformed YAML, hardcoded secrets (`sk-`, `ghp_`, `AIza`, `xoxb-`), and bad kebab-case names before they ship.
 
 ## ✏️ Creating Your First Skill
 
