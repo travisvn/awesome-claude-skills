@@ -27,6 +27,7 @@ Skills employ a **progressive disclosure architecture** for efficiency:
 This design allows multiple Skills to remain available without overwhelming Claude's context window.
 
 ## 🚀 Getting Started
+- [Asynkor](https://github.com/asynkor/asynkor) - Coordination layer for AI agent teams. File leasing, shared memory, cross-machine sync. One MCP server for Claude Code, Cursor, Windsurf.
 
 ### Claude.ai Web Interface
 
