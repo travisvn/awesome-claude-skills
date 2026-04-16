@@ -100,7 +100,7 @@ While not an absolute requirement, a strong general guideline would be that more
 
 #### Social Proof
 
-Skills must have gathered enough attention from the community so-as to have acquired a number of GitHub stars to be considered in most cases. 
+Skills must have gathered enough attention from the community so as to have acquired a number of GitHub stars to be considered in most cases. 
 
 *This is due to the increase in PR submissions of either newly completed and untested skills or narrow-focused and not generalizable skills that simply do not make sense in a GitHub Awesome list meant to appeal to a wide audience.*
 
@@ -113,7 +113,7 @@ Due to the influx of PRs, there is a requirement now that the PR not be explicit
 
 It's too untenable to try and review the entire codebase of an LLM-generated project that was also submitted with the help of generative AI. This requirement is intended to serve as a quick filter (which is honestly surprising, given that AI coding assistants are easily capable of ingesting the language of a `CONTRIBUTING.md` file of a repository).
 
-PRs will be closed without comment if the submitter has failed to acknowledge this or adhere by its basic tenets in order to weed out the low-effort submissions. 
+PRs will be closed without comment if the submitter has failed to acknowledge this or adhere to its basic tenets in order to weed out the low-effort submissions. 
 
 #### SaaS Submissions
 
@@ -169,6 +169,14 @@ By contributing, you agree to:
 * Provide constructive feedback
 * Focus on what is best for the community
 * Show empathy towards other community members
+
+## FAQ
+
+**How are GitHub stars counted?**
+Stars are counted on the default branch of the linked skill repository (not on any fork). If the repository was recently created, give it time to gain organic traction before submitting.
+
+**Can I use AI tools while preparing my submission?**
+Using AI assistants to develop your skill is fine. The restriction is on the PR itself: the pull request title and description should be written in your own words so maintainers can tell a human reviewed the submission and stands behind it.
 
 ## Questions?
 
