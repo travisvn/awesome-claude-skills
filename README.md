@@ -127,7 +127,8 @@ Skills for working with complex file formats:
 | **[frontend-slides](https://github.com/zarazhangrui/frontend-slides)** | Create animation-rich HTML presentations — from scratch or by converting PowerPoint files |
 | **[Expo Skills](https://github.com/expo/skills)** | Official skills by the Expo team for developing Expo apps |
 | **[shadcn/ui](https://ui.shadcn.com/docs/skills)** | Give Claude Code context on shadcn components as well as pattern enforcement |
-| **[AuraKit](https://github.com/smorky850612/Aurakit)** | All-in-one Claude Code skill: 33 modes, 6-layer security, 23 hooks, 8 languages, 75% token savings. One `/aura` command for build, fix, review, deploy. Cross-platform (Codex, Cursor, Manus, Windsurf) |
+
+| **[AuraKit](https://github.com/smorky850612/Aurakit)** | Full-lifecycle Claude Code skill framework: 46 modes (BUILD/FIX/DEPLOY/REVIEW/TDD/QA/DEBUG/PAYMENT), 23 sub-agents, 6-layer OWASP+ security, ~55% token savings via Haiku/Sonnet routing |
 
 _More community skills coming soon! Submit a PR to add your skill._
 
