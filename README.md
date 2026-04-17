@@ -128,7 +128,7 @@ Skills for working with complex file formats:
 | **[Expo Skills](https://github.com/expo/skills)** | Official skills by the Expo team for developing Expo apps |
 | **[shadcn/ui](https://ui.shadcn.com/docs/skills)** | Give Claude Code context on shadcn components as well as pattern enforcement |
 
-| **[liepin-jobs](https://github.com/xllinbupt/MCP2skill)** | Search jobs on Liepin (猎聘), apply to positions, view and edit resumes. Zero-dependency Python CLI wrapping Liepin's official MCP Server |
+| **[liepin-cli](https://github.com/liepin-tech-2026/liepin-cil)** | Search jobs on Liepin (猎聘), apply to positions, view and edit resumes. Local CLI tool for Liepin job search & resume management |
 _More community skills coming soon! Submit a PR to add your skill._
 
 ### Tools
