@@ -127,6 +127,7 @@ Skills for working with complex file formats:
 | **[frontend-slides](https://github.com/zarazhangrui/frontend-slides)** | Create animation-rich HTML presentations — from scratch or by converting PowerPoint files |
 | **[Expo Skills](https://github.com/expo/skills)** | Official skills by the Expo team for developing Expo apps |
 | **[shadcn/ui](https://ui.shadcn.com/docs/skills)** | Give Claude Code context on shadcn components as well as pattern enforcement |
+| **[Council Pilot](https://github.com/wd041216-bit/council-pilot)** | Autonomous expert-council-driven project builder — builds expert councils from public sources, drives projects through build-score-debug loops until 100/100 maturity |
 
 _More community skills coming soon! Submit a PR to add your skill._
 
