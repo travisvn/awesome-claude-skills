@@ -301,10 +301,18 @@ _Video tutorials coming soon! Have a good video about Claude Skills? Submit a PR
 - Enterprise deployment strategies
 </details>
 
+## 🔧 Tools for Building Skills
+
+- [SKILL.md Generator](https://helloandy.net/skill-generator/) - AI-powered generator that builds SKILL.md files via a 3-step OpenRouter pipeline. Describe your skill, get a complete SKILL.md. Free, no account required.
+- [SKILL.md Linter](https://helloandy.net/skill-linter/) - Validates SKILL.md structure: checks description, trigger conditions, step-by-step instructions, examples, and iron laws. Paste and get scored.
+- [CLAUDE.md Writer](https://helloandy.net/claude-md-writer/) - Generates Claude agent system prompts — the CLAUDE.md companion file that works alongside SKILL.md files.
+
 ## 📰 Articles & Blog Posts
 
 - [Skills Explained](https://claude.com/blog/skills-explained) - Official Anthropic blog post covering progressive disclosure, use cases, and when to use Skills vs other tools
 - [Simon Willison: Claude Skills are awesome, maybe a bigger deal than MCP](https://simonwillison.net/2025/Oct/16/claude-skills/) - Technical deep dive and analysis
+- [How AI Agents Learn New Skills](https://helloandy.net/how-ai-agents-learn-new-skills/) - Research-backed guide: token saturation data (200–800 tokens by task type), failure modes, step_model routing patterns
+- [SKILL.md Design Guide](https://helloandy.net/skill-design-guide/) - Token saturation research, failure mode catalog, and quality rubric for building production-grade skills
 
 ## 🔒 Security & Best Practices
 
