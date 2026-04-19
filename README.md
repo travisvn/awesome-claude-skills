@@ -128,6 +128,8 @@ Skills for working with complex file formats:
 | **[Expo Skills](https://github.com/expo/skills)** | Official skills by the Expo team for developing Expo apps |
 | **[shadcn/ui](https://ui.shadcn.com/docs/skills)** | Give Claude Code context on shadcn components as well as pattern enforcement |
 
+| **[living-docs](https://github.com/phlx0/living-docs)** | Claude Code plugin that auto-detects stale documentation after code changes and applies surgical fixes — catches renamed functions, env vars, CLI flags, and API endpoints across Markdown, JSDoc, OpenAPI, Python docstrings, and Go doc comments |
+
 _More community skills coming soon! Submit a PR to add your skill._
 
 ### Tools
