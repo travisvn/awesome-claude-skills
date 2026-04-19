@@ -132,6 +132,7 @@ _More community skills coming soon! Submit a PR to add your skill._
 
 ### Tools
 
+- **[princekrz/skills-builder](https://github.com/princekrz/skills-builder)** - Universal toolkit for building, discovering, reviewing, testing, and securing Claude skills. Includes quality scoring (0-100), auto-testing, prompt injection detection, GitHub skill search with quarantine-based install, and 10 reference docs
 - **[yusufkaraaslan/Skill_Seekers](https://github.com/yusufkaraaslan/Skill_Seekers)** - Convert documentation websites into Claude Skills
 
 ## ✏️ Creating Your First Skill
