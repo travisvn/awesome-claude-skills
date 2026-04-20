@@ -127,12 +127,14 @@ Skills for working with complex file formats:
 | **[frontend-slides](https://github.com/zarazhangrui/frontend-slides)** | Create animation-rich HTML presentations — from scratch or by converting PowerPoint files |
 | **[Expo Skills](https://github.com/expo/skills)** | Official skills by the Expo team for developing Expo apps |
 | **[shadcn/ui](https://ui.shadcn.com/docs/skills)** | Give Claude Code context on shadcn components as well as pattern enforcement |
+| **[Agent Shadow Brain](https://github.com/theihtisham/agent-shadow-brain)** | AI-powered background code analysis agent with 60+ cognitive modules, infinite memory, and self-evolving intelligence |
 
 _More community skills coming soon! Submit a PR to add your skill._
 
 ### Tools
 
 - **[yusufkaraaslan/Skill_Seekers](https://github.com/yusufkaraaslan/Skill_Seekers)** - Convert documentation websites into Claude Skills
+- **[Omni Skills Forge](https://github.com/theihtisham/omni-skills-forge)** - Universal skill/slash-command manager for AI coding assistants ([npm](https://www.npmjs.com/package/omni-skills-forge))
 
 ## ✏️ Creating Your First Skill
 
