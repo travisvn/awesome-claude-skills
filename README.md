@@ -127,6 +127,7 @@ Skills for working with complex file formats:
 | **[frontend-slides](https://github.com/zarazhangrui/frontend-slides)** | Create animation-rich HTML presentations — from scratch or by converting PowerPoint files |
 | **[Expo Skills](https://github.com/expo/skills)** | Official skills by the Expo team for developing Expo apps |
 | **[shadcn/ui](https://ui.shadcn.com/docs/skills)** | Give Claude Code context on shadcn components as well as pattern enforcement |
+| **[BlogBurst](https://github.com/shensi8312/blogburst-claude-skill)** | Autonomous social media manager — writes posts, replies, and learns what works across Twitter, Bluesky, Telegram, and Discord. Replaces a $500-1,500/mo freelance SMM for $29-99/mo. Public API endpoints let Claude demo content before signup |
 
 _More community skills coming soon! Submit a PR to add your skill._
 
