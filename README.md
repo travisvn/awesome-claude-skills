@@ -26,6 +26,7 @@ Skills employ a **progressive disclosure architecture** for efficiency:
 
 This design allows multiple Skills to remain available without overwhelming Claude's context window.
 
+- [Ralphable](https://ralphable.com) - Generate Ralph Loop skills for Claude Code. Atomic tasks, pass/fail iteration.
 ## 🚀 Getting Started
 
 ### Claude.ai Web Interface
