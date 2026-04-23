@@ -132,6 +132,7 @@ _More community skills coming soon! Submit a PR to add your skill._
 
 ### Tools
 
+- **[overboard](https://github.com/alona-iaig/overboard-claude-plugin)** - Create visual whiteboards, diagrams, flowcharts, and project plans from Claude Code. 11 board types (plan, brainstorm, kanban, SWOT, etc.) via `/overboard` commands. Free collaborative boards at [overboard.studio](https://overboard.studio)
 - **[yusufkaraaslan/Skill_Seekers](https://github.com/yusufkaraaslan/Skill_Seekers)** - Convert documentation websites into Claude Skills
 
 ## ✏️ Creating Your First Skill
