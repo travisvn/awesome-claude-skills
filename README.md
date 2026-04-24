@@ -109,6 +109,8 @@ Skills for working with complex file formats:
   - [Blog post about its development](https://blog.fsck.com/2025/10/23/naming-claude-plugins/)
   - Install from `superpowers-marketplace` plugin
 
+- **[ai-skill](https://github.com/anomalyco/ai-skill)** - AI skill discovery and management system
+
 
 ### Individual Skills
 
