@@ -109,6 +109,13 @@ Skills for working with complex file formats:
   - [Blog post about its development](https://blog.fsck.com/2025/10/23/naming-claude-plugins/)
   - Install from `superpowers-marketplace` plugin
 
+- **[Claude Code Skills Registry](https://claude-skills.bdnhost.net/)** by [BDNHOST](https://github.com/bdnhost) — Auto-discovered, daily-updated catalog of 250+ verified Claude Code skills curated from across the ecosystem
+  - Aggregates skills from 9 sources: `anthropics/skills`, `obra/superpowers`, `jeffallan/claude-skills`, `akin-ozer/cc-devops-skills`, `daymade/claude-code-skills`, `bdnhost/claude-skills`, plus daily GitHub code search
+  - Filter by 15 categories, source repo, language (English / Hebrew / Chinese), and tags
+  - Every skill has a deep-link page (`/s/<id>/`) with rich Open Graph previews, install snippet, and source link
+  - Source code for the BDNHOST-authored skills: [bdnhost/claude-skills](https://github.com/bdnhost/claude-skills)
+  - No tracking, no signup wall, no ads
+
 
 ### Individual Skills
 
