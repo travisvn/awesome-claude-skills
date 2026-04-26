@@ -98,6 +98,7 @@ Skills for working with complex file formats:
 
 ### Collections & Libraries
 
+- **[ControlKeel skills](https://github.com/aryaminus/controlkeel/tree/main/priv/skills)** - Governance, security review, compliance audit, cost optimization, proof memory, ship readiness, and agent-integration skills for governed Claude Code and multi-agent software delivery workflows.
 - **[obra/superpowers](https://github.com/obra/superpowers)** - Core skills library for Claude Code with 20+ battle-tested skills including TDD, debugging, and collaboration patterns
   - Features `/brainstorm`, `/write-plan`, `/execute-plan` commands and skills-search tool
   - [superpowers-skills](https://github.com/obra/superpowers-skills) - Community-editable skills repository
