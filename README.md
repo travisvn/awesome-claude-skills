@@ -109,6 +109,13 @@ Skills for working with complex file formats:
   - [Blog post about its development](https://blog.fsck.com/2025/10/23/naming-claude-plugins/)
   - Install from `superpowers-marketplace` plugin
 
+- **[avelikiy/great_cto](https://github.com/avelikiy/great_cto)** - Full SDLC pipeline as a Claude Code plugin: 7 specialised subagents (tech-lead, senior-dev, qa-engineer, security-officer, devops, l3-support, project-auditor), 16 commands, 11 archetypes, 13 compliance frameworks
+  - Self-improving knowledge layer: `/crystallize` captures lessons from P0 incidents into a global pattern library that surfaces in every agent's Step 0 across all projects on the same machine (verified MTTR ↓ 94% on second occurrence)
+  - Discovery skill: when input is sparse, asks 4 questions and proposes 2-3 concrete approaches (build / POC first / use a vendor) before committing to architecture
+  - MCP-native: Grafana monitoring for `l3-support`, LLM router (Kimi K2 via OpenRouter) for routine triage with 60-80% cost reduction vs Sonnet
+  - Files only, no SaaS, no telemetry; patterns live in `~/.great_cto/global-patterns/` and never leave your machine
+  - Installation: `npx great-cto init`
+
 
 ### Individual Skills
 
