@@ -128,6 +128,7 @@ Skills for working with complex file formats:
 | **[Expo Skills](https://github.com/expo/skills)** | Official skills by the Expo team for developing Expo apps |
 | **[shadcn/ui](https://ui.shadcn.com/docs/skills)** | Give Claude Code context on shadcn components as well as pattern enforcement |
 
+| **[logic-lens](https://github.com/hyhmrright/logic-lens)** | Logic-first code review via semi-formal execution tracing — detects behavioral bugs that linters and type checkers miss. Structured findings: Premises → Trace → Divergence → Remedy. Six skills: logic-review, logic-explain, logic-diff, logic-locate, logic-health, logic-fix-all |
 _More community skills coming soon! Submit a PR to add your skill._
 
 ### Tools
