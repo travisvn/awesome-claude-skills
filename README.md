@@ -128,6 +128,8 @@ Skills for working with complex file formats:
 | **[Expo Skills](https://github.com/expo/skills)** | Official skills by the Expo team for developing Expo apps |
 | **[shadcn/ui](https://ui.shadcn.com/docs/skills)** | Give Claude Code context on shadcn components as well as pattern enforcement |
 
+| **[win-optimizer-skill](https://github.com/sriramvrinda-oss/win-optimizer-skill)** | Diagnoses and optimizes Windows laptop performance — runs a read-only scan first, then (with confirmation) clears caches, stops bloat services, and fixes startup apps. All changes reversible via auto-generated rollback script |
+
 _More community skills coming soon! Submit a PR to add your skill._
 
 ### Tools
