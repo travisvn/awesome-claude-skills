@@ -129,6 +129,8 @@ Skills for working with complex file formats:
 | **[shadcn/ui](https://ui.shadcn.com/docs/skills)** | Give Claude Code context on shadcn components as well as pattern enforcement |
 | **[get-shit-done](https://github.com/gsd-build/get-shit-done)** | Lightweight meta-prompting, context engineering, and spec-driven development system for Claude Code by TÂCHES |
 
+| **[cli-charts](https://github.com/2233admin/chartex)** | 24 terminal-native chart types (bar, line, pie, sparkline, heatmap, candlestick, and more) rendered directly in the terminal — no browser, no files. Designed for AI agents (Claude Code, Codex, Gemini CLI) that live in the CLI |
+
 _More community skills coming soon! Submit a PR to add your skill._
 
 ### Tools
