@@ -109,6 +109,8 @@ Skills for working with complex file formats:
   - [Blog post about its development](https://blog.fsck.com/2025/10/23/naming-claude-plugins/)
   - Install from `superpowers-marketplace` plugin
 
+- **[ai-skill](https://github.com/anomalyco/ai-skill)** - AI skill discovery and management system
+
 
 ### Individual Skills
 
@@ -134,6 +136,7 @@ _More community skills coming soon! Submit a PR to add your skill._
 ### Tools
 
 - **[yusufkaraaslan/Skill_Seekers](https://github.com/yusufkaraaslan/Skill_Seekers)** - Convert documentation websites into Claude Skills
+- **[Skills宝 (skilery.com)](https://skilery.com)** - Chinese AI Skills marketplace, one-stop search & install for Claude Code/OpenCode
 
 ## ✏️ Creating Your First Skill
 
