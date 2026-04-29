@@ -129,6 +129,9 @@ Skills for working with complex file formats:
 | **[Expo Skills](https://github.com/expo/skills)** | Official skills by the Expo team for developing Expo apps |
 | **[shadcn/ui](https://ui.shadcn.com/docs/skills)** | Give Claude Code context on shadcn components as well as pattern enforcement |
 | **[get-shit-done](https://github.com/gsd-build/get-shit-done)** | Lightweight meta-prompting, context engineering, and spec-driven development system for Claude Code by TÂCHES |
+| **[wechat-article-reader](https://github.com/cathyzhang0905/wechat-article-reader)** | Read and search WeChat public account articles — no token, no login required. Runs fetches locally to bypass Anthropic-server blocking. |
+| **[notion-pdf-skill](https://github.com/cathyzhang0905/notion-pdf-skill)** | One-step PDF → Notion knowledge base. Skill that ingests a PDF and saves it as a structured Notion page. |
+| **[claude-code-monthly-audit](https://github.com/cathyzhang0905/claude-code-monthly-audit)** | Monthly health check slash command — audits CLAUDE.md, Rules, Skills, Hooks, Agents, and MCP servers in your Claude Code setup. |
 
 _More community skills coming soon! Submit a PR to add your skill._
 
