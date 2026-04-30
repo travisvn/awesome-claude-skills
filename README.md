@@ -109,6 +109,11 @@ Skills for working with complex file formats:
   - [Blog post about its development](https://blog.fsck.com/2025/10/23/naming-claude-plugins/)
   - Install from `superpowers-marketplace` plugin
 
+- **[rockscy/solo-skills](https://github.com/rockscy/solo-skills)** - 7 bilingual (EN+中文) Claude Code skills shaped for solo founders and indie developers
+  - Skills: `ship-decision`, `launch-tweet`, `changelog-from-commits`, `bug-from-user`, `standup-solo`, `email-customer`, `postmortem-solo`
+  - Every skill has a mandatory "When NOT to use" section + a fixed output format + a worked input/output example
+  - One-line install: `curl -fsSL https://raw.githubusercontent.com/rockscy/solo-skills/main/install.sh | bash`
+
 
 ### Individual Skills
 
