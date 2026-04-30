@@ -129,6 +129,7 @@ Skills for working with complex file formats:
 | **[shadcn/ui](https://ui.shadcn.com/docs/skills)** | Give Claude Code context on shadcn components as well as pattern enforcement |
 | **[get-shit-done](https://github.com/gsd-build/get-shit-done)** | Lightweight meta-prompting, context engineering, and spec-driven development system for Claude Code by TÂCHES |
 
+| **[VibePortrait](https://github.com/dadwadw233/VibePortrait)** | Developer personality portrait generator — analyzes AI conversation history to produce MBTI type, capability radar, developer rating, 3-dimension famous match, and a persona skill that lets any AI "think like you" |
 _More community skills coming soon! Submit a PR to add your skill._
 
 ### Tools
