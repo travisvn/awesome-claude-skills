@@ -96,6 +96,11 @@ Skills for working with complex file formats:
 > 
 > See [Security & Best Practices](#-security--best-practices) for more information
 
+### Marketing & Video
+
+- [claude-skill-ugc-prompt](https://github.com/msk3d0ut/claude-skill-ugc-prompt) — Generates complete UGC video ad prompts for Higgsfield AI — second by second with Turkish/Arabic dialogue, outfit rotation, and anti-mirror rules
+- [claude-skill-cinematic-prompt](https://github.com/msk3d0ut/claude-skill-cinematic-prompt) — Generates complete cinematic video ad prompts for Higgsfield AI — shot by shot with camera direction, music, and on-screen text
+
 ### Collections & Libraries
 
 - **[obra/superpowers](https://github.com/obra/superpowers)** - Core skills library for Claude Code with 20+ battle-tested skills including TDD, debugging, and collaboration patterns
