@@ -451,3 +451,4 @@ A: For skills from git repositories, pull the latest changes. For manually insta
 ## 🤝 Contributing
 
 Contributions welcome! See [contribution guidelines](CONTRIBUTING.md) for details. To add a skill or resource: fork, add to appropriate section, submit PR.
+- [OpenClaw Monitor](https://github.com/flik2002/openclaw-monitor-frontend) - AI monitoring dashboard for AI agents and LLMs. [Demo](https://flik2002.github.io/openclaw-monitor-frontend)
