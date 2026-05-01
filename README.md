@@ -109,6 +109,10 @@ Skills for working with complex file formats:
   - [Blog post about its development](https://blog.fsck.com/2025/10/23/naming-claude-plugins/)
   - Install from `superpowers-marketplace` plugin
 
+- **[LeonTing1010/taprun](https://github.com/LeonTing1010/taprun)** - First-principles engineering methodology marketplace: 8 skills covering verification gates, plan writing, semi-autonomous task execution, demand archaeology, constraint-driven development, engineering philosophy, and first-principle audit
+  - Skills namespace: `/taprun:verify`, `/taprun:writing-plans`, `/taprun:run-task`, `/taprun:demand-archaeologist`, `/taprun:constraint-driven-development`, `/taprun:engineering-philosophy`, `/taprun:first-principle-audit`, `/taprun:jimeng-generator`
+  - Installation: `claude plugin marketplace add LeonTing1010/taprun && claude plugin install taprun@tap`
+
 
 ### Individual Skills
 
