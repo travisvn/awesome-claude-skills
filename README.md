@@ -132,6 +132,7 @@ Skills for working with complex file formats:
 _More community skills coming soon! Submit a PR to add your skill._
 
 ### Tools
+- [skills-hub.ai](https://skills-hub.ai) - Open platform with 2,850+ AI coding skills. Browse, install (CLI or web), publish, compose, and review skills for Claude Code, Cursor, Windsurf, Codex CLI, and any MCP-compatible tool. Features quality scoring, security scanning, collections, and organizations.
 
 - **[yusufkaraaslan/Skill_Seekers](https://github.com/yusufkaraaslan/Skill_Seekers)** - Convert documentation websites into Claude Skills
 
