@@ -134,6 +134,7 @@ _More community skills coming soon! Submit a PR to add your skill._
 ### Tools
 
 - **[yusufkaraaslan/Skill_Seekers](https://github.com/yusufkaraaslan/Skill_Seekers)** - Convert documentation websites into Claude Skills
+- **[AgentsMesh](https://github.com/sampleXbro/agentsmesh)** - CLI that syncs canonical skills, rules, and config across Claude Code, Cursor, Copilot, and 10+ AI coding tools from a single `.agentsmesh/` directory
 
 ## ✏️ Creating Your First Skill
 
