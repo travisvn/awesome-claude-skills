@@ -128,6 +128,7 @@ Skills for working with complex file formats:
 | **[Expo Skills](https://github.com/expo/skills)** | Official skills by the Expo team for developing Expo apps |
 | **[shadcn/ui](https://ui.shadcn.com/docs/skills)** | Give Claude Code context on shadcn components as well as pattern enforcement |
 | **[get-shit-done](https://github.com/gsd-build/get-shit-done)** | Lightweight meta-prompting, context engineering, and spec-driven development system for Claude Code by TÂCHES |
+| **[production-audit](https://github.com/commitshow/production-audit)** | Audit a shipped repo for the production-readiness gaps that ~70% of AI-coded projects miss (RLS, webhook idempotency, Stripe API idempotency, column GRANT mismatches, secret-in-bundle, etc.). Companion to in-session security skills — scans deployed product, not editor buffer |
 
 _More community skills coming soon! Submit a PR to add your skill._
 
