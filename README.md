@@ -109,6 +109,11 @@ Skills for working with complex file formats:
   - [Blog post about its development](https://blog.fsck.com/2025/10/23/naming-claude-plugins/)
   - Install from `superpowers-marketplace` plugin
 
+ - **[igptai/skills](https://github.com/igptai/skills)** - Email intelligence skills marketplace with 13 role-specific plugins, 76 skills, and 13 agents, powered by the iGPT MCP
+  - Plugins for sales, finance, recruiting, customer success, executive, procurement, IT, marketing, projects, real estate, consulting, research, and HR
+  - Read-only OAuth, per-user scoping, citations on every answer
+  - Installation: `/plugin marketplace add igptai/skills`
+
 
 ### Individual Skills
 
