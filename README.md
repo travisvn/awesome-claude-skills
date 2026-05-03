@@ -109,6 +109,8 @@ Skills for working with complex file formats:
   - [Blog post about its development](https://blog.fsck.com/2025/10/23/naming-claude-plugins/)
   - Install from `superpowers-marketplace` plugin
 
+- **[Claude Code Skills 中文精选集](https://claude-skills.bt199.com/)** - Chinese-language curated directory of Claude Code Skills, Agents, and Plugins with 140+ resources for developers who prefer browsing and comparing Claude Code resources in Chinese
+
 
 ### Individual Skills
 
