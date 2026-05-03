@@ -109,6 +109,13 @@ Skills for working with complex file formats:
   - [Blog post about its development](https://blog.fsck.com/2025/10/23/naming-claude-plugins/)
   - Install from `superpowers-marketplace` plugin
 
+- **[Claude Forge](https://github.com/sangrokjung/claude-forge)** — Production-grade Claude Code distribution including **24 skills** (auto-ship, frontend-design, security-review, ci-bi, blog-publish, daily-report, content-creator, generate-image, etc.) plus the agent harness needed to make them work end-to-end (11 agents, 33 commands, 15 hooks, 4 MCP servers, statusLine).
+  - Skills follow the Anthropic 2026 Skills/Commands hybrid policy with documented boundary in [`docs/SKILLS-VS-COMMANDS.md`](https://github.com/sangrokjung/claude-forge/blob/main/docs/SKILLS-VS-COMMANDS.md)
+  - Submitted to [anthropics/claude-plugins-official](https://github.com/anthropics/claude-plugins-official) (in review)
+  - Inspired by oh-my-zsh's role for zsh
+  - Installation: `/plugin marketplace add sangrokjung/claude-forge` (lightweight) or `curl -fsSL https://raw.githubusercontent.com/sangrokjung/claude-forge/main/install.sh | bash` (full)
+  - License: MIT
+
 
 ### Individual Skills
 
