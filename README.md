@@ -109,6 +109,11 @@ Skills for working with complex file formats:
   - [Blog post about its development](https://blog.fsck.com/2025/10/23/naming-claude-plugins/)
   - Install from `superpowers-marketplace` plugin
 
+- **[zjio26/forge](https://github.com/zjio26/forge)** - Multi-agent workflow engine that enforces engineering discipline structurally — closed-loop Dev→Test→Fix cycles, wave-based task scaling, crash recovery with checkpointed state, and cross-run experience accumulation
+  - 4 specialized agents (Planner, Dev, Test, Learner) orchestrated by a lean Coordinator that never reads intermediate files
+  - Binary-verdict test gates (PASS/FAIL), automatic bug-fix loops (max 3 rounds), and full integration testing across waves
+  - Ships as a Claude Code plugin: `/plugin marketplace add zjio26/forge` then `/plugin install forge`
+
 
 ### Individual Skills
 
