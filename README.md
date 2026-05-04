@@ -134,6 +134,7 @@ _More community skills coming soon! Submit a PR to add your skill._
 ### Tools
 
 - **[yusufkaraaslan/Skill_Seekers](https://github.com/yusufkaraaslan/Skill_Seekers)** - Convert documentation websites into Claude Skills
+- **[The Froject](https://www.thefroject.com)** - Free browser-based wizard that generates complete Claude Code workspaces with role-tailored skills, commands, agents, rules, and hooks. Built non-developer-first for marketing, sales, customer success, HR, finance, and operations teams. Plugin marketplace at [bjorn-ingmanson/thefroject-plugins](https://github.com/bjorn-ingmanson/thefroject-plugins).
 
 ## ✏️ Creating Your First Skill
 
