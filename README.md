@@ -128,6 +128,8 @@ Skills for working with complex file formats:
 | **[Expo Skills](https://github.com/expo/skills)** | Official skills by the Expo team for developing Expo apps |
 | **[shadcn/ui](https://ui.shadcn.com/docs/skills)** | Give Claude Code context on shadcn components as well as pattern enforcement |
 | **[get-shit-done](https://github.com/gsd-build/get-shit-done)** | Lightweight meta-prompting, context engineering, and spec-driven development system for Claude Code by TÂCHES |
+| **[swarmclaw](https://github.com/swarmclawai/swarmclaw/blob/main/skills/swarmclaw.md)** | Self-hosted runtime for autonomous AI agents. Multi-provider, MCP-native, with memory, runtime skills, delegation, schedules, and reviewed conversation-to-skill learning across OpenClaw gateways and other providers. The skill teaches the agent when and how to drive a running SwarmClaw instance. |
+| **[swarmvault](https://github.com/swarmclawai/swarmvault/tree/main/skills/swarmvault)** | Local-first RAG knowledge vault. Compiles raw sources into a durable markdown wiki with a knowledge graph and a hybrid SQLite FTS plus embeddings index. Bundled MCP server (`npx -y @swarmvaultai/cli mcp`) exposes page search, page reads, source listing, query, ingest, compile, and lint tools. |
 
 _More community skills coming soon! Submit a PR to add your skill._
 
