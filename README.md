@@ -128,6 +128,10 @@ Skills for working with complex file formats:
 | **[Expo Skills](https://github.com/expo/skills)** | Official skills by the Expo team for developing Expo apps |
 | **[shadcn/ui](https://ui.shadcn.com/docs/skills)** | Give Claude Code context on shadcn components as well as pattern enforcement |
 | **[get-shit-done](https://github.com/gsd-build/get-shit-done)** | Lightweight meta-prompting, context engineering, and spec-driven development system for Claude Code by TÂCHES |
+| **[Trust Log](https://github.com/BuiltByEcho/trustlog/tree/main/skills/trustlog)** | Create, summarize, and verify local receipts for AI agent work using `@builtbyecho/trustlog` |
+| **[Agent Work Receipts](https://github.com/BuiltByEcho/trustlog/tree/main/skills/agent-work-receipts)** | Meta-workflow combining repo preflight, command run logs, Trust Log receipts, and CI dry-runs for auditable coding-agent work |
+| **[Agent Runlog](https://github.com/BuiltByEcho/agent-runlog/tree/main/skills/agent-runlog)** | Capture redacted command run evidence, stdout/stderr logs, git state, and handoff reports with `agent-runlog` |
+| **[Repo Agent Brief](https://github.com/BuiltByEcho/agent-brief/tree/main/skills/repo-agent-brief)** | Generate concise safety-aware repo preflight and diff-aware handoff briefs before coding-agent work |
 
 _More community skills coming soon! Submit a PR to add your skill._
 
