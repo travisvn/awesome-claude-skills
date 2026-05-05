@@ -109,6 +109,12 @@ Skills for working with complex file formats:
   - [Blog post about its development](https://blog.fsck.com/2025/10/23/naming-claude-plugins/)
   - Install from `superpowers-marketplace` plugin
 
+- **[tuannv14/claude-team-toolkit](https://github.com/tuannv14/claude-team-toolkit)** - Team-ready skill pack with 15 multi-account integrations for Rails + React Native team workflows
+  - Skills: Trello, Azure DevOps (cloud + self-hosted Server), Heroku, Sentry, Slack, Firebase, Shopify, PostgreSQL, RSpec, Rails-security, k6, Maestro, Fastlane, React Native, xlsx-testcases
+  - Multi-account profiles (AWS-style INI), audit log, security-first defaults, ~74% token savings on multi-step sessions
+  - Listed on [ClaudePluginHub](https://www.claudepluginhub.com/plugins/tuannv14-claude-team-toolkit)
+  - Installation: `/plugin marketplace add tuannv14/claude-team-toolkit`
+
 
 ### Individual Skills
 
