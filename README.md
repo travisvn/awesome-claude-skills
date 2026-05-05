@@ -110,6 +110,9 @@ Skills for working with complex file formats:
   - Install from `superpowers-marketplace` plugin
 
 
+
+- **[wondelai/skills](https://github.com/wondelai/skills)** - 25 business skills for UX, marketing, sales, and strategy
+
 ### Individual Skills
 
 > These will be broken down into categories once there are enough community skills available to list
