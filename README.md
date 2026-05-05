@@ -109,6 +109,10 @@ Skills for working with complex file formats:
   - [Blog post about its development](https://blog.fsck.com/2025/10/23/naming-claude-plugins/)
   - Install from `superpowers-marketplace` plugin
 
+- **[ComposioHQ/awesome-claude-skills](https://github.com/ComposioHQ/awesome-claude-skills)** - 78 SaaS automation skills powered by [Rube MCP](https://rube.app/mcp) (Composio). Each skill covers workflow patterns, tool sequences, common pitfalls, and parameter guidance for a specific app across 15+ categories: CRM (Salesforce, HubSpot, Pipedrive), Project Management (Jira, Asana, Linear, ClickUp), Communication (Slack, Discord, Teams), Email (Gmail, Outlook, SendGrid), Code & DevOps (GitHub, GitLab, Sentry, Datadog), Storage & Docs (Google Drive, Notion, Confluence, Airtable), Calendar (Google Calendar, Calendly), Social Media (LinkedIn, Twitter, Reddit), Support (Zendesk, Freshdesk, Intercom), E-commerce (Shopify, Stripe), Design (Figma, Canva), and more.
+  - Installation: `npx skills add ComposioHQ/awesome-claude-skills --all`
+  - MCP endpoint: `https://rube.app/mcp`
+
 
 ### Individual Skills
 
