@@ -109,6 +109,12 @@ Skills for working with complex file formats:
   - [Blog post about its development](https://blog.fsck.com/2025/10/23/naming-claude-plugins/)
   - Install from `superpowers-marketplace` plugin
 
+- **[hassan-mohiddin/orchestra](https://github.com/hassan-mohiddin/orchestra)** - Disciplined AI engineering toolkit. Typed design docs (Feature LLD / Bug Report / ADR / Postmortem / Runbook / Design Doc), 4-gate spec review (Completeness / Evidence / Clarity / Consistency), enforced Refs:-line commit gate, mandatory mermaid diagrams, AGENTS.md / llms.txt sync, bug-iteration loop preventing orphan fix-commits
+  - First skill: `orchestra:design-docs`. Future skills: workflow, skills-registry, tasks, gates
+  - Patterns from Michael Nygard (ADR), Google SRE (postmortems), Pragmatic Engineer (RFC vs ADR), agents.md, llmstxt.org
+  - Ships Python lint CLI for Refs:-line + metadata + status validation, auto `DECISIONS.md` with bidirectional ADR supersession check
+  - Installation: `/plugin marketplace add hassan-mohiddin/orchestra` then `/plugin install orchestra@orchestra`
+
 
 ### Individual Skills
 
