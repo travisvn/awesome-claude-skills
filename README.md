@@ -128,6 +128,7 @@ Skills for working with complex file formats:
 | **[Expo Skills](https://github.com/expo/skills)** | Official skills by the Expo team for developing Expo apps |
 | **[shadcn/ui](https://ui.shadcn.com/docs/skills)** | Give Claude Code context on shadcn components as well as pattern enforcement |
 | **[get-shit-done](https://github.com/gsd-build/get-shit-done)** | Lightweight meta-prompting, context engineering, and spec-driven development system for Claude Code by TÂCHES |
+| **[dependabot-triage](https://github.com/akshayrao14/git-practices/tree/main/skills/dependabot-triage)** | Defensive Dependabot triage for JS/TS repos (npm, pnpm, yarn, bun) — minimal-patched versioning, exposure mapping (Public/API · Client-Bundle · Internal/Dev), mandatory npm↔pnpm lockfile parity check, changelog scrape with BREAKING/DEPRECATED/MIGRATION safety interlock. Standard + Fast-Track modes |
 
 _More community skills coming soon! Submit a PR to add your skill._
 
