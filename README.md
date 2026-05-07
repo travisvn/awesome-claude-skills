@@ -134,6 +134,7 @@ _More community skills coming soon! Submit a PR to add your skill._
 ### Tools
 
 - **[yusufkaraaslan/Skill_Seekers](https://github.com/yusufkaraaslan/Skill_Seekers)** - Convert documentation websites into Claude Skills
+- **[neeraj10raja/Claude-code-reels](https://github.com/neeraj10raja/Claude-code-reels)** - Turn any topic into a professional Instagram Reel automatically — animated scenes, voice cloning, rendered to a ready-to-post MP4. Free and open source.
 
 ## ✏️ Creating Your First Skill
 
