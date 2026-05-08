@@ -109,6 +109,11 @@ Skills for working with complex file formats:
   - [Blog post about its development](https://blog.fsck.com/2025/10/23/naming-claude-plugins/)
   - Install from `superpowers-marketplace` plugin
 
+- **[lan-accelerator/lan-skills](https://github.com/lan-accelerator/lan-skills)** - 27 AI skills for the venture capital ecosystem — startups, LPs, corporates, and fund operators. Built by LAN Accelerator.
+  - 4 suites: Startups (13), VC Operators (5), LP & Angel (5), Corporates (4)
+  - Grounded in YC, Sequoia, a16z, Brad Feld, ILPA, LAVCA, and Cuantico frameworks
+  - Installation: `npx lan-skills` or `./install.sh`
+
 
 ### Individual Skills
 
