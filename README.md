@@ -91,6 +91,8 @@ Skills for working with complex file formats:
 
 ## 🌟 Community Skills
 
+
+- [sophymarine/openregistry](https://github.com/sophymarine/openregistry) — **OpenRegistry skillpack: 10 Claude Agent Skills for live company-registry data across 27 national government registries.** Unmodified, source-linked responses. Cross-border UBO chain walking in a single prompt. Flagship: Cross-Border UBO Chain Walker (walk UK Ltd → LU SARL → KY LP → individual). Free anonymous tier on hosted MCP at openregistry.sophymarine.com/mcp.
 > [!Warning]
 > Skills can execute arbitrary code in Claude's environment.
 > 
