@@ -112,6 +112,8 @@ Skills for working with complex file formats:
 
 ### Individual Skills
 
+
+- **[qa-skills](https://github.com/petrkindlmann/qa-skills)** — 42 QA and test-automation skills for Claude Code, Codex, Cursor, and other Agent Skills Standard runtimes. Covers Playwright, Cypress, API/unit/mobile testing, AI test generation, bug triage, accessibility, performance, CI/CD.
 > These will be broken down into categories once there are enough community skills available to list
 
 | Skill | Description |
