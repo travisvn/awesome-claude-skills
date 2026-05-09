@@ -451,3 +451,7 @@ A: For skills from git repositories, pull the latest changes. For manually insta
 ## 🤝 Contributing
 
 Contributions welcome! See [contribution guidelines](CONTRIBUTING.md) for details. To add a skill or resource: fork, add to appropriate section, submit PR.
+
+## Skill Bundles
+
+- **[Solo Founder OS](https://github.com/pagoda111king/claude-code-pack)** — Pack of 10 production-tested skills (idea-eval · lead-intake · proposal-gen · case-study-gen · prior-art-search · eval-refine · ship-checklist · release-window · soft-launch · content-blitz) plus 11 agents · 10 commands · 4 hooks. Battle-tested config from 6 months of solo SaaS work.
