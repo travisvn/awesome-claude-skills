@@ -109,6 +109,11 @@ Skills for working with complex file formats:
   - [Blog post about its development](https://blog.fsck.com/2025/10/23/naming-claude-plugins/)
   - Install from `superpowers-marketplace` plugin
 
+- **[atm301/one-person-agency-ai](https://github.com/atm301/one-person-agency-ai)** - 14 role-based AI skills that turn a solo freelancer/marketer into a full agency (Kevin strategist, Hunter ad buyer, Winnie editor, Ada analyst, Ken engineer, and 9 more) with cross-role handoff rules and a `/team` auto-dispatch coordinator
+  - Features: 14 distinct personas, `/team` auto-dispatch + `/meeting` multi-agent discussion, Traditional Chinese-first (English keywords included)
+  - 3 install paths: Claude Code (`cp -r skills/* ~/.claude/skills/`), Claude.ai Projects, or copy-paste prompts for ChatGPT/Gemini
+  - Use cases: marketing agencies, solo creators, indie SaaS operators
+
 
 ### Individual Skills
 
