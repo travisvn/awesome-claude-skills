@@ -109,6 +109,12 @@ Skills for working with complex file formats:
   - [Blog post about its development](https://blog.fsck.com/2025/10/23/naming-claude-plugins/)
   - Install from `superpowers-marketplace` plugin
 
+- **[adelaidasofia/ai-brain-starter](https://github.com/adelaidasofia/ai-brain-starter)** - Verification harness around an AI agent so memory compounds instead of corrupts
+  - Markdown vault as ground truth, deterministic pre-write hooks, bi-temporal rule lineage, session-end cascade that files decisions and captures automatically
+  - Bundled skills: journaling with an advisory panel, weekly + monthly insight cycles, knowledge graph extraction with community detection, drift detection, rule-conflict detection, ingest-* connector pattern (Slack, WhatsApp, Notion, Linear, GitHub, Gmail, YouTube), creator-economy vertical pack
+  - Inspired by Microsoft DELEGATE-52 ([arxiv.org/abs/2604.15597](https://arxiv.org/abs/2604.15597)) finding that frontier LLMs corrupt 25% of professional content over 20 edits
+  - In production against a 10K-file vault for 8+ months. MIT
+
 
 ### Individual Skills
 
@@ -128,6 +134,8 @@ Skills for working with complex file formats:
 | **[Expo Skills](https://github.com/expo/skills)** | Official skills by the Expo team for developing Expo apps |
 | **[shadcn/ui](https://ui.shadcn.com/docs/skills)** | Give Claude Code context on shadcn components as well as pattern enforcement |
 | **[get-shit-done](https://github.com/gsd-build/get-shit-done)** | Lightweight meta-prompting, context engineering, and spec-driven development system for Claude Code by TÂCHES |
+| **[humanizer](https://github.com/adelaidasofia/humanizer)** | Strip AI patterns from text and rewrite in the author's actual voice using a statistical fingerprint built from the author's own corpus. Bilingual EN+ES rule libraries plus a `--diff` mode that scores any draft 0-100 against the fingerprint. Fork of [blader/humanizer](https://github.com/blader/humanizer) with v2.6+ enhancements |
+| **[ingest-youtube](https://github.com/adelaidasofia/ai-brain-starter/tree/main/skills/ingest-youtube)** | Pull YouTube transcripts into a queryable markdown vault. Mirrors the ingest-* connector pattern (Slack, WhatsApp, Notion, Linear, GitHub, Gmail). yt-dlp with manual-subs > auto-captions > Whisper priority, VTT cleanup, idempotent file writes per-video, capture-seed stubs on trigger keywords. Bilingual EN+ES default |
 
 _More community skills coming soon! Submit a PR to add your skill._
 
