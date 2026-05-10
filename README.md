@@ -129,6 +129,8 @@ Skills for working with complex file formats:
 | **[shadcn/ui](https://ui.shadcn.com/docs/skills)** | Give Claude Code context on shadcn components as well as pattern enforcement |
 | **[get-shit-done](https://github.com/gsd-build/get-shit-done)** | Lightweight meta-prompting, context engineering, and spec-driven development system for Claude Code by TÂCHES |
 
+| **[a-share-skill](https://github.com/shouldnotappearcalm/a-share-skill)** | China A-share market data analysis with real-time quotes, historical K-line data, and 12 technical indicators (MA/EMA/MACD/KDJ/RSI/BOLL/ATR). Built for OpenClaw/Claude Code |
+| **[feishu-send-file](https://github.com/shouldnotappearcalm/feishu-skills)** | Send files and images to Feishu/Lark chats and groups via API. Supports private chats and group chats. Built for OpenClaw/Claude Code |
 _More community skills coming soon! Submit a PR to add your skill._
 
 ### Tools
