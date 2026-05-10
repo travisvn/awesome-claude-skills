@@ -109,6 +109,7 @@ Skills for working with complex file formats:
   - [Blog post about its development](https://blog.fsck.com/2025/10/23/naming-claude-plugins/)
   - Install from `superpowers-marketplace` plugin
 
+- **[agent-lsp](https://github.com/blackwell-systems/agent-lsp)** - 22 code intelligence skills backed by real language servers. Skills like `/lsp-refactor`, `/lsp-inspect`, `/lsp-understand`, and `/lsp-verify` encode multi-step LSP workflows (blast-radius analysis, speculative preview, three-layer verification) so agents complete them correctly. Ships as an MCP server; skills are discoverable via `prompts/list` and installable as AgentSkills slash commands.
 
 ### Individual Skills
 
