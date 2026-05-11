@@ -116,6 +116,7 @@ Skills for working with complex file formats:
 
 | Skill | Description |
 | --- | --- |
+| **[agentkit-seo](https://github.com/agentkit-seo/agentkit-seo)** | Skills for Claude Code, Codex, Gemini CLI, and OpenCode that optimize GitHub profiles, LinkedIn, CV/ATS, and portfolios using a structured personal context file. |
 | **[ios-simulator-skill](https://github.com/conorluddy/ios-simulator-skill)** | iOS app building, navigation, and testing through automation |
 | **[ffuf-web-fuzzing](https://github.com/jthack/ffuf_claude_skill)** | Expert guidance for ffuf web fuzzing during penetration testing, including authenticated fuzzing with raw requests, auto-calibration, and result analysis |
 | **[playwright-skill](https://github.com/lackeyjb/playwright-skill)** | General-purpose browser automation using Playwright |
