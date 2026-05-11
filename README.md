@@ -124,6 +124,7 @@ Skills for working with complex file formats:
 | **[web-asset-generator](https://github.com/alonw0/web-asset-generator)** | Generates web assets like favicons, app icons, and social media images |
 | **[loki-mode](https://github.com/asklokesh/claudeskill-loki-mode)** | Multi-agent autonomous startup system - orchestrates 37 AI agents across 6 swarms to build, deploy, and operate a complete startup from PRD to revenue |
 | **[Trail of Bits Security Skills](https://github.com/trailofbits/skills)** | Security skills for static analysis with CodeQL/Semgrep, variant analysis, code auditing, and vulnerability detection |
+| **[skill-audit-mcp](https://github.com/eltociear/skill-audit-mcp)** | Static security scanner for AI agent skills, MCP servers, and plugins. Detects 68 attack patterns across 4 severity levels — credential exfiltration, prompt injection, code execution, seed-phrase harvesting, auth bypass, path traversal. SARIF output for GitHub Code Scanning, also a GitHub Action (`uses: eltociear/skill-audit-mcp@v1`) |
 | **[frontend-slides](https://github.com/zarazhangrui/frontend-slides)** | Create animation-rich HTML presentations — from scratch or by converting PowerPoint files |
 | **[Expo Skills](https://github.com/expo/skills)** | Official skills by the Expo team for developing Expo apps |
 | **[shadcn/ui](https://ui.shadcn.com/docs/skills)** | Give Claude Code context on shadcn components as well as pattern enforcement |
