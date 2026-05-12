@@ -129,7 +129,7 @@ Skills for working with complex file formats:
 | **[shadcn/ui](https://ui.shadcn.com/docs/skills)** | Give Claude Code context on shadcn components as well as pattern enforcement |
 | **[get-shit-done](https://github.com/gsd-build/get-shit-done)** | Lightweight meta-prompting, context engineering, and spec-driven development system for Claude Code by TÂCHES |
 | **[deep-context](https://github.com/googlarz/deep-context)** | Loads full dependency trees and cross-file context before editing — prevents incomplete refactors and missed callsites |
-| **[health-skill](https://github.com/googlarz/health-skill)** | Analyze Apple Health & wearable data (HRV, sleep, workouts) with Claude; works with Suunto MCP for live watch data |
+| **[health-skill](https://github.com/googlarz/health-skill)** | Persistent health workspace and longevity companion — connects labs, medications, family history, symptoms, and training across sessions. Drug interaction checker, pharmacogenomics, FHIR import, cycle tracking, menopause support, preventive care, cross-domain pattern detection, and caregiver dashboard for whole households |
 | **[logic-audit](https://github.com/googlarz/logic-audit)** | Adversarial logic review: finds hidden contradictions, false assumptions, and reasoning gaps in plans or arguments |
 | **[math-skill](https://github.com/googlarz/math-skill)** | Step-by-step mathematical reasoning with LaTeX output — algebra, calculus, statistics, and proof verification |
 | **[finance-assistant](https://github.com/googlarz/finance-assistant)** | Personal finance analysis: budget tracking, expense categorization, and savings projections from your own data |
