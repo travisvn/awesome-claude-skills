@@ -128,6 +128,14 @@ Skills for working with complex file formats:
 | **[Expo Skills](https://github.com/expo/skills)** | Official skills by the Expo team for developing Expo apps |
 | **[shadcn/ui](https://ui.shadcn.com/docs/skills)** | Give Claude Code context on shadcn components as well as pattern enforcement |
 | **[get-shit-done](https://github.com/gsd-build/get-shit-done)** | Lightweight meta-prompting, context engineering, and spec-driven development system for Claude Code by TÂCHES |
+| **[deep-context](https://github.com/googlarz/deep-context)** | Loads full dependency trees and cross-file context before editing — prevents incomplete refactors and missed callsites |
+| **[health-skill](https://github.com/googlarz/health-skill)** | Analyze Apple Health & wearable data (HRV, sleep, workouts) with Claude; works with Suunto MCP for live watch data |
+| **[logic-audit](https://github.com/googlarz/logic-audit)** | Adversarial logic review: finds hidden contradictions, false assumptions, and reasoning gaps in plans or arguments |
+| **[math-skill](https://github.com/googlarz/math-skill)** | Step-by-step mathematical reasoning with LaTeX output — algebra, calculus, statistics, and proof verification |
+| **[finance-assistant](https://github.com/googlarz/finance-assistant)** | Personal finance analysis: budget tracking, expense categorization, and savings projections from your own data |
+| **[betriebsrat](https://github.com/googlarz/betriebsrat)** | German labour law advisor — works council rights, dismissal protection, and collective agreements (Betriebsverfassungsgesetz) |
+| **[fashion-skill](https://github.com/googlarz/fashion-skill)** | Outfit planning and wardrobe analysis; integrates with Vinted MCP CLI for secondhand sourcing |
+| **[deterministic-workflow-builder](https://github.com/googlarz/deterministic-workflow-builder)** | Build repeatable, auditable Claude workflows — enforces step ordering and prevents hallucinated shortcuts |
 
 _More community skills coming soon! Submit a PR to add your skill._
 
