@@ -110,6 +110,10 @@ Skills for working with complex file formats:
   - Install from `superpowers-marketplace` plugin
 
 
+- **[worldwonderer/oh-story-claudecode](https://github.com/worldwonderer/oh-story-claudecode)** - Chinese web novel writing toolkit with 13 skills covering the full pipeline: market scanning (Qidian/Fanqie/Jinjiang/Zhihu), deep analysis, long-form & short-form writing, de-AI polish, cover generation, and reverse import. Includes 6 specialized agents (architect, character designer, narrative writer, consistency checker, researcher, explorer)
+  - Installation: `npx skills add worldwonderer/oh-story-claudecode`
+  - 1k+ GitHub stars, actively maintained
+
 ### Individual Skills
 
 > These will be broken down into categories once there are enough community skills available to list
