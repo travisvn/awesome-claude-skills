@@ -133,6 +133,7 @@ _More community skills coming soon! Submit a PR to add your skill._
 
 ### Tools
 
+- **[johannesjo/parallel-code](https://github.com/johannesjo/parallel-code)** - Desktop app for orchestrating multiple Claude Code agents simultaneously in isolated git worktrees, with support for Codex CLI and Gemini CLI
 - **[yusufkaraaslan/Skill_Seekers](https://github.com/yusufkaraaslan/Skill_Seekers)** - Convert documentation websites into Claude Skills
 
 ## ✏️ Creating Your First Skill
