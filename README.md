@@ -109,6 +109,11 @@ Skills for working with complex file formats:
   - [Blog post about its development](https://blog.fsck.com/2025/10/23/naming-claude-plugins/)
   - Install from `superpowers-marketplace` plugin
 
+- **[tellmefrankie/ai-investment-skills](https://github.com/tellmefrankie/ai-investment-skills)** - 6 Claude Code skills for investment analysis built from live portfolio management
+  - Free: EV Calculator (probability-weighted bull/base/bear scenarios), News Sentiment Engine
+  - Pro ($29): Investment Briefing Agent (9-wave analysis), Options Flow Analyzer (real vs lottery calls), Price Monitor with Telegram alerts, Multi-Agent Orchestrator
+  - Caught XLI put/call ratio 5.32 anomaly live — production-tested, not a demo
+  - Installation: `cp ev-calculator/SKILL.md ~/.claude/skills/`
 
 ### Individual Skills
 
