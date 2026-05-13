@@ -128,6 +128,10 @@ Skills for working with complex file formats:
 | **[Expo Skills](https://github.com/expo/skills)** | Official skills by the Expo team for developing Expo apps |
 | **[shadcn/ui](https://ui.shadcn.com/docs/skills)** | Give Claude Code context on shadcn components as well as pattern enforcement |
 | **[get-shit-done](https://github.com/gsd-build/get-shit-done)** | Lightweight meta-prompting, context engineering, and spec-driven development system for Claude Code by TÂCHES |
+| **[Xiaohongshu Content Strategist](https://github.com/demo112/yunqu-ai-skills/tree/main/skills/xiaohongshu-content-strategist)** | AI-powered content strategy for Xiaohongshu (Little Red Book): trend analysis, title optimization, engagement tactics, and platform-specific content planning |
+| **[WeChat Official Account Strategist](https://github.com/demo112/yunqu-ai-skills/tree/main/skills/wechat-official-account-strategist)** | WeChat Official Account content strategy, audience growth, article optimization, and monetization planning |
+| **[Chinese Market Content Engineer](https://github.com/demo112/yunqu-ai-skills/tree/main/skills/chinese-market-content-engineer)** | Multi-platform Chinese content creation for WeChat, Xiaohongshu, Douyin, Zhihu, and Bilibili with platform-specific optimization |
+| **[MCP Tool Developer](https://github.com/demo112/yunqu-ai-skills/tree/main/skills/mcp-tool-developer)** | Build Model Context Protocol (MCP) servers and tools with TypeScript/Python, testing, deployment, and registry publishing |
 
 _More community skills coming soon! Submit a PR to add your skill._
 
