@@ -127,8 +127,8 @@ Skills for working with complex file formats:
 | **[frontend-slides](https://github.com/zarazhangrui/frontend-slides)** | Create animation-rich HTML presentations — from scratch or by converting PowerPoint files |
 | **[Expo Skills](https://github.com/expo/skills)** | Official skills by the Expo team for developing Expo apps |
 | **[shadcn/ui](https://ui.shadcn.com/docs/skills)** | Give Claude Code context on shadcn components as well as pattern enforcement |
+| **[ai-investment-skills](https://github.com/tellmefrankie/ai-investment-skills)** | Options flow scanner, stop-loss/take-profit price monitor, and daily AI briefing for investment analysis. Detects sector ETF P/C ratio anomalies with volume quality filtering. |
 | **[get-shit-done](https://github.com/gsd-build/get-shit-done)** | Lightweight meta-prompting, context engineering, and spec-driven development system for Claude Code by TÂCHES |
-| **[ai-investment-skills](https://github.com/tellmefrankie/ai-investment-skills)** | Daily options flow scanner, stop-loss monitor, earnings risk check, and real-vs-lottery position classifier. Runs on a cron schedule with Telegram alerts. |
 
 _More community skills coming soon! Submit a PR to add your skill._
 
