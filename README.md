@@ -134,6 +134,7 @@ _More community skills coming soon! Submit a PR to add your skill._
 ### Tools
 
 - **[yusufkaraaslan/Skill_Seekers](https://github.com/yusufkaraaslan/Skill_Seekers)** - Convert documentation websites into Claude Skills
+- **[pivoshenko/kasetto](https://github.com/pivoshenko/kasetto)** - A declarative AI agent environment manager, written in Rust.
 
 ## ✏️ Creating Your First Skill
 
