@@ -117,6 +117,7 @@ Skills for working with complex file formats:
 | Skill | Description |
 | --- | --- |
 | **[ios-simulator-skill](https://github.com/conorluddy/ios-simulator-skill)** | iOS app building, navigation, and testing through automation |
+| **[aave-respect](https://github.com/MinistaJazz/aave-respect)** | Respect-layer skill for recognizing African American Vernacular English accurately, preserving meaning, avoiding correction, and preventing mimicry |
 | **[ffuf-web-fuzzing](https://github.com/jthack/ffuf_claude_skill)** | Expert guidance for ffuf web fuzzing during penetration testing, including authenticated fuzzing with raw requests, auto-calibration, and result analysis |
 | **[playwright-skill](https://github.com/lackeyjb/playwright-skill)** | General-purpose browser automation using Playwright |
 | **[claude-d3js-skill](https://github.com/chrisvoncsefalvay/claude-d3js-skill)** | Visualizations in d3.js |
