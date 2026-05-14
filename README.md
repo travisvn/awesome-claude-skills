@@ -134,6 +134,7 @@ _More community skills coming soon! Submit a PR to add your skill._
 ### Tools
 
 - **[yusufkaraaslan/Skill_Seekers](https://github.com/yusufkaraaslan/Skill_Seekers)** - Convert documentation websites into Claude Skills
+- **[Reporecall](https://github.com/proofofwork-agency/reporecall)** - Local codebase memory for Claude Code and MCP clients. AST indexing (22 languages), call graph expansion, hybrid search. Injects code context via hooks before Claude sees your prompt.
 
 ## ✏️ Creating Your First Skill
 
