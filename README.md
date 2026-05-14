@@ -58,6 +58,12 @@ client = anthropic.Client(api_key="your-api-key")
 
 ## 🎯 Official Skills
 
+### Agency Skills 
+
+- **[pua](https://github.com/tanweai/pua)**  - Forces AI agents to exhaust all solutions before giving up, using culturally authentic corporate motivation in three editions:
+  Chinese PUA (Alibaba 361), English PIP (Amazon/Google calibration), Japanese 詰め (Toyota 改善/Dentsu 鬼十則). Cross-platform: Claude Code, Codex, Gemini CLI, Cursor,
+  Windsurf.
+
 ### Document Skills
 
 Skills for working with complex file formats:
