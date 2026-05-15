@@ -109,6 +109,12 @@ Skills for working with complex file formats:
   - [Blog post about its development](https://blog.fsck.com/2025/10/23/naming-claude-plugins/)
   - Install from `superpowers-marketplace` plugin
 
+- **[sabahattink/antigravity-fullstack-hq](https://github.com/sabahattink/antigravity-fullstack-hq)** - Permission-first CLAUDE.md + agent stack for Claude Code and Google Antigravity — 10 agents, 28 skills, one-command install
+  - Features permission-first workflow that requires explicit approval before any action, preventing unexpected AI changes
+  - Dual-IDE support: works with both **Claude Code** and **Google Antigravity IDE** out of the box
+  - Includes 10 specialist agents, 28 skill modules (Next.js, NestJS, Prisma, auth, security...), and 10 slash command workflows
+  - Installation: `curl -fsSL https://raw.githubusercontent.com/sabahattink/antigravity-fullstack-hq/main/install.sh | bash`
+
 
 ### Individual Skills
 
