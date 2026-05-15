@@ -109,6 +109,8 @@ Skills for working with complex file formats:
   - [Blog post about its development](https://blog.fsck.com/2025/10/23/naming-claude-plugins/)
   - Install from `superpowers-marketplace` plugin
 
+- **[Creator Skills](https://github.com/calebvbi/creator-skills)** - Marketplace and repository of creator-focused skills for Claude, ChatGPT, Cursor, and Claude Code, covering thumbnails, scripts, analytics, repurposing, monetization, and more
+
 
 ### Individual Skills
 
