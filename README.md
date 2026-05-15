@@ -128,6 +128,7 @@ Skills for working with complex file formats:
 | **[Expo Skills](https://github.com/expo/skills)** | Official skills by the Expo team for developing Expo apps |
 | **[shadcn/ui](https://ui.shadcn.com/docs/skills)** | Give Claude Code context on shadcn components as well as pattern enforcement |
 | **[get-shit-done](https://github.com/gsd-build/get-shit-done)** | Lightweight meta-prompting, context engineering, and spec-driven development system for Claude Code by TÂCHES |
+| **[recsys-pipeline-architect](https://github.com/mturac/recsys-pipeline-architect)** | Designs composable recommendation, ranking, and feed pipelines via the six-stage Source→Hydrator→Filter→Scorer→Selector→SideEffect framework (pattern from xAI's open-sourced X For You algorithm). Includes runnable scaffolds for Strapi v5 (TypeScript), Go (with generics), and Python/FastAPI |
 
 _More community skills coming soon! Submit a PR to add your skill._
 
