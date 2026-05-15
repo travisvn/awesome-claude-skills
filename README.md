@@ -109,6 +109,10 @@ Skills for working with complex file formats:
   - [Blog post about its development](https://blog.fsck.com/2025/10/23/naming-claude-plugins/)
   - Install from `superpowers-marketplace` plugin
 
+- **[VernonOY/alpha-skills](https://github.com/VernonOY/alpha-skills)** - 7 skills that turn Claude Code into a quantitative factor research workstation
+  - `alpha-discover` · `alpha-evaluate` (IC/ICIR/quintile/robustness) · `alpha-mine` (automated factor mining) · `alpha-library` · `alpha-backtest` · `alpha-monitor` (IC decay) · `alpha-report`
+  - Supports A-share, HK, and US equities out of the box; bilingual EN/中文; Apache 2.0
+
 
 ### Individual Skills
 
