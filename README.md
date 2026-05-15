@@ -128,6 +128,7 @@ Skills for working with complex file formats:
 | **[Expo Skills](https://github.com/expo/skills)** | Official skills by the Expo team for developing Expo apps |
 | **[shadcn/ui](https://ui.shadcn.com/docs/skills)** | Give Claude Code context on shadcn components as well as pattern enforcement |
 | **[get-shit-done](https://github.com/gsd-build/get-shit-done)** | Lightweight meta-prompting, context engineering, and spec-driven development system for Claude Code by TÂCHES |
+| **[GeoSQL](https://github.com/dekart-xyz/geosql)** | Cost-safe geospatial SQL on BigQuery and Snowflake. Validates results, prunes partitions, renders maps via Dekart |
 
 _More community skills coming soon! Submit a PR to add your skill._
 
