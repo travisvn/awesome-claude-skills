@@ -109,6 +109,8 @@ Skills for working with complex file formats:
   - [Blog post about its development](https://blog.fsck.com/2025/10/23/naming-claude-plugins/)
   - Install from `superpowers-marketplace` plugin
 
+- **[Hei33enberg/wallpaper6-design-skills](https://github.com/Hei33enberg/wallpaper6-design-skills)** - 64 PatternSkill definitions for **[wallpaper⁶](https://wallpaperwallpaperwallpaperwallpaperwallpaperwallpaper.com)** storefront categories — seamless tiling presets, stock photo queries, Flux/Schnell prompt templates, and print-roll context (53 cm / 106 cm)
+
 
 ### Individual Skills
 
