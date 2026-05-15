@@ -109,6 +109,14 @@ Skills for working with complex file formats:
   - [Blog post about its development](https://blog.fsck.com/2025/10/23/naming-claude-plugins/)
   - Install from `superpowers-marketplace` plugin
 
+- **[tastekim/claude-indie-toolkit](https://github.com/tastekim/claude-indie-toolkit)** - Workflow toolkit for solo founders shipping side projects with Claude Code — 5 agents + 3 skills + 2 commands + 1 PreToolUse hook, designed with explicit kill criteria and "refuse to" clauses
+  - Agents: `idea-validator` (5-pillar GO/NO-GO), `pricing-strategist` (Van Westendorp + competitive benchmarking), `landing-page-architect` (AIDA + PAS, 12-section), `cold-outreach-writer` (4-line reply-optimized framework), `launch-day-orchestrator` (22-day playbook)
+  - Skills: `mvp-spec-writer` (hard constraints: ≤4 weeks, ≤5 screens, ≤7 user actions), `competitor-deep-dive`, `revenue-modeler`
+  - Commands: `/validate-idea`, `/launch-checklist`
+  - Hook: `scope-creep-guard` — blocks Claude from writing files outside the project's MVP-SPEC.md
+  - Includes Korean adaptation guide (한국어 가이드)
+  - Free preview agent + sample output on GitHub (MIT); full pack on Gumroad
+
 
 ### Individual Skills
 
