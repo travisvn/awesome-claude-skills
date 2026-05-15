@@ -128,6 +128,7 @@ Skills for working with complex file formats:
 | **[Expo Skills](https://github.com/expo/skills)** | Official skills by the Expo team for developing Expo apps |
 | **[shadcn/ui](https://ui.shadcn.com/docs/skills)** | Give Claude Code context on shadcn components as well as pattern enforcement |
 | **[get-shit-done](https://github.com/gsd-build/get-shit-done)** | Lightweight meta-prompting, context engineering, and spec-driven development system for Claude Code by TÂCHES |
+| **[authsome](https://github.com/manojbajaj95/authsome)** | Local OAuth2 and API-key credential broker for AI agents. Login once via browser PKCE or device code, encrypted vault at ~/.authsome, local proxy injects credentials at request time so the agent's env never holds raw keys. 30+ providers preconfigured (GitHub, Google, OpenAI, Linear, Slack, Notion, Resend, Stripe, …). Ships an agentskills.io-compatible SKILL.md. MIT. |
 
 _More community skills coming soon! Submit a PR to add your skill._
 
