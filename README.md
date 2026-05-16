@@ -109,6 +109,7 @@ Skills for working with complex file formats:
   - [Blog post about its development](https://blog.fsck.com/2025/10/23/naming-claude-plugins/)
   - Install from `superpowers-marketplace` plugin
 
+- **[efeumutaslan/SAP-SKILLS](https://github.com/efeumutaslan/SAP-SKILLS)** - 23 SAP development skills for Claude Code covering ABAP, RAP, CDS, CAP, Fiori, BTP, HANA, S/4HANA extensibility, Integration Suite, and more — with references, templates, validation scripts, and MCP server configs
 
 ### Individual Skills
 
