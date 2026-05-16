@@ -128,6 +128,7 @@ Skills for working with complex file formats:
 | **[Expo Skills](https://github.com/expo/skills)** | Official skills by the Expo team for developing Expo apps |
 | **[shadcn/ui](https://ui.shadcn.com/docs/skills)** | Give Claude Code context on shadcn components as well as pattern enforcement |
 | **[get-shit-done](https://github.com/gsd-build/get-shit-done)** | Lightweight meta-prompting, context engineering, and spec-driven development system for Claude Code by TÂCHES |
+| **[git-timesheet](https://github.com/MarcinSufa/git-timesheet)** | Turns your git history into realistic weekly timesheets — hours allocated by commit complexity (lines changed, files touched), not flat splits. Outputs PDF + CSV; 9 countries of public holidays; 6 built-in languages with dynamic translation; pushes to Toggl, Clockify, TMetric, and Harvest APIs; matches custom company PDF templates from sample files. Stop filling timesheets manually. |
 
 _More community skills coming soon! Submit a PR to add your skill._
 
