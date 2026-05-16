@@ -128,6 +128,7 @@ Skills for working with complex file formats:
 | **[Expo Skills](https://github.com/expo/skills)** | Official skills by the Expo team for developing Expo apps |
 | **[shadcn/ui](https://ui.shadcn.com/docs/skills)** | Give Claude Code context on shadcn components as well as pattern enforcement |
 | **[get-shit-done](https://github.com/gsd-build/get-shit-done)** | Lightweight meta-prompting, context engineering, and spec-driven development system for Claude Code by TÂCHES |
+| **[watch-video](https://github.com/MarcinSufa/claude-watch-video)** | Give Claude eyes and ears for any video — local files, public URLs (YouTube, Loom, Vimeo, ~1500 sites via yt-dlp), or Jira attachments. Produces frames + transcript + LLM-driven highlights + paste-ready report (.md / .html / .docx). $0 pipeline (local ffmpeg + free YouTube captions or local Whisper). Smart dedup with transcript-aware protection, OCR layer for screen recordings, opt-in Jira post-back with confirmation gate. Also installable as an MCP server for Claude Desktop, Codex CLI, Cursor, Continue.dev, Cline, etc. |
 
 _More community skills coming soon! Submit a PR to add your skill._
 
