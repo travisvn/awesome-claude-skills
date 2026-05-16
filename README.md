@@ -128,6 +128,7 @@ Skills for working with complex file formats:
 | **[Expo Skills](https://github.com/expo/skills)** | Official skills by the Expo team for developing Expo apps |
 | **[shadcn/ui](https://ui.shadcn.com/docs/skills)** | Give Claude Code context on shadcn components as well as pattern enforcement |
 | **[get-shit-done](https://github.com/gsd-build/get-shit-done)** | Lightweight meta-prompting, context engineering, and spec-driven development system for Claude Code by TÂCHES |
+| **[@hanv89/azure-arch-skill](https://github.com/hanv89/azure-icons-for-architecture-diagrams)** | Microsoft Azure & Microsoft Fabric architecture diagrams in PlantUML with `<img:URL>` references to 840 first-party-MIT icons. Per-vendor `INDEX.md` lets the agent find icons by name/tag instead of guessing filenames. Install: `npx @hanv89/azure-arch-skill@latest install --agent=claude-code` (Codex + Cursor also supported) |
 
 _More community skills coming soon! Submit a PR to add your skill._
 
