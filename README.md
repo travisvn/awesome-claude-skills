@@ -108,6 +108,11 @@ Skills for working with complex file formats:
   - Uses new techniques that are still being refined and tested (i.e. skills here may change over time)
   - [Blog post about its development](https://blog.fsck.com/2025/10/23/naming-claude-plugins/)
   - Install from `superpowers-marketplace` plugin
+ 
+- **[drayline/rootnode-skills](https://github.com/drayline/rootnode-skills)** - Open-source architecture system for Claude. 27 Skills for chat-side Projects and Claude Code covering audits, scoring, prompt compilation, context budgeting, and Claude Code environment design.
+  - Two-surface coverage: chat-side Claude Projects and Claude Code execution
+  - Methodology: 6-dimension Project Scorecard, 7 structural anti-patterns, 10 behavioral countermeasures
+  - Site: [rootnode.design](https://rootnode.design)
 
 
 ### Individual Skills
