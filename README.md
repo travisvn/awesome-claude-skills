@@ -128,6 +128,7 @@ Skills for working with complex file formats:
 | **[Expo Skills](https://github.com/expo/skills)** | Official skills by the Expo team for developing Expo apps |
 | **[shadcn/ui](https://ui.shadcn.com/docs/skills)** | Give Claude Code context on shadcn components as well as pattern enforcement |
 | **[get-shit-done](https://github.com/gsd-build/get-shit-done)** | Lightweight meta-prompting, context engineering, and spec-driven development system for Claude Code by TÂCHES |
+| **[polis-protocol](https://github.com/yehudalevy-collab/polis-protocol)** | Markdown coordination protocol for multi-vendor agent teams. Signed capability cards, ε-greedy bandit routing that learns from settled contracts, chavruta paired review, self-amending constitution. Works across Claude Code, Codex, Gemini CLI |
 
 _More community skills coming soon! Submit a PR to add your skill._
 
