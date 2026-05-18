@@ -109,6 +109,15 @@ Skills for working with complex file formats:
   - [Blog post about its development](https://blog.fsck.com/2025/10/23/naming-claude-plugins/)
   - Install from `superpowers-marketplace` plugin
 
+- **[agency-agents-fork](https://github.com/daehounan/agency-agents-fork)** - 163 specialist agent personas + 24 routing skills bundled as a user-level Claude Code config, fork of `msitarzewski/agency-agents` with China-market agents excluded and Korean / Japanese Business Navigators added
+  - Routing skills include `korean-business`, `japanese-business`, `game-development-routing` (Unity / Unreal / Godot / Roblox / Blender), `xr-spatial-routing` (visionOS / WebXR), `paid-media-routing`, `sales-methodology-routing`, plus 18 more
+  - Ships `skill-routing-arbitrator` meta-skill that disambiguates across ~500 skills in the wider Claude Code ecosystem (`ecc:*`, `anthropic-skills:*`, `engineering:*`, etc.) — see [`docs/skill-ecosystem-duplicates.md`](https://github.com/daehounan/agency-agents-fork/blob/master/docs/skill-ecosystem-duplicates.md)
+  - PowerShell installer (`scripts/install.ps1`) targets Windows; optional UserPromptSubmit + PreToolUse hooks for agent-suggestion telemetry, registered idempotently via `install-hooks-in-settings.ps1` with settings backup and rollback
+  - Cross-reference audit (`scripts/audit-agent-refs.ps1`) enforced in CI — every backticked agent slug in every SKILL.md resolves to a real agent file (0 orphans)
+  - No outbound network calls. No `--dangerously-skip-permissions` required. See [`SECURITY.md`](https://github.com/daehounan/agency-agents-fork/blob/master/SECURITY.md)
+  - **One-liner install via [v1.2.0 release](https://github.com/daehounan/agency-agents-fork/releases/tag/v1.2.0)** — pre-built plugin zips attached, no clone or build needed: `claude --plugin-url https://github.com/daehounan/agency-agents-fork/releases/download/v1.2.0/agency-agents-fork-v1.2.0-full.zip` (or pick a scoped subset: `-engineering-finance`, `-marketing-paid-media-sales`, `-game-development`)
+  - Alternative installs: clone + `pwsh scripts/install.ps1 -WithSkills` (user-level bundle, no namespacing), or clone + `pwsh scripts/build-plugin.ps1 -Divisions <list>` (custom scope)
+
 
 ### Individual Skills
 
