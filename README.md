@@ -109,6 +109,12 @@ Skills for working with complex file formats:
   - [Blog post about its development](https://blog.fsck.com/2025/10/23/naming-claude-plugins/)
   - Install from `superpowers-marketplace` plugin
 
+- **[2389-research/claude-plugins](https://github.com/2389-research/claude-plugins)** - Plugin marketplace with 25 skills and MCP servers covering development workflows, multi-agent patterns, and code quality
+  - Includes simmer (iterative refinement with judge panels), review-squad (parallel reviewer agents), speed-run (token-efficient codegen via hosted LLMs), and test-kitchen (parallel implementation exploration)
+  - Also has binary reverse engineering, Firebase/CSS dev workflows, scenario testing (no-mocks TDD), and PR health monitoring
+  - Marketplace site: https://2389-research.github.io/claude-plugins
+  - Installation: `/plugin marketplace add 2389-research/claude-plugins`
+
 
 ### Individual Skills
 
