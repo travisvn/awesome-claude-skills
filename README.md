@@ -134,6 +134,10 @@ _More community skills coming soon! Submit a PR to add your skill._
 ### Tools
 
 - **[yusufkaraaslan/Skill_Seekers](https://github.com/yusufkaraaslan/Skill_Seekers)** - Convert documentation websites into Claude Skills
+- **[ToolDispatch](https://github.com/ToolDispatch/Dispatch)** - Runtime tool router and AI code contract checker for
+  Claude Code. Intercepts Skill/MCP/Agent calls and scores them against 16,000+ marketplace tools — blocks when a better
+  option exists. XF Audit runs a 200ms AST scan on every file edit catching broken imports, wrong arg counts, missing env
+  vars, and stubs before code runs. Free + Pro.
 
 ## ✏️ Creating Your First Skill
 
