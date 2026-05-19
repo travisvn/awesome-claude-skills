@@ -134,6 +134,7 @@ _More community skills coming soon! Submit a PR to add your skill._
 ### Tools
 
 - **[yusufkaraaslan/Skill_Seekers](https://github.com/yusufkaraaslan/Skill_Seekers)** - Convert documentation websites into Claude Skills
+- **[dfbb/dora](https://github.com/dfbb/dora)** - Automatically discover and try new community skills without disrupting your workflow. Query, security-filter, and load skills on demand from a ~9,500-skill catalog with offline fallback. Cross-platform: Claude Code, Codex, Gemini CLI, OpenCode, Qwen Code. MIT.
 
 ## ✏️ Creating Your First Skill
 
