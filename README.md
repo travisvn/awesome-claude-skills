@@ -129,6 +129,8 @@ Skills for working with complex file formats:
 | **[shadcn/ui](https://ui.shadcn.com/docs/skills)** | Give Claude Code context on shadcn components as well as pattern enforcement |
 | **[get-shit-done](https://github.com/gsd-build/get-shit-done)** | Lightweight meta-prompting, context engineering, and spec-driven development system for Claude Code by TÂCHES |
 
+| **[living-docs](https://github.com/phlx0/living-docs)** | Claude Code plugin that auto-detects stale documentation after code changes and applies surgical fixes — catches renamed functions, env vars, CLI flags, and API endpoints across Markdown, JSDoc, OpenAPI, Python docstrings, and Go doc comments |
+
 _More community skills coming soon! Submit a PR to add your skill._
 
 ### Tools
