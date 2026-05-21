@@ -109,6 +109,11 @@ Skills for working with complex file formats:
   - [Blog post about its development](https://blog.fsck.com/2025/10/23/naming-claude-plugins/)
   - Install from `superpowers-marketplace` plugin
 
+- **[santifer/career-ops](https://github.com/santifer/career-ops)** - 14-skill collection that turns Claude Code into an AI-powered job search command center — JD evaluation, ATS PDF generation, portal scanners (Greenhouse/Ashby/Lever), interview prep with STAR+R stories, batch processing, and a Go dashboard TUI
+  - Multi-CLI support (Claude Code, OpenCode, Gemini CLI)
+  - README in 9 languages (EN/ES/DE/FR/PT-BR/KO/JA/ZH-CN/ZH-TW)
+  - [Case study](https://santifer.io/career-ops-system) — 740+ offers evaluated, 100+ tailored CVs
+
 
 ### Individual Skills
 
