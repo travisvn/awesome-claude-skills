@@ -288,6 +288,7 @@ The easiest way to create a skill is to use the built-in `skill-creator`:
 
 - [How to Create Your First Claude Skill](https://skywork.ai/blog/ai-agent/how-to-create-claude-skill-step-by-step-guide/) - Step-by-step tutorial with examples
 - [How to Use Skills in Claude Code](https://skywork.ai/blog/how-to-use-skills-in-claude-code-install-path-project-scoping-testing/) - Installation, project scoping, and testing guide
+- [awesome-agentic-ai-zh](https://github.com/WenyuChiou/awesome-agentic-ai-zh) - Trilingual (EN / 繁中 / 简中) staged roadmap for agentic AI; Stage 5 covers the Claude Code ecosystem (Skills, MCP, plugins, subagents), including when to use a Skill vs an MCP server or a subagent. MIT.
 
 ### Video Tutorials
 
