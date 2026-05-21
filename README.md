@@ -128,6 +128,7 @@ Skills for working with complex file formats:
 | **[Expo Skills](https://github.com/expo/skills)** | Official skills by the Expo team for developing Expo apps |
 | **[shadcn/ui](https://ui.shadcn.com/docs/skills)** | Give Claude Code context on shadcn components as well as pattern enforcement |
 | **[get-shit-done](https://github.com/gsd-build/get-shit-done)** | Lightweight meta-prompting, context engineering, and spec-driven development system for Claude Code by TÂCHES |
+| **[building-blog](https://github.com/BuildShipGrowRepeat/nextjs-sanity-blog-skill)** | Adds an SEO-first, i18n-ready blog to a Next.js + Sanity site via 40-question intake, a one-page plan, and a 20-section spec |
 
 _More community skills coming soon! Submit a PR to add your skill._
 
