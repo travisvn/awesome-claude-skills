@@ -110,6 +110,8 @@ Skills for working with complex file formats:
   - Install from `superpowers-marketplace` plugin
 
 
+- **[Claude Code SDK](https://github.com/SeifBenayed/claude-code-sdk)** - Open-source, provider-agnostic SDK implementing the Claude Code tool loop in 4 languages (Node.js, Python, Go, Rust): works with Anthropic, OpenAI, Google, DeepSeek, Mistral, Groq, Ollama, and LM Studio. Zero dependencies, built-in tool loop with permissions and session persistence. *By [@SeifBenayed](https://github.com/SeifBenayed)*
+
 ### Individual Skills
 
 > These will be broken down into categories once there are enough community skills available to list
