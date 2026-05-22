@@ -109,6 +109,12 @@ Skills for working with complex file formats:
   - [Blog post about its development](https://blog.fsck.com/2025/10/23/naming-claude-plugins/)
   - Install from `superpowers-marketplace` plugin
 
+- **[Skill Locker](https://skilllocker.ai)** - Paid catalog of 296 hand-authored skills across 33 non-developer-first pillars (business, marketing, career, course creation, health & wellness, agency operations, fundraising, community building, personal brand, SEO, and more)
+  - All skills at v1.3.0 — each through 3 Karpathy-loop improvement cycles
+  - [Open catalog dataset](https://skilllocker.ai/skills.json) — JSON metadata, free for tools/research/comparison sites
+  - [Guided discovery surface](https://skilllocker.ai/find) — pick a role + task, get 3 recommended skills
+  - [Free tier](https://skilllocker.ai/auth/login): 5 free skills (anti-slop checker, 3-minute email, 60-second bio, content idea machine, meeting debrief)
+
 
 ### Individual Skills
 
