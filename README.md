@@ -104,6 +104,11 @@ Skills for working with complex file formats:
   - [Blog: Superpowers](https://blog.fsck.com/2025/10/09/superpowers/) - Author's overview by Jesse Vincent
   - Installation: `/plugin marketplace add obra/superpowers-marketplace`
  
+- **[freshtemp-labs/hermes-skills-bridge](https://github.com/freshtemp-labs/hermes-skills-bridge)** - One-click import of 50+ verified skills from skills.sh ecosystem into Hermes Agent
+  - Converts Vercel SKILL.md format to Hermes native format automatically
+  - Batch import, validation, and 46 tests included
+  - Skills from anthropics, vercel-labs, lijigang (5.2K stars), JuliusBrussee (63K stars), and more
+
 - **[obra/superpowers-lab](https://github.com/obra/superpowers-lab)** - Experimental skills for `Claude Code Superpowers` (see above)
   - Uses new techniques that are still being refined and tested (i.e. skills here may change over time)
   - [Blog post about its development](https://blog.fsck.com/2025/10/23/naming-claude-plugins/)
