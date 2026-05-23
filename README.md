@@ -134,6 +134,7 @@ _More community skills coming soon! Submit a PR to add your skill._
 ### Tools
 
 - **[yusufkaraaslan/Skill_Seekers](https://github.com/yusufkaraaslan/Skill_Seekers)** - Convert documentation websites into Claude Skills
+- **[recodeee/cue](https://github.com/recodeee/cue)** - Agent profile manager — per-directory skill/MCP/plugin isolation with inheritance. Scopes the right loadout per project automatically. `npm i -g cue-ai`
 
 ## ✏️ Creating Your First Skill
 
