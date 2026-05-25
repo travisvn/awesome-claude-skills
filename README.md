@@ -98,6 +98,8 @@ Skills for working with complex file formats:
 
 ### Collections & Libraries
 
+- **[skills-for-humanity](https://github.com/human-avatar/skills-for-humanity)** - 171 structured reasoning methodologies packaged as Claude Code skills, covering logic, probability, decision-making, creativity, ethics, writing, strategy, and more. Based on frameworks from de Bono, Meadows, Tetlock, Sun Tzu, and others. Install: `npx @human-avatar/skills-for-humanity`
+
 - **[obra/superpowers](https://github.com/obra/superpowers)** - Core skills library for Claude Code with 20+ battle-tested skills including TDD, debugging, and collaboration patterns
   - Features `/brainstorm`, `/write-plan`, `/execute-plan` commands and skills-search tool
   - [superpowers-skills](https://github.com/obra/superpowers-skills) - Community-editable skills repository
