@@ -108,6 +108,11 @@ Skills for working with complex file formats:
   - Uses new techniques that are still being refined and tested (i.e. skills here may change over time)
   - [Blog post about its development](https://blog.fsck.com/2025/10/23/naming-claude-plugins/)
   - Install from `superpowers-marketplace` plugin
+ 
+  - **[walterwritesai/walter-skills](https://github.com/walterwritesai/walter-skills)** - 12 drop-in markdown skills for Claude projects covering SEO content writing, AI humanization, AI detection, keyword preservation, agency QC, local SEO, programmatic SEO, content repurposing, and brand voice
+  - Each skill follows the Agent Skills spec with YAML frontmatter
+  - Invokes Walter Writes AI tools via MCP for humanization and detection
+  - MIT licensed
 
 
 ### Individual Skills
