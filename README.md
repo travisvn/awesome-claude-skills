@@ -128,6 +128,7 @@ Skills for working with complex file formats:
 | **[Expo Skills](https://github.com/expo/skills)** | Official skills by the Expo team for developing Expo apps |
 | **[shadcn/ui](https://ui.shadcn.com/docs/skills)** | Give Claude Code context on shadcn components as well as pattern enforcement |
 | **[get-shit-done](https://github.com/gsd-build/get-shit-done)** | Lightweight meta-prompting, context engineering, and spec-driven development system for Claude Code by TÂCHES |
+| **[time-awareness](https://github.com/amosshacareer-netizen/time-awareness-skill)** | Gives Claude precise time awareness — fixes stale dates across conversations, detects time gaps, checks memory freshness, calculates countdowns, and handles cross-timezone coordination. Bilingual (EN+中文). |
 
 _More community skills coming soon! Submit a PR to add your skill._
 
