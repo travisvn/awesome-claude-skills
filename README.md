@@ -115,6 +115,11 @@ Skills for working with complex file formats:
   - Bilingual documentation (中文/English) with one-click installer
   - Installation: `bash <(curl -s https://raw.githubusercontent.com/gtskevin/awesome-vibe-skills/main/scripts/install.sh) --all`
 
+- **[vibe-check](https://github.com/gtskevin/vibe-check)** - Quality gate for AI-generated code
+  - Single SKILL.md that checks security, correctness, structure, performance, testing, and documentation
+  - Just say "vibe check" to get a full scorecard report
+  - Installation: `curl -sSL https://raw.githubusercontent.com/gtskevin/vibe-check/main/SKILL.md -o ~/.claude/skills/vibe-check/SKILL.md`
+
 ### Individual Skills
 
 > These will be broken down into categories once there are enough community skills available to list
