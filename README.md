@@ -120,6 +120,11 @@ Skills for working with complex file formats:
   - Just say "vibe check" to get a full scorecard report
   - Installation: `curl -sSL https://raw.githubusercontent.com/gtskevin/vibe-check/main/SKILL.md -o ~/.claude/skills/vibe-check/SKILL.md`
 
+- **[vibe-toolkit](https://github.com/gtskevin/vibe-toolkit)** - The missing CLI for AI coding assistants
+  - Install skills from curated collection, validate SKILL.md files, scaffold new skills
+  - One Python file, zero dependencies
+  - Installation: `curl -sSL https://raw.githubusercontent.com/gtskevin/vibe-toolkit/main/vibe -o /usr/local/bin/vibe && chmod +x /usr/local/bin/vibe`
+
 ### Individual Skills
 
 > These will be broken down into categories once there are enough community skills available to list
