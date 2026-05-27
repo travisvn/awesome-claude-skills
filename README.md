@@ -109,6 +109,11 @@ Skills for working with complex file formats:
   - [Blog post about its development](https://blog.fsck.com/2025/10/23/naming-claude-plugins/)
   - Install from `superpowers-marketplace` plugin
 
+- **[matematicsolutions/awesome-matematic-skills-pl](https://github.com/matematicsolutions/awesome-matematic-skills-pl)** - 22 skills for Polish legal practice (with EU law via SPARQL): LLM output validation pipeline (router, citation grounding, adversarial review, fidelity check), offline PII anonymization with PESEL/NIP/REGON/KRS checksum validation, SAOS case law search, EUR-Lex SPARQL, native Word Track Changes for .docx, and AI Act record-keeping bundles
+  - Local-only processing for GDPR compliance; Apache-2.0 / MIT per skill
+  - Companion: [matematic-anonimizacja-pl](https://github.com/matematicsolutions/matematic-anonimizacja-pl) - standalone anonymization engine, zero dependencies, Node >=20
+  - Installation: `/plugin marketplace add matematicsolutions/awesome-matematic-skills-pl`
+
 
 ### Individual Skills
 
