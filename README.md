@@ -110,6 +110,11 @@ Skills for working with complex file formats:
   - Install from `superpowers-marketplace` plugin
 
 
+- **[awesome-vibe-skills](https://github.com/gtskevin/awesome-vibe-skills)** - Curated collection of 10 high-quality, ready-to-install AI coding agent skills for Codex and Claude Code
+  - Covers code review, security scanning, test generation, documentation, performance, refactoring, commit messages, API review, i18n, and changelog
+  - Bilingual documentation (中文/English) with one-click installer
+  - Installation: `bash <(curl -s https://raw.githubusercontent.com/gtskevin/awesome-vibe-skills/main/scripts/install.sh) --all`
+
 ### Individual Skills
 
 > These will be broken down into categories once there are enough community skills available to list
