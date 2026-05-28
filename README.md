@@ -134,6 +134,8 @@ _More community skills coming soon! Submit a PR to add your skill._
 ### Tools
 
 - **[yusufkaraaslan/Skill_Seekers](https://github.com/yusufkaraaslan/Skill_Seekers)** - Convert documentation websites into Claude Skills
+- **[sovareq/sovacount](https://github.com/sovareq/sovacount)** - Scope-level LLM tier-router (Haiku/Sonnet/Opus). MIT, Rust. Real-Anthropic benchmark in repo (88% saved on 5-task sample). Companion to caveman.
+- **[sovareq/savings-mirror](https://github.com/sovareq/savings-mirror)** - Read-only USD-savings dashboard for Claude Code. Parses `~/.claude/projects/` JSONL transcripts, splits tier-savings vs caveman-savings per day. MIT, Rust.
 
 ## ✏️ Creating Your First Skill
 
