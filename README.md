@@ -128,6 +128,7 @@ Skills for working with complex file formats:
 | **[Expo Skills](https://github.com/expo/skills)** | Official skills by the Expo team for developing Expo apps |
 | **[shadcn/ui](https://ui.shadcn.com/docs/skills)** | Give Claude Code context on shadcn components as well as pattern enforcement |
 | **[get-shit-done](https://github.com/gsd-build/get-shit-done)** | Lightweight meta-prompting, context engineering, and spec-driven development system for Claude Code by TÂCHES |
+| **[hermes-supercode-skills](https://github.com/mturac/hermes-supercode-skills)** | 13 production-grade Claude Code skills: db-whisperer, auth-architect, obs-guardian, deploy-ninja, quantum-debugger, api-sculptor + 8 more. Each skill follows Recon→Plan→Execute→Verify with structured JSON output and tiered safety rails. Also available for [Codex](https://github.com/mturac/hermes-supercode-skills-codex). |
 
 _More community skills coming soon! Submit a PR to add your skill._
 
