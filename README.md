@@ -128,6 +128,7 @@ Skills for working with complex file formats:
 | **[Expo Skills](https://github.com/expo/skills)** | Official skills by the Expo team for developing Expo apps |
 | **[shadcn/ui](https://ui.shadcn.com/docs/skills)** | Give Claude Code context on shadcn components as well as pattern enforcement |
 | **[get-shit-done](https://github.com/gsd-build/get-shit-done)** | Lightweight meta-prompting, context engineering, and spec-driven development system for Claude Code by TÂCHES |
+| **[google-maps-agent-skills](https://github.com/gmapsscraper/google-maps-agent-skills)** | 8 skills for Google Maps lead generation — scrape businesses, extract emails, find local leads, analyze competitors, and write cold outreach. Two-layer design: paid skills call API, free skills process CSV locally. Install: `npx skills add gmapsscraper/google-maps-agent-skills/google-maps-scraper` |
 
 _More community skills coming soon! Submit a PR to add your skill._
 
