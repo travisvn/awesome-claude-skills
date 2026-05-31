@@ -105,6 +105,7 @@ Skills for working with complex file formats:
   - Installation: `/plugin marketplace add obra/superpowers-marketplace`
  
 - **[obra/superpowers-lab](https://github.com/obra/superpowers-lab)** - Experimental skills for `Claude Code Superpowers` (see above)
+- [ai-identity-persistence-contract](https://github.com/thebrierfox/ai-identity-persistence-contract) - AI identity persistence via read-only document contract. Four-layer architecture for persistent AI agents that survive context window resets.
   - Uses new techniques that are still being refined and tested (i.e. skills here may change over time)
   - [Blog post about its development](https://blog.fsck.com/2025/10/23/naming-claude-plugins/)
   - Install from `superpowers-marketplace` plugin
