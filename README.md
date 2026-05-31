@@ -128,6 +128,8 @@ Skills for working with complex file formats:
 | **[Expo Skills](https://github.com/expo/skills)** | Official skills by the Expo team for developing Expo apps |
 | **[shadcn/ui](https://ui.shadcn.com/docs/skills)** | Give Claude Code context on shadcn components as well as pattern enforcement |
 | **[get-shit-done](https://github.com/gsd-build/get-shit-done)** | Lightweight meta-prompting, context engineering, and spec-driven development system for Claude Code by TÂCHES |
+| **[repo-showcase](https://github.com/gtskevin/repo-showcase)** | Transform any GitHub repo into a professional, star-attracting showcase — auto-generates README, SVG assets, badges, and community files |
+| **[ai-native-review](https://github.com/gtskevin/ai-native-review)** | Catch the #1 AI anti-pattern before you build — 4-point decision tree to distinguish AI-native from AI-decorated designs |
 
 _More community skills coming soon! Submit a PR to add your skill._
 
