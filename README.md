@@ -109,6 +109,11 @@ Skills for working with complex file formats:
   - [Blog post about its development](https://blog.fsck.com/2025/10/23/naming-claude-plugins/)
   - Install from `superpowers-marketplace` plugin
 
+- **[machinarii/awesome-mental-models](https://github.com/machinarii/awesome-mental-models)** - Library of 249 mental models plus a skill that interviews you, picks the right framework for your situation, and walks you through it as a working session
+  - Covers decisions, problem-solving, strategy, planning, evaluation, sense-making, risk, and communication
+  - One markdown file per model (Overview / How to Use It / Example / Takeaway / Source)
+  - Installation: clone and run `./install.sh` to wire the skill into `~/.claude/skills/`
+
 
 ### Individual Skills
 
