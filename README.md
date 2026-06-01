@@ -128,6 +128,9 @@ Skills for working with complex file formats:
 | **[Expo Skills](https://github.com/expo/skills)** | Official skills by the Expo team for developing Expo apps |
 | **[shadcn/ui](https://ui.shadcn.com/docs/skills)** | Give Claude Code context on shadcn components as well as pattern enforcement |
 | **[get-shit-done](https://github.com/gsd-build/get-shit-done)** | Lightweight meta-prompting, context engineering, and spec-driven development system for Claude Code by TÂCHES |
+| **[vibe-translator](https://github.com/3243dwon/vibe-translator)** | Adapt content across any language, culture, and platform so it reads like a native wrote it — a cultural rebuild, not a literal translation. Ships a validator. |
+| **[clear-eye](https://github.com/3243dwon/clear-eye)** | Skeptical-thinking pack: forensic-read (surface what a document isn't saying), second-order (knock-on effects), pre-mortem (find what kills a plan). Ships an evidence scanner. |
+| **[forensic-read](https://github.com/3243dwon/forensic-read)** | Reads between the lines of any document — surfaces hedging, omissions, and buried leads. Ships an evidence scanner. |
 
 _More community skills coming soon! Submit a PR to add your skill._
 
