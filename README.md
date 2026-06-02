@@ -128,6 +128,7 @@ Skills for working with complex file formats:
 | **[Expo Skills](https://github.com/expo/skills)** | Official skills by the Expo team for developing Expo apps |
 | **[shadcn/ui](https://ui.shadcn.com/docs/skills)** | Give Claude Code context on shadcn components as well as pattern enforcement |
 | **[get-shit-done](https://github.com/gsd-build/get-shit-done)** | Lightweight meta-prompting, context engineering, and spec-driven development system for Claude Code by TÂCHES |
+| **[skills_library (Cleo Labs)](https://github.com/Cleo-Labs-IA/skills_library)** | 45 product-compliance skills (cosmetics, food, electronics, toys, textiles, supplements, medical devices, customs, recalls, claims, sustainability) — installable directly or via MCP server (`npx -y @cleo-labs/skills-mcp@latest`). MIT |
 
 _More community skills coming soon! Submit a PR to add your skill._
 
