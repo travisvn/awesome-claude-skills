@@ -93,7 +93,7 @@ Skills for working with complex file formats:
 
 > [!Warning]
 > Skills can execute arbitrary code in Claude's environment.
-> 
+>
 > See [Security & Best Practices](#-security--best-practices) for more information
 
 ### Collections & Libraries
@@ -103,12 +103,11 @@ Skills for working with complex file formats:
   - [superpowers-skills](https://github.com/obra/superpowers-skills) - Community-editable skills repository
   - [Blog: Superpowers](https://blog.fsck.com/2025/10/09/superpowers/) - Author's overview by Jesse Vincent
   - Installation: `/plugin marketplace add obra/superpowers-marketplace`
- 
+
 - **[obra/superpowers-lab](https://github.com/obra/superpowers-lab)** - Experimental skills for `Claude Code Superpowers` (see above)
   - Uses new techniques that are still being refined and tested (i.e. skills here may change over time)
   - [Blog post about its development](https://blog.fsck.com/2025/10/23/naming-claude-plugins/)
   - Install from `superpowers-marketplace` plugin
-
 
 ### Individual Skills
 
@@ -127,6 +126,7 @@ Skills for working with complex file formats:
 | **[frontend-slides](https://github.com/zarazhangrui/frontend-slides)** | Create animation-rich HTML presentations — from scratch or by converting PowerPoint files |
 | **[Expo Skills](https://github.com/expo/skills)** | Official skills by the Expo team for developing Expo apps |
 | **[shadcn/ui](https://ui.shadcn.com/docs/skills)** | Give Claude Code context on shadcn components as well as pattern enforcement |
+| **[b12-website-generator](https://github.com/b12io/b12-claude-plugin)** | Generates a website from a business name and description, producing a ready-to-publish B12 site link                                                      |
 | **[get-shit-done](https://github.com/gsd-build/get-shit-done)** | Lightweight meta-prompting, context engineering, and spec-driven development system for Claude Code by TÂCHES |
 
 _More community skills coming soon! Submit a PR to add your skill._
@@ -182,12 +182,10 @@ The easiest way to create a skill is to use the built-in `skill-creator`:
    ```
 
 3. **Add executable scripts** (optional):
-
    - Python, JavaScript, or other scripts Claude can execute
    - Reference them in your SKILL.md instructions
 
 4. **Test locally**:
-
    - Install the skill in Claude Code or Claude Desktop
    - Test with relevant tasks
    - Iterate and refine
@@ -244,13 +242,13 @@ The easiest way to create a skill is to use the built-in `skill-creator`:
 
 ### Quick Reference: When to Use What
 
-| Tool | Best For |
-|------|----------|
-| **Skills** | Reusable procedural knowledge across conversations |
-| **Prompts** | One-time instructions and immediate context |
-| **Projects** | Persistent background knowledge within workspaces |
+| Tool          | Best For                                             |
+| ------------- | ---------------------------------------------------- |
+| **Skills**    | Reusable procedural knowledge across conversations   |
+| **Prompts**   | One-time instructions and immediate context          |
+| **Projects**  | Persistent background knowledge within workspaces    |
 | **Subagents** | Independent task execution with specific permissions |
-| **MCP** | Connecting Claude to external data sources |
+| **MCP**       | Connecting Claude to external data sources           |
 
 **Use Skills when**: Capabilities should be accessible to any Claude instance. They're portable expertise.
 
@@ -258,7 +256,7 @@ The easiest way to create a skill is to use the built-in `skill-creator`:
 
 **Combined approach**: Subagents can leverage Skills for specialized expertise, merging independence with portable knowledge.
 
-**Key insight**: *If you find yourself typing the same prompt repeatedly across multiple conversations, it's time to create a Skill.*
+**Key insight**: _If you find yourself typing the same prompt repeatedly across multiple conversations, it's time to create a Skill._
 
 ### Skills vs MCP (Model Context Protocol)
 
@@ -354,7 +352,6 @@ _Video tutorials coming soon! Have a good video about Claude Skills? Submit a PR
 ### Known Issues
 
 - **Linux path bug (Oct 18, 2025)**: Agent SDK uses hardcoded macOS paths instead of environment home directory
-
   - [Issue #268](https://github.com/anthropics/claude-agent-sdk-python/issues/268)
   - Workaround: Manually specify skill paths
 
