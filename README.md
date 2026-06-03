@@ -128,6 +128,7 @@ Skills for working with complex file formats:
 | **[Expo Skills](https://github.com/expo/skills)** | Official skills by the Expo team for developing Expo apps |
 | **[shadcn/ui](https://ui.shadcn.com/docs/skills)** | Give Claude Code context on shadcn components as well as pattern enforcement |
 | **[get-shit-done](https://github.com/gsd-build/get-shit-done)** | Lightweight meta-prompting, context engineering, and spec-driven development system for Claude Code by TÂCHES |
+| **[peek](https://github.com/Cubenest/rrweb-stack/tree/main/packages/peek-cli/skills)** | Teaches Claude Code when to query a locally-recorded browser session — recent sessions, console/network errors, what the user did before an error, DOM at a past moment, and turning a manual repro into a Playwright test. Backed by the @peekdev/mcp local MCP server (no cloud, no telemetry). |
 
 _More community skills coming soon! Submit a PR to add your skill._
 
