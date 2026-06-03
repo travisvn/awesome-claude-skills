@@ -109,6 +109,11 @@ Skills for working with complex file formats:
   - [Blog post about its development](https://blog.fsck.com/2025/10/23/naming-claude-plugins/)
   - Install from `superpowers-marketplace` plugin
 
+- **[inhouseseo/superseo-skills](https://github.com/inhouseseo/superseo-skills)** - 11 Claude skills for SEO: page audits, content briefs, article writing, E-E-A-T audits, semantic gap analysis, topic clusters, featured snippet optimizer, and link building
+  - Technical audits weighted by POP test hierarchy, writing skills include a generation-time anti-AI-slop ruleset
+  - Includes 25 content-type templates and 9 link-building tactic playbooks
+  - Installation: `git clone https://github.com/inhouseseo/superseo-skills ~/.claude/skills/superseo-skills`
+
 
 ### Individual Skills
 
