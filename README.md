@@ -116,6 +116,7 @@ Skills for working with complex file formats:
 
 | Skill | Description |
 | --- | --- |
+| **[one-shot-prompting](https://github.com/usmanmughaltaleemabad/One-Shot-Plugin)** | Agentic feature generation — describe a feature, get production-ready code with tests and migrations in 2-3 minutes. FastAPI, Django, Spring Boot, Go, NestJS. Available in Claude Plugins Community. |
 | **[ios-simulator-skill](https://github.com/conorluddy/ios-simulator-skill)** | iOS app building, navigation, and testing through automation |
 | **[ffuf-web-fuzzing](https://github.com/jthack/ffuf_claude_skill)** | Expert guidance for ffuf web fuzzing during penetration testing, including authenticated fuzzing with raw requests, auto-calibration, and result analysis |
 | **[playwright-skill](https://github.com/lackeyjb/playwright-skill)** | General-purpose browser automation using Playwright |
