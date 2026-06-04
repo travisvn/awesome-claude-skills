@@ -109,6 +109,10 @@ Skills for working with complex file formats:
   - [Blog post about its development](https://blog.fsck.com/2025/10/23/naming-claude-plugins/)
   - Install from `superpowers-marketplace` plugin
 
+- **[citriac/claude-skills](https://github.com/citriac/claude-skills)** - Curated collection of 5 production-ready Claude Code Skills for developers and teams
+  - Includes: `system-automation`, `content-distribution`, `cloud-ops`, `seo-optimization`, `data-analysis`
+  - Installation: `git clone https://github.com/citriac/claude-skills && cp -r claude-skills/* ~/.workbuddy/skills/`
+
 
 ### Individual Skills
 
