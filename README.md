@@ -128,7 +128,7 @@ Skills for working with complex file formats:
 | **[Expo Skills](https://github.com/expo/skills)** | Official skills by the Expo team for developing Expo apps |
 | **[shadcn/ui](https://ui.shadcn.com/docs/skills)** | Give Claude Code context on shadcn components as well as pattern enforcement |
 | **[get-shit-done](https://github.com/gsd-build/get-shit-done)** | Lightweight meta-prompting, context engineering, and spec-driven development system for Claude Code by TÂCHES |
-
+| **[audit-with-plans](https://github.com/JunbaoLiang/audit-with-plans)** | Audit-fix loop for planning-with-files projects: spawns fresh-context subagents that check code against `.planning` notes in both directions and loops until a clean audit. |
 _More community skills coming soon! Submit a PR to add your skill._
 
 ### Tools
