@@ -127,7 +127,7 @@ Skills for working with complex file formats:
 | **[frontend-slides](https://github.com/zarazhangrui/frontend-slides)** | Create animation-rich HTML presentations — from scratch or by converting PowerPoint files |
 | **[Expo Skills](https://github.com/expo/skills)** | Official skills by the Expo team for developing Expo apps |
 | **[shadcn/ui](https://ui.shadcn.com/docs/skills)** | Give Claude Code context on shadcn components as well as pattern enforcement |
-| **[get-shit-done](https://github.com/gsd-build/get-shit-done)** | Lightweight meta-prompting, context engineering, and spec-driven development system for Claude Code by TÂCHES |
+| **[Junshi](https://github.com/junshi-research/research-junshi)** | Personalized research strategist for Claude Code that reads your papers, tracks relevant literature, and proposes ranked research ideas with suggested first experiments |
 
 _More community skills coming soon! Submit a PR to add your skill._
 
