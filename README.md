@@ -109,6 +109,11 @@ Skills for working with complex file formats:
   - [Blog post about its development](https://blog.fsck.com/2025/10/23/naming-claude-plugins/)
   - Install from `superpowers-marketplace` plugin
 
+- **[Borjablm/claude-skills](https://github.com/Borjablm/claude-skills)** - Five Claude Code skills built for sustainability consulting workflows: programmatic chart and image generation, a five-stage SEO content pipeline with adversarial writer/editor passes, a Google Search Console audit framework, multi-site WordPress REST publishing, and regulatory site-visit prep
+  - Includes a setup wizard for brand colors and uses progressive disclosure (metadata ~100 tokens, full skill body ~5,000 tokens loads only when relevant)
+  - [Hub page with skill descriptions and architecture rationale](https://azvai.com/en/claude-skills/)
+  - License: MIT
+
 
 ### Individual Skills
 
