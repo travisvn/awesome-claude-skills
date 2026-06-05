@@ -110,6 +110,9 @@ Skills for working with complex file formats:
   - Install from `superpowers-marketplace` plugin
 
 
+- **[Agents Launchpad](https://launchpad.smartbizcalc.com)** - Curated web directory of 63+ indie AI agents, MCP servers, and Claude Code skills. Community-ranked, free to submit.
+
+
 ### Individual Skills
 
 > These will be broken down into categories once there are enough community skills available to list
