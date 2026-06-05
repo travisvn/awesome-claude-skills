@@ -128,6 +128,7 @@ Skills for working with complex file formats:
 | **[Expo Skills](https://github.com/expo/skills)** | Official skills by the Expo team for developing Expo apps |
 | **[shadcn/ui](https://ui.shadcn.com/docs/skills)** | Give Claude Code context on shadcn components as well as pattern enforcement |
 | **[get-shit-done](https://github.com/gsd-build/get-shit-done)** | Lightweight meta-prompting, context engineering, and spec-driven development system for Claude Code by TÂCHES |
+| **[offer-helper](https://github.com/dominciyue/resume_skill)** | Chinese-language job-hunting skill: ingests your resume, GitHub repos, and docs into a persistent experience library, tailors STAR/XYZ-quantified resumes to any job description with strict anti-fabrication, and runs big-tech-style progressive ("由浅及深") mock interviews grounded in your actual resume |
 
 _More community skills coming soon! Submit a PR to add your skill._
 
