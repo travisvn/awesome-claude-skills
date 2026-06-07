@@ -83,7 +83,8 @@ Skills for working with complex file formats:
 ### Communication
 
 - **[brand-guidelines](https://github.com/anthropics/skills/tree/main/skills/brand-guidelines)** - Apply Anthropic's official brand colors and typography to artifacts
-- **[internal-comms](https://github.com/anthropics/skills/tree/main/skills/internal-comms)** - Write internal communications like status reports, newsletters, and FAQs
+- **[internal-comms](https://github.com/anthropics/skills/tree/main/skills/internal-comms)** - Write
+- * **[localization-skill](https://github.com/ilariaislwj-lang/localization-skill)** - Marketing transcreation for 6 languages (Chinese, Japanese, Korean, Spanish, French) — adapts idioms, cultural references, and platform tone, not just words internal communications like status reports, newsletters, and FAQs
 
 ### Skill Creation
 
