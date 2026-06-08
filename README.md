@@ -109,6 +109,10 @@ Skills for working with complex file formats:
   - [Blog post about its development](https://blog.fsck.com/2025/10/23/naming-claude-plugins/)
   - Install from `superpowers-marketplace` plugin
 
+- **[FuturizeRush/awesome-apify-skills](https://github.com/FuturizeRush/awesome-apify-skills)** - 7 skills for web scraping and data extraction with Apify actors (Threads, Google News, Google Maps, YouTube, TikTok)
+  - Each skill includes verified output formats, Python/bash examples, and error handling
+  - Installation: `/plugin marketplace add FuturizeRush/awesome-apify-skills`
+
 
 ### Individual Skills
 
