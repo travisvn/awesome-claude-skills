@@ -80,6 +80,10 @@ Skills for working with complex file formats:
 - **[mcp-builder](https://github.com/anthropics/skills/tree/main/skills/mcp-builder)** - Guide for creating high-quality MCP servers to integrate external APIs and services
 - **[webapp-testing](https://github.com/anthropics/skills/tree/main/skills/webapp-testing)** - Test local web applications using Playwright for UI verification and debugging
 
+### Documentation
+
+- **[codetape](https://github.com/888wing/codetape)** - The flight recorder for AI coding — auto-records semantic traces of code changes and syncs README, CHANGELOG, CLAUDE.md, and architecture docs. Zero dependencies, fully local. Install: `npx codetape init`
+
 ### Communication
 
 - **[brand-guidelines](https://github.com/anthropics/skills/tree/main/skills/brand-guidelines)** - Apply Anthropic's official brand colors and typography to artifacts
