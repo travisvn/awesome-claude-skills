@@ -98,6 +98,13 @@ Skills for working with complex file formats:
 
 ### Collections & Libraries
 
+- **[VeyraSkills](https://github.com/veyralabsgroup/veyraskills)** - 13 skills across 5 packs for founders, developers, and agencies. Includes naming/branding, Shopify dev+audit, idea validation, website cloning, and marketing intelligence. Install individual skills or full packs via `npx @veyralabs/skills install <name>`.
+  - `/domainforge`, `/brandaudit`, `/competitornames` - naming and brand intelligence
+  - `/venture-analyst` - 4-phase startup validation with Bull/Bear/Judge verdict
+  - `/webcloner` - pixel-accurate Next.js clone from any landing page
+  - `/shopify-dev`, `/shopify-store` - full Shopify stack with live docs
+  - `/agency-audit`, `/cold-outreach`, `/meeting-prep` - marketing agency toolkit
+
 - **[obra/superpowers](https://github.com/obra/superpowers)** - Core skills library for Claude Code with 20+ battle-tested skills including TDD, debugging, and collaboration patterns
   - Features `/brainstorm`, `/write-plan`, `/execute-plan` commands and skills-search tool
   - [superpowers-skills](https://github.com/obra/superpowers-skills) - Community-editable skills repository
@@ -128,6 +135,8 @@ Skills for working with complex file formats:
 | **[Expo Skills](https://github.com/expo/skills)** | Official skills by the Expo team for developing Expo apps |
 | **[shadcn/ui](https://ui.shadcn.com/docs/skills)** | Give Claude Code context on shadcn components as well as pattern enforcement |
 | **[get-shit-done](https://github.com/gsd-build/get-shit-done)** | Lightweight meta-prompting, context engineering, and spec-driven development system for Claude Code by TÂCHES |
+
+| **[saas-reverse](https://github.com/veyralabsgroup/saas-reverse)** | Reverse-engineer any SaaS into a build blueprint. Enter a domain, get moat analysis, churn vectors, real tech stack (from job listings), upgrade gate mechanics, build complexity estimate, and a ready-to-use prompt |
 
 _More community skills coming soon! Submit a PR to add your skill._
 
