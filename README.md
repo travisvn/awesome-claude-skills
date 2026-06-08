@@ -98,6 +98,13 @@ Skills for working with complex file formats:
 
 ### Collections & Libraries
 
+- **[modu-ai/moai-adk](https://github.com/modu-ai/moai-adk)** - SPEC-first Agentic Development Kit for Claude Code with 52 production-ready skills
+  - 24 specialized agents orchestrating Plan→Run→Sync workflow with TRUST 5 quality gates
+  - Skill families: moai-domain-* (backend, frontend, database, copywriting, brand-design, uiux), moai-workflow-* (spec, ddd, tdd, docs, testing, design-import, gan-loop, jit-docs, loop, project, worktree, thinking), moai-foundation-* (core, cc, context, quality, philosopher), moai-tool-* (svg, ast-grep), moai-platform-* (auth, deployment, database-cloud, chrome-extension), moai-ref-* (git-workflow, owasp-checklist, react-patterns, testing-pyramid, api-patterns)
+  - 3-level Progressive Disclosure system with token optimization
+  - 4-language documentation (en/ko/ja/zh), 16-language project support
+  - Apache-2.0 license, 937 stars, 172 forks
+
 - **[obra/superpowers](https://github.com/obra/superpowers)** - Core skills library for Claude Code with 20+ battle-tested skills including TDD, debugging, and collaboration patterns
   - Features `/brainstorm`, `/write-plan`, `/execute-plan` commands and skills-search tool
   - [superpowers-skills](https://github.com/obra/superpowers-skills) - Community-editable skills repository
