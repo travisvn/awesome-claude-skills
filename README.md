@@ -108,6 +108,7 @@ Skills for working with complex file formats:
   - Uses new techniques that are still being refined and tested (i.e. skills here may change over time)
   - [Blog post about its development](https://blog.fsck.com/2025/10/23/naming-claude-plugins/)
   - Install from `superpowers-marketplace` plugin
+- [Hermes Skills](https://github.com/liuyunnb666/hermes-skills) - 7 curated agent skills for AI programming: debugging, parallel dev, TDD, UI
 
 
 ### Individual Skills
