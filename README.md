@@ -109,6 +109,11 @@ Skills for working with complex file formats:
   - [Blog post about its development](https://blog.fsck.com/2025/10/23/naming-claude-plugins/)
   - Install from `superpowers-marketplace` plugin
 
+- **[claudeaceae/samara-main](https://github.com/claudeaceae/samara-main)** - Skills for persistent Claude instances with memory and autonomy on macOS
+  - Features 20+ skills for system management, memory search, location awareness, and autonomous operation
+  - Includes `/status`, `/memory`, `/reflect`, `/location`, `/morning`, `/episode`, `/samara`, `/decide`, `/capability`, `/look`, and more
+  - Part of the Samara organism framework for giving Claude persistent bodies on Mac hardware
+
 
 ### Individual Skills
 
