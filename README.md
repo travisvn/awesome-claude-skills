@@ -129,6 +129,8 @@ Skills for working with complex file formats:
 | **[shadcn/ui](https://ui.shadcn.com/docs/skills)** | Give Claude Code context on shadcn components as well as pattern enforcement |
 | **[get-shit-done](https://github.com/gsd-build/get-shit-done)** | Lightweight meta-prompting, context engineering, and spec-driven development system for Claude Code by TÂCHES |
 
+| **[Shipworthy](https://github.com/Vimalk0703/shipworthy)** | Production engineering guardrails plugin — 52 skills, 5 automated hooks, 5 agents. Invisible specs, TDD, security checks, scaling quality gates, and a self-improving retrospective loop. Zero dependencies. |
+
 _More community skills coming soon! Submit a PR to add your skill._
 
 ### Tools
