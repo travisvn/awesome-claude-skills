@@ -129,6 +129,8 @@ Skills for working with complex file formats:
 | **[shadcn/ui](https://ui.shadcn.com/docs/skills)** | Give Claude Code context on shadcn components as well as pattern enforcement |
 | **[get-shit-done](https://github.com/gsd-build/get-shit-done)** | Lightweight meta-prompting, context engineering, and spec-driven development system for Claude Code by TÂCHES |
 
+| **[AuraKit](https://github.com/smorky850612/Aurakit)** | Full-lifecycle Claude Code skill framework: 46 modes (BUILD/FIX/DEPLOY/REVIEW/TDD/QA/DEBUG/PAYMENT), 23 sub-agents, 6-layer OWASP+ security, ~55% token savings via Haiku/Sonnet routing |
+
 _More community skills coming soon! Submit a PR to add your skill._
 
 ### Tools
