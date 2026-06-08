@@ -126,6 +126,8 @@ Skills for working with complex file formats:
 | **[Trail of Bits Security Skills](https://github.com/trailofbits/skills)** | Security skills for static analysis with CodeQL/Semgrep, variant analysis, code auditing, and vulnerability detection |
 | **[frontend-slides](https://github.com/zarazhangrui/frontend-slides)** | Create animation-rich HTML presentations — from scratch or by converting PowerPoint files |
 | **[Expo Skills](https://github.com/expo/skills)** | Official skills by the Expo team for developing Expo apps |
+| **[session-coherence](https://github.com/OutcomeFocusAi/session-coherence)** | Cross-tool session memory for AI coding assistants. One markdown chronicle shared by 9 tools (Claude Code, Cursor, Codex, Gemini CLI, Aider, and more). Zero dependencies, ~300 token fixed cost, 100% local |
+| **[claude-learn](https://github.com/OutcomeFocusAi/claude-learn)** | Self-improving behavioral playbook plugin. Captures corrections, failures, and discoveries as scored rules that strengthen or decay over sessions — a closed feedback loop for continuous improvement |
 | **[shadcn/ui](https://ui.shadcn.com/docs/skills)** | Give Claude Code context on shadcn components as well as pattern enforcement |
 | **[get-shit-done](https://github.com/gsd-build/get-shit-done)** | Lightweight meta-prompting, context engineering, and spec-driven development system for Claude Code by TÂCHES |
 
