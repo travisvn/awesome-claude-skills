@@ -134,6 +134,7 @@ _More community skills coming soon! Submit a PR to add your skill._
 ### Tools
 
 - **[yusufkaraaslan/Skill_Seekers](https://github.com/yusufkaraaslan/Skill_Seekers)** - Convert documentation websites into Claude Skills
+- **[TeamHero](https://github.com/sagiyaacoby/TeamHero)** - Multi-agent orchestration platform - manage teams of Claude Code agents with a web dashboard, task lifecycle, and knowledge base
 
 ## ✏️ Creating Your First Skill
 
