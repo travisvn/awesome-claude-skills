@@ -109,6 +109,10 @@ Skills for working with complex file formats:
   - [Blog post about its development](https://blog.fsck.com/2025/10/23/naming-claude-plugins/)
   - Install from `superpowers-marketplace` plugin
 
+- **[claude-code-blueprint](https://github.com/faizkhairi/claude-code-blueprint)** - Battle-tested reference architecture for Claude Code power users with specialized agents (model tiering: Opus/Sonnet/Haiku), natural-language skills, lifecycle hooks, path-scoped rules, and a memory system template
+  - Includes starter presets, benchmarks, battle stories explaining the reasoning behind every decision, and cross-tool mapping for Cursor/Codex/Gemini/Windsurf
+  - Zero dependencies, MIT licensed, fork-and-adapt design
+
 
 ### Individual Skills
 
