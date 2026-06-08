@@ -134,6 +134,7 @@ _More community skills coming soon! Submit a PR to add your skill._
 ### Tools
 
 - **[yusufkaraaslan/Skill_Seekers](https://github.com/yusufkaraaslan/Skill_Seekers)** - Convert documentation websites into Claude Skills
+- **[CLIRank MCP Server](https://clirank.dev)** - MCP server giving Claude Code access to 387 APIs scored on agent-friendliness (`npm install clirank-mcp-server`)
 
 ## ✏️ Creating Your First Skill
 
