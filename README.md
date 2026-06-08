@@ -93,7 +93,7 @@ Skills for working with complex file formats:
 
 > [!Warning]
 > Skills can execute arbitrary code in Claude's environment.
-> 
+>
 > See [Security & Best Practices](#-security--best-practices) for more information
 
 ### Collections & Libraries
@@ -103,7 +103,7 @@ Skills for working with complex file formats:
   - [superpowers-skills](https://github.com/obra/superpowers-skills) - Community-editable skills repository
   - [Blog: Superpowers](https://blog.fsck.com/2025/10/09/superpowers/) - Author's overview by Jesse Vincent
   - Installation: `/plugin marketplace add obra/superpowers-marketplace`
- 
+
 - **[obra/superpowers-lab](https://github.com/obra/superpowers-lab)** - Experimental skills for `Claude Code Superpowers` (see above)
   - Uses new techniques that are still being refined and tested (i.e. skills here may change over time)
   - [Blog post about its development](https://blog.fsck.com/2025/10/23/naming-claude-plugins/)
@@ -133,6 +133,7 @@ _More community skills coming soon! Submit a PR to add your skill._
 
 ### Tools
 
+- **[toroleapinc/claude-brain](https://github.com/toroleapinc/claude-brain)** - Sync and evolve your Claude Code brain across machines — memory, skills, agents, rules, CLAUDE.md auto-synced via Git with LLM-powered semantic merge
 - **[yusufkaraaslan/Skill_Seekers](https://github.com/yusufkaraaslan/Skill_Seekers)** - Convert documentation websites into Claude Skills
 
 ## ✏️ Creating Your First Skill
