@@ -109,6 +109,11 @@ Skills for working with complex file formats:
   - [Blog post about its development](https://blog.fsck.com/2025/10/23/naming-claude-plugins/)
   - Install from `superpowers-marketplace` plugin
 
+- **[GarethManning/claude-education-skills](https://github.com/GarethManning/claude-education-skills)** - 100 evidence-based Claude skills for educators across 14 pedagogical domains
+  - Covers curriculum design, lesson planning, assessment, memory & learning science, and more
+  - Grounded in learning science research; excludes poorly-evidenced approaches (learning styles, Brain Gym, etc.)
+  - Usable directly by educators or integrated into AI agent systems via YAML schemas
+
 
 ### Individual Skills
 
