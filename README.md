@@ -133,6 +133,7 @@ _More community skills coming soon! Submit a PR to add your skill._
 
 ### Tools
 
+- **[claw.cleaning](https://github.com/GetColby/claw-cleaning)** - Remote MCP server for booking SF apartment cleanings. Three tools, no local binary, no auth. Skill also shipped at `skill/apartment-cleaning/`.
 - **[yusufkaraaslan/Skill_Seekers](https://github.com/yusufkaraaslan/Skill_Seekers)** - Convert documentation websites into Claude Skills
 
 ## ✏️ Creating Your First Skill
