@@ -109,6 +109,8 @@ Skills for working with complex file formats:
   - [Blog post about its development](https://blog.fsck.com/2025/10/23/naming-claude-plugins/)
   - Install from `superpowers-marketplace` plugin
 
+- **[Claude Code Minoan](https://github.com/tdimino/claude-code-minoan)** - 60+ skills covering local RAG (RLAMA + Ollama), cross-model visual dialogue (Gemini + Claude), neural web search (Exa), image generation (Gemini 3 Pro), SMS/Slack/email, LLM eval pipelines, Codex CLI orchestration, and multi-agent team coordination. Pairs with [Claudicle](https://github.com/tdimino/claudicle) for persistent soul identity across sessions.
+
 
 ### Individual Skills
 
