@@ -134,6 +134,7 @@ _More community skills coming soon! Submit a PR to add your skill._
 ### Tools
 
 - **[yusufkaraaslan/Skill_Seekers](https://github.com/yusufkaraaslan/Skill_Seekers)** - Convert documentation websites into Claude Skills
+- **[learn](https://agentskill.sh/learn)** - Discover and install 44k+ skills for Claude Code, Cursor, Codex with two-layer security scanning
 
 ## ✏️ Creating Your First Skill
 
