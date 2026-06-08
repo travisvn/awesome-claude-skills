@@ -134,6 +134,7 @@ _More community skills coming soon! Submit a PR to add your skill._
 ### Tools
 
 - **[yusufkaraaslan/Skill_Seekers](https://github.com/yusufkaraaslan/Skill_Seekers)** - Convert documentation websites into Claude Skills
+- **[Scottpedia0/skill-builder](https://github.com/Scottpedia0/skill-builder)** - Analyzes your activity (shell history, git, browser, Claude threads) and generates working skills via LLM. 15 built-in + unlimited AI-generated. Web UI with MCP server builder
 
 ## ✏️ Creating Your First Skill
 
