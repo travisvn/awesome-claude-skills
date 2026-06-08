@@ -109,6 +109,8 @@ Skills for working with complex file formats:
   - [Blog post about its development](https://blog.fsck.com/2025/10/23/naming-claude-plugins/)
   - Install from `superpowers-marketplace` plugin
 
+- **[Awesome eCommerce Skills](https://awesome-ecommerce-skills.com)** - Open-source library of 82+ AI workflow skills purpose-built for eCommerce, TikTok Shop, and content marketing. Covers product research, viral video analysis, script generation, and automated content pipelines. Works with Claude Code and Claude AI agents. 12K+ downloads, actively maintained.
+
 
 ### Individual Skills
 
