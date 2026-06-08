@@ -109,6 +109,11 @@ Skills for working with complex file formats:
   - [Blog post about its development](https://blog.fsck.com/2025/10/23/naming-claude-plugins/)
   - Install from `superpowers-marketplace` plugin
 
+- **[spartan-stratos/spartan-ai-toolkit](https://github.com/spartan-stratos/spartan-ai-toolkit)** - Engineering discipline layer with 67 slash commands, 20 coding rules, quality gates, and configurable stack profiles for Claude Code
+  - Features `/spartan:build`, `/spartan:review`, `/spartan:debug` workflows and 27 skills
+  - Supports 8 stack profiles: Kotlin, Go, Python, Java, React, Next.js, and more
+  - Installation: `npx @c0x12c/spartan-ai-toolkit@latest --local`
+
 
 ### Individual Skills
 
