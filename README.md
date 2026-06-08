@@ -133,6 +133,7 @@ _More community skills coming soon! Submit a PR to add your skill._
 
 ### Tools
 
+- **[TokRepo](https://tokrepo.com)** - Open registry for AI skills, prompts, and MCP configs. Search, discover, and install community-shared skills with token cost estimates
 - **[yusufkaraaslan/Skill_Seekers](https://github.com/yusufkaraaslan/Skill_Seekers)** - Convert documentation websites into Claude Skills
 
 ## ✏️ Creating Your First Skill
