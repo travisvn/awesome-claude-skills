@@ -133,6 +133,7 @@ _More community skills coming soon! Submit a PR to add your skill._
 
 ### Tools
 
+- **[Charlie85270/Dorothy](https://github.com/Charlie85270/Dorothy)** - Desktop app to orchestrate multiple Claude Code, Codex, and Gemini agents simultaneously with automations, Kanban management, remote control, and MCP servers
 - **[yusufkaraaslan/Skill_Seekers](https://github.com/yusufkaraaslan/Skill_Seekers)** - Convert documentation websites into Claude Skills
 
 ## ✏️ Creating Your First Skill
