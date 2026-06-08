@@ -134,6 +134,7 @@ _More community skills coming soon! Submit a PR to add your skill._
 ### Tools
 
 - **[yusufkaraaslan/Skill_Seekers](https://github.com/yusufkaraaslan/Skill_Seekers)** - Convert documentation websites into Claude Skills
+- **[vincent-k2026/codachi](https://github.com/vincent-k2026/codachi)** - Statusline tool that predicts minutes-until-context-full from live burn rate, with an ASCII pet that reacts to test runs, commits, and file edits. Zero dependencies, `npx codachi init` to install.
 
 ## ✏️ Creating Your First Skill
 
