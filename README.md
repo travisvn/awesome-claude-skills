@@ -134,6 +134,7 @@ _More community skills coming soon! Submit a PR to add your skill._
 ### Tools
 
 - **[yusufkaraaslan/Skill_Seekers](https://github.com/yusufkaraaslan/Skill_Seekers)** - Convert documentation websites into Claude Skills
+- **[caliber-ai-org/ai-setup](https://github.com/caliber-ai-org/ai-setup)** - CLI that fingerprints projects and generates AI agent configs including Claude skills (OpenSkills format), CLAUDE.md, and .cursor/rules. Scores setup quality 0–100 and auto-discovers MCP servers.
 
 ## ✏️ Creating Your First Skill
 
