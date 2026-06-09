@@ -109,6 +109,10 @@ Skills for working with complex file formats:
   - [Blog post about its development](https://blog.fsck.com/2025/10/23/naming-claude-plugins/)
   - Install from `superpowers-marketplace` plugin
 
+- **[Lumos-789/agent-skills](https://github.com/Lumos-789/agent-skills)** - Reusable Claude Code skills for project management: handoff queue, daily wrap-up, design interrogation, and status overview
+  - Features `/handoff` (FILO task queue), `/wrap-up` (daily report), `/grill` (design review), `/looklook` (project browsing)
+  - Works with Claude Code's global skills directory (`~/.claude/skills/`)
+  - Chinese + English bilingual commands
 
 ### Individual Skills
 
@@ -134,6 +138,8 @@ _More community skills coming soon! Submit a PR to add your skill._
 ### Tools
 
 - **[yusufkaraaslan/Skill_Seekers](https://github.com/yusufkaraaslan/Skill_Seekers)** - Convert documentation websites into Claude Skills
+
+- **[Lumos-789/claude-caps](https://github.com/Lumos-789/claude-caps)** - Web UI for managing Claude Code capabilities — toggle built-in tools, MCP servers, and skills on/off via permissions.deny to reduce token usage
 
 ## ✏️ Creating Your First Skill
 
