@@ -110,6 +110,10 @@ Skills for working with complex file formats:
   - Install from `superpowers-marketplace` plugin
 
 
+- **[Claude SEO GEO](https://github.com/Thibaultbm/claude-seo-geo)** - 15 SEO and GEO skills built from 115+ real agency audits: full site audit, technical SEO, content for every page type, link building, local SEO, social amplification, AI visibility and tracking (ChatGPT, Perplexity, AI Overviews)
+  - Includes an Obsidian company-knowledge layer that grounds every skill and logs SEO actions back to the vault
+  - Installation: `/plugin marketplace add Thibaultbm/claude-seo-geo`
+
 ### Individual Skills
 
 > These will be broken down into categories once there are enough community skills available to list
