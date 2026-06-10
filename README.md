@@ -451,3 +451,6 @@ A: For skills from git repositories, pull the latest changes. For manually insta
 ## 🤝 Contributing
 
 Contributions welcome! See [contribution guidelines](CONTRIBUTING.md) for details. To add a skill or resource: fork, add to appropriate section, submit PR.
+
+
+- [ccglass](https://github.com/jianshuo/ccglass) - Real-time observability for Claude Code: prompts, costs, cache hits, turn-to-turn diff. Works with 16+ providers.
