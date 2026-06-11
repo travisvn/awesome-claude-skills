@@ -128,6 +128,7 @@ Skills for working with complex file formats:
 | **[Expo Skills](https://github.com/expo/skills)** | Official skills by the Expo team for developing Expo apps |
 | **[shadcn/ui](https://ui.shadcn.com/docs/skills)** | Give Claude Code context on shadcn components as well as pattern enforcement |
 | **[get-shit-done](https://github.com/gsd-build/get-shit-done)** | Lightweight meta-prompting, context engineering, and spec-driven development system for Claude Code by TÂCHES |
+| **[slop-score](https://github.com/closestfriend/slop-score-skill)** | Scores writing for AI slop using Sam Paech’s eqbench Slop Score heuristic — flags the exact overused words, slop trigrams, and “not X, but Y” patterns, 0–100 scale with receipts |
 
 _More community skills coming soon! Submit a PR to add your skill._
 
