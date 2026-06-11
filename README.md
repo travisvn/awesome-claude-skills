@@ -109,6 +109,8 @@ Skills for working with complex file formats:
   - [Blog post about its development](https://blog.fsck.com/2025/10/23/naming-claude-plugins/)
   - Install from `superpowers-marketplace` plugin
 
+- **[CreatorSkills](https://creatorskills.co)** - Curated marketplace of 30+ downloadable AI skills purpose-built for content creators — YouTube scripting, sponsorship analysis, content repurposing, and audience growth. Skills use the open SKILL.md format and are compatible with Claude, ChatGPT, and 20+ AI platforms.
+
 
 ### Individual Skills
 
