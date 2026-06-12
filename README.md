@@ -128,7 +128,7 @@ Skills for working with complex file formats:
 | **[Expo Skills](https://github.com/expo/skills)** | Official skills by the Expo team for developing Expo apps |
 | **[shadcn/ui](https://ui.shadcn.com/docs/skills)** | Give Claude Code context on shadcn components as well as pattern enforcement |
 | **[get-shit-done](https://github.com/gsd-build/get-shit-done)** | Lightweight meta-prompting, context engineering, and spec-driven development system for Claude Code by TÂCHES |
-| **[claudemd-auditor](https://github.com/infai-tech/claudemd-auditor-skill)** | Audits your CLAUDE.md file with calibrated 0–100 scoring across 6 axes (structure, specificity, safety, and more) and concrete fixes for each finding |
+| **[claudemd-auditor](https://github.com/novadyne-hq/claudemd-auditor-skill)** | Audits your CLAUDE.md file with calibrated 0–100 scoring across 6 axes (structure, specificity, safety, and more) and concrete fixes for each finding |
 
 _More community skills coming soon! Submit a PR to add your skill._
 
