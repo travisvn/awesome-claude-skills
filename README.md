@@ -128,6 +128,7 @@ Skills for working with complex file formats:
 | **[Expo Skills](https://github.com/expo/skills)** | Official skills by the Expo team for developing Expo apps |
 | **[shadcn/ui](https://ui.shadcn.com/docs/skills)** | Give Claude Code context on shadcn components as well as pattern enforcement |
 | **[get-shit-done](https://github.com/gsd-build/get-shit-done)** | Lightweight meta-prompting, context engineering, and spec-driven development system for Claude Code by TÂCHES |
+| **[Asolytics ASO API](https://github.com/Asolytics-Pro/asolytics-app-store-optimization-api)** | App Store Optimization (ASO) skill for the Asolytics API — keyword research & metrics, app rankings, live search top-50, recommended keywords, competitors, install/revenue estimates, and top-500 store charts (App Store & Google Play) |
 
 _More community skills coming soon! Submit a PR to add your skill._
 
