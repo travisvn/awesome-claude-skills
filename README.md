@@ -131,6 +131,7 @@ Skills for working with complex file formats:
 | **[llms-txt-writer](https://github.com/shimo4228/llms-txt-writer)** | Writes AI-facing documents (llms.txt, FAQ, glossary) optimized for citation by ChatGPT, Perplexity, and Gemini, following the Answer.AI llms.txt standard |
 | **[jsonld-knowledge-graph](https://github.com/shimo4228/jsonld-knowledge-graph)** | Designs and ships a companion JSON-LD knowledge graph next to llms.txt, encoding domain entities as schema.org triples for LLM citation |
 | **[release-doi](https://github.com/shimo4228/release-doi)** | Five-phase release workflow for DOI-registered research repositories — verifies CITATION.cff / CHANGELOG / llms.txt consistency before tag push and DOI minting |
+| **[context-sync](https://github.com/shimo4228/context-sync)** | Audits project documentation for role overlaps and staleness — keeps CLAUDE.md, codemaps, ADRs, and README healthy with one command |
 
 _More community skills coming soon! Submit a PR to add your skill._
 
