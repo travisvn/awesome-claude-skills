@@ -72,6 +72,7 @@ Skills for working with complex file formats:
 - **[algorithmic-art](https://github.com/anthropics/skills/tree/main/skills/algorithmic-art)** - Create generative art using p5.js with seeded randomness, flow fields, and particle systems
 - **[canvas-design](https://github.com/anthropics/skills/tree/main/skills/canvas-design)** - Design beautiful visual art in .png and .pdf formats using design philosophies
 - **[slack-gif-creator](https://github.com/anthropics/skills/tree/main/skills/slack-gif-creator)** - Create animated GIFs optimized for Slack's size constraints
+- **[Animated Diagrams](https://github.com/omkamal/animated-diagrams-skill.git)** - A very visually pleasing animated diagrams including concept diagrams, sequence diagrams, python walkthrough diagrams, process flow diagrams. Output is generated in MP4, SVG, and GIF.
 
 ### Development
 
