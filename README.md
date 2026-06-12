@@ -116,6 +116,7 @@ Skills for working with complex file formats:
 
 | Skill | Description |
 | --- | --- |
+| **[InstaShare](https://github.com/Instafill/instashare-skill)** | Uploads the current Claude Code session to instashare.to and returns a public share link in one shell call — no account needed. A built-in secret-redaction classifier scrubs API keys, tokens, `Authorization`/`Cookie` headers, and PEM private keys before upload, so transcripts are safe to share. [Live example](https://instashare.to/c/YDXusM-verify-instafill-form-completion-and-data) |
 | **[ios-simulator-skill](https://github.com/conorluddy/ios-simulator-skill)** | iOS app building, navigation, and testing through automation |
 | **[ffuf-web-fuzzing](https://github.com/jthack/ffuf_claude_skill)** | Expert guidance for ffuf web fuzzing during penetration testing, including authenticated fuzzing with raw requests, auto-calibration, and result analysis |
 | **[playwright-skill](https://github.com/lackeyjb/playwright-skill)** | General-purpose browser automation using Playwright |
