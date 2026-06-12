@@ -98,6 +98,10 @@ Skills for working with complex file formats:
 
 ### Collections & Libraries
 
+- **[vibeguard](https://github.com/Tri1075/vibeguard)** - Nine engineering rules your agent must follow, each shipped as a law (skill) AND a deterministic gate that verifies compliance — plus a workflow toolbox (plan interview, PRD writer, TDD, self-review)
+  - A Stop-hook guard blocks the agent at the end of its turn when a green check breaks; recurring drift becomes a standing CLAUDE.md rule
+  - Benchmarked: 11/11 seeded faults caught with zero false positives ([reproducible](https://github.com/Tri1075/vibeguard/blob/main/docs/benchmarks.md))
+  - Installation: `/plugin marketplace add Tri1075/vibeguard`
 - **[obra/superpowers](https://github.com/obra/superpowers)** - Core skills library for Claude Code with 20+ battle-tested skills including TDD, debugging, and collaboration patterns
   - Features `/brainstorm`, `/write-plan`, `/execute-plan` commands and skills-search tool
   - [superpowers-skills](https://github.com/obra/superpowers-skills) - Community-editable skills repository
