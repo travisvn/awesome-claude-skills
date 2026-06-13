@@ -134,6 +134,7 @@ _More community skills coming soon! Submit a PR to add your skill._
 ### Tools
 
 - **[yusufkaraaslan/Skill_Seekers](https://github.com/yusufkaraaslan/Skill_Seekers)** - Convert documentation websites into Claude Skills
+- **[skillet](https://github.com/Brattlof/skillet)** - A package manager for Claude Skills (and slash commands, hooks, and MCP servers) that installs across Claude Code, Cursor, OpenAI Codex, Gemini CLI, Copilot, and Cline
 
 ## ✏️ Creating Your First Skill
 
