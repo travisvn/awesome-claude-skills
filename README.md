@@ -128,6 +128,7 @@ Skills for working with complex file formats:
 | **[Expo Skills](https://github.com/expo/skills)** | Official skills by the Expo team for developing Expo apps |
 | **[shadcn/ui](https://ui.shadcn.com/docs/skills)** | Give Claude Code context on shadcn components as well as pattern enforcement |
 | **[get-shit-done](https://github.com/gsd-build/get-shit-done)** | Lightweight meta-prompting, context engineering, and spec-driven development system for Claude Code by TÂCHES |
+| **[learn-from-project](https://github.com/xchuan-li/learn-from-project)** | Decomposes an AI-built or unfamiliar repo into learnable knowledge points — maps the code, walks the key logic in plain language, explains the libraries/APIs for non-engineers, and ends with an "explain-back" so you can own it |
 
 _More community skills coming soon! Submit a PR to add your skill._
 
