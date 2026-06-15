@@ -128,6 +128,7 @@ Skills for working with complex file formats:
 | **[Expo Skills](https://github.com/expo/skills)** | Official skills by the Expo team for developing Expo apps |
 | **[shadcn/ui](https://ui.shadcn.com/docs/skills)** | Give Claude Code context on shadcn components as well as pattern enforcement |
 | **[get-shit-done](https://github.com/gsd-build/get-shit-done)** | Lightweight meta-prompting, context engineering, and spec-driven development system for Claude Code by TÂCHES |
+| **[outbound-pipeline-playbook](https://github.com/SRKrukowski/outbound-pipeline-playbook)** | Turns an ICP definition into personalized, research-backed cold-email drafts in Gmail (Exa research + Apollo enrichment + Claude drafting), human-reviewed before send, with a free dry-run |
 
 _More community skills coming soon! Submit a PR to add your skill._
 
