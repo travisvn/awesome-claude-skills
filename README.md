@@ -109,6 +109,9 @@ Skills for working with complex file formats:
   - [Blog post about its development](https://blog.fsck.com/2025/10/23/naming-claude-plugins/)
   - Install from `superpowers-marketplace` plugin
 
+- **[NaCl](https://github.com/ITSalt/NaCl)** - Full-SDLC suite of 57 skills for Claude Code & Codex — business analysis, system architecture, TDD development, review, QA, and release — with requirements stored in a queryable Neo4j graph for end-to-end traceability. MIT.
+  - Installation: `/docs/quickstart.md`
+
 
 ### Individual Skills
 
