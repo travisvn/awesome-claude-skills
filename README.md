@@ -128,6 +128,7 @@ Skills for working with complex file formats:
 | **[Expo Skills](https://github.com/expo/skills)** | Official skills by the Expo team for developing Expo apps |
 | **[shadcn/ui](https://ui.shadcn.com/docs/skills)** | Give Claude Code context on shadcn components as well as pattern enforcement |
 | **[get-shit-done](https://github.com/gsd-build/get-shit-done)** | Lightweight meta-prompting, context engineering, and spec-driven development system for Claude Code by TÂCHES |
+| **[macht-und-rhetorik](https://github.com/schenkei-code/macht-und-rhetorik)** | A strategic-advisor persona based on Robert Greene's 48 Laws of Power plus classical (white) and persuasive (dark) rhetoric — adds slash commands (analyze a situation, build a strategy, audit a move, counter manipulation), reference skills, and a strategist subagent. German. |
 
 _More community skills coming soon! Submit a PR to add your skill._
 
