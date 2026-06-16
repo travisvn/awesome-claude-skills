@@ -128,6 +128,7 @@ Skills for working with complex file formats:
 | **[Expo Skills](https://github.com/expo/skills)** | Official skills by the Expo team for developing Expo apps |
 | **[shadcn/ui](https://ui.shadcn.com/docs/skills)** | Give Claude Code context on shadcn components as well as pattern enforcement |
 | **[get-shit-done](https://github.com/gsd-build/get-shit-done)** | Lightweight meta-prompting, context engineering, and spec-driven development system for Claude Code by TÂCHES |
+| **[kaggle-dominator](https://github.com/KapaSique/kaggle-dominator)** | Turns Claude Code into a relentless Kaggle Grandmaster — a battle constitution + technique arsenal (recon top solutions, protect a BEST_KNOWN, parallel GPU-kernel batches, trust only the real metric, ensemble); type-specific playbooks for tabular, CV/NLP, simulation, code competitions, and judge-scored hackathons |
 
 _More community skills coming soon! Submit a PR to add your skill._
 
