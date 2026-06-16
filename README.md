@@ -134,6 +134,7 @@ _More community skills coming soon! Submit a PR to add your skill._
 ### Tools
 
 - **[yusufkaraaslan/Skill_Seekers](https://github.com/yusufkaraaslan/Skill_Seekers)** - Convert documentation websites into Claude Skills
+- **[OpenClacky](https://github.com/clacky-ai/open-clacky)** - Open-source AI coding agent alternative to Claude Code. Achieves 93.8% Prompt Cache hit rate and ~0.8× API cost via frozen 16-tool schema, dual cache markers, and Insert-then-Compress context management. BYOK (Claude/GPT/DeepSeek/Gemini/OpenRouter), MIT license. [Website](https://openclacky.com)
 
 ## ✏️ Creating Your First Skill
 
