@@ -128,7 +128,7 @@ Skills for working with complex file formats:
 | **[Expo Skills](https://github.com/expo/skills)** | Official skills by the Expo team for developing Expo apps |
 | **[shadcn/ui](https://ui.shadcn.com/docs/skills)** | Give Claude Code context on shadcn components as well as pattern enforcement |
 | **[get-shit-done](https://github.com/gsd-build/get-shit-done)** | Lightweight meta-prompting, context engineering, and spec-driven development system for Claude Code by TÂCHES |
-| **[interactive-html](https://github.com/machbuilds/interactive-html)** | Generate HTML pages with words, then refine them by commenting on the page — highlight text, pick an element, drag a region, or ask a question; the agent edits the HTML and the page reloads with a tour. Open file-based protocol; works with Claude Code, Cursor, or any agent CLI |
+| **[interactive-html](https://github.com/machbuilds/interactive-html)** | Comment on local HTML pages — highlight text, pick an element, drag a region, or ask a question; the agent edits the HTML and the page reloads with a tour of what changed. Bring your own pages, or have the skill generate one to comment on. Open file-based protocol; works with Claude Code, Cursor, or any agent CLI |
 
 _More community skills coming soon! Submit a PR to add your skill._
 
