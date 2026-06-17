@@ -129,6 +129,7 @@ Skills for working with complex file formats:
 | **[shadcn/ui](https://ui.shadcn.com/docs/skills)** | Give Claude Code context on shadcn components as well as pattern enforcement |
 | **[get-shit-done](https://github.com/gsd-build/get-shit-done)** | Lightweight meta-prompting, context engineering, and spec-driven development system for Claude Code by TÂCHES |
 
+| **[liepin-cli](https://github.com/liepin-tech-2026/liepin-cil)** | Search jobs on Liepin (猎聘), apply to positions, view and edit resumes. Local CLI tool for Liepin job search & resume management |
 _More community skills coming soon! Submit a PR to add your skill._
 
 ### Tools
