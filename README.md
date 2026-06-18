@@ -91,6 +91,11 @@ Skills for working with complex file formats:
 
 ## 🌟 Community Skills
 
+- **[Finance Skills for Claude](https://github.com/Uhudsavasindankacanokcu2/finance-skills-for-claude)** - Cash flow, burn & runway, invoice extraction, budget vs actual, and scenario modeling for founders and finance teams
+- **[Legal Skills for Claude](https://github.com/Uhudsavasindankacanokcu2/legal-skills-for-claude)** - Review, summarize, and draft contracts in plain English with risk flags and paste-ready redlines
+- **[Recruiting & HR Skills for Claude](https://github.com/Uhudsavasindankacanokcu2/recruiting-skills-for-claude)** - Write job descriptions, screen resumes (bias-aware), and build structured interview kits
+
+
 > [!Warning]
 > Skills can execute arbitrary code in Claude's environment.
 > 
