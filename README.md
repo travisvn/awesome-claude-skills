@@ -98,6 +98,7 @@ Skills for working with complex file formats:
 
 ### Collections & Libraries
 
+- **[Claude Code Skills Starter](https://github.com/claudifytech/claude-code-skills-starter)** - A free starter collection of focused Claude Code skills (commits, code review, tests, READMEs) plus a starter CLAUDE.md, MIT licensed.
 - **[obra/superpowers](https://github.com/obra/superpowers)** - Core skills library for Claude Code with 20+ battle-tested skills including TDD, debugging, and collaboration patterns
   - Features `/brainstorm`, `/write-plan`, `/execute-plan` commands and skills-search tool
   - [superpowers-skills](https://github.com/obra/superpowers-skills) - Community-editable skills repository
