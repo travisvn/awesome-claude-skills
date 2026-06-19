@@ -128,6 +128,9 @@ Skills for working with complex file formats:
 | **[Expo Skills](https://github.com/expo/skills)** | Official skills by the Expo team for developing Expo apps |
 | **[shadcn/ui](https://ui.shadcn.com/docs/skills)** | Give Claude Code context on shadcn components as well as pattern enforcement |
 | **[get-shit-done](https://github.com/gsd-build/get-shit-done)** | Lightweight meta-prompting, context engineering, and spec-driven development system for Claude Code by TÂCHES |
+| **[Socratic Code Reviewer](https://github.com/laki-arnsteinlarsen/strategistkit-skills/tree/main/socratic-code-reviewer)** | Reviews code/diffs by interrogating intent, edge cases, and trade-offs; a senior reviewer's questions, not a checklist |
+| **[Systematic Bug Debugger](https://github.com/laki-arnsteinlarsen/strategistkit-skills/tree/main/systematic-bug-debugger)** | Root-cause debugging from symptoms and stack traces; handles heisenbugs and "works locally, fails in prod" |
+| **[TDD Loop Master](https://github.com/laki-arnsteinlarsen/strategistkit-skills/tree/main/tdd-loop-master)** | Drives red-green-refactor: builds a test list, writes tests first, keeps the discipline tight |
 
 _More community skills coming soon! Submit a PR to add your skill._
 
