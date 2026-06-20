@@ -134,6 +134,7 @@ _More community skills coming soon! Submit a PR to add your skill._
 ### Tools
 
 - **[yusufkaraaslan/Skill_Seekers](https://github.com/yusufkaraaslan/Skill_Seekers)** - Convert documentation websites into Claude Skills
+- **[tunlite/ssh-tunnel](https://github.com/yuanyuanzijin/tunlite/tree/master/skill/ssh-tunnel)** — Create and keep SSH tunnels (local, remote, SOCKS) alive via the zero-dependency tunlite CLI, with auto-reconnect and login autostart.
 
 ## ✏️ Creating Your First Skill
 
