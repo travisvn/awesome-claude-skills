@@ -61,7 +61,7 @@ client = anthropic.Client(api_key="your-api-key")
 ### Document Skills
 
 Skills for working with complex file formats:
-
+- [ECC Skills Explorer](https://github.com/Hayder-IRAQ/claude-code-skills-explorer) - Browse 136+ Everything Claude Code skills with a modern bilingual UI (AR/EN). Static HTML + Live Python server.
 - **[docx](https://github.com/anthropics/skills/tree/main/skills/docx)** - Create, edit, and analyze Word documents with support for tracked changes, comments, formatting preservation, and text extraction
 - **[pdf](https://github.com/anthropics/skills/tree/main/skills/pdf)** - Comprehensive PDF manipulation toolkit for extracting text and tables, creating new PDFs, merging/splitting documents, and handling forms
 - **[pptx](https://github.com/anthropics/skills/tree/main/skills/pptx)** - Create, edit, and analyze PowerPoint presentations with support for layouts, templates, charts, and automated slide generation
