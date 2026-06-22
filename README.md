@@ -98,6 +98,10 @@ Skills for working with complex file formats:
 
 ### Collections & Libraries
 
+- **[iart-ai/motion-skills](https://github.com/iart-ai/motion-skills)** - 50 open-source motion-graphics, animation, and video skills across 14 installable packs — kinetic typography, data-viz charts, explainers, TikTok/Reels, web animation, WebGL, and Manim
+  - Install any pack: `npx skills add iart-ai/<pack>` or `/plugin marketplace add iart-ai/<pack>`
+  - [iart-ai/awesome-motion-skills](https://github.com/iart-ai/awesome-motion-skills) - a curated list of motion/animation/video skills for AI agents
+
 - **[obra/superpowers](https://github.com/obra/superpowers)** - Core skills library for Claude Code with 20+ battle-tested skills including TDD, debugging, and collaboration patterns
   - Features `/brainstorm`, `/write-plan`, `/execute-plan` commands and skills-search tool
   - [superpowers-skills](https://github.com/obra/superpowers-skills) - Community-editable skills repository
