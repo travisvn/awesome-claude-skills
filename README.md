@@ -128,6 +128,7 @@ Skills for working with complex file formats:
 | **[Expo Skills](https://github.com/expo/skills)** | Official skills by the Expo team for developing Expo apps |
 | **[shadcn/ui](https://ui.shadcn.com/docs/skills)** | Give Claude Code context on shadcn components as well as pattern enforcement |
 | **[get-shit-done](https://github.com/gsd-build/get-shit-done)** | Lightweight meta-prompting, context engineering, and spec-driven development system for Claude Code by TÂCHES |
+| **[a-share-skill](https://github.com/shouldnotappearcalm/a-share-skill)** | Agent Skills for China A-share (Shanghai/Shenzhen) market: real-time quotes, K-line history, technical indicators, events, capital flows, and paper trading. Works with Claude Code, Cursor, Codex, and Qoder. |
 
 _More community skills coming soon! Submit a PR to add your skill._
 
