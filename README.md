@@ -109,6 +109,10 @@ Skills for working with complex file formats:
   - [Blog post about its development](https://blog.fsck.com/2025/10/23/naming-claude-plugins/)
   - Install from `superpowers-marketplace` plugin
 
+- **[operating-kit](https://github.com/Sharrmavishal/operating-kit)** - Portable, project-agnostic operating method for Claude Code and Cursor. Ships a builder + strategic-vetting persona, vigilance protocol, multi-model collaboration playbook, silent-failure field notes, incident response, five subagent templates (session-start/end, code-review, deploy, prod-logs), and memory seeds. Self-installing via one paste; adapts to any codebase.
+  - Works with Claude Code (native) and Cursor (via `.cursor/rules/*.mdc` adapter)
+  - Installation: paste `BOOTSTRAP-PROMPT.md` (Claude Code) or `BOOTSTRAP-CURSOR.md` (Cursor) into your agent
+
 
 ### Individual Skills
 
