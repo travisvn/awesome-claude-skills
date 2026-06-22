@@ -129,6 +129,9 @@ Skills for working with complex file formats:
 | **[shadcn/ui](https://ui.shadcn.com/docs/skills)** | Give Claude Code context on shadcn components as well as pattern enforcement |
 | **[get-shit-done](https://github.com/gsd-build/get-shit-done)** | Lightweight meta-prompting, context engineering, and spec-driven development system for Claude Code by TÂCHES |
 
+| **[daily.dev](https://github.com/dailydotdev/daily/tree/master/skills/daily.dev)** | Overcome LLM knowledge cutoffs with real-time developer content. Search articles from thousands of sources, manage feeds, and access community-validated technical content via the daily.dev API |
+| **[daily-dev-ask](https://github.com/dailydotdev/daily/tree/master/skills/daily-dev-ask)** | Answer technical questions using daily.dev's knowledge base. Searches articles from the developer community and synthesizes answers with source links |
+
 _More community skills coming soon! Submit a PR to add your skill._
 
 ### Tools
