@@ -128,6 +128,7 @@ Skills for working with complex file formats:
 | **[Expo Skills](https://github.com/expo/skills)** | Official skills by the Expo team for developing Expo apps |
 | **[shadcn/ui](https://ui.shadcn.com/docs/skills)** | Give Claude Code context on shadcn components as well as pattern enforcement |
 | **[get-shit-done](https://github.com/gsd-build/get-shit-done)** | Lightweight meta-prompting, context engineering, and spec-driven development system for Claude Code by TÂCHES |
+| **[Figma Restore](https://github.com/carmenmooo/ai-skill-hub/tree/main/figma-restore)** | Figma to code pixel-perfect design restoration using 3 MCP tools and 6-dimension verification. 13 iron laws prevent AI slop like CSS-drawn icons and guessed font-weights. Works with Claude Code, Cursor, Codex, Gemini CLI, Cline, and Trae. |
 
 _More community skills coming soon! Submit a PR to add your skill._
 
