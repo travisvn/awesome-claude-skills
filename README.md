@@ -134,6 +134,7 @@ _More community skills coming soon! Submit a PR to add your skill._
 ### Tools
 
 - **[yusufkaraaslan/Skill_Seekers](https://github.com/yusufkaraaslan/Skill_Seekers)** - Convert documentation websites into Claude Skills
+- **[SkillsIndex](https://skillsindex.dev/ecosystem/claude_skill/)** - Searchable directory of 1,200+ Claude Skills, each scored 0-100 for security, utility, and maintenance so you can vet a skill before installing it
 
 ## ✏️ Creating Your First Skill
 
