@@ -82,6 +82,7 @@ Skills for working with complex file formats:
 
 ### Communication
 
+- **[anti-slop](https://github.com/DavidMusijenko/anti-slop)** - Strips AI-speak and corporate filler ("leverage", "seamlessly", "cutting-edge") from any text before it goes out. Returns the cleaned version only.
 - **[brand-guidelines](https://github.com/anthropics/skills/tree/main/skills/brand-guidelines)** - Apply Anthropic's official brand colors and typography to artifacts
 - **[internal-comms](https://github.com/anthropics/skills/tree/main/skills/internal-comms)** - Write internal communications like status reports, newsletters, and FAQs
 
