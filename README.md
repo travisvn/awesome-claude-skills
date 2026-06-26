@@ -87,6 +87,8 @@ Skills for working with complex file formats:
 
 ### Skill Creation
 
+- **[auto-skill-manager](https://github.com/VovikP/auto-skill-manager)** - Auto-discovers, installs, and activates the right skills for any task across Claude Code & Cowork. Cross-platform, zero manual steps.
+
 - **[skill-creator](https://github.com/anthropics/skills/tree/main/skills/skill-creator)** - Interactive skill creation tool that guides you through building new skills with Q&A
 
 ## 🌟 Community Skills
