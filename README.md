@@ -129,6 +129,7 @@ Skills for working with complex file formats:
 | **[shadcn/ui](https://ui.shadcn.com/docs/skills)** | Give Claude Code context on shadcn components as well as pattern enforcement |
 | **[get-shit-done](https://github.com/gsd-build/get-shit-done)** | Lightweight meta-prompting, context engineering, and spec-driven development system for Claude Code by TÂCHES |
 
+| **[linkedin-skills](https://github.com/Linked-API/linkedin-skills/tree/main/linkedin)** | Fetch LinkedIn profiles, search people and companies, send messages, manage connections, create posts, react, comment, and run custom LinkedIn workflows from Claude Code, Codex, Cursor, and Windsurf. |
 _More community skills coming soon! Submit a PR to add your skill._
 
 ### Tools
