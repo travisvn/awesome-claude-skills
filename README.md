@@ -128,6 +128,9 @@ Skills for working with complex file formats:
 | **[Expo Skills](https://github.com/expo/skills)** | Official skills by the Expo team for developing Expo apps |
 | **[shadcn/ui](https://ui.shadcn.com/docs/skills)** | Give Claude Code context on shadcn components as well as pattern enforcement |
 | **[get-shit-done](https://github.com/gsd-build/get-shit-done)** | Lightweight meta-prompting, context engineering, and spec-driven development system for Claude Code by TÂCHES |
+| **[filemaker-script-xml](https://github.com/andykear/FileMaker-XMLsnippet-Claude-Skill)** | Generate paste-ready FileMaker script XML — reverse-engineered specification of the undocumented fmxmlsnippet format, confirmed by round-trip testing |
+| **[filemaker-layout-xml](https://github.com/andykear/FileMaker-XMLsnippet-Layout-Claude-Skill)** | Generate paste-ready FileMaker layout XML — all 18 object types, decoded flag bits, and silent failure modes confirmed across production layouts |
+| **[filemaker-field-xml](https://github.com/andykear/FileMaker-XML-field-definitions)** | Generate paste-ready FileMaker field definitions — every field type, auto-enter, validation, and storage variant, verified against FileMaker 2026 |
 
 _More community skills coming soon! Submit a PR to add your skill._
 
