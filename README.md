@@ -34,6 +34,7 @@ This design allows multiple Skills to remain available without overwhelming Clau
 2. Enable Skills toggle
 3. Browse available skills or upload custom skills
 4. **For Team/Enterprise**: Admin must enable Skills organization-wide first
+- [Toolquix - AI Tools](https://toolquix.com/categories/ai-tools) - A curated directory of free AI tools, ChatGPT resources, and artificial intelligence software.
 
 ### Claude Code CLI
 
