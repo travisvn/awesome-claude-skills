@@ -109,6 +109,8 @@ Skills for working with complex file formats:
   - [Blog post about its development](https://blog.fsck.com/2025/10/23/naming-claude-plugins/)
   - Install from `superpowers-marketplace` plugin
 
+ - **[gamedev-skills/awesome-gamedev-agent-skills](https://github.com/gamedev-skills/awesome-gamedev-agent-skills)** - 66 game dev skills plus a router that loads the right ones for your engine and task. Covers Godot, Unity, Unreal and web engines. Open source and version pinned.
+
 
 ### Individual Skills
 
