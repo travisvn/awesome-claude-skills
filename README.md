@@ -128,7 +128,7 @@ Skills for working with complex file formats:
 | **[Expo Skills](https://github.com/expo/skills)** | Official skills by the Expo team for developing Expo apps |
 | **[shadcn/ui](https://ui.shadcn.com/docs/skills)** | Give Claude Code context on shadcn components as well as pattern enforcement |
 | **[get-shit-done](https://github.com/gsd-build/get-shit-done)** | Lightweight meta-prompting, context engineering, and spec-driven development system for Claude Code by TÂCHES |
-| **[kdbx](https://github.com/yarrasys/skills/tree/main/skills/kdbx)** | KeePassXC credentials manager — per-project/per-env secrets in key-file-only .kdbx vaults; replaces .env and injects secrets into commands without printing them |
+| **[kdbx](https://github.com/yarrasys/extensions/tree/main/skills/kdbx)** | KeePassXC credentials manager — per-project/per-env secrets in key-file-only .kdbx vaults; replaces .env and injects secrets into commands without printing them |
 
 _More community skills coming soon! Submit a PR to add your skill._
 
