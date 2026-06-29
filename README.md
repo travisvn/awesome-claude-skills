@@ -90,6 +90,7 @@ Skills for working with complex file formats:
 - **[skill-creator](https://github.com/anthropics/skills/tree/main/skills/skill-creator)** - Interactive skill creation tool that guides you through building new skills with Q&A
 
 ## 🌟 Community Skills
+- [Skill Hub](https://github.com/rdone4425/skill) — Multi-platform AI Agent Skills navigator: 2595+ skills from 24 sources across Codex, Claude Code, Hermes, OpenCode, OpenClaw & Cursor. [Web](https://skill.442595.xyz/)
 
 > [!Warning]
 > Skills can execute arbitrary code in Claude's environment.
