@@ -134,6 +134,7 @@ _More community skills coming soon! Submit a PR to add your skill._
 ### Tools
 
 - **[yusufkaraaslan/Skill_Seekers](https://github.com/yusufkaraaslan/Skill_Seekers)** - Convert documentation websites into Claude Skills
+- **[nbpadilha/nbp-forge](https://github.com/nbpadilha/nbp-forge)** - Compose portable SKILL.md / command files from reusable "bricks" with a drift-gate that fails CI when generated output diverges from its recipe. Zero-dependency, MIT.
 
 ## ✏️ Creating Your First Skill
 
