@@ -451,3 +451,7 @@ A: For skills from git repositories, pull the latest changes. For manually insta
 ## 🤝 Contributing
 
 Contributions welcome! See [contribution guidelines](CONTRIBUTING.md) for details. To add a skill or resource: fork, add to appropriate section, submit PR.
+
+## Directories
+
+- [OpenRuna skills & agents](https://www.openruna.com/best/ai-skills-packs) — SKILL.md packs, Claude agent templates, and workflow links.
