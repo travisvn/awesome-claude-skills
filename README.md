@@ -108,6 +108,7 @@ Skills for working with complex file formats:
   - Uses new techniques that are still being refined and tested (i.e. skills here may change over time)
   - [Blog post about its development](https://blog.fsck.com/2025/10/23/naming-claude-plugins/)
   - Install from `superpowers-marketplace` plugin
+- **[Remote OpenClaw](https://www.remoteopenclaw.com/skills)** - directory of agent skills and mcp servers for OpenClaw, Hermes Agent, Claude Code and Codex, browsable by ecosystem and category
 
 
 ### Individual Skills
