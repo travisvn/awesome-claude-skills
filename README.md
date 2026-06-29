@@ -129,6 +129,8 @@ Skills for working with complex file formats:
 | **[shadcn/ui](https://ui.shadcn.com/docs/skills)** | Give Claude Code context on shadcn components as well as pattern enforcement |
 | **[get-shit-done](https://github.com/gsd-build/get-shit-done)** | Lightweight meta-prompting, context engineering, and spec-driven development system for Claude Code by TÂCHES |
 
+| **[multi-stack-mcp](https://github.com/VovikP/multi-stack-mcp)** | One MCP, every stack — generates native UI sections (hero, pricing, features, CTA) for Next.js, Flutter, WordPress, and Vue from a unified pattern catalog with shared design tokens. Ships a real security model (token + slot denylist, atomic safe-write, symlink-refusing walkers). |
+
 _More community skills coming soon! Submit a PR to add your skill._
 
 ### Tools
