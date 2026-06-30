@@ -109,6 +109,8 @@ Skills for working with complex file formats:
   - [Blog post about its development](https://blog.fsck.com/2025/10/23/naming-claude-plugins/)
   - Install from `superpowers-marketplace` plugin
 
+- **[SkillMe](https://github.com/aouellets/skillme)** - Open-source catalog of Claude Agent Skills and skill packs with semantic search and one-command install via its MCP server (live at [skillme.dev](https://skillme.dev)). Independent project, not affiliated with Anthropic.
+
 
 ### Individual Skills
 
