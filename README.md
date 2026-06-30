@@ -116,6 +116,7 @@ Skills for working with complex file formats:
 
 | Skill | Description |
 | --- | --- |
+| **[BankBridge](https://github.com/bankbridge-money/bankbridge-skills)** | 19 read-only personal-finance slash commands wrapping a hosted MCP server — balances, monthly cashflow, subscriptions audit, tax prep, budget draft, fraud check, portfolio health, and more. Reads from real bank accounts via Plaid. |
 | **[ios-simulator-skill](https://github.com/conorluddy/ios-simulator-skill)** | iOS app building, navigation, and testing through automation |
 | **[ffuf-web-fuzzing](https://github.com/jthack/ffuf_claude_skill)** | Expert guidance for ffuf web fuzzing during penetration testing, including authenticated fuzzing with raw requests, auto-calibration, and result analysis |
 | **[playwright-skill](https://github.com/lackeyjb/playwright-skill)** | General-purpose browser automation using Playwright |
