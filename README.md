@@ -227,6 +227,12 @@ The easiest way to create a skill is to use the built-in `skill-creator`:
 - [anthropics/skills](https://github.com/anthropics/skills) - Official public repository for Skills
 - [Claude Cookbooks - Skills](https://github.com/anthropics/claude-cookbooks/tree/main/skills) - Example notebooks and tutorials
 
+## 🗺️ Field Guides & Visual Indexes
+
+Interactive, visual indexes that help users navigate Claude Code's growing ecosystem.
+
+- [Vexilo · A field guide to Claude Code](https://vexilo.app/?lang=en) — 31 agents · 99 commands · 123 skills · 13 rules, organized around the 5-step workflow (Research → Plan → Test-first → Security → Commit). One-click "Teach Claude this handbook" feeds the whole guide into a local Claude session in 30 seconds. Browser-based, zero install. ([companion repo](https://github.com/lilhawk7077/claude-code-resources))
+
 ## 📅 Recent Updates
 
 ### November 2025
