@@ -133,6 +133,7 @@ _More community skills coming soon! Submit a PR to add your skill._
 
 ### Tools
 
+- **[Skillselion](https://skillselion.com)** - Directory of thousands of community-vetted Claude Code skills (plus MCP servers and marketplaces), ranked by real install counts; the `skillselion-mcp` server lets an agent search and `load_skill` them mid-task.
 - **[yusufkaraaslan/Skill_Seekers](https://github.com/yusufkaraaslan/Skill_Seekers)** - Convert documentation websites into Claude Skills
 
 ## ✏️ Creating Your First Skill
