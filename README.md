@@ -98,6 +98,8 @@ Skills for working with complex file formats:
 
 ### Collections & Libraries
 
+- **[mambalabsdev/mamba-labs-skills](https://github.com/mambalabsdev/mamba-labs-skills)** - 4 free GTM skills for signal-based outbound: ICP definition, cold email auditing, domain health checks, and hiring signal detection. Works with Claude Code, Codex CLI, Cursor, and MCP-compatible agents.
+
 - **[obra/superpowers](https://github.com/obra/superpowers)** - Core skills library for Claude Code with 20+ battle-tested skills including TDD, debugging, and collaboration patterns
   - Features `/brainstorm`, `/write-plan`, `/execute-plan` commands and skills-search tool
   - [superpowers-skills](https://github.com/obra/superpowers-skills) - Community-editable skills repository
@@ -128,6 +130,10 @@ Skills for working with complex file formats:
 | **[Expo Skills](https://github.com/expo/skills)** | Official skills by the Expo team for developing Expo apps |
 | **[shadcn/ui](https://ui.shadcn.com/docs/skills)** | Give Claude Code context on shadcn components as well as pattern enforcement |
 | **[get-shit-done](https://github.com/gsd-build/get-shit-done)** | Lightweight meta-prompting, context engineering, and spec-driven development system for Claude Code by TÂCHES |
+| **[icp-definition-builder](https://github.com/mambalabsdev/mamba-labs-skills/tree/main/skills/icp-definition-builder)** | Build a structured Ideal Customer Profile from a business description |
+| **[cold-email-structure-checker](https://github.com/mambalabsdev/mamba-labs-skills/tree/main/skills/cold-email-structure-checker)** | Audit a cold email draft against a 7-point outbound framework |
+| **[domain-health-precheck](https://github.com/mambalabsdev/mamba-labs-skills/tree/main/skills/domain-health-precheck)** | Scan SPF, DKIM, DMARC records and blacklist status for a sending domain |
+| **[hiring-signal-spotter](https://github.com/mambalabsdev/mamba-labs-skills/tree/main/skills/hiring-signal-spotter)** | Detect GTM hiring signals at any company and generate an outbound angle |
 
 _More community skills coming soon! Submit a PR to add your skill._
 
