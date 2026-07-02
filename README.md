@@ -110,6 +110,10 @@ Skills for working with complex file formats:
   - Install from `superpowers-marketplace` plugin
 
 
+- **[buildwithreef/claude-skills](https://github.com/buildwithreef/claude-skills)** - 12 skills for running a small business: overdue-invoice chasing, Google/Yelp review replies, GBP + local SEO audits, landing-page teardowns, service pages, cold email, proposals, and a jargon-stripping rewrite mode
+  - Each skill is a real SOP — escalation ladders, audit checklists, named formulas — with reference templates
+  - Installation: `npx skills add buildwithreef/claude-skills` · Docs & examples: [buildwithreef.com/skills](https://buildwithreef.com/skills/)
+
 ### Individual Skills
 
 > These will be broken down into categories once there are enough community skills available to list
