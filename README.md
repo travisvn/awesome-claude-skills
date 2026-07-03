@@ -134,6 +134,7 @@ _More community skills coming soon! Submit a PR to add your skill._
 ### Tools
 
 - **[yusufkaraaslan/Skill_Seekers](https://github.com/yusufkaraaslan/Skill_Seekers)** - Convert documentation websites into Claude Skills
+- **[kabylesystem/skillscope](https://github.com/kabylesystem/skillscope)** - Local dashboard for your skill bank: every skill on your machine, real usage mined from Claude Code transcripts, cleanup advice for duplicates and dead weight
 
 ## ✏️ Creating Your First Skill
 
