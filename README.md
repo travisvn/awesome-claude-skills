@@ -88,7 +88,7 @@ Skills for working with complex file formats:
 ### Skill Creation
 
 - **[skill-creator](https://github.com/anthropics/skills/tree/main/skills/skill-creator)** - Interactive skill creation tool that guides you through building new skills with Q&A
-
+- **[Skill Doctor](https://github.com/forgeron-AI/claude-skill-doctor)** - Audit and repair existing Claude skills: 7-criteria scoring grid, anti-pattern table, 5-case test protocol, delivers a corrected SKILL.md
 ## 🌟 Community Skills
 
 > [!Warning]
