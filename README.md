@@ -108,6 +108,9 @@ Skills for working with complex file formats:
   - Uses new techniques that are still being refined and tested (i.e. skills here may change over time)
   - [Blog post about its development](https://blog.fsck.com/2025/10/23/naming-claude-plugins/)
   - Install from `superpowers-marketplace` plugin
+ 
+- **[doodledood/manifest-dev](https://github.com/doodledood/manifest-dev)** - Manifest-driven workflow skills: adversarial /figure-out understanding, acceptance-criteria manifests via /define, and /do execution verified per criterion by independent subagents
+
 
 
 ### Individual Skills
