@@ -110,6 +110,10 @@ Skills for working with complex file formats:
   - Install from `superpowers-marketplace` plugin
 
 
+- **[Nolpak14/getregdata](https://github.com/Nolpak14/getregdata)** - 6 skills for KYC/AML, credit-risk, property, compliance and lead-gen over 29 official business registries (EU, US, UAE)
+  - Skills: `regdata`, `regdata-kyc-aml`, `regdata-credit-risk`, `regdata-property`, `regdata-compliance`, `regdata-lead-gen`
+  - Installation: `npx skills add Nolpak14/getregdata`
+
 ### Individual Skills
 
 > These will be broken down into categories once there are enough community skills available to list
