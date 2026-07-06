@@ -108,6 +108,11 @@ Skills for working with complex file formats:
   - Uses new techniques that are still being refined and tested (i.e. skills here may change over time)
   - [Blog post about its development](https://blog.fsck.com/2025/10/23/naming-claude-plugins/)
   - Install from `superpowers-marketplace` plugin
+- **[avansaber/erpclaw](https://github.com/avansaber/erpclaw)** - Open-source, self-hosted AI-native ERP for Claude Code: accounting, inventory, payroll, and CRM, all via natural language. One install auto-detects your industry and pulls the right vertical (healthcare, education, retail, construction, and more).
+  - Covers the full business stack: GL/AP/AR, inventory, HR, payroll, sales orders, purchasing, manufacturing
+  - Stripe and Shopify integrations with automatic GL posting and reconciliation
+  - [erpclaw-addons](https://github.com/avansaber/erpclaw-addons): Stripe, Shopify, compliance, documents, treasury, and more
+  - Installation: `clawhub install erpclaw`
 
 
 ### Individual Skills
