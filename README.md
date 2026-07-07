@@ -110,6 +110,9 @@ Skills for working with complex file formats:
   - Install from `superpowers-marketplace` plugin
 
 
+- **[Arlenjim/claude-code-for-non-coders](https://github.com/Arlenjim/claude-code-for-non-coders)** - Governance method and three copy-ready method skills (work discipline, scientific debugging, framing vague requests) for directing Claude Code without being able to read the code it writes
+  - Includes session handoff rituals, guardrail templates, and a documented record of which guardrails were removed and why
+
 ### Individual Skills
 
 > These will be broken down into categories once there are enough community skills available to list
