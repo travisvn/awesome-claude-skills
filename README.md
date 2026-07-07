@@ -108,11 +108,11 @@ Skills for working with complex file formats:
   - Uses new techniques that are still being refined and tested (i.e. skills here may change over time)
   - [Blog post about its development](https://blog.fsck.com/2025/10/23/naming-claude-plugins/)
   - Install from `superpowers-marketplace` plugin
- 
-- **[pm-claude-skills](https://github.com/mohitagw15856/pm-claude-skills)** — 205 professional Agent Skills across 21 professions (PRDs, sprint plans, exec updates, launch checklists, contracts, pitch decks, postmortems, health scorecards, and more)
-  - 196 of 205 skills eval-scored at avg 4.8/5 by an LLM judge — scores and a public leaderboard in the repo
+
+- **[pm-claude-skills](https://github.com/mohitagw15856/pm-claude-skills)** — 454 professional Agent Skills across 65 bundles and 25 professions (PRDs, sprint plans, exec updates, launch checklists, contracts, pitch decks, postmortems, financial models, and more)
+  - Curated eval suite with a public leaderboard; conformance-checked against [SkillSpec](https://github.com/mohitagw15856/pm-claude-skills/blob/main/SKILLSPEC.md) (L3: every skill self-verifies via Quality Checks + Anti-Patterns)
   - Workflow Recipes chain skills end-to-end: `/ship-a-feature`, `/close-the-quarter`, `/rescue-an-account`
-  - Run any skill free in the browser (Claude / OpenAI / Gemini / Ollama), install via `npx`, local or hosted MCP, `pip install pm-skills`, or the Claude Code marketplace
+  - Run any skill free in the browser (no key needed — sponsored trial, or bring any provider), local or hosted MCP with zero-key `run_skill`, `npx pm-claude-skills`, `pip install pm-skills`
   - Installation: `/plugin marketplace add mohitagw15856/pm-claude-skills` or `npx pm-claude-skills add --agent claude`
 
 
