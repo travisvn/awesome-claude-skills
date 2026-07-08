@@ -133,6 +133,7 @@ _More community skills coming soon! Submit a PR to add your skill._
 
 ### Tools
 
+- **[surenode-ai/skill-extractor](https://github.com/surenode-ai/skill-extractor)** - Mine reusable skills from your own Claude Code or Codex transcripts, with outcome-weighted scoring and human review before any skill is installed
 - **[yusufkaraaslan/Skill_Seekers](https://github.com/yusufkaraaslan/Skill_Seekers)** - Convert documentation websites into Claude Skills
 
 ## ✏️ Creating Your First Skill
