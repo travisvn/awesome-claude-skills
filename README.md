@@ -134,6 +134,7 @@ _More community skills coming soon! Submit a PR to add your skill._
 ### Tools
 
 - **[yusufkaraaslan/Skill_Seekers](https://github.com/yusufkaraaslan/Skill_Seekers)** - Convert documentation websites into Claude Skills
+- **[skill-loom](https://github.com/michelepastorello/skill-loom)** - CLI that keeps one git-versioned vault of agent skills, symlinked into Claude Code, Codex, and custom runtimes — edit once, every agent sees the same skill
 
 ## ✏️ Creating Your First Skill
 
