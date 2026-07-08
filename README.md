@@ -128,6 +128,7 @@ Skills for working with complex file formats:
 | **[Expo Skills](https://github.com/expo/skills)** | Official skills by the Expo team for developing Expo apps |
 | **[shadcn/ui](https://ui.shadcn.com/docs/skills)** | Give Claude Code context on shadcn components as well as pattern enforcement |
 | **[get-shit-done](https://github.com/gsd-build/get-shit-done)** | Lightweight meta-prompting, context engineering, and spec-driven development system for Claude Code by TÂCHES |
+| **[cvnizer](https://github.com/slovozaslovo/cvnizer)** | Converts CV/resume prose into executive-register wording: deterministic checks (word counts, pronouns, AI tells) plus a scored convergence loop with published-CV samples; wording only, never changes facts. Works in Claude Code, Codex CLI, and Cursor |
 
 _More community skills coming soon! Submit a PR to add your skill._
 
