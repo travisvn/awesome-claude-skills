@@ -128,6 +128,7 @@ Skills for working with complex file formats:
 | **[Expo Skills](https://github.com/expo/skills)** | Official skills by the Expo team for developing Expo apps |
 | **[shadcn/ui](https://ui.shadcn.com/docs/skills)** | Give Claude Code context on shadcn components as well as pattern enforcement |
 | **[get-shit-done](https://github.com/gsd-build/get-shit-done)** | Lightweight meta-prompting, context engineering, and spec-driven development system for Claude Code by TÂCHES |
+| **[huxleyli15/frank](https://github.com/huxleyli15/frank)** - Anti-sycophancy skill: stops the agent from flattering, hedging, and caving under pushback. Verdict-first, steelmans then challenges, holds its ground on evidence |
 
 _More community skills coming soon! Submit a PR to add your skill._
 
