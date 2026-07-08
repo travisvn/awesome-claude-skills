@@ -109,6 +109,8 @@ Skills for working with complex file formats:
   - [Blog post about its development](https://blog.fsck.com/2025/10/23/naming-claude-plugins/)
   - Install from `superpowers-marketplace` plugin
 
+- **[gugdongbag-eng/korean-marketing-skills](https://github.com/gugdongbag-eng/korean-marketing-skills)** - 9 citation-backed Korean marketing skills (Naver, Kakao, Baemin, 당근) that pin down local marketing facts general LLMs get wrong, each sourced to law and official docs
+
 
 ### Individual Skills
 
