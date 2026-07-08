@@ -109,6 +109,12 @@ Skills for working with complex file formats:
   - [Blog post about its development](https://blog.fsck.com/2025/10/23/naming-claude-plugins/)
   - Install from `superpowers-marketplace` plugin
 
+- **[QASkills.sh](https://qaskills.sh)** - Curated directory of 20+ QA testing skills for Claude Code and 27+ AI agents
+  - Covers E2E (Playwright, Cypress, Selenium), API (REST Assured, Postman), performance (k6, JMeter), security (OWASP), and more
+  - Easy CLI installation: `npx @qaskills/cli add <skill-name>`
+  - [GitHub repository](https://github.com/PramodDutta/qaskills) | [npm package](https://www.npmjs.com/package/@qaskills/cli)
+  - Built by [The Testing Academy](https://youtube.com/@TheTestingAcademy) (189K+ subscribers)
+
 
 ### Individual Skills
 
