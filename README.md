@@ -128,7 +128,7 @@ Skills for working with complex file formats:
 | **[Expo Skills](https://github.com/expo/skills)** | Official skills by the Expo team for developing Expo apps |
 | **[shadcn/ui](https://ui.shadcn.com/docs/skills)** | Give Claude Code context on shadcn components as well as pattern enforcement |
 | **[get-shit-done](https://github.com/gsd-build/get-shit-done)** | Lightweight meta-prompting, context engineering, and spec-driven development system for Claude Code by TÂCHES |
-| **[b2-cloud-storage](https://github.com/backblaze-labs/claude-skill-b2-cloud-storage)** | Manage Backblaze B2 object storage from the terminal: audit usage, detect stale and duplicate files, review bucket security, and safely clean up storage with a dry-run before any delete |
+| **[b2-cloud-storage](https://github.com/backblaze-labs/claude-skill-b2-cloud-storage)** | Manage Backblaze B2 object storage from the terminal: audit usage, detect stale and duplicate files, review bucket security, and safely clean up storage with a dry-run before deleting anything |
 
 _More community skills coming soon! Submit a PR to add your skill._
 
