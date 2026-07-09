@@ -110,6 +110,9 @@ Skills for working with complex file formats:
   - Install from `superpowers-marketplace` plugin
 
 
+- **[sanjay3290/ai-skills](https://github.com/sanjay3290/ai-skills)** - 24 production-ready skills: databases (postgres, mysql, mssql), messaging (telegram, whatsapp), research (deep-research, notebooklm), coding-agent delegation (jules, manus, grok-build), text-to-speech (elevenlabs, google-tts), DevOps (azure-devops, apple-container), Atlassian, and the full Google Workspace suite
+  - Each skill is a self-contained folder with SKILL.md, install by copying into `~/.claude/skills/`
+
 ### Individual Skills
 
 > These will be broken down into categories once there are enough community skills available to list
