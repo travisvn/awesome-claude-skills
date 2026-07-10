@@ -133,6 +133,7 @@ _More community skills coming soon! Submit a PR to add your skill._
 
 ### Tools
 
+- **[Agent Skills Hub](https://agentskillshub.top/)** - Searchable directory of 130,000+ open-source Claude skills and MCP servers, each with a quality score and a SAFE/CAUTION/UNSAFE security grade to review before installing (free, no login)
 - **[yusufkaraaslan/Skill_Seekers](https://github.com/yusufkaraaslan/Skill_Seekers)** - Convert documentation websites into Claude Skills
 
 ## ✏️ Creating Your First Skill
