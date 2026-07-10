@@ -91,6 +91,9 @@ Skills for working with complex file formats:
 
 ## 🌟 Community Skills
 
+### Token & Cost Optimization
+- **[paleo](https://github.com/mocasus/paleo)** - Token-saving skills for LLM agents — compress output & context tokens (~54% median, reproducible benchmark) without rewriting code. Composable: `paleo`, `paleo-trim-context`, `paleo-skip-preamble`, `paleo-budget`. Works on Claude Code, Codex, Gemini CLI, OpenCode, Qwen Code, Hermes + 40+ agents via `npx skills add`.
+
 > [!Warning]
 > Skills can execute arbitrary code in Claude's environment.
 > 
