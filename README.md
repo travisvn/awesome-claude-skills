@@ -129,6 +129,8 @@ Skills for working with complex file formats:
 | **[shadcn/ui](https://ui.shadcn.com/docs/skills)** | Give Claude Code context on shadcn components as well as pattern enforcement |
 | **[get-shit-done](https://github.com/gsd-build/get-shit-done)** | Lightweight meta-prompting, context engineering, and spec-driven development system for Claude Code by TÂCHES |
 
+| **[d2-diagrams](https://github.com/khollingworth/d2-diagram-skill)** | Professional D2 architecture diagrams (TALA/ELK) rendered to SVG with a self-checking loop — the agent views its own render and fixes layout defects before delivering |
+
 _More community skills coming soon! Submit a PR to add your skill._
 
 ### Tools
