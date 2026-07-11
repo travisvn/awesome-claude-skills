@@ -109,6 +109,9 @@ Skills for working with complex file formats:
   - [Blog post about its development](https://blog.fsck.com/2025/10/23/naming-claude-plugins/)
   - Install from `superpowers-marketplace` plugin
 
+- **[Mastering Claude Skills Library](https://mastering-claude.com/skills/)** - Searchable, categorized directory of 500+ Claude Code skills spanning official Anthropic skills, community collections (superpowers, ECC), and marketplace picks, each listed with its source, category, and install command
+  - Free, no signup; includes a built-in vetting checklist for auditing third-party skills before installing
+
 
 ### Individual Skills
 
