@@ -128,6 +128,8 @@ Skills for working with complex file formats:
 | **[Expo Skills](https://github.com/expo/skills)** | Official skills by the Expo team for developing Expo apps |
 | **[shadcn/ui](https://ui.shadcn.com/docs/skills)** | Give Claude Code context on shadcn components as well as pattern enforcement |
 | **[get-shit-done](https://github.com/gsd-build/get-shit-done)** | Lightweight meta-prompting, context engineering, and spec-driven development system for Claude Code by TÂCHES |
+| **[daybreak-autoresearch](https://github.com/1dZb1/Daybreak-AutoResearch)** | Agent-agnostic protocol for long-horizon, source-grounded research — multi-perspective questioning, claim ledgers, persistent file state, and a Discovery Tail Pass that hunts anomalies before accepting a synthesis |
+| **[cohort-pattern-diagnostics](https://github.com/1dZb1/cohort-pattern-diagnostics)** | Population-level diagnostics for repeated anomalies and "impossible" bugs — splits one syndrome into cohorts with per-cohort hypotheses, falsifiers, rate checks, and observability upgrades |
 
 _More community skills coming soon! Submit a PR to add your skill._
 
