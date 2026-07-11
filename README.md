@@ -109,6 +109,15 @@ Skills for working with complex file formats:
   - [Blog post about its development](https://blog.fsck.com/2025/10/23/naming-claude-plugins/)
   - Install from `superpowers-marketplace` plugin
 
+- **[ship-safe-skills](https://github.com/windchillscalanthes-ship-it/ship-safe-skills)** - Six production-safety skills that catch what takes production down before you merge
+  - `safe-migrations` — DB migrations that lock tables (Postgres/MySQL, zero-downtime rewrites)
+  - `n-plus-one-hunter` — N+1 queries and ORM anti-patterns (Rails, Django, Prisma, SQLAlchemy)
+  - `terraform-blast-radius` — destructive Terraform changes before apply (AWS/GCP/Azure)
+  - `api-break-check` — backward-incompatible API changes (REST, GraphQL, gRPC)
+  - `llm-cost-guard` — LLM token/cost blowups (prompt caching, model tiers, batching)
+  - `prompt-injection-review` — untrusted input reaching tools
+  - Installation: `curl -fsSL https://raw.githubusercontent.com/windchillscalanthes-ship-it/ship-safe-skills/main/install.sh | bash`
+
 
 ### Individual Skills
 
