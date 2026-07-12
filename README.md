@@ -109,6 +109,11 @@ Skills for working with complex file formats:
   - [Blog post about its development](https://blog.fsck.com/2025/10/23/naming-claude-plugins/)
   - Install from `superpowers-marketplace` plugin
 
+- **[akovalion/paranoid-qa](https://github.com/akovalion/paranoid-qa)** - QA skill pack that enforces evidence discipline: every Pass/Fail verdict must cite an observed artifact (screenshot, network payload, log)
+  - Testing framework with ~1,000 checks, Playwright test review (49 checks), test-case generation with Zephyr CSV export, Jira bug reports
+  - Reproducible demo where the agent catches a payload bug invisible in the UI; skills ship in English and Russian
+  - Installation: `/plugin marketplace add akovalion/paranoid-qa` then `/plugin install paranoid-qa`
+
 
 ### Individual Skills
 
