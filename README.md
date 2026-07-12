@@ -128,6 +128,7 @@ Skills for working with complex file formats:
 | **[Expo Skills](https://github.com/expo/skills)** | Official skills by the Expo team for developing Expo apps |
 | **[shadcn/ui](https://ui.shadcn.com/docs/skills)** | Give Claude Code context on shadcn components as well as pattern enforcement |
 | **[get-shit-done](https://github.com/gsd-build/get-shit-done)** | Lightweight meta-prompting, context engineering, and spec-driven development system for Claude Code by TÂCHES |
+| **[power-coding](https://github.com/APareek89/power-coding)** | "Five Forces of Mindful Coding" framework: session handoffs, 5-whys learning log, eval loops with golden sets that graduate into tests, Mermaid vibe-debugging diagrams, FMEA failure scans, and consent-gated automation — LLM-agnostic (Claude Code, Codex, Gemini CLI) |
 
 _More community skills coming soon! Submit a PR to add your skill._
 
