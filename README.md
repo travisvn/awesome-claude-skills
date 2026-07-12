@@ -117,6 +117,7 @@ Skills for working with complex file formats:
 | Skill | Description |
 | --- | --- |
 | **[ios-simulator-skill](https://github.com/conorluddy/ios-simulator-skill)** | iOS app building, navigation, and testing through automation |
+| **[design-counsel](https://github.com/Aakreit/design-counsel)** | Evidence-grounded product design & UX review — prioritized findings with severity anchors, state-matrix coverage, and accessibility checks, for Claude Code and Codex |
 | **[ffuf-web-fuzzing](https://github.com/jthack/ffuf_claude_skill)** | Expert guidance for ffuf web fuzzing during penetration testing, including authenticated fuzzing with raw requests, auto-calibration, and result analysis |
 | **[playwright-skill](https://github.com/lackeyjb/playwright-skill)** | General-purpose browser automation using Playwright |
 | **[claude-d3js-skill](https://github.com/chrisvoncsefalvay/claude-d3js-skill)** | Visualizations in d3.js |
