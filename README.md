@@ -128,6 +128,8 @@ Skills for working with complex file formats:
 | **[Expo Skills](https://github.com/expo/skills)** | Official skills by the Expo team for developing Expo apps |
 | **[shadcn/ui](https://ui.shadcn.com/docs/skills)** | Give Claude Code context on shadcn components as well as pattern enforcement |
 | **[get-shit-done](https://github.com/gsd-build/get-shit-done)** | Lightweight meta-prompting, context engineering, and spec-driven development system for Claude Code by TÂCHES |
+| **[apify-linkedin-posts-scraper](https://github.com/johnisanerd/claude-skill-linkedin-posts-scraper)** | Scrape public LinkedIn posts into structured JSON via the Apify LinkedIn Posts API |
+| **[apify-linkedin-post-engagement](https://github.com/johnisanerd/claude-skill-linkedin-post-engagement)** | Analyze LinkedIn post engagement (reactions, comments, shares) via the Apify LinkedIn Posts API |
 
 _More community skills coming soon! Submit a PR to add your skill._
 
