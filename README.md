@@ -79,6 +79,9 @@ Skills for working with complex file formats:
 - **[web-artifacts-builder](https://github.com/anthropics/skills/tree/main/skills/web-artifacts-builder)** - Build complex claude.ai HTML artifacts using React, Tailwind CSS, and shadcn/ui components
 - **[mcp-builder](https://github.com/anthropics/skills/tree/main/skills/mcp-builder)** - Guide for creating high-quality MCP servers to integrate external APIs and services
 - **[webapp-testing](https://github.com/anthropics/skills/tree/main/skills/webapp-testing)** - Test local web applications using Playwright for UI verification and debugging
+- **[papyrus](https://github.com/thomas-worm/papyrus-skill/tree/main/plugins/papyrus/skills/papyrus)** - Work on UML models in Papyrus Desktop projects.
+- **[papyrus-doc](https://github.com/thomas-worm/papyrus-skill/tree/main/plugins/papyrus/skills/papyrus-doc)** - Work on architecture documentation in Papyrus Desktop projects.
+- **[papyrus-arc42](https://github.com/thomas-worm/papyrus-skill/tree/main/plugins/papyrus/skills/papyrus-arc42)** - Work on Arc42 architecture specifications in Papyrus Desktop projects.
 
 ### Communication
 
