@@ -128,6 +128,7 @@ Skills for working with complex file formats:
 | **[Expo Skills](https://github.com/expo/skills)** | Official skills by the Expo team for developing Expo apps |
 | **[shadcn/ui](https://ui.shadcn.com/docs/skills)** | Give Claude Code context on shadcn components as well as pattern enforcement |
 | **[get-shit-done](https://github.com/gsd-build/get-shit-done)** | Lightweight meta-prompting, context engineering, and spec-driven development system for Claude Code by TÂCHES |
+| **[bitbucket-jira-cli](https://github.com/Spenhouet/bitbucket-jira-cli)** | gh-style CLI for Bitbucket (pull requests, repos, pipelines) and Jira (issues), with branch-name-as-Jira-key automation. Self-installs the bj CLI; no MCP server needed |
 
 _More community skills coming soon! Submit a PR to add your skill._
 
