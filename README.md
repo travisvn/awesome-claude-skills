@@ -110,6 +110,10 @@ Skills for working with complex file formats:
   - Install from `superpowers-marketplace` plugin
 
 
+- **[gtm-engine](https://github.com/himanshusaleria/gtm-engine)** - 8 slash-command sales skills for 0-to-1 founders: pipeline tracking, daily rituals, call analysis, lead scoring, and cold outreach
+  - Includes 15 sales frameworks the skills apply to real deals (discovery, positioning, qualification, revenue visibility)
+  - Installation: `/plugin marketplace add himanshusaleria/gtm-engine`
+
 ### Individual Skills
 
 > These will be broken down into categories once there are enough community skills available to list
