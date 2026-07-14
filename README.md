@@ -128,6 +128,7 @@ Skills for working with complex file formats:
 | **[Expo Skills](https://github.com/expo/skills)** | Official skills by the Expo team for developing Expo apps |
 | **[shadcn/ui](https://ui.shadcn.com/docs/skills)** | Give Claude Code context on shadcn components as well as pattern enforcement |
 | **[get-shit-done](https://github.com/gsd-build/get-shit-done)** | Lightweight meta-prompting, context engineering, and spec-driven development system for Claude Code by TÂCHES |
+| **[claude-skills-cre](https://github.com/sasha-deneux/claude-skills-cre)** | Copy-and-paste skills for commercial real estate across the deal lifecycle: off-market sourcing, deal screening, underwriting, rent-roll and T-12 normalization, feasibility, zoning and entitlement, due diligence, and LP reporting |
 
 _More community skills coming soon! Submit a PR to add your skill._
 
