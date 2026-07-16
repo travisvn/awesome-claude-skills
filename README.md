@@ -109,6 +109,10 @@ Skills for working with complex file formats:
   - [Blog post about its development](https://blog.fsck.com/2025/10/23/naming-claude-plugins/)
   - Install from `superpowers-marketplace` plugin
 
+- **[bitjaru/styleseed](https://github.com/bitjaru/styleseed)** - Design-rules engine with 19 skills that stops coding agents from producing generic "AI-looking" UI — 74 rules, a scored quality gate (`/ss-score` loops to ≥80 before showing you), a visual gate (`/ss-verify` screenshots and judges the pixels), and 6 aesthetic presets (`/ss-restyle`)
+  - Installation: `npx skills add bitjaru/styleseed` (also works with Codex, Cursor, Gemini CLI via `.agents/skills`)
+  - [Live demo & scorecard](https://styleseed-demo.vercel.app) - the maker's own landing scored 58/100 on its own gate; full breakdown published
+  - [Show HN discussion](https://news.ycombinator.com/item?id=48920888)
 
 ### Individual Skills
 
