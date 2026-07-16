@@ -128,6 +128,7 @@ Skills for working with complex file formats:
 | **[Expo Skills](https://github.com/expo/skills)** | Official skills by the Expo team for developing Expo apps |
 | **[shadcn/ui](https://ui.shadcn.com/docs/skills)** | Give Claude Code context on shadcn components as well as pattern enforcement |
 | **[get-shit-done](https://github.com/gsd-build/get-shit-done)** | Lightweight meta-prompting, context engineering, and spec-driven development system for Claude Code by TÂCHES |
+| **[HyperShots](https://github.com/hypersocialinc/hypershots)** | App Store screenshots perfect to Apple's specs — deterministic HTML panels with a hard validator (dims/alpha/ICC/count), one-pass localization with auto-fit, optional AI sticker art and style passes, fastlane submission |
 
 _More community skills coming soon! Submit a PR to add your skill._
 
