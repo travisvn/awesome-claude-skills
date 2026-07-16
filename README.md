@@ -93,17 +93,22 @@ Skills for working with complex file formats:
 
 > [!Warning]
 > Skills can execute arbitrary code in Claude's environment.
-> 
+>
 > See [Security & Best Practices](#-security--best-practices) for more information
 
 ### Collections & Libraries
+
+- **[eduardo-sl/go-agent-skills](https://github.com/eduardo-sl/go-agent-skills)** - 28 curated Go skills covering code review, concurrency safety, error handling, testing, gRPC, and architecture
+  - Built on the Uber Go Style Guide, Effective Go, and Go Code Review Comments
+  - Works across Claude Code, Cursor, Codex, GitHub Copilot, Windsurf, and OpenCode
+  - Installation: `npx skills add eduardo-sl/go-agent-skills`
 
 - **[obra/superpowers](https://github.com/obra/superpowers)** - Core skills library for Claude Code with 20+ battle-tested skills including TDD, debugging, and collaboration patterns
   - Features `/brainstorm`, `/write-plan`, `/execute-plan` commands and skills-search tool
   - [superpowers-skills](https://github.com/obra/superpowers-skills) - Community-editable skills repository
   - [Blog: Superpowers](https://blog.fsck.com/2025/10/09/superpowers/) - Author's overview by Jesse Vincent
   - Installation: `/plugin marketplace add obra/superpowers-marketplace`
- 
+
 - **[obra/superpowers-lab](https://github.com/obra/superpowers-lab)** - Experimental skills for `Claude Code Superpowers` (see above)
   - Uses new techniques that are still being refined and tested (i.e. skills here may change over time)
   - [Blog post about its development](https://blog.fsck.com/2025/10/23/naming-claude-plugins/)
