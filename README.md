@@ -128,6 +128,7 @@ Skills for working with complex file formats:
 | **[Expo Skills](https://github.com/expo/skills)** | Official skills by the Expo team for developing Expo apps |
 | **[shadcn/ui](https://ui.shadcn.com/docs/skills)** | Give Claude Code context on shadcn components as well as pattern enforcement |
 | **[get-shit-done](https://github.com/gsd-build/get-shit-done)** | Lightweight meta-prompting, context engineering, and spec-driven development system for Claude Code by TÂCHES |
+| **[character-card-skills](https://github.com/foreverse-app/character-card-skills)** | Roleplay character card authoring: 47 genre playbooks, a rule-based AI-flavor detector with public gold regression, chat-quality triage with per-model symptom profiles, and 15 original cards shipped as SillyTavern-ready v2 JSON / v3 PNG |
 
 _More community skills coming soon! Submit a PR to add your skill._
 
