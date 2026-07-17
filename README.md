@@ -128,6 +128,8 @@ Skills for working with complex file formats:
 | **[Expo Skills](https://github.com/expo/skills)** | Official skills by the Expo team for developing Expo apps |
 | **[shadcn/ui](https://ui.shadcn.com/docs/skills)** | Give Claude Code context on shadcn components as well as pattern enforcement |
 | **[get-shit-done](https://github.com/gsd-build/get-shit-done)** | Lightweight meta-prompting, context engineering, and spec-driven development system for Claude Code by TÂCHES |
+| **[buyer-lens](https://github.com/ujjwalks/buyer-lens)** | Synthetic purchase-intent panels for any website or product concept — builds attribute-conditioned buyer personas and runs the SSR survey method from arXiv:2510.08338 (free-text reactions mapped to Likert distributions), with a deterministic panel scorer, workflow-gap map, and competitive read |
+| **[skill-doctor](https://github.com/ujjwalks/skill-doctor)** | Evaluates a Claude Code skill and prescribes concrete fixes — deterministic static checks plus a judgment rubric, and a paired-eval harness that measures trigger rate and pass rate separately |
 
 _More community skills coming soon! Submit a PR to add your skill._
 
