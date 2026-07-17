@@ -133,6 +133,7 @@ _More community skills coming soon! Submit a PR to add your skill._
 
 ### Tools
 
+- **[activeloopai/hivemind](https://github.com/activeloopai/hivemind)** - Auto-generate skills from past coding agent sessions by distilling session traces into SKILL.md files that load in later sessions
 - **[yusufkaraaslan/Skill_Seekers](https://github.com/yusufkaraaslan/Skill_Seekers)** - Convert documentation websites into Claude Skills
 
 ## ✏️ Creating Your First Skill
