@@ -110,6 +110,13 @@ Skills for working with complex file formats:
   - Install from `superpowers-marketplace` plugin
 
 
+- **[PMM Skill Stack](https://www.cmoconfessions.com/skills)** - Four free, MIT-licensed skills for product marketers, each with worked examples and a packaged `.skill` file
+  - [case-study-skill](https://github.com/msdanyg/case-study-skill) - Impact-first customer case studies with a built-in claims-audit table
+  - [release-notes-skill](https://github.com/msdanyg/release-notes-skill) - Audience-correct release notes from raw engineering notes
+  - [buyer-criteria-skill](https://github.com/msdanyg/buyer-criteria-skill) - Buyer evaluation criteria extracted from raw call transcripts (Gong/Chorus/Zoom)
+  - [positioning-table-skill](https://github.com/msdanyg/positioning-table-skill) - Deal-specific competitive positioning tables from the buyer's criteria and your documented facts
+  - The method behind the stack: [Kill the Battle Card](https://www.cmoconfessions.com/method)
+
 ### Individual Skills
 
 > These will be broken down into categories once there are enough community skills available to list
