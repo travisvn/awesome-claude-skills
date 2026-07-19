@@ -97,7 +97,10 @@ Skills for working with complex file formats:
 > See [Security & Best Practices](#-security--best-practices) for more information
 
 ### Collections & Libraries
-
+- **[500k.io Skills Bank](https://500k.io/skills)** - Searchable index of 638+ Claude, Claude Code, and MCP-compatible skills, scraped weekly from GitHub, Anthropic, and the community
+  - Each entry ships the install command, compatibility matrix, and popularity signals
+  - Free, no signup required
+  
 - **[obra/superpowers](https://github.com/obra/superpowers)** - Core skills library for Claude Code with 20+ battle-tested skills including TDD, debugging, and collaboration patterns
   - Features `/brainstorm`, `/write-plan`, `/execute-plan` commands and skills-search tool
   - [superpowers-skills](https://github.com/obra/superpowers-skills) - Community-editable skills repository
