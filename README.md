@@ -109,6 +109,9 @@ Skills for working with complex file formats:
   - [Blog post about its development](https://blog.fsck.com/2025/10/23/naming-claude-plugins/)
   - Install from `superpowers-marketplace` plugin
 
+- **[derob98/ailmanac](https://github.com/derob98/ailmanac)** - Seven MIT-licensed skill packs tailored to different user types: writing, developer workflow, research, data analysis, business, student learning, and everyday productivity
+  - Part of [AILmanac](https://derob98.github.io/ailmanac/), a community almanac for getting the most out of Claude — level-tagged docs on prompting, Claude Code, MCP, and agents
+
 
 ### Individual Skills
 
