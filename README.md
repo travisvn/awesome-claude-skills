@@ -130,6 +130,8 @@ Skills for working with complex file formats:
 | **[get-shit-done](https://github.com/gsd-build/get-shit-done)** | Lightweight meta-prompting, context engineering, and spec-driven development system for Claude Code by TÂCHES |
 
 _More community skills coming soon! Submit a PR to add your skill._
+| **[url-manager](https://github.com/Piccolo123/url-manager)** | Agent-first URL/link collection & knowledge management — AI agents auto-register, collect web pages, categorize, tag, search, and share collections. 22 MCP tools, pairs with Fetch/Firecrawl/Brave Search 
+
 
 ### Tools
 
