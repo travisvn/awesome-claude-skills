@@ -129,6 +129,8 @@ Skills for working with complex file formats:
 | **[shadcn/ui](https://ui.shadcn.com/docs/skills)** | Give Claude Code context on shadcn components as well as pattern enforcement |
 | **[get-shit-done](https://github.com/gsd-build/get-shit-done)** | Lightweight meta-prompting, context engineering, and spec-driven development system for Claude Code by TÂCHES |
 
+| **[attester](https://github.com/maminihds/attester-mcp/tree/main/skills/attester)** | Verification oracle for agents: package/symbol existence checks for PyPI and npm, citation verification, rubric grading, and counterparty checks before paying. Free quota via X-Payer header, signed receipts on every verdict |
+
 _More community skills coming soon! Submit a PR to add your skill._
 
 ### Tools
