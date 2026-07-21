@@ -134,6 +134,7 @@ _More community skills coming soon! Submit a PR to add your skill._
 ### Tools
 
 - **[yusufkaraaslan/Skill_Seekers](https://github.com/yusufkaraaslan/Skill_Seekers)** - Convert documentation websites into Claude Skills
+- **[yuvrajangadsingh/brandmd](https://github.com/yuvrajangadsingh/brandmd)** - Extract any website's design system into a spec-valid `DESIGN.md` plus a brand-style skill, so Claude generates on-brand UI instead of generic screens
 
 ## ✏️ Creating Your First Skill
 
