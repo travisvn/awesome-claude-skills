@@ -91,6 +91,7 @@ Skills for working with complex file formats:
 
 ## 🌟 Community Skills
 
+- **[vibejar-agent](https://github.com/johnkueh/vibejar-agent)** - Screenshot a bug on your phone; your coding agent claims it from a jar, ships a fix, and reports proof. MIT CLI + skill. Paid capture app separate ($88 once).
 > [!Warning]
 > Skills can execute arbitrary code in Claude's environment.
 > 
