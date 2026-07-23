@@ -107,6 +107,7 @@ Skills for working with complex file formats:
 - **[obra/superpowers-lab](https://github.com/obra/superpowers-lab)** - Experimental skills for `Claude Code Superpowers` (see above)
   - Uses new techniques that are still being refined and tested (i.e. skills here may change over time)
   - [Blog post about its development](https://blog.fsck.com/2025/10/23/naming-claude-plugins/)
+  - [grafana-llmops-forge](https://github.com/alebgl77/grafana-llmops-forge) - Audits a Grafana instance, forges & deploys LLM observability dashboards (FinOps by sovereignty, gateway SLOs, agents/RAG, EU AI Act), then verifies the rendering visually. Python stdlib only — zero dependencies.
   - Install from `superpowers-marketplace` plugin
 
 
