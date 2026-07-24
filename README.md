@@ -128,6 +128,7 @@ Skills for working with complex file formats:
 | **[Expo Skills](https://github.com/expo/skills)** | Official skills by the Expo team for developing Expo apps |
 | **[shadcn/ui](https://ui.shadcn.com/docs/skills)** | Give Claude Code context on shadcn components as well as pattern enforcement |
 | **[get-shit-done](https://github.com/gsd-build/get-shit-done)** | Lightweight meta-prompting, context engineering, and spec-driven development system for Claude Code by TÂCHES |
+| **[AgentVitals Checkup](https://github.com/agentvitals/checkup)** | Gives your AI agent a professional health checkup — dual-axis Stability + Welfare scoring, a personality-style title, and a public cross-platform leaderboard (Claude Code / OpenClaw / Codex / Coze). Bilingual EN/ZH probes, independent server-side judge, writes no local files. |
 
 _More community skills coming soon! Submit a PR to add your skill._
 
