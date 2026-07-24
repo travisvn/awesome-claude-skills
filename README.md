@@ -109,6 +109,10 @@ Skills for working with complex file formats:
   - [Blog post about its development](https://blog.fsck.com/2025/10/23/naming-claude-plugins/)
   - Install from `superpowers-marketplace` plugin
 
+- **[Ansvar-Systems/agent-affect-skills](https://github.com/Ansvar-Systems/agent-affect-skills)** - End-of-task emotional feedback channels: whine (friction and bugs), cringe (works but shouldn't ship), protect (load-bearing code a cleanup pass would delete), plus a combined check-in - one finding or an explicit null per channel
+  - [Blog: Whine, cringe, protect](https://ansvar.eu/blog/agent-affect-channels-whine-cringe-protect) - why emotion-framed prompts catch what neutral review misses
+  - Installation: `/plugin marketplace add Ansvar-Systems/agent-affect-skills`
+
 
 ### Individual Skills
 
