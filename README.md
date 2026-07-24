@@ -109,9 +109,10 @@ Skills for working with complex file formats:
   - [Blog post about its development](https://blog.fsck.com/2025/10/23/naming-claude-plugins/)
   - Install from `superpowers-marketplace` plugin
 
-- **[autopunk-media-skills](https://github.com/ur-grue/autopunk-media-skills)** - 354 production-tested skills for TV producers, journalists, podcasters, YouTubers, and media professionals. Covers development through distribution with quality-evaluated outputs.
-  - 226 skills tested, 98.5% pass rate across binary assertions
-  - 16 categories: TV documentary, journalism, YouTube, podcast, radio, newsletter, PR, screenwriting, data journalism, image prompting, translation, and more
+- **[autopunk-media-skills](https://github.com/ur-grue/autopunk-media-skills)** - 394 production-tested skills and 6 multi-step agents for media professionals — journalists, TV producers, podcasters, YouTubers, PR teams, and screenwriters. G-Eval quality score 4.38/5 across seven dimensions.
+  - 6 stable agents: magazine editor, investigative reporter, documentary development, YouTube channel operator, podcast producer, PR crisis response
+  - 21 categories: TV documentary, journalism, YouTube, podcast, radio, newsletter, PR, screenwriting, data journalism, image prompting, translation, and more
+  - Also works with ChatGPT, Cursor, Codex CLI, Gemini CLI — skills are plain markdown
   - Installation: `git clone https://github.com/ur-grue/autopunk-media-skills.git ~/.claude/skills/autopunk-media-skills`
 
 
