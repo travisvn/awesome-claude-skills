@@ -109,6 +109,8 @@ Skills for working with complex file formats:
   - [Blog post about its development](https://blog.fsck.com/2025/10/23/naming-claude-plugins/)
   - Install from `superpowers-marketplace` plugin
 
+- **[JasonColapietro/suede-creator-skills](https://github.com/JasonColapietro/suede-creator-skills)** - 23-skill pack for Claude Code and Codex: agent orchestration with WIP collision detection and rollback trees, a Codex CLI worker fleet, code review with an A-F ship grade, AI eval scaffolding, plus design, copy, and SEO/AEO/AI-EO audits. MIT licensed.
+
 
 ### Individual Skills
 
