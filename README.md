@@ -109,6 +109,10 @@ Skills for working with complex file formats:
   - [Blog post about its development](https://blog.fsck.com/2025/10/23/naming-claude-plugins/)
   - Install from `superpowers-marketplace` plugin
 
+- **[staqd-skills](https://github.com/x77jh8gvrn-alt/staqd-skills)** - 8 free, installable design-system skills (glassmorphism, bento, neon, editorial, dashboard, claymorphism, minimal, neobrutalism) for Claude Code, Cursor & Codex — each `SKILL.md` teaches an agent a complete visual language (color, type, layout, components, motion, a11y)
+  - Full 67-skill library with live UI demos at [staqd.ai](https://staqd.ai)
+  - Install: copy any `skills/<name>/SKILL.md` into `.claude/skills/`
+
 
 ### Individual Skills
 
