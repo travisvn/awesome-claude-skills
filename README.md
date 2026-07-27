@@ -134,6 +134,7 @@ _More community skills coming soon! Submit a PR to add your skill._
 ### Tools
 
 - **[yusufkaraaslan/Skill_Seekers](https://github.com/yusufkaraaslan/Skill_Seekers)** - Convert documentation websites into Claude Skills
+- **[gulmezeren2-byte/claude-skills-doctor](https://github.com/gulmezeren2-byte/claude-skills-doctor)** - Health-check your installed skills: measures the 15,000-character discovery budget over which Claude Code silently stops listing skills, validates frontmatter, and flags name/folder mismatches, duplicate names, colliding descriptions, and risky skill scripts
 
 ## ✏️ Creating Your First Skill
 
