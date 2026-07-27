@@ -128,6 +128,8 @@ Skills for working with complex file formats:
 | **[Expo Skills](https://github.com/expo/skills)** | Official skills by the Expo team for developing Expo apps |
 | **[shadcn/ui](https://ui.shadcn.com/docs/skills)** | Give Claude Code context on shadcn components as well as pattern enforcement |
 | **[get-shit-done](https://github.com/gsd-build/get-shit-done)** | Lightweight meta-prompting, context engineering, and spec-driven development system for Claude Code by TÂCHES |
+| **[android-adb-debloat](https://github.com/g4vvj4n7z6-eng/android-adb-debloat)** | Debloat and de-Google any Android phone over ADB — no root, tiered removal with a never-touch list, round-trip-tested rollback, and honest measure-first performance claims |
+| **[samsung-debloat](https://github.com/g4vvj4n7z6-eng/samsung-debloat)** | Full Samsung Galaxy debloat, privacy setup (HeliBoard keyboard, Google-only contacts) and iPhone-style home-screen automation over ADB — reversible, root-free, validated on One UI |
 
 _More community skills coming soon! Submit a PR to add your skill._
 
