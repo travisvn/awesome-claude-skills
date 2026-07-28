@@ -117,6 +117,8 @@ Skills for working with complex file formats:
 | Skill | Description |
 | --- | --- |
 | **[ios-simulator-skill](https://github.com/conorluddy/ios-simulator-skill)** | iOS app building, navigation, and testing through automation |
+| **[Interlinear](https://github.com/BladeDancer743/Interlinear)** | 技术论文行间注释器 — auto-detects technical jargon, acronyms, and domain terms in English academic papers and injects inline Chinese annotations `【翻译：解释】`. Supports geometric intuition mode for quantum computing concepts, 350+ term knowledge base, and 3 reader proficiency levels. Compatible with Claude Code, OpenCode, Cursor, Codex. |
+
 | **[ffuf-web-fuzzing](https://github.com/jthack/ffuf_claude_skill)** | Expert guidance for ffuf web fuzzing during penetration testing, including authenticated fuzzing with raw requests, auto-calibration, and result analysis |
 | **[playwright-skill](https://github.com/lackeyjb/playwright-skill)** | General-purpose browser automation using Playwright |
 | **[claude-d3js-skill](https://github.com/chrisvoncsefalvay/claude-d3js-skill)** | Visualizations in d3.js |
