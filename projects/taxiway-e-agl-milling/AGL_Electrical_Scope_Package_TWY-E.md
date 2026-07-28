@@ -46,6 +46,7 @@ Works actions across all locations: **16** shallow-base core-outs (no dummy plat
 | Field | Detail |
 |---|---|
 | Drawing No. | [XXX-ELE-SHD-1001] Rev. [P02] — Scale [1:250] @ A1 |
+| CAD File | `drawings/TWY-E-AGL-SHOPDWG-LOC01_UTM40N.dxf` (+ `_R12` variant) — as-built base layers, UTM 40N |
 | Demarcation | Single merged 10-vertex polygon, 458.23 m² (L01-A + L01-B bridged across the 1.96 m gap, bridge +8.46 m²), at the TWY E / E6 area |
 | Demarcation vertices (UTM 40N) | (261122.260, 2704464.861) · (261122.325, 2704464.809) · (261123.561, 2704466.351) · (261127.949, 2704471.804) · (261131.299, 2704469.101) · (261126.903, 2704463.653) · (261125.677, 2704462.123) · (261155.019, 2704438.606) · (261147.846, 2704430.207) · (261116.608, 2704457.825) |
 
@@ -110,6 +111,7 @@ Works actions across all locations: **16** shallow-base core-outs (no dummy plat
 | Field | Detail |
 |---|---|
 | Drawing No. | [XXX-ELE-SHD-1002] Rev. [P02] — Scale [1:250] @ A1 |
+| CAD File | `drawings/TWY-E-AGL-SHOPDWG-LOC02_UTM40N.dxf` (+ `_R12` variant) — as-built base layers, UTM 40N |
 | Demarcation | L02-A: 205.51 m²; L02-B: 1.00 m² (isolated patch at RRM.555) |
 | L02-A vertices (UTM 40N) | (260955.518, 2704616.358) · (260947.994, 2704606.892) · (260934.696, 2704617.442) · (260942.218, 2704626.932) |
 | L02-B vertices (UTM 40N) | (260929.690, 2704633.714) · (260928.920, 2704634.344) · (260928.289, 2704633.559) · (260929.066, 2704632.932) |
@@ -165,6 +167,7 @@ As Location 1 (Refs. R1–R5). Affected circuits at this location: **TCCECH.03, 
 | Field | Detail |
 |---|---|
 | Drawing No. | [XXX-ELE-SHD-1003] Rev. [P02] — Scale [1:250] @ A1 |
+| CAD File | `drawings/TWY-E-AGL-SHOPDWG-LOC03_UTM40N.dxf` (+ `_R12` variant) — as-built base layers, UTM 40N |
 | Demarcation | L03-A: 255.28 m² |
 | L03-A vertices (UTM 40N) | (260874.462, 2704679.034) · (260854.951, 2704694.694) · (260848.570, 2704686.736) · (260868.079, 2704671.070) |
 
