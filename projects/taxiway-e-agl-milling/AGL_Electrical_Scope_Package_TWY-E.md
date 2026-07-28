@@ -9,7 +9,7 @@
 | Project | Rectification of TWY E between E4 & E6 — Civil Milling of Depressed Asphalt at 3 Locations |
 | Package | Electrical / AGL Scope of Work against Civil Affected Areas |
 | Document No. | [XXX-ELE-SHD-0001] |
-| Revision | P02 — Quantities populated from AGL Impact Assessment (Final Working Issue 27.07.2026, Phase-1 merged) |
+| Revision | P03 — Field-governed scope (drawings re-issued per field verification sheets, 28.07.2026) |
 | Prepared By | Mohammed — AGL Team Leader, ADB SAFEGATE AGL Team |
 | Date | 27-07-2026 |
 | Coordinate System | UTM Zone 40N (EPSG:32640) — single datum for all drawings and set-out |
@@ -28,6 +28,8 @@
 | **TOTAL** | **920.02** | **16** | **11** | **36** | **1,185.5** |
 
 Works actions across all locations: **16** shallow-base core-outs (no dummy plate), **2** reinstatement fittings (per site record 23.07.2026), **6** dummy plates on retained bases, **14** new-secondary-cable-only runs, **3** RRM remove/protect, **28** secondary duct-run crossings of the cut.
+
+> **REVISION P03 — FIELD-GOVERNED SCOPE (SUPERSEDING NOTE, 28.07.2026).** Following instruction from the AGL Team Leader, scope membership is taken from the **field verification sheets** (Document_3 for Location 1; Second_milling_area rev _1 for Locations 2–3) — field data governs over the civil/desk coordinate analysis, whose demarcation coordinates were found unreliable. The shop drawings (Rev P03) now show an **AGL works demarcation drawn around the field-verified affected assets** (convex hull + 2.0 m, as-built positions); the civil milling polygon is retained on a dashed reference layer only. Field-governed quantities: **Location 1** — 11 core-outs (6 duct + 5 sawcut), 3 cable-only runs, SBC102-01/026 field-verified not affected, TCC103 fittings out of scope; **Location 2** — 5 cable-only runs (duct), RRM.555; **Location 3** — 4 shallow bases affected + new cable (sawcut, per rev _1), 8 cable-only runs (duct), RRM.557 & RRM.670. Totals: **15 core-outs / base works, 31 secondary cable runs, 3 RRMs.** Isolation scope: SBC102.01/.02, TCCECH.03/.04 (TCC103 no longer in scope per field). Where the Section A tables below state desk-study quantities, the Rev P03 drawings and this note govern.
 
 ---
 
