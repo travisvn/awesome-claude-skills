@@ -109,6 +109,8 @@ Skills for working with complex file formats:
   - [Blog post about its development](https://blog.fsck.com/2025/10/23/naming-claude-plugins/)
   - Install from `superpowers-marketplace` plugin
 
+- **[whaojie797-design/Novera-AI-skills](https://github.com/whaojie797-design/Novera-AI-skills)** - Eight production-ready agent skills whose scripts run on the Python standard library only (no pip installs): persistent memory, code-review security, NL data analysis, agentic debugging, test generation, IaC security guard, performance doctor, docsmith
+
 
 ### Individual Skills
 
