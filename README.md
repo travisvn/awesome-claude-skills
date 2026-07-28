@@ -134,6 +134,7 @@ _More community skills coming soon! Submit a PR to add your skill._
 ### Tools
 
 - **[yusufkaraaslan/Skill_Seekers](https://github.com/yusufkaraaslan/Skill_Seekers)** - Convert documentation websites into Claude Skills
+- [Trends MCP](https://github.com/trendsmcp-ai/Trends-MCP) - Live trend data MCP server for Claude workflows.
 
 ## ✏️ Creating Your First Skill
 
