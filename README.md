@@ -109,6 +109,10 @@ Skills for working with complex file formats:
   - [Blog post about its development](https://blog.fsck.com/2025/10/23/naming-claude-plugins/)
   - Install from `superpowers-marketplace` plugin
 
+- **[iAstroUnicorn/astro-skills](https://github.com/iAstroUnicorn/astro-skills)** - 7 original bilingual (zh/en) skills focused on agent reliability and multi-agent collaboration
+  - Guardrails: soul-file write safety, context overflow protection, anti-hallucination fact-stitching checks
+  - Plus first-principles thinking, archiving, safe path migration, and a cross-agent collaboration protocol
+
 
 ### Individual Skills
 
