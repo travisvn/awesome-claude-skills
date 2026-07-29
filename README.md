@@ -109,6 +109,10 @@ Skills for working with complex file formats:
   - [Blog post about its development](https://blog.fsck.com/2025/10/23/naming-claude-plugins/)
   - Install from `superpowers-marketplace` plugin
 
+- **[Thousand-Cuts/wf-toolkit](https://github.com/Thousand-Cuts/wf-toolkit)** - Adobe Workfront skills: text mode reporting, REST API, calculated custom fields, custom forms, business rules, permissions diagnostics, and reports
+  - Knowledge files verified against live Workfront tenants, with dated findings and a finding-report issue flow
+  - Installation: `/plugin marketplace add Thousand-Cuts/wf-toolkit`
+
 
 ### Individual Skills
 
