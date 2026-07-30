@@ -1,0 +1,265 @@
+{
+  "_note": "Transcribed verbatim from the issued field sheets. sec = 'Secondary cable effected', base = 'Shallow base effected', route = 'Duct/Saw cut'. null = the column does not exist on that sheet, or was left blank. route_deck = the Duct/Sawcut assignment already carried on the shop drawing (Rev P05/P06) where the field sheet has no route column \u2014 retained, not derived from the PDF.",
+  "sources": {
+    "LOC-01": "Document_3_LOC-01.pdf",
+    "LOC-02": "Second_milling_area_rev1_LOC-02-03.pdf (2nd table, 'Second Milling Area')",
+    "LOC-03": "Second_milling_area_rev1_LOC-02-03.pdf (1st table)",
+    "superseded": "Second_milling_area_rev0_LOC-02-03.pdf \u2014 earlier revision, shallow base 'NO' for every light at LOC-02 and LOC-03"
+  },
+  "LOC-01": [
+    {
+      "sl": 1,
+      "light": "SBC102-01/026",
+      "sec": false,
+      "base": false,
+      "route": "Duct"
+    },
+    {
+      "sl": 2,
+      "light": "SBC102-02/024",
+      "sec": true,
+      "base": true,
+      "route": "Duct"
+    },
+    {
+      "sl": 3,
+      "light": "SBC102-01/027",
+      "sec": true,
+      "base": true,
+      "route": "Duct"
+    },
+    {
+      "sl": 4,
+      "light": "SBC102-02/025",
+      "sec": true,
+      "base": true,
+      "route": "Duct"
+    },
+    {
+      "sl": 5,
+      "light": "SBC102-01/028",
+      "sec": true,
+      "base": true,
+      "route": "Duct"
+    },
+    {
+      "sl": 6,
+      "light": "SBC102-02/026",
+      "sec": true,
+      "base": true,
+      "route": "Duct"
+    },
+    {
+      "sl": 7,
+      "light": "SBC102-01/029",
+      "sec": true,
+      "base": true,
+      "route": "Duct",
+      "sheet_sl_printed": 6
+    },
+    {
+      "sl": 8,
+      "light": "SBC102-02/027",
+      "sec": true,
+      "base": false,
+      "route": "Duct"
+    },
+    {
+      "sl": 9,
+      "light": "TCCECH-03/035",
+      "sec": true,
+      "base": false,
+      "route": "Sawcut"
+    },
+    {
+      "sl": 10,
+      "light": "TCCECH-03/018",
+      "sec": true,
+      "base": false,
+      "route": "Sawcut"
+    },
+    {
+      "sl": 11,
+      "light": "TCCECH-04/034",
+      "sec": true,
+      "base": true,
+      "route": "Sawcut"
+    },
+    {
+      "sl": 12,
+      "light": "TCCECH-03/036",
+      "sec": true,
+      "base": true,
+      "route": "Sawcut"
+    },
+    {
+      "sl": 13,
+      "light": "TCCECH-04/035",
+      "sec": true,
+      "base": true,
+      "route": "Sawcut"
+    },
+    {
+      "sl": 14,
+      "light": "TCCECH-03/037",
+      "sec": true,
+      "base": true,
+      "route": "Sawcut"
+    },
+    {
+      "sl": 15,
+      "light": "TCCECH-04/036",
+      "sec": true,
+      "base": true,
+      "route": "Sawcut"
+    }
+  ],
+  "LOC-02": [
+    {
+      "sl": 1,
+      "light": "TCCECH-03/007",
+      "sec": true,
+      "base": null,
+      "route_deck": "Duct",
+      "route": null
+    },
+    {
+      "sl": 2,
+      "light": "TCCECH-04/007",
+      "sec": true,
+      "base": null,
+      "route_deck": "Duct",
+      "route": null
+    },
+    {
+      "sl": 3,
+      "light": "TCCECH-03/008",
+      "sec": true,
+      "base": null,
+      "route_deck": "Duct",
+      "route": null
+    },
+    {
+      "sl": 4,
+      "light": "TCCECH-04/008",
+      "sec": true,
+      "base": null,
+      "route_deck": "Duct",
+      "route": null
+    },
+    {
+      "sl": 5,
+      "light": "TCCECH-03/009",
+      "sec": true,
+      "base": null,
+      "route_deck": "Duct",
+      "route": null
+    }
+  ],
+  "LOC-03": [
+    {
+      "sl": 1,
+      "light": "SBC102-01/038",
+      "sec": true,
+      "base": true,
+      "route_deck": "Sawcut",
+      "route": null
+    },
+    {
+      "sl": 2,
+      "light": "SBC102-01/039",
+      "sec": true,
+      "base": true,
+      "route_deck": "Sawcut",
+      "route": null
+    },
+    {
+      "sl": 3,
+      "light": "SBC102-01/040",
+      "sec": true,
+      "base": false,
+      "route_deck": "Duct",
+      "route": null
+    },
+    {
+      "sl": 4,
+      "light": "SBC102-01/041",
+      "sec": true,
+      "base": false,
+      "route_deck": "Duct",
+      "route": null
+    },
+    {
+      "sl": 5,
+      "light": "SBC102-02/035",
+      "sec": true,
+      "base": true,
+      "route_deck": "Sawcut",
+      "route": null
+    },
+    {
+      "sl": 6,
+      "light": "SBC102-02/036",
+      "sec": true,
+      "base": true,
+      "route_deck": "Sawcut",
+      "route": null
+    },
+    {
+      "sl": 7,
+      "light": "SBC102-02/037",
+      "sec": true,
+      "base": false,
+      "route_deck": "Duct",
+      "route": null
+    },
+    {
+      "sl": 8,
+      "light": "SBC102-02/038",
+      "sec": true,
+      "base": false,
+      "route_deck": "Duct",
+      "route": null
+    },
+    {
+      "sl": 9,
+      "light": "TCCECH-03/002",
+      "sec": true,
+      "base": false,
+      "route_deck": "Duct",
+      "route": null
+    },
+    {
+      "sl": 10,
+      "light": "TCCECH-04/002",
+      "sec": true,
+      "base": false,
+      "route_deck": "Duct",
+      "route": null
+    },
+    {
+      "sl": 11,
+      "light": "TCCECH-03/003",
+      "sec": true,
+      "base": false,
+      "route_deck": "Duct",
+      "route": null
+    },
+    {
+      "sl": 12,
+      "light": "TCCECH-04/003",
+      "sec": true,
+      "base": false,
+      "route_deck": "Duct",
+      "route": null
+    }
+  ],
+  "not_on_field_sheet": {
+    "LOC-01": [
+      "TCC103-11/021",
+      "TCC103-11/126",
+      "TCC103-12/021",
+      "TCC103-12/022"
+    ]
+  }
+}
