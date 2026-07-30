@@ -973,11 +973,11 @@ add_logo(sched, L + W, 265430, 434340)
 
 # ---- the five-day strip ----------------------------------------------------
 DAYS = [
-    ("DAY 1", "SETTING-OUT & SAW CUT START", "LOC-01"),
-    ("DAY 2", "SAW CUT COMPLETE · NEW BASES", "LOC-01"),
-    ("DAY 3", "SAW CUT & BASES · FIRST CABLE", "LOC-02 / 03 · LOC-01"),
-    ("DAY 4", "CABLE, TERMINATION & TESTING", "ALL LOCATIONS"),
-    ("DAY 5", "REINSTATEMENT, T&C & HANDOVER", "ALL LOCATIONS"),
+    ("DAY 1", "SETTING-OUT & SAW CUT START", "LOCATION 1  ·  SHEET 1001"),
+    ("DAY 2", "SAW CUT COMPLETE · NEW BASES", "LOCATION 1  ·  SHEET 1001"),
+    ("DAY 3", "CABLE, TEST & REINSTATEMENT", "LOCATION 1  ·  SHEET 1001"),
+    ("DAY 4", "FULL CYCLE — CUT TO SEALED", "LOCATION 3  ·  SHEET 1003"),
+    ("DAY 5", "FULL CYCLE + T&C & HANDOVER", "LOCATION 2  ·  SHEET 1002"),
 ]
 GAP5, BAR_H, DAY_H = 137160, 320040, 941070
 BOX_W = (W - 4 * GAP5) // 5
@@ -989,6 +989,8 @@ for n, (day, head, loc) in enumerate(DAYS):
     _run(p0, day, 11, True, RGBColor(0xFF, 0xFF, 0xFF))
     textbox(sched, x + 137160, 914400 + BAR_H + 128016, BOX_W - 274320, 640080,
             [(head, 9.5, True, NAVY), (loc, 8.5, False, MUTED)], f"DAY TXT {n+1}")
+    if textfit.text_w_pt(head, 9.5, True) * textfit.EMU_PT > BOX_W - 274320:
+        print(f"   ! day box {n+1} headline wraps: {head!r}")
 
 # ---- lower panels measured first, so the table can take up the slack -------
 LOWER = (
@@ -1007,6 +1009,14 @@ LOWER = (
         ("Covers Phase 3 AGL installation only. Phase 1 asset removal and coring is recorded "
          "complete (site record 23.07.2026); Phase 2 civil attendance sits outside these five "
          "days.", 9.0),
+        ("The three locations are worked one front at a time — LOC-01 over Days 1–3, LOC-03 on "
+         "Day 4, LOC-02 on Day 5 — so each is cut, cabled, tested and sealed before the next is "
+         "opened. Days are allocated to the work each location carries: 11 No. fittings and "
+         "approx. 300 m of cut at LOC-01, 4 No. and approx. 95 m at LOC-03, 1 No. and approx. "
+         "24 m at LOC-02.", 9.0),
+        ("Only two items span all three locations: the setting-out on Day 1, taken in one survey "
+         "visit, and the circuit testing and commissioning on Day 5, which cannot complete until "
+         "every location is cabled because the circuits run through all three.", 9.0),
         ("One day = one approved working shift under the AWAN / PTW. The sequence holds for a "
          "day or a night closure; shift hours to be set against the approved airside window.",
          9.0),
@@ -1031,33 +1041,35 @@ TBL_Y = 914400 + DAY_H + 274320
 SCH_ROWS = [
     ("Day", "Phase 3 activity", "Location", "Quantity", "Hold point / witness",
      "Output at the end of the shift"),
-    ("1", "Setting-out from the civil survey points; area protection and lighting",
+    ("1", "Setting-out from the civil survey points — all three locations in one visit",
      "LOC-01 / 02 / 03", "3 No. locations", "H2 — civil survey",
-     "Field points confirmed and marked"),
-    ("1", "Saw cutting — first part of the secondary cable route", "LOC-01",
+     "Field points confirmed and marked at all three"),
+    ("1", "Saw cutting — first part of the secondary cable route", "LOC-01 · 1001",
      "approx. 150 m", "H5 — detail accepted", "Half the LOC-01 route cut and covered"),
-    ("2", "Saw cutting — balance of the route", "LOC-01", "approx. 150 m",
+    ("2", "Saw cutting — balance of the route", "LOC-01 · 1001", "approx. 150 m",
      "H5 — detail accepted", "LOC-01 route cut in full"),
-    ("2", "Set the new side-entry shallow bases in the cored positions", "LOC-01",
+    ("2", "Set the new side-entry shallow bases in the cored positions", "LOC-01 · 1001",
      "11 No. 8\"", "—", "11 No. bases set and levelled"),
-    ("3", "Saw cutting — full route", "LOC-02 / 03", "approx. 24 m / 95 m",
-     "H5 — detail accepted", "Both routes cut"),
-    ("3", "Set the new side-entry shallow bases", "LOC-02 / 03", "1 No. 12\" each", "—",
-     "2 No. bases set and levelled"),
     ("3", "Lay new secondary cable through the saw cut — no joints, manhole to light",
-     "LOC-01", "11 No. runs", "—", "LOC-01 cable in and protected"),
-    ("4", "Lay new secondary cable through the saw cut", "LOC-02 / 03", "5 No. runs", "—",
-     "All 16 No. runs cabled"),
-    ("4", "Cable termination at the bases and at the manholes", "LOC-01 / 02 / 03",
-     "16 No. fittings", "—", "Terminations made off"),
-    ("4", "Insulation resistance and continuity testing", "LOC-01 / 02 / 03",
-     "4 No. circuits", "—", "Test records issued"),
-    ("5", "Backfill, sealant and pavement reinstatement of the saw cut", "LOC-01 / 02 / 03",
-     "approx. 420 m", "Per the awaited detail", "Cut sealed; cure period started"),
-    ("5", "Re-fix the runway guard lights removed under Phase 1", "LOC-02 / 03",
-     "3 No. RRM", "—", "RRM.555 / 557 / 670 re-fixed and aligned"),
-    ("5", "Testing and commissioning of the affected circuits", "LOC-01 / 02 / 03",
-     "4 No. circuits", "—", "Circuits energised and proved"),
+     "LOC-01 · 1001", "11 No. runs", "—", "LOC-01 cabled"),
+    ("3", "Termination, insulation resistance and continuity testing", "LOC-01 · 1001",
+     "11 No. fittings", "—", "LOC-01 test records issued"),
+    ("3", "Backfill, sealant and pavement reinstatement of the saw cut", "LOC-01 · 1001",
+     "approx. 300 m", "Per the awaited detail", "LOC-01 cut sealed; cure period started"),
+    ("4", "Saw cutting — full route", "LOC-03 · 1003", "approx. 95 m",
+     "H5 — detail accepted", "LOC-03 route cut"),
+    ("4", "Set 1 No. new base; the balance takes side entry into its existing base",
+     "LOC-03 · 1003", "1 No. 12\" + 3 No.", "—", "Bases ready to receive cable"),
+    ("4", "Cable, termination, insulation resistance and continuity testing",
+     "LOC-03 · 1003", "4 No. runs", "—", "LOC-03 test records issued"),
+    ("4", "Reinstatement of the cut; re-fix RRM.557 and RRM.670", "LOC-03 · 1003",
+     "approx. 95 m · 2 No. RRM", "Per the awaited detail", "LOC-03 sealed; RRMs re-fixed"),
+    ("5", "Saw cut, new base, cable, termination and testing", "LOC-02 · 1002",
+     "approx. 24 m · 1 No. 12\"", "H5 — detail accepted", "LOC-02 complete and tested"),
+    ("5", "Reinstatement of the cut; re-fix RRM.555", "LOC-02 · 1002",
+     "approx. 24 m · 1 No. RRM", "Per the awaited detail", "LOC-02 sealed; RRM re-fixed"),
+    ("5", "Testing and commissioning of the affected circuits — all three locations",
+     "LOC-01 / 02 / 03", "4 No. circuits", "—", "Circuits energised and proved"),
     ("5", "Final functionality check, then handover to Operations", "LOC-01 / 02 / 03",
      "16 No. fittings", "H4 — AGL / Operations", "Area returned to operational service"),
 ]

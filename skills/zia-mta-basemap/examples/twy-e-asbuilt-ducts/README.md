@@ -194,6 +194,14 @@ the Rev P08 new-saw-cut runs on sheets 1001–1003 (approx. 300 m / 24 m / 95 m,
 total) using the per-sheet EMU-per-metre scale from `data/registration.json`. The sheet
 states that those lengths are scaled for programme only.
 
+The five days are allocated across the three locations rather than by trade, so each
+location is cut, cabled, tested and sealed as one front before the next is opened —
+**LOC-01 over Days 1–3** (11 No. fittings, approx. 300 m of cut), **LOC-03 on Day 4**
+(4 No., approx. 95 m), **LOC-02 on Day 5** (1 No., approx. 24 m). Only two items span all
+three: the setting-out on Day 1, taken in a single survey visit, and the circuit testing and
+commissioning on Day 5, which cannot complete until every location is cabled because the
+circuits run through all three.
+
 The programme is gated on the deck's own hold points: Day 1 cannot start until H1 (curing
 confirmed) and H5 (saw cut detail issued and accepted) are released, and neither is released
 at Rev P08. Sealant cure time before return to operational service is per the awaited detail,
