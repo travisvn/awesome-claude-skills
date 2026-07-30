@@ -1,0 +1,328 @@
+{
+ "LOC-01": {
+  "SBC102-01/026": {
+   "cx": 4.9873,
+   "cy": 4.1521,
+   "ring": "9AA0A6",
+   "local_x": 6129.303,
+   "local_y": 54456.346,
+   "fixture_mm": 0.5,
+   "second_nearest_m": 3.0,
+   "fixture_type": "Stop bar light"
+  },
+  "SBC102-02/024": {
+   "cx": 4.795,
+   "cy": 4.3916,
+   "ring": "CC0000",
+   "local_x": 6127.425,
+   "local_y": 54454.006,
+   "fixture_mm": 0.7,
+   "second_nearest_m": 3.0,
+   "fixture_type": "Stop bar light"
+  },
+  "SBC102-01/027": {
+   "cx": 4.6028,
+   "cy": 4.6312,
+   "ring": "CC0000",
+   "local_x": 6125.547,
+   "local_y": 54451.666,
+   "fixture_mm": 0.4,
+   "second_nearest_m": 3.0,
+   "fixture_type": "Stop bar light"
+  },
+  "SBC102-02/025": {
+   "cx": 4.4104,
+   "cy": 4.8707,
+   "ring": "CC0000",
+   "local_x": 6123.669,
+   "local_y": 54449.327,
+   "fixture_mm": 0.3,
+   "second_nearest_m": 3.0,
+   "fixture_type": "Stop bar light"
+  },
+  "SBC102-01/028": {
+   "cx": 4.2181,
+   "cy": 5.1102,
+   "ring": "CC0000",
+   "local_x": 6121.79,
+   "local_y": 54446.987,
+   "fixture_mm": 0.5,
+   "second_nearest_m": 2.739,
+   "fixture_type": "Stop bar light"
+  },
+  "SBC102-02/026": {
+   "cx": 4.0259,
+   "cy": 5.3497,
+   "ring": "CC0000",
+   "local_x": 6119.913,
+   "local_y": 54444.648,
+   "fixture_mm": 0.4,
+   "second_nearest_m": 3.0,
+   "fixture_type": "Stop bar light"
+  },
+  "SBC102-01/029": {
+   "cx": 3.8336,
+   "cy": 5.5892,
+   "ring": "CC0000",
+   "local_x": 6118.034,
+   "local_y": 54442.309,
+   "fixture_mm": 0.1,
+   "second_nearest_m": 2.953,
+   "fixture_type": "Stop bar light"
+  },
+  "SBC102-02/027": {
+   "cx": 3.6471,
+   "cy": 5.8271,
+   "ring": "0055CC",
+   "local_x": 6116.213,
+   "local_y": 54439.984,
+   "fixture_mm": 0.2,
+   "second_nearest_m": 2.953,
+   "fixture_type": "Stop bar light"
+  },
+  "TCCECH-03/035": {
+   "cx": 4.4909,
+   "cy": 5.1754,
+   "ring": "E8710A",
+   "local_x": 6124.454,
+   "local_y": 54446.351,
+   "fixture_mm": 0.7,
+   "second_nearest_m": 0.488,
+   "fixture_type": "Taxiway centreline light"
+  },
+  "TCCECH-03/018": {
+   "cx": 4.5403,
+   "cy": 5.1687,
+   "ring": "E8710A",
+   "local_x": 6124.937,
+   "local_y": 54446.415,
+   "fixture_mm": 0.4,
+   "second_nearest_m": 0.488,
+   "fixture_type": "Taxiway centreline light"
+  },
+  "TCCECH-04/034": {
+   "cx": 5.0354,
+   "cy": 5.7175,
+   "ring": "CC0000",
+   "local_x": 6129.773,
+   "local_y": 54441.055,
+   "fixture_mm": 0.2,
+   "second_nearest_m": 1.207,
+   "fixture_type": "Taxiway centreline light"
+  },
+  "TCCECH-03/036": {
+   "cx": 5.5374,
+   "cy": 6.2978,
+   "ring": "CC0000",
+   "local_x": 6134.676,
+   "local_y": 54435.387,
+   "fixture_mm": 0.5,
+   "second_nearest_m": 2.511,
+   "fixture_type": "Taxiway centreline light"
+  },
+  "TCCECH-04/035": {
+   "cx": 5.9981,
+   "cy": 6.9123,
+   "ring": "CC0000",
+   "local_x": 6139.176,
+   "local_y": 54429.385,
+   "fixture_mm": 0.6,
+   "second_nearest_m": 4.39,
+   "fixture_type": "Taxiway centreline light"
+  },
+  "TCCECH-03/037": {
+   "cx": 6.4139,
+   "cy": 7.5568,
+   "ring": "CC0000",
+   "local_x": 6143.238,
+   "local_y": 54423.089,
+   "fixture_mm": 0.5,
+   "second_nearest_m": 6.734,
+   "fixture_type": "Taxiway centreline light"
+  },
+  "TCCECH-04/036": {
+   "cx": 6.7845,
+   "cy": 8.2296,
+   "ring": "CC0000",
+   "local_x": 6146.858,
+   "local_y": 54416.517,
+   "fixture_mm": 0.4,
+   "second_nearest_m": 7.478,
+   "fixture_type": "Taxiway centreline light"
+  }
+ },
+ "LOC-02": {
+  "TCCECH-03/007": {
+   "cx": 3.3314,
+   "cy": 4.8198,
+   "ring": "0055CC",
+   "local_x": 5921.566,
+   "local_y": 54609.708,
+   "fixture_mm": 0.2,
+   "second_nearest_m": 12.33,
+   "fixture_type": "Taxiway centreline light"
+  },
+  "TCCECH-04/007": {
+   "cx": 4.4518,
+   "cy": 5.7205,
+   "ring": "0055CC",
+   "local_x": 5933.245,
+   "local_y": 54600.319,
+   "fixture_mm": 0.5,
+   "second_nearest_m": 14.986,
+   "fixture_type": "Taxiway centreline light"
+  },
+  "TCCECH-03/008": {
+   "cx": 5.5748,
+   "cy": 6.6228,
+   "ring": "0055CC",
+   "local_x": 5944.952,
+   "local_y": 54590.913,
+   "fixture_mm": 0.5,
+   "second_nearest_m": 15.006,
+   "fixture_type": "Taxiway centreline light"
+  },
+  "TCCECH-04/008": {
+   "cx": 6.6979,
+   "cy": 7.5232,
+   "ring": "0055CC",
+   "local_x": 5956.66,
+   "local_y": 54581.526,
+   "fixture_mm": 0.5,
+   "second_nearest_m": 13.91,
+   "fixture_type": "Taxiway centreline light"
+  },
+  "TCCECH-03/009": {
+   "cx": 7.8186,
+   "cy": 8.4231,
+   "ring": "0055CC",
+   "local_x": 5968.343,
+   "local_y": 54572.145,
+   "fixture_mm": 0.3,
+   "second_nearest_m": 14.786,
+   "fixture_type": "Taxiway centreline light"
+  }
+ },
+ "LOC-03": {
+  "SBC102-01/038": {
+   "cx": 5.0862,
+   "cy": 4.9546,
+   "ring": "E8710A",
+   "local_x": 5851.752,
+   "local_y": 54679.19,
+   "fixture_mm": 51.7,
+   "second_nearest_m": 2.997,
+   "fixture_type": "Stop bar light"
+  },
+  "SBC102-01/039": {
+   "cx": 4.6731,
+   "cy": 5.4718,
+   "ring": "E8710A",
+   "local_x": 5847.992,
+   "local_y": 54674.483,
+   "fixture_mm": 51.3,
+   "second_nearest_m": 2.981,
+   "fixture_type": "Stop bar light"
+  },
+  "SBC102-01/040": {
+   "cx": 4.262,
+   "cy": 5.9843,
+   "ring": "0055CC",
+   "local_x": 5844.251,
+   "local_y": 54669.818,
+   "fixture_mm": 49.8,
+   "second_nearest_m": 1.558,
+   "fixture_type": "Stop bar light"
+  },
+  "SBC102-01/041": {
+   "cx": 3.8483,
+   "cy": 6.4983,
+   "ring": "0055CC",
+   "local_x": 5840.487,
+   "local_y": 54665.141,
+   "fixture_mm": 49.2,
+   "second_nearest_m": 2.991,
+   "fixture_type": "Stop bar light"
+  },
+  "SBC102-02/035": {
+   "cx": 4.8794,
+   "cy": 5.213,
+   "ring": "E8710A",
+   "local_x": 5849.87,
+   "local_y": 54676.838,
+   "fixture_mm": 51.2,
+   "second_nearest_m": 3.0,
+   "fixture_type": "Stop bar light"
+  },
+  "SBC102-02/036": {
+   "cx": 4.4684,
+   "cy": 5.7291,
+   "ring": "E8710A",
+   "local_x": 5846.13,
+   "local_y": 54672.141,
+   "fixture_mm": 50.1,
+   "second_nearest_m": 1.545,
+   "fixture_type": "Stop bar light"
+  },
+  "SBC102-02/037": {
+   "cx": 4.0544,
+   "cy": 6.241,
+   "ring": "0055CC",
+   "local_x": 5842.362,
+   "local_y": 54667.482,
+   "fixture_mm": 50.2,
+   "second_nearest_m": 2.996,
+   "fixture_type": "Stop bar light"
+  },
+  "SBC102-02/038": {
+   "cx": 3.6432,
+   "cy": 6.7554,
+   "ring": "0055CC",
+   "local_x": 5838.62,
+   "local_y": 54662.801,
+   "fixture_mm": 49.8,
+   "second_nearest_m": 2.999,
+   "fixture_type": "Stop bar light"
+  },
+  "TCCECH-03/002": {
+   "cx": 4.4049,
+   "cy": 5.8893,
+   "ring": "0055CC",
+   "local_x": 5845.552,
+   "local_y": 54670.683,
+   "fixture_mm": 50.2,
+   "second_nearest_m": 1.569,
+   "fixture_type": "Taxiway centreline light"
+  },
+  "TCCECH-04/002": {
+   "cx": 5.0475,
+   "cy": 6.4019,
+   "ring": "0055CC",
+   "local_x": 5851.4,
+   "local_y": 54666.018,
+   "fixture_mm": 44.8,
+   "second_nearest_m": 7.481,
+   "fixture_type": "Taxiway centreline light"
+  },
+  "TCCECH-03/003": {
+   "cx": 5.691,
+   "cy": 6.9201,
+   "ring": "0055CC",
+   "local_x": 5857.257,
+   "local_y": 54661.302,
+   "fixture_mm": 39.6,
+   "second_nearest_m": 7.448,
+   "fixture_type": "Taxiway centreline light"
+  },
+  "TCCECH-04/003": {
+   "cx": 6.3303,
+   "cy": 7.4368,
+   "ring": "0055CC",
+   "local_x": 5863.075,
+   "local_y": 54656.6,
+   "fixture_mm": 33.8,
+   "second_nearest_m": 7.474,
+   "fixture_type": "Taxiway centreline light"
+  }
+ }
+}

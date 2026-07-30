@@ -1,0 +1,48 @@
+{
+  "_note": "Rev P08 final scope of work, as instructed by the AGL Team Leader 30.07.2026. This file is the single source of truth for the works action carried on every asset in the deck; build_p08.py reads nothing else. Assets carried in Rev P06/P07 that the final scope does not name are listed under 'superseded' and are drawn with the superseded marker - they are NOT re-classified as 'field verified not affected', because no new field verification was carried out on them.",
+  "revision": "P08",
+  "issued": "30.07.2026",
+  "basis": "Final scope of work issued by Mohammed, AGL Team Leader - ADB SAFEGATE, 30.07.2026",
+  "route_all": "Sawcut",
+
+  "LOC-01": {
+    "core_dia": "8\"",
+    "base_type": "SIDE-ENTRY SHALLOW BASE",
+    "action": "CORE OUT 8\" + NEW SIDE-ENTRY SHALLOW BASE + NEW CABLE",
+    "remark": "8\" core out; new side-entry shallow base; full manhole-to-light cable replacement via saw cut",
+    "assets": [
+      "SBC102-02/024", "SBC102-01/027", "SBC102-02/025", "SBC102-01/028",
+      "SBC102-02/026", "SBC102-01/029",
+      "TCCECH-04/034", "TCCECH-03/036", "TCCECH-04/035", "TCCECH-03/037",
+      "TCCECH-04/036"
+    ],
+    "superseded": ["SBC102-02/027", "TCCECH-03/035", "TCCECH-03/018"],
+    "not_affected": ["SBC102-01/026"],
+    "rrm": []
+  },
+
+  "LOC-02": {
+    "core_dia": "12\"",
+    "base_type": "SIDE-ENTRY SHALLOW BASE",
+    "action": "CORE OUT EXISTING BASE + NEW 12\" SIDE-ENTRY SHALLOW BASE + NEW CABLE",
+    "remark": "Existing shallow base cored out; new 12\" side-entry shallow base; full manhole-to-light cable replacement via saw cut",
+    "assets": ["TCCECH-03/008"],
+    "superseded": ["TCCECH-03/007", "TCCECH-04/007", "TCCECH-04/008", "TCCECH-03/009"],
+    "not_affected": [],
+    "rrm": ["RRM.555"]
+  },
+
+  "LOC-03": {
+    "core_dia": "12\"",
+    "base_type": "SIDE-ENTRY SHALLOW BASE",
+    "action": "NEW 12\" SIDE-ENTRY SHALLOW BASE + NEW CABLE",
+    "remark": "New 12\" side-entry shallow base; full manhole-to-light cable replacement via saw cut",
+    "assets": ["TCCECH-03/002", "TCCECH-04/002", "TCCECH-03/003", "TCCECH-04/003"],
+    "superseded": [
+      "SBC102-01/038", "SBC102-01/039", "SBC102-02/035", "SBC102-02/036",
+      "SBC102-01/040", "SBC102-01/041", "SBC102-02/037", "SBC102-02/038"
+    ],
+    "not_affected": [],
+    "rrm": ["RRM.557", "RRM.670"]
+  }
+}
