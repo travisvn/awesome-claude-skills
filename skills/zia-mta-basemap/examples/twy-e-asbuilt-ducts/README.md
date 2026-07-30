@@ -79,6 +79,35 @@ spurs terminating at a light land within 50 mm of that light's insertion point. 
 inferred geometry does not terminate on insertion points to the millimetre, nor converge
 specifically on transformer handholes rather than any nearby pit.
 
+## As-built asset symbology and legends
+
+Rev P05 drew every AGL fitting as the same teal dot with one legend row, "EXISTING AGL
+ASSET (AS-BUILT)". Rev P06 gives each asset its own symbol, typed from the **source
+drawing layer** — never from the label on the sheet — and legends every type present on
+each sheet with a count.
+
+Circle = light, square = civil chamber, triangle = earthing, filled rectangle = sign
+foundation. Lights carry the light's own showing: taxiway centreline green, taxiway edge
+blue, stop bar red, runway guard amber. A dashed outline marks the source drawing's
+"existing" layer for that family. 12 asset types appear across the three sheets, 169
+assets in total; sheet 8 is the master symbol schedule with the source layer and per-sheet
+counts.
+
+Two things worth knowing:
+
+- **Rev P05 drew no symbol at all for 42 / 12 / 31 of the assets inside the LOC-01 /
+  LOC-02 / LOC-03 frames.** Rev P06 adds them from the as-built. They are not
+  field-verified, and sheet 8 says so.
+- **Assets carrying a Rev P05 works-action marker keep that marker** instead of a type
+  symbol. Action symbology on a field-governed drawing should not move under the crew's
+  feet, so the base asset layer and the action overlay stay separate concerns.
+
+While building this, `classify.py` was found to map `CV_ETRANS MH` to a plain
+"Existing manhole" while its sibling `CV_ETRANS HH` correctly gave "Existing transformer
+handhole" — dropping the transformer sense for manholes only. That matters here because
+transformer chambers are the secondary feed hubs the whole sheet-7 topology finding rests
+on. Fixed in the skill; `smoke_test.py` still passes.
+
 ## What this pipeline deliberately does NOT do
 
 Per-asset route attribution. The consolidated table's `Route` column is left exactly as
@@ -130,6 +159,10 @@ solution), and both before `ducts.py`.
 | `pipeline/build_asbuilt.py` | strips indicative lines, draws freeforms, rewrites notes/legend |
 | `pipeline/proof_sheet.py` | sheet 6 — provenance, registration table, limits |
 | `pipeline/sheet7.py` | sheet 7 — derived spur schedule |
+| `pipeline/agl_symbols.py` | asset-type → symbol map, per-sheet asset census |
+| `pipeline/legend.py` | two-column legend rebuild, as-built symbol drawing |
+| `pipeline/sheet8.py` | sheet 8 — master as-built asset symbol schedule |
+| `data/asset_census.json` | every in-frame asset: type, source layer, whether Rev P05 drew it |
 | `data/registration.json` | per-sheet transform, inliers, residuals |
 | `data/sheet_ducts.json` | clipped duct geometry, local grid + slide EMU |
 | `data/topology.json` | hubs, spurs, snap tolerance |

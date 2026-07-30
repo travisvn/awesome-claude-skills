@@ -127,7 +127,7 @@ def respace_legend(slide, slide_h, bottom_margin=90000):
     return len(keys)
 
 prs=Presentation(SRC)
-report={}
+report={}; asset_census={}
 for loc, sidx, dwg in SHEETS:
     slide=prs.slides[sidx]
     r=reg[loc]; T=dict(s=r['s'],theta=r['theta'],t=np.array(r['t']),reflect=r['reflect'])
@@ -146,6 +146,30 @@ for loc, sidx, dwg in SHEETS:
                                   f"ASBUILT DUCT · {it['leaf']} · {it['clipped_m']:.1f} m"))
         tally[it['leaf']]+=1; length[it['leaf']]+=it['clipped_m']
     restack_after(slide, added, 1)          # just above the plot frame, below everything else
+
+    # 2b. typed as-built asset layer: drop the uniform 'existing AGL asset' dots and draw
+    #     each asset with its own symbol. Works-action markers are left untouched.
+    import agl_symbols, legend as legend_mod
+    from pptx.enum.shapes import MSO_SHAPE
+    dropped_dots=0
+    for sp in list(slide.shapes):
+        el=sp._element
+        pg=el.find('.//'+qn('a:prstGeom'))
+        if pg is None or pg.get('prst')!='ellipse': continue
+        if sp.left is None or sp.left>FRAME_R: continue
+        sf=el.find('./p:spPr/a:solidFill/a:srgbClr',
+                   {'a':'http://schemas.openxmlformats.org/drawingml/2006/main',
+                    'p':'http://schemas.openxmlformats.org/presentationml/2006/main'})
+        if sf is not None and sf.get('val')=='12A5B8':
+            el.getparent().remove(el); dropped_dots+=1
+    census=agl_symbols.sheet_assets(loc, T, f'pptx_in/ppt/slides/slide{sidx+1}.xml')
+    sym_shapes=[]
+    for a in census:
+        if a['works_claimed']: continue        # its action symbology already marks it
+        sym_shapes.append(legend_mod._draw_symbol(slide, a['x'], a['y'], a['type']))
+    restack_after(slide, sym_shapes, 1+len(added))
+    nlegend = legend_mod.rebuild(slide, census)
+    asset_census[loc]=census
 
     # 3. correct the coordinate-system strip under the frame
     span=FRAME['w']*T['s']
@@ -172,9 +196,11 @@ for loc, sidx, dwg in SHEETS:
      '(sheet 6) — set out civil features from survey.',
      '7. Centerline & stop bar from as-built TCC / SBC fittings. Edge indicative 23 m — confirm '
      'on site.',
+     '8. Every asset in frame carries its own as-built symbol, legended right. Type comes from '
+     'the source layer, not the label. Assets with a works-action marker keep that marker.',
     ]
     nb=find(slide,'1. All asset positions as-built')
-    set_text(nb, notes, size=8.0)
+    set_text(nb, notes, size=7.5)
     nb.text_frame.word_wrap=True
     from pptx.enum.text import MSO_ANCHOR
     nb.text_frame.vertical_anchor=MSO_ANCHOR.TOP
@@ -189,17 +215,41 @@ for loc, sidx, dwg in SHEETS:
         sw1.line.color.rgb=RGBColor.from_string('0B3D91'); sw1.line.width=Emu(22225)
         d=sw1._element.find('.//'+qn('a:ln')+'/'+qn('a:prstDash'))
         if d is not None: d.set('val','solid')
-    set_text(lab1, ['AS-BUILT DUCT / DUCTBANK (navy 4×110, purple 6×110, pink crossing)'])
+    set_text(lab1, ['AS-BUILT DUCT / DUCTBANK 4×110 · 6×110'])
     if sw2 is not None:
         sw2.line.color.rgb=RGBColor.from_string('00838F'); sw2.line.width=Emu(15875)
-    set_text(lab2, ['AS-BUILT SECONDARY CONDUIT (teal ex · green new · orange sawcut)'])
-    n_moved = respace_legend(slide, prs.slide_height)
-    print(f'{loc}: dropped {len(drop)} indicative lines, drew {len(added)} real duct segments '
-          f'({sum(length.values()):.1f} m on sheet), {len(present)} source layers, '
-          f'legend rows re-spaced: {n_moved}')
+    set_text(lab2, ['AS-BUILT SECONDARY CONDUIT'])
+    print(f'{loc}: dropped {len(drop)} indicative lines + {dropped_dots} uniform asset dots; '
+          f'drew {len(added)} duct segments ({sum(length.values()):.1f} m) and '
+          f'{len(sym_shapes)} typed as-built asset symbols; '
+          f'legend {nlegend[0]} action/linework rows + {nlegend[1]} asset types')
     report[loc]=dict(dropped=len(drop), drawn=len(added), span_m=span,
                      layers={k:(tally[k],round(length[k],1)) for k in sorted(tally)})
 
+
+# ---- correct the LOC-02 scope statement the as-built contradicts -----------------------
+def fix_loc02_scope(slide):
+    """Rev P05 described a chained secondary run. topology.py shows five separate home runs
+    from one transformer handhole. Correct the statement at source, not just on sheet 7."""
+    hits=0
+    for sp in slide.shapes:
+        if not sp.has_text_frame: continue
+        for para in sp.text_frame.paragraphs:
+            joined=''.join(r.text for r in para.runs)
+            if 'CHAINED RUN' in joined:
+                for r in list(para.runs)[1:]: r._r.getparent().remove(r._r)
+                para.runs[0].text=('SECONDARY DUCT (AS-BUILT): 5 SEPARATE HOME RUNS FROM ONE '
+                    'TRANSFORMER HANDHOLE — NOT A CHAINED RUN. 20.5 / 21.1 / 29.1 / 30.3 / 41.5 m '
+                    '= 142.5 m TOTAL. RE-PRICE — SEE SHEET 7.')
+                hits+=1
+            elif 'SPUR FROM HH.E.055' in joined:
+                for r in list(para.runs)[1:]: r._r.getparent().remove(r._r)
+                para.runs[0].text=('  (Rev P05 chained-run assumption superseded by the source '
+                    'drawing — see sheet 7)')
+                hits+=1
+    return hits
+
+print('LOC-02 scope statements corrected:', fix_loc02_scope(prs.slides[2]))
 
 # ---- rev strings and title-slide basis -------------------------------------------------
 def retitle(slide):
@@ -236,9 +286,11 @@ for sp in prs.slides[4].shapes:
                      'the as-built duct data: per-asset attribution could not be established from the sheets '
                      '(see sheet 6, limit d). Sheet-level duct schedule is on sheet 6.'], size=9)
 
-import proof_sheet, sheet7
+json.dump(asset_census, open('asset_census.json','w'))
+import proof_sheet, sheet7, sheet8
 proof_sheet.build(prs)
 sheet7.build(prs)
+sheet8.build(prs)
 
 prs.save(OUT)
 json.dump(report, open('build_report.json','w'), indent=1)
