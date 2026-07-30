@@ -895,6 +895,234 @@ log("S7  'What the detail must also show' moved into the right column and both c
 place(shp(s7, "TextBox 1"), width=14173200 - 1700000)
 add_logo(s7, 457200 + 14173200, 265430, 434340)
 
+# =============================================== NEW SHEET - 5-day AGL installation schedule
+NAVY = RGBColor(0x1E, 0x27, 0x61)
+INK = RGBColor(0x1F, 0x29, 0x37)
+MUTED = RGBColor(0x5F, 0x63, 0x68)
+RULE = RGBColor(0xD3, 0xD8, 0xDE)
+CELL_RULE = RGBColor(0xC8, 0xCD, 0xD3)
+TINT = RGBColor(0xF4, 0xF6, 0xF8)
+
+
+def _run(para, text, pt, bold=False, color=INK, italic=False):
+    r = para.add_run()
+    r.text = text
+    r.font.size = Pt(pt)
+    r.font.name = "Arial"
+    r.font.bold = bold
+    r.font.italic = italic
+    r.font.color.rgb = color
+    return r
+
+
+def box(slide, x, y, w, h, fill=RGBColor(0xFF, 0xFF, 0xFF), line=RULE, name="BOX"):
+    sh = slide.shapes.add_shape(MSO_SHAPE.RECTANGLE, Emu(int(x)), Emu(int(y)),
+                                Emu(int(w)), Emu(int(h)))
+    sh.name = name
+    sh.shadow.inherit = False
+    if fill is None:
+        sh.fill.background()
+    else:
+        sh.fill.solid()
+        sh.fill.fore_color.rgb = fill
+    if line is None:
+        sh.line.fill.background()
+    else:
+        sh.line.color.rgb = line
+        sh.line.width = Pt(0.75)
+    sh.text_frame.word_wrap = True
+    return sh
+
+
+def textbox(slide, x, y, w, h, lines, name="TXT"):
+    """lines: list of (text, pt, bold, colour) - one paragraph each."""
+    tb = slide.shapes.add_textbox(Emu(int(x)), Emu(int(y)), Emu(int(w)), Emu(int(h)))
+    tb.name = name
+    tf = tb.text_frame
+    tf.word_wrap = True
+    tf.margin_left = tf.margin_right = Emu(0)
+    tf.margin_top = tf.margin_bottom = Emu(0)
+    for n, (txt, pt, bold, col) in enumerate(lines):
+        para = tf.paragraphs[0] if n == 0 else tf.add_paragraph()
+        _run(para, txt, pt, bold, col)
+        para.space_after = Pt(4)
+    return tb
+
+
+def cell_borders(cell, colour=CELL_RULE, w=6350):
+    tc = cell._tc.get_or_add_tcPr()
+    for tag in ("a:lnL", "a:lnR", "a:lnT", "a:lnB"):
+        for old in tc.findall(qn(tag)):
+            tc.remove(old)
+    for tag in ("a:lnL", "a:lnR", "a:lnT", "a:lnB"):
+        ln = tc.makeelement(qn(tag), {"w": str(w), "cap": "flat", "cmpd": "sng", "algn": "ctr"})
+        fill = ln.makeelement(qn("a:solidFill"), {})
+        clr = fill.makeelement(qn("a:srgbClr"), {"val": str(colour)})
+        fill.append(clr)
+        ln.append(fill)
+        tc.insert(0, ln)
+
+
+sched = prs.slides.add_slide(prs.slide_layouts[0])
+L, W = 457200, 14173200
+
+textbox(sched, L, 274320, W - 1700000, 502920,
+        [("AGL INSTALLATION — 5-DAY WORK SCHEDULE  ·  TWY E (E4–E6)  ·  REV P08 (FINAL SCOPE)",
+          20, True, NAVY)], "TITLE")
+add_logo(sched, L + W, 265430, 434340)
+
+# ---- the five-day strip ----------------------------------------------------
+DAYS = [
+    ("DAY 1", "SETTING-OUT & SAW CUT START", "LOC-01"),
+    ("DAY 2", "SAW CUT COMPLETE · NEW BASES", "LOC-01"),
+    ("DAY 3", "SAW CUT & BASES · FIRST CABLE", "LOC-02 / 03 · LOC-01"),
+    ("DAY 4", "CABLE, TERMINATION & TESTING", "ALL LOCATIONS"),
+    ("DAY 5", "REINSTATEMENT, T&C & HANDOVER", "ALL LOCATIONS"),
+]
+GAP5, BAR_H, DAY_H = 137160, 320040, 941070
+BOX_W = (W - 4 * GAP5) // 5
+for n, (day, head, loc) in enumerate(DAYS):
+    x = L + n * (BOX_W + GAP5)
+    box(sched, x, 914400, BOX_W, DAY_H, name=f"DAY BOX {n+1}")
+    bar = box(sched, x, 914400, BOX_W, BAR_H, fill=NAVY, line=NAVY, name=f"DAY BAR {n+1}")
+    p0 = bar.text_frame.paragraphs[0]
+    _run(p0, day, 11, True, RGBColor(0xFF, 0xFF, 0xFF))
+    textbox(sched, x + 137160, 914400 + BAR_H + 128016, BOX_W - 274320, 640080,
+            [(head, 9.5, True, NAVY), (loc, 8.5, False, MUTED)], f"DAY TXT {n+1}")
+
+# ---- lower panels measured first, so the table can take up the slack -------
+LOWER = (
+    (L, "HOLD POINTS GOVERNING THE PROGRAMME", [
+        ("H1   Curing complete — Civil.  Written confirmation of the asphalt curing period. "
+         "Required before Day 1 starts.", 9.5),
+        ("H5   Saw cut detail — AGL / Engineer.  Detail drawing issued and accepted. Required "
+         "before any cutting on Day 1.", 9.5),
+        ("H2   Setting-out — Civil survey.  Coordinates issued and field points confirmed in "
+         "the field. Day 1.", 9.5),
+        ("H4   Functionality check — AGL / Operations.  Witnessed before handover. Day 5.", 9.5),
+        ("H3 (mandrel test) sits in Phase 2 civil works and falls outside these five days.",
+         9.0),
+    ], "P08 PANEL · HOLD POINTS GOVERNING"),
+    (7699248, "BASIS, ASSUMPTIONS & INDICATIVE RESOURCES", [
+        ("Covers Phase 3 AGL installation only. Phase 1 asset removal and coring is recorded "
+         "complete (site record 23.07.2026); Phase 2 civil attendance sits outside these five "
+         "days.", 9.0),
+        ("One day = one approved working shift under the AWAN / PTW. The sequence holds for a "
+         "day or a night closure; shift hours to be set against the approved airside window.",
+         9.0),
+        ("The five days run consecutively from the release of H1 and H5. Neither is released at "
+         "the date of this revision.", 9.0),
+        ("Saw cut lengths scaled from sheets 1001–1003 — approx. 300 m, 24 m and 95 m, approx. "
+         "420 m in total. For programme only; confirm on site.", 9.0),
+        ("Sealant cure time before the area returns to operational service is per the awaited "
+         "saw cut detail. If it exceeds the Day 5 shift, handover moves to the following shift.",
+         9.0),
+        ("Indicative resourcing per shift: 1 No. AGL supervisor, 4 No. AGL technicians, 2 No. "
+         "saw cut operatives, 1 No. safety banksman; survey attendance Day 1, Operations "
+         "attendance Day 5. To be confirmed against the approved AWAN.", 9.0),
+    ], "P08 PANEL · BASIS AND ASSUMPTIONS"),
+)
+
+PAN_W, CHROME = 6958584, 109728 + 237744 + 128016 + 137160
+LOWER_BODY_W = PAN_W - 292608
+TBL_Y = 914400 + DAY_H + 274320
+
+# ---- the schedule table ----------------------------------------------------
+SCH_ROWS = [
+    ("Day", "Phase 3 activity", "Location", "Quantity", "Hold point / witness",
+     "Output at the end of the shift"),
+    ("1", "Setting-out from the civil survey points; area protection and lighting",
+     "LOC-01 / 02 / 03", "3 No. locations", "H2 — civil survey",
+     "Field points confirmed and marked"),
+    ("1", "Saw cutting — first part of the secondary cable route", "LOC-01",
+     "approx. 150 m", "H5 — detail accepted", "Half the LOC-01 route cut and covered"),
+    ("2", "Saw cutting — balance of the route", "LOC-01", "approx. 150 m",
+     "H5 — detail accepted", "LOC-01 route cut in full"),
+    ("2", "Set the new side-entry shallow bases in the cored positions", "LOC-01",
+     "11 No. 8\"", "—", "11 No. bases set and levelled"),
+    ("3", "Saw cutting — full route", "LOC-02 / 03", "approx. 24 m / 95 m",
+     "H5 — detail accepted", "Both routes cut"),
+    ("3", "Set the new side-entry shallow bases", "LOC-02 / 03", "1 No. 12\" each", "—",
+     "2 No. bases set and levelled"),
+    ("3", "Lay new secondary cable through the saw cut — no joints, manhole to light",
+     "LOC-01", "11 No. runs", "—", "LOC-01 cable in and protected"),
+    ("4", "Lay new secondary cable through the saw cut", "LOC-02 / 03", "5 No. runs", "—",
+     "All 16 No. runs cabled"),
+    ("4", "Cable termination at the bases and at the manholes", "LOC-01 / 02 / 03",
+     "16 No. fittings", "—", "Terminations made off"),
+    ("4", "Insulation resistance and continuity testing", "LOC-01 / 02 / 03",
+     "4 No. circuits", "—", "Test records issued"),
+    ("5", "Backfill, sealant and pavement reinstatement of the saw cut", "LOC-01 / 02 / 03",
+     "approx. 420 m", "Per the awaited detail", "Cut sealed; cure period started"),
+    ("5", "Re-fix the runway guard lights removed under Phase 1", "LOC-02 / 03",
+     "3 No. RRM", "—", "RRM.555 / 557 / 670 re-fixed and aligned"),
+    ("5", "Testing and commissioning of the affected circuits", "LOC-01 / 02 / 03",
+     "4 No. circuits", "—", "Circuits energised and proved"),
+    ("5", "Final functionality check, then handover to Operations", "LOC-01 / 02 / 03",
+     "16 No. fittings", "H4 — AGL / Operations", "Area returned to operational service"),
+]
+SCH_COLS = (640080, 4297680, 1371600, 1600200, 1828800, 4142232)
+LOW_BODY_H = max(
+    textfit.frame_height([(t, pt, False, 50800) for t, pt in lines], LOWER_BODY_W, 0, 0, 0, 0)
+    for _, _, lines, _ in LOWER)
+LOW_H = LOW_BODY_H + CHROME
+LOW_Y = 10020300 - LOW_H
+ROW_H = max(240030, min(320040, (LOW_Y - 182880 - TBL_Y - CHROME) // len(SCH_ROWS)))
+tbl_h = ROW_H * len(SCH_ROWS)
+pan_h = 109728 + 237744 + 128016 + tbl_h + 137160
+box(sched, L, TBL_Y, W, pan_h, name="P08 PANEL · FIVE-DAY PROGRAMME")
+textbox(sched, L + 146304, TBL_Y + 109728, W - 292608, 237744,
+        [("FIVE-DAY PROGRAMME — PHASE 3 AGL INSTALLATION", 9.5, True, NAVY)], "SCHED HDR")
+
+gf = sched.shapes.add_table(len(SCH_ROWS), 6, Emu(L + 146304),
+                            Emu(TBL_Y + 109728 + 237744 + 128016),
+                            Emu(sum(SCH_COLS)), Emu(tbl_h))
+gf.name = "Table SCHEDULE"
+st = gf.table
+st.first_row = False
+st.horz_banding = False
+for ci, w in enumerate(SCH_COLS):
+    st.columns[ci].width = Emu(w)
+for r in st.rows:
+    r.height = Emu(ROW_H)
+for ri, row in enumerate(SCH_ROWS):
+    for ci, val in enumerate(row):
+        cell = st.cell(ri, ci)
+        cell.margin_left = cell.margin_right = Emu(91440)
+        cell.margin_top = cell.margin_bottom = Emu(45720)
+        cell.fill.solid()
+        cell.fill.fore_color.rgb = NAVY if ri == 0 else (
+            TINT if SCH_ROWS[ri][0] in ("2", "4") else RGBColor(0xFF, 0xFF, 0xFF))
+        cell_borders(cell)
+        para = cell.text_frame.paragraphs[0]
+        _run(para, val, 9.0 if ri == 0 else 8.0, ri == 0 or ci == 0,
+             RGBColor(0xFF, 0xFF, 0xFF) if ri == 0 else INK)
+        inner = (SCH_COLS[ci] - 182880) / textfit.EMU_PT
+        if textfit.text_w_pt(val, 9.0 if ri == 0 else 8.0, ri == 0 or ci == 0) > inner:
+            print(f"   ! schedule wrap risk r{ri} c{ci}: {val!r}")
+
+# ---- hold points and basis -------------------------------------------------
+for x, title, lines, nm in LOWER:
+    box(sched, x, LOW_Y, PAN_W, LOW_H, name=nm)
+    textbox(sched, x + 146304, LOW_Y + 109728, LOWER_BODY_W, 237744,
+            [(title, 9.5, True, NAVY)], nm + " HDR")
+    textbox(sched, x + 146304, LOW_Y + 109728 + 237744 + 128016, LOWER_BODY_W, LOW_BODY_H,
+            [(t, pt, False, INK) for t, pt in lines], nm + " BODY")
+
+textbox(sched, L, 10149840, W, 365760,
+        [("Programme for the AGL installation phase. It is issued for planning and for "
+          "co-ordination with the civil programme; it is not a construction instruction until "
+          "the hold points above are released.     ·     " + FOOTER_DOC, 7.5, False, MUTED)],
+        "SHEET FOOTER")
+
+# place it directly after the scope & sequence sheet
+sld_lst = prs.slides._sldIdLst
+items = list(sld_lst)
+sld_lst.remove(items[-1])
+sld_lst.insert(2, items[-1])
+log("New sheet added after the scope & sequence sheet: a 5-day work schedule for the Phase 3 "
+    "AGL installation, tied to the deck's own quantities and hold points.")
+
 prs.save(OUT)
 print("saved", OUT, "\n")
 for c in changes:

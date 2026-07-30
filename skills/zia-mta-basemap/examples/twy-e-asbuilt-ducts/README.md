@@ -181,3 +181,21 @@ What it resolves:
 
 `pipeline/textfit.py` measures wrapped text in Liberation Sans (metric-compatible with
 Arial) so the panel and table fitting is computed, not eyeballed.
+
+### Sheet 3 — 5-day AGL installation schedule
+
+The review pass also adds a programme sheet after the scope & sequence sheet. It covers
+**Phase 3 AGL installation only** — Phase 1 asset removal and coring is recorded complete,
+and Phase 2 civil attendance sits outside the five days.
+
+Every figure on it comes from the deck itself: 16 No. fittings, 11 No. 8" bases at LOC-01,
+1 No. 12" at LOC-02 and LOC-03, 3 No. RRM, 4 No. circuits, and saw cut lengths measured off
+the Rev P08 new-saw-cut runs on sheets 1001–1003 (approx. 300 m / 24 m / 95 m, approx. 420 m
+total) using the per-sheet EMU-per-metre scale from `data/registration.json`. The sheet
+states that those lengths are scaled for programme only.
+
+The programme is gated on the deck's own hold points: Day 1 cannot start until H1 (curing
+confirmed) and H5 (saw cut detail issued and accepted) are released, and neither is released
+at Rev P08. Sealant cure time before return to operational service is per the awaited detail,
+so the sheet says handover moves to the following shift if the cure exceeds the Day 5 window.
+Shift hours and resourcing are marked indicative, to be set against the approved AWAN.
