@@ -1,0 +1,309 @@
+{
+ "order": {
+  "LOC-01": [
+   "SBC102",
+   "SGC102",
+   "TCC103",
+   "TCCECH",
+   "TEC102",
+   "HH",
+   "MH",
+   "P6",
+   "RRM",
+   "X_CV_STH_PITS"
+  ],
+  "LOC-02": [
+   "TCCECH",
+   "HH",
+   "P2",
+   "RRM",
+   "X_CV_STH_PITS"
+  ],
+  "LOC-03": [
+   "EL",
+   "SBC102",
+   "SGC102",
+   "TCC102",
+   "TCCECH",
+   "HH",
+   "MH",
+   "P4",
+   "RRM"
+  ]
+ },
+ "LOC-01": {
+  "RRM": {
+   "asset_type": "Runway guard light / RRM",
+   "observed_classes": {
+    "Runway guard light / RRM": 4
+   },
+   "unanimous": true,
+   "count": 4,
+   "median_match_m": 2.23,
+   "example": "RRM.76",
+   "label": "RRM"
+  },
+  "TCCECH": {
+   "asset_type": "Taxiway centreline light",
+   "observed_classes": {
+    "Taxiway centreline light": 17
+   },
+   "unanimous": true,
+   "count": 17,
+   "median_match_m": 1.11,
+   "example": "TCCECH.04.018",
+   "label": "TCCECH"
+  },
+  "TCC103": {
+   "asset_type": "Taxiway centreline light",
+   "observed_classes": {
+    "Taxiway centreline light": 8
+   },
+   "unanimous": true,
+   "count": 8,
+   "median_match_m": 1.16,
+   "example": "TCC103.12.019",
+   "label": "TCC103"
+  },
+  "TEC102": {
+   "asset_type": "Taxiway edge light",
+   "observed_classes": {
+    "Taxiway edge light": 4
+   },
+   "unanimous": true,
+   "count": 4,
+   "median_match_m": 1.11,
+   "example": "TEC102.02.047",
+   "label": "TEC102"
+  },
+  "HH": {
+   "asset_type": "Handhole",
+   "observed_classes": {
+    "Handhole": 10
+   },
+   "unanimous": true,
+   "count": 10,
+   "median_match_m": 2.18,
+   "example": "HH.E6.033",
+   "label": "HH"
+  },
+  "X_CV_STH_PITS": {
+   "asset_type": "Civil pit / transformer HH",
+   "observed_classes": {
+    "Existing transformer handhole": 3,
+    "Taxiway edge light": 1,
+    "Earthing pit": 1
+   },
+   "unanimous": false,
+   "count": 5,
+   "median_match_m": 2.17,
+   "example": "X_CV_STH_PITS &.27152",
+   "label": "X_CV_STH_PITS"
+  },
+  "P6": {
+   "asset_type": "Civil pit (manhole / earthing point)",
+   "observed_classes": {
+    "Earthing point": 1,
+    "Existing manhole": 1
+   },
+   "unanimous": false,
+   "count": 2,
+   "median_match_m": 1.79,
+   "example": "P6.009",
+   "label": "P6"
+  },
+  "MH": {
+   "asset_type": "Manhole",
+   "observed_classes": {
+    "Manhole": 2
+   },
+   "unanimous": true,
+   "count": 2,
+   "median_match_m": 2.23,
+   "example": "MH.E.024",
+   "label": "MH"
+  },
+  "SGC102": {
+   "asset_type": "Sign foundation",
+   "observed_classes": {
+    "Sign foundation": 2
+   },
+   "unanimous": true,
+   "count": 2,
+   "median_match_m": 1.11,
+   "example": "SGC102.02.017",
+   "label": "SGC102"
+  },
+  "SBC102": {
+   "asset_type": "Stop bar light",
+   "observed_classes": {
+    "Stop bar light": 8
+   },
+   "unanimous": true,
+   "count": 8,
+   "median_match_m": 0.24,
+   "example": "SBC102-02/024",
+   "label": "SBC102"
+  }
+ },
+ "LOC-02": {
+  "RRM": {
+   "asset_type": "Runway guard light / RRM",
+   "observed_classes": {
+    "Runway guard light / RRM": 5
+   },
+   "unanimous": true,
+   "count": 5,
+   "median_match_m": 2.13,
+   "example": "RRM.545",
+   "label": "RRM"
+  },
+  "X_CV_STH_PITS": {
+   "asset_type": "Civil pit / transformer HH",
+   "observed_classes": {
+    "Earthing pit": 1
+   },
+   "unanimous": true,
+   "count": 1,
+   "median_match_m": 2.1,
+   "example": "X_CV_STH_PITS &.24043",
+   "label": "X_CV_STH_PITS"
+  },
+  "TCCECH": {
+   "asset_type": "Taxiway centreline light",
+   "observed_classes": {
+    "Taxiway centreline light": 9
+   },
+   "unanimous": true,
+   "count": 9,
+   "median_match_m": 0.26,
+   "example": "TCCECH.03.010",
+   "label": "TCCECH"
+  },
+  "P2": {
+   "asset_type": "Civil pit (transformer handhole)",
+   "observed_classes": {
+    "Existing transformer handhole": 1
+   },
+   "unanimous": true,
+   "count": 1,
+   "median_match_m": 2.12,
+   "example": "P2.002",
+   "label": "P2"
+  },
+  "HH": {
+   "asset_type": "Handhole",
+   "observed_classes": {
+    "Handhole": 2
+   },
+   "unanimous": true,
+   "count": 2,
+   "median_match_m": 2.13,
+   "example": "HH.E.055",
+   "label": "HH"
+  }
+ },
+ "LOC-03": {
+  "RRM": {
+   "asset_type": "Runway guard light / RRM",
+   "observed_classes": {
+    "Runway guard light / RRM": 9
+   },
+   "unanimous": true,
+   "count": 9,
+   "median_match_m": 2.04,
+   "example": "RRM.283",
+   "label": "RRM"
+  },
+  "P4": {
+   "asset_type": "Civil pit (manhole / transformer HH)",
+   "observed_classes": {
+    "Existing manhole": 2,
+    "Existing transformer handhole": 2
+   },
+   "unanimous": false,
+   "count": 4,
+   "median_match_m": 2.01,
+   "example": "P4.036.399",
+   "label": "P4"
+  },
+  "TCCECH": {
+   "asset_type": "Taxiway centreline light",
+   "observed_classes": {
+    "Taxiway centreline light": 21
+   },
+   "unanimous": true,
+   "count": 21,
+   "median_match_m": 1.03,
+   "example": "TCCECH.04.005",
+   "label": "TCCECH"
+  },
+  "HH": {
+   "asset_type": "Handhole",
+   "observed_classes": {
+    "Handhole": 7
+   },
+   "unanimous": true,
+   "count": 7,
+   "median_match_m": 2.04,
+   "example": "HH.E.144",
+   "label": "HH"
+  },
+  "EL": {
+   "asset_type": "Existing light base (EBASE)",
+   "observed_classes": {
+    "Taxiway centreline light": 3,
+    "Existing light base": 1
+   },
+   "unanimous": false,
+   "count": 4,
+   "median_match_m": 1.69,
+   "example": "EL.EBASE.13328",
+   "label": "EL"
+  },
+  "TCC102": {
+   "asset_type": "Taxiway centreline light",
+   "observed_classes": {
+    "Taxiway centreline light": 2
+   },
+   "unanimous": true,
+   "count": 2,
+   "median_match_m": 1.03,
+   "example": "TCC102.01.052",
+   "label": "TCC102"
+  },
+  "MH": {
+   "asset_type": "Manhole",
+   "observed_classes": {
+    "Manhole": 2
+   },
+   "unanimous": true,
+   "count": 2,
+   "median_match_m": 2.02,
+   "example": "MH.E.015",
+   "label": "MH"
+  },
+  "SGC102": {
+   "asset_type": "Sign foundation",
+   "observed_classes": {
+    "Sign foundation": 2
+   },
+   "unanimous": true,
+   "count": 2,
+   "median_match_m": 1.02,
+   "example": "SGC102.02.015",
+   "label": "SGC102"
+  },
+  "SBC102": {
+   "asset_type": "Stop bar light",
+   "observed_classes": {
+    "Stop bar light": 8
+   },
+   "unanimous": true,
+   "count": 8,
+   "median_match_m": 0.19,
+   "example": "SBC102-01/038",
+   "label": "SBC102"
+  }
+ }
+}

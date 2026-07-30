@@ -27,6 +27,8 @@ import copy
 import json
 import pathlib
 
+import legend
+
 from pptx import Presentation
 from pptx.dml.color import RGBColor
 from pptx.util import Emu, Inches, Pt
@@ -289,14 +291,20 @@ def main():
     resize_about_centre(stray_inner, DOT_D)
     disc(stray_inner, TEAL)
 
-    # ---- LOC-01 map: TCC103-12/022 label overran the sheet (8.27" wide) ------
-    lbl = next(sh for sh in s2.shapes
-               if sh.has_text_frame and sh.text_frame.text.strip() == "TCC103-12/022")
-    lbl.width = Inches(1.25)
-
-    # ---- LOC-01 legend: grey ring is "not affected", never a dummy plate ----
-    sub(by_id(s2, 331), "Dummy Plate",
-        "FIELD VERIFIED NOT AFFECTED / NOT ON FIELD SHEET (grey ring)")
+    # ---- LOC-01 map: normalise the four TCC103 labels -----------------------
+    # P06 left them at 7.0 pt navy where every other label is 6.5 pt dark grey, which
+    # reads as emphasis — the opposite of "not in scope". TCC103-12/022's box was also
+    # 8.27" wide and overran the sheet.
+    for sh in list(s2.shapes):
+        if not sh.has_text_frame:
+            continue
+        if not sh.text_frame.text.strip().startswith("TCC103-"):
+            continue
+        sh.width = Inches(1.25)
+        for run in sh.text_frame.paragraphs[0].runs:
+            run.font.size = Pt(6.5)
+            run.font.bold = True
+            run.font.color.rgb = RGBColor.from_string("1F2937")
 
     # ---- LOC-01 scope note, strictly from Document_3 ------------------------
     set_lines(by_id(s2, 312), [
@@ -345,12 +353,36 @@ def main():
         extra = (" Shallow-base column blank on that sheet; confirmed \u2018NO\u2019 30.07.2026."
                  if slide is s3 else "")
         notes.append(
+            "7. Asset key: label prefix to as-built class, from the AGL asset survey "
+            "checked against the AGL duct-layout CAD. Civil items (HH / MH / pits / RRM) "
+            "plot about 2.1 m from the surveyed insertion point — set out from survey, not "
+            "from this sheet. A pit prefix can cover more than one civil class (manhole, "
+            "transformer handhole, earthing); confirm the individual pit before works."
+        )
+        notes.append(
             f"6. Rev P07: every asset on this sheet re-marked directly from field sheet "
             f"{sheet} — outer ring from the Secondary-cable / Shallow-base columns, "
             f"inner disc from Duct / Sawcut. Assets not listed on the field sheet are "
             f"shown grey with no action assumed.{extra}"
         )
+        notes.sort(key=lambda t: t[:2])
         set_lines(note, notes)
+
+    # ---- legends: rebuilt so every plotted symbol is accounted for -----------
+    # P06 had dropped P05's "AGL FEED MANHOLE / HANDHOLE" row (the magenta square is
+    # still drawn on all three sheets) and reused the row to relabel the grey ring
+    # "Dummy Plate". The milling/cut shading was never legended. And every existing
+    # asset plots as one teal dot, so the sheets now carry an as-built asset key
+    # naming each label prefix. Class names come from asset_key.py, not from here.
+    square_tpl = copy.deepcopy(
+        next(sh for sh in s4.shapes
+             if legend._kind(sh) == "RECTANGLE"
+             and sh.left is not None and sh.left >= Inches(11)
+             and sh.width is not None and abs(sh.width - Inches(0.21)) < Inches(0.02))._element)
+    legend_problems = []
+    for slide, loc in ((s2, "LOC-01"), (s3, "LOC-02"), (s4, "LOC-03")):
+        declared = legend.build(slide, loc, legend.load_asset_key(loc), square_tpl)
+        legend_problems += legend.audit(slide, loc, declared)
 
     # ---- title sheet: record the revision and the governing field sheets ----
     s1 = prs.slides[0]
@@ -404,7 +436,7 @@ def main():
 
     # ---- verify the saved file against the field sheets ---------------------
     positions = json.loads((HERE / "marker_positions.json").read_text())
-    problems = audit(Presentation(OUT), sheets, positions)
+    problems = audit(Presentation(OUT), sheets, positions) + legend_problems
     if problems:
         print("AUDIT FAILED")
         for p in problems:
