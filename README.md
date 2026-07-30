@@ -112,6 +112,7 @@ Skills for working with complex file formats:
 
 ### Individual Skills
 
+- **[agmem](https://github.com/albedoweb/agmem)** - Project memory skill and plugin: indexes your repo into local JSONL and auto-injects task-relevant context via BM25 retrieval (no LLM calls); includes an `/agmem:setup` command and query-phrasing guidance
 > These will be broken down into categories once there are enough community skills available to list
 
 | Skill | Description |
