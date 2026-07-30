@@ -207,3 +207,29 @@ confirmed) and H5 (saw cut detail issued and accepted) are released, and neither
 at Rev P08. Sealant cure time before return to operational service is per the awaited detail,
 so the sheet says handover moves to the following shift if the cure exceeds the Day 5 window.
 Shift hours and resourcing are marked indicative, to be set against the approved AWAN.
+
+### Sheet 7 — works quantities
+
+A quantities sheet ahead of the asset-by-asset consolidated scope, carrying one row per
+location plus a total:
+
+| | Affected | Core out 8" | Core out 12" | New coring 8" | New coring 12" | Saw cut | Secondary cable |
+|---|---|---|---|---|---|---|---|
+| LOC-01 | 11 No. | 6 No. | 3 No. † | 11 No. | — | ~300 m | 11 No. runs |
+| LOC-02 | 1 No. | — | 1 No. | — | 1 No. | ~24 m | 1 No. run |
+| LOC-03 | 4 No. | — | 1 No. | — | 1 No. | ~95 m | 4 No. runs |
+| **TOTAL** | **16 No.** | **6 No.** | **5 No.** | **11 No.** | **2 No.** | **~420 m** | **16 No. runs** |
+
+† 2 No. further 12" bases at LOC-01 were removed earlier and need no coring out, so 11 No.
+new 8" bases are set against 9 No. cored positions — which is why core-out and new-coring
+do not match at LOC-01.
+
+*Core out* is removal of the existing shallow base by coring; *new coring* is the core taken
+to receive the new side-entry base. A second table lists the asset IDs behind each count. The
+figures are counts, not dimensions — core diameter, core depth, saw cut width and depth all
+sit behind the awaited detail (hold point H5), and cable figures are route lengths with no
+allowance for terminations, base entry or manhole tails.
+
+The sheet reconciles against the consolidated scope sheet and the saw cut & coring schedule:
+16 No. fittings, 11 No. cores (6 @ 8" · 5 @ 12"), 13 No. new side-entry bases (11 @ 8" ·
+2 @ 12").

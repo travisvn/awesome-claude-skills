@@ -1135,6 +1135,217 @@ sld_lst.insert(2, items[-1])
 log("New sheet added after the scope & sequence sheet: a 5-day work schedule for the Phase 3 "
     "AGL installation, tied to the deck's own quantities and hold points.")
 
+# ===================================== NEW SHEET - works quantities summary
+qty = prs.slides.add_slide(prs.slide_layouts[0])
+
+qtitle = textbox(qty, L, 274320, W - 1700000, 502920,
+                 [("WORKS QUANTITIES — CORING, SAW CUT & SECONDARY CABLE  ·  TWY E (E4–E6)  ·  "
+                   "REV P08", 20, True, NAVY)], "TITLE")
+qtitle.text_frame.word_wrap = False
+fit_font(qtitle, W - 1700000, 20.0, 13.0)
+add_logo(qty, L + W, 265430, 434340)
+
+# ---- headline tiles --------------------------------------------------------
+TILES = [
+    ("16 No.", "AFFECTED FITTINGS", "11 · 1 · 4 across LOC-01 / 02 / 03"),
+    ("11 No.", "EXISTING BASES CORED OUT", "6 @ 8\"  ·  5 @ 12\""),
+    ("13 No.", "NEW SIDE-ENTRY BASES", "11 @ 8\"  ·  2 @ 12\""),
+    ("approx. 420 m", "SAW CUTTING", "300 m  ·  24 m  ·  95 m"),
+    ("16 No.", "SECONDARY CABLE RUNS", "no joints — manhole to light"),
+]
+TILE_H = 1005840
+for n, (big, cap, sub) in enumerate(TILES):
+    x = L + n * (BOX_W + GAP5)
+    box(qty, x, 914400, BOX_W, TILE_H, name=f"QTY TILE {n+1}")
+    textbox(qty, x + 137160, 914400 + 91440, BOX_W - 274320, 640080,
+            [(big, 18, True, NAVY), (cap, 8.5, True, INK), (sub, 8, False, MUTED)],
+            f"QTY TILE TXT {n+1}")
+
+# ---- the quantities table --------------------------------------------------
+QTY_Y = 914400 + TILE_H + 274320
+QTY_ROWS = [
+    ("Location", "Affected assets", "Core out\nexisting 8\"", "Core out\nexisting 12\"",
+     "New coring\n8\" base", "New coring\n12\" base", "Saw cutting",
+     "Secondary cable required"),
+    ("LOC-01 · sheet 1001", "11 No.", "6 No.", "3 No. †", "11 No.", "—",
+     "approx. 300 m", "11 No. runs  ·  approx. 300 m"),
+    ("LOC-02 · sheet 1002", "1 No.", "—", "1 No.", "—", "1 No.",
+     "approx. 24 m", "1 No. run  ·  approx. 24 m"),
+    ("LOC-03 · sheet 1003", "4 No.", "—", "1 No.", "—", "1 No.",
+     "approx. 95 m", "4 No. runs  ·  approx. 95 m"),
+    ("TOTAL", "16 No.", "6 No.", "5 No.", "11 No.", "2 No.",
+     "approx. 420 m", "16 No. runs  ·  approx. 420 m"),
+]
+QTY_AVAIL = W - 292608
+need = []
+for ci in range(8):
+    wmax = 0
+    for ri in range(len(QTY_ROWS)):
+        for part in QTY_ROWS[ri][ci].split("\n"):
+            wmax = max(wmax, textfit.text_w_pt(part, 9.0 if ri == 0 else 9.5,
+                                               ri == 0 or ri == len(QTY_ROWS) - 1 or ci == 0))
+    need.append(int(wmax * textfit.EMU_PT) + 182880 + 91440)
+spare = QTY_AVAIL - sum(need)
+QTY_COLS = tuple(w + spare // len(need) for w in need)
+QTY_COLS = QTY_COLS[:-1] + (QTY_AVAIL - sum(QTY_COLS[:-1]),)
+
+QTY_ROW_H = 411480
+qtbl_h = QTY_ROW_H * len(QTY_ROWS)
+qpan_h = 109728 + 237744 + 128016 + qtbl_h + 237744 + 137160
+box(qty, L, QTY_Y, W, qpan_h, name="P08 PANEL · WORKS QUANTITIES")
+textbox(qty, L + 146304, QTY_Y + 109728, W - 292608, 237744,
+        [("WORKS QUANTITIES BY LOCATION — REV P08 FINAL SCOPE", 9.5, True, NAVY)], "QTY HDR")
+
+qgf = qty.shapes.add_table(len(QTY_ROWS), 8, Emu(L + 146304),
+                           Emu(QTY_Y + 109728 + 237744 + 128016),
+                           Emu(sum(QTY_COLS)), Emu(qtbl_h))
+qgf.name = "Table QUANTITIES"
+qt = qgf.table
+qt.first_row = False
+qt.horz_banding = False
+for ci, w in enumerate(QTY_COLS):
+    qt.columns[ci].width = Emu(w)
+for r in qt.rows:
+    r.height = Emu(QTY_ROW_H)
+for ri, row in enumerate(QTY_ROWS):
+    last = ri == len(QTY_ROWS) - 1
+    for ci, val in enumerate(row):
+        cell = qt.cell(ri, ci)
+        cell.margin_left = cell.margin_right = Emu(91440)
+        cell.margin_top = cell.margin_bottom = Emu(45720)
+        cell.fill.solid()
+        cell.fill.fore_color.rgb = NAVY if ri == 0 else (TINT if last else
+                                                         RGBColor(0xFF, 0xFF, 0xFF))
+        cell_borders(cell)
+        tf = cell.text_frame
+        for n, part in enumerate(val.split("\n")):
+            para = tf.paragraphs[0] if n == 0 else tf.add_paragraph()
+            _run(para, part, 9.0 if ri == 0 else 9.5, ri == 0 or last or ci == 0,
+                 RGBColor(0xFF, 0xFF, 0xFF) if ri == 0 else INK)
+            inner = (QTY_COLS[ci] - 182880) / textfit.EMU_PT
+            if textfit.text_w_pt(part, 9.0 if ri == 0 else 9.5,
+                                 ri == 0 or last or ci == 0) > inner:
+                print(f"   ! quantities wrap risk r{ri} c{ci}: {part!r}")
+
+textbox(qty, L + 146304, QTY_Y + 109728 + 237744 + 128016 + qtbl_h + 45720,
+        W - 292608, 192024,
+        [("†  A further 2 No. 12\" bases at LOC-01 were removed earlier and need no coring "
+          "out; all 11 No. LOC-01 positions still take a new 8\" coring, which is why the "
+          "core-out and new-coring counts differ.", 8.5, False, MUTED)], "QTY FOOTNOTE")
+
+# ---- breakdown by works action ---------------------------------------------
+ACT_ROWS = [
+    ("Location", "Works action", "Assets", "Count", "New base", "Cable route"),
+    ("LOC-01", "Core out existing 8\" → new side-entry shallow base",
+     "SBC102-02/024, 01/027, 02/025, 01/028, 02/026, 01/029", "6 No.", "8\"", "Saw cut"),
+    ("LOC-01", "Core out existing 12\" (3 No.) or removed earlier (2 No.) → new base",
+     "TCCECH-04/034, 03/036, 04/035, 03/037, 04/036", "5 No.", "8\"", "Saw cut"),
+    ("LOC-02", "Core out existing shallow base → new side-entry shallow base",
+     "TCCECH-03/008", "1 No.", "12\"", "Saw cut"),
+    ("LOC-03", "Core out existing 12\" → new side-entry shallow base — no side entry in the "
+     "existing base", "TCCECH-03/003", "1 No.", "12\"", "Saw cut"),
+    ("LOC-03", "No coring — the existing 12\" shallow base takes the new side entry",
+     "TCCECH-03/002, 04/002, 04/003", "3 No.", "existing", "Saw cut"),
+]
+ACT_AVAIL = W - 292608
+aneed = []
+for ci in range(6):
+    wmax = max(textfit.text_w_pt(ACT_ROWS[ri][ci], 9.0 if ri == 0 else 8.5, ri == 0 or ci == 0)
+               for ri in range(len(ACT_ROWS)))
+    aneed.append(int(wmax * textfit.EMU_PT) + 182880 + 45720)
+aspare = ACT_AVAIL - sum(aneed)
+ACT_COLS = tuple(w + aspare // len(aneed) for w in aneed)
+ACT_COLS = ACT_COLS[:-1] + (ACT_AVAIL - sum(ACT_COLS[:-1]),)
+
+# ---- basis and exclusions --------------------------------------------------
+QLOWER = (
+    (L, "BASIS OF THE QUANTITIES", [
+        ("Quantities are the Rev P08 final scope of work (30.07.2026) and reconcile with the "
+         "consolidated field-governed scope sheet and the saw cut & coring schedule.", 9.0),
+        ("Core out = removal of the existing shallow base by coring. New coring = the core "
+         "taken to receive the new side-entry shallow base. The two counts differ at LOC-01 "
+         "because 2 No. 12\" bases were removed earlier, so 11 No. new 8\" bases are set "
+         "against 9 No. cored positions.", 9.0),
+        ("At LOC-03, 3 No. of the 4 No. fittings take new secondary cable into their existing "
+         "12\" shallow base with no coring; the saw cut route serves all 4 No.", 9.0),
+        ("Saw cut lengths are scaled from the Rev P08 saw cut runs on sheets 1001–1003 using "
+         "the per-sheet drawing scale — approx. 300 m, 24 m and 95 m. For programme and "
+         "enquiry only; confirm on site before ordering.", 9.0),
+    ], "P08 PANEL · BASIS OF QUANTITIES"),
+    (7699248, "EXCLUSIONS & ITEMS TO CONFIRM", [
+        ("Core diameter and core depth for the 8\" and 12\" corings, and the grout / bedding "
+         "specification for each, are per the awaited saw cut and side-entry shallow base "
+         "detail. The figures above are counts, not dimensions.", 9.0),
+        ("Saw cut width and depth, and the cover to the new secondary cable, are per the same "
+         "awaited detail — hold point H5.", 9.0),
+        ("Secondary cable figures are route lengths taken off the saw cut alignment. An "
+         "allowance for terminations, base entry and manhole tails is to be added at ordering "
+         "and is not included here.", 9.0),
+        ("No duct is laid under the AGL scope at Rev P08. The existing 4 x 110 mm secondary "
+         "duct bank remains subject to open technical queries Q1 and Q2.", 9.0),
+        ("Civil works — milling, asphalt laying and pavement reinstatement outside the AGL saw "
+         "cut — are excluded.", 9.0),
+    ], "P08 PANEL · QUANTITY EXCLUSIONS"),
+)
+QLOW_BODY_H = max(
+    textfit.frame_height([(t, pt, False, 50800) for t, pt in lines], LOWER_BODY_W, 0, 0, 0, 0)
+    for _, _, lines, _ in QLOWER)
+QLOW_H = QLOW_BODY_H + CHROME
+QLOW_Y = 10020300 - QLOW_H
+
+ACT_Y = QTY_Y + qpan_h + 182880
+ACT_CHROME = 109728 + 237744 + 128016 + 137160
+ACT_ROW_H = max(228600, min(457200,
+                            (QLOW_Y - 182880 - ACT_Y - ACT_CHROME) // len(ACT_ROWS)))
+atbl_h = ACT_ROW_H * len(ACT_ROWS)
+box(qty, L, ACT_Y, W, atbl_h + ACT_CHROME, name="P08 PANEL · WORKS ACTION BREAKDOWN")
+textbox(qty, L + 146304, ACT_Y + 109728, W - 292608, 237744,
+        [("AFFECTED ASSETS BEHIND THE COUNTS — BY WORKS ACTION", 9.5, True, NAVY)], "ACT HDR")
+agf = qty.shapes.add_table(len(ACT_ROWS), 6, Emu(L + 146304),
+                           Emu(ACT_Y + 109728 + 237744 + 128016),
+                           Emu(sum(ACT_COLS)), Emu(atbl_h))
+agf.name = "Table ACTIONS"
+at = agf.table
+at.first_row = False
+at.horz_banding = False
+for ci, w in enumerate(ACT_COLS):
+    at.columns[ci].width = Emu(w)
+for r in at.rows:
+    r.height = Emu(ACT_ROW_H)
+for ri, row in enumerate(ACT_ROWS):
+    for ci, val in enumerate(row):
+        cell = at.cell(ri, ci)
+        cell.margin_left = cell.margin_right = Emu(91440)
+        cell.margin_top = cell.margin_bottom = Emu(45720)
+        cell.fill.solid()
+        cell.fill.fore_color.rgb = NAVY if ri == 0 else (
+            TINT if ACT_ROWS[ri][0] == "LOC-03" else RGBColor(0xFF, 0xFF, 0xFF))
+        cell_borders(cell)
+        _run(cell.text_frame.paragraphs[0], val, 9.0 if ri == 0 else 8.5, ri == 0 or ci == 0,
+             RGBColor(0xFF, 0xFF, 0xFF) if ri == 0 else INK)
+        inner = (ACT_COLS[ci] - 182880) / textfit.EMU_PT
+        if textfit.text_w_pt(val, 9.0 if ri == 0 else 8.5, ri == 0 or ci == 0) > inner:
+            print(f"   ! action table wrap risk r{ri} c{ci}: {val!r}")
+
+for x, title, lines, nm in QLOWER:
+    box(qty, x, QLOW_Y, PAN_W, QLOW_H, name=nm)
+    textbox(qty, x + 146304, QLOW_Y + 109728, LOWER_BODY_W, 237744,
+            [(title, 9.5, True, NAVY)], nm + " HDR")
+    textbox(qty, x + 146304, QLOW_Y + 109728 + 237744 + 128016, LOWER_BODY_W, QLOW_BODY_H,
+            [(t, pt, False, INK) for t, pt in lines], nm + " BODY")
+
+textbox(qty, L, 10149840, W, 365760,
+        [("Quantities are for check by the Engineer and are stated against the Rev P08 final "
+          "scope of work (30.07.2026). Field condition governs.     ·     " + FOOTER_DOC,
+          7.5, False, MUTED)], "SHEET FOOTER")
+
+# sits ahead of the asset-by-asset consolidated scope sheet
+items = list(sld_lst)
+sld_lst.remove(items[-1])
+sld_lst.insert(6, items[-1])
+log("New sheet added ahead of the consolidated scope sheet: works quantities by location — "
+    "affected assets, core out and new coring at 8\" and 12\", saw cutting and secondary cable.")
+
 prs.save(OUT)
 print("saved", OUT, "\n")
 for c in changes:
