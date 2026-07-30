@@ -129,6 +129,11 @@ Skills for working with complex file formats:
 | **[shadcn/ui](https://ui.shadcn.com/docs/skills)** | Give Claude Code context on shadcn components as well as pattern enforcement |
 | **[get-shit-done](https://github.com/gsd-build/get-shit-done)** | Lightweight meta-prompting, context engineering, and spec-driven development system for Claude Code by TÂCHES |
 
+| **[media-transcriber](https://github.com/z0157/claude-operator-skills/tree/master/skills/media-transcriber)** | Transcribe any audio or video through a three-tier fallback — captions, audio download, then browser-playback loopback capture into Whisper for sources with no downloadable audio |
+| **[youtube-research-miner](https://github.com/z0157/claude-operator-skills/tree/master/skills/youtube-research-miner)** | Mine an entire YouTube channel without the API and distil the transcripts into ranked findings; handles the rolling auto-caption format that duplicates every line |
+| **[local-lead-finder](https://github.com/z0157/claude-operator-skills/tree/master/skills/local-lead-finder)** | Find local businesses with no website in any city via OpenStreetMap, with opportunity scoring, franchise filtering, and phone/address enrichment |
+| **[govcon-scout](https://github.com/z0157/claude-operator-skills/tree/master/skills/govcon-scout)** | Research U.S. federal contract spending and live bid opportunities — what agencies buy, who wins, at what price (USAspending, SAM.gov) |
+
 _More community skills coming soon! Submit a PR to add your skill._
 
 ### Tools
