@@ -19,6 +19,7 @@ into compact assets that load in under a second.
 | `assets/seg_geometry.csv` | 2,428 | MTA segmentation geometry as WKT (2,418 division lines; 10 closed polygons) |
 | `assets/seg_labels.csv` | 2,207 | Segmentation label points (`TE5.1`, `K1.3`, `601.1`, …) with x, y |
 | `assets/layer_index.json.gz` | 2,533 | Per-layer entity counts, entity-type mix and geometry-derived bounding box |
+| `assets/titleblock.json` | — | Title block fields for `drawing.sketch()`. Set project/client once; empty fields print `- not set -` |
 
 ## Read this before using any coordinate
 
@@ -107,9 +108,59 @@ Two things to carry into whatever you write:
 
 5. `python scripts/smoke_test.py` after any rebuild. See *Regenerating*.
 
-`plot()` returns a matplotlib PNG. For a client-facing sketch, keep using the normal
-`agl-report` / matplotlib pipeline and treat this skill purely as the data source —
-this plot is a working view, not a deliverable.
+## Drawings
+
+Two renderers, and picking the wrong one is the usual mistake:
+
+| | Use for | Gives you |
+|---|---|---|
+| `basemap.plot()` | checking your own filter | quick PNG, no scale, no title block |
+| `drawing.sketch()` | anything anyone else sees | A4–A1 sheet at a real drafting scale, title block, graphic scale bar, grid-north arrow, legend with counts, context assets in grey, automatic panels — PDF **and** PNG |
+
+```python
+from basemap import fixtures_in_segment, segment_patches
+from drawing import sketch, write_dxf
+
+fx = fixtures_in_segment("TE5.1", assets_only=True)
+patches, strips = segment_patches("TE5.1")
+sketch(fx, patches=patches, strips=strips, out="TE5.1_agl_impact.pdf", paper="A3",
+       drawing_title="TWY D7/D8/D10 milling - AGL impact",
+       title_block={"drawing_no": "ZIA-AGL-RFI-0142", "rev": "A"})
+write_dxf("TE5.1.dxf", fixtures=fx, patches=patches, strips=strips)
+```
+
+or straight from the CLI, alongside the register:
+
+```bash
+python scripts/basemap.py --seg TE5.1 --assets-only \
+    --csv-out te51_register.csv --sketch te51.pdf --dxf-out te51.dxf \
+    --drawing-title "TWY D7/D8/D10 milling - AGL impact" \
+    --drawing-no ZIA-AGL-RFI-0142 --rev A
+```
+
+**Title block fields live in `assets/titleblock.json`** — set the project and client
+once, pass the per-drawing fields (`drawing_no`, `rev`, `date`, `drawn_by`) at call
+time. Anything left empty prints `- not set -` on the sheet rather than a plausible
+value, because a wrong drawing number on an RFI attachment is worse than a blank one.
+
+Three things the renderer will not fake, and you shouldn't either:
+
+- **North is grid north of the local drawing grid**, labelled `GRID N`. The rotation
+  to true north is unknown — there is no GEODATA object to read it from. Never
+  relabel that arrow as true north.
+- **The printed scale is exact only at the stated paper size, printed at 100%.**
+  It is chosen from a drafting series (1:250 … 1:20000) so it is a ratio someone can
+  scale off, not "whatever fitted". The graphic bar survives rescaling; the ratio
+  does not.
+- **Reconstructed patches are drawn with a "RECONSTRUCTED" note** and unpaired
+  division lines are dashed and flagged as assumed-width, in the legend and in the
+  sheet notes. Leave both in.
+
+`write_dxf()` writes DXF R12 (opens anywhere) with assets on
+`ZIA-AGL-<TYPE>` layers, reconstructed patches on `ZIA-MTA-PATCH-RECONSTRUCTED`, and
+the local-grid disclaimer as text inside the file, so the warning travels with the
+geometry rather than only in the covering email. Coordinates are written unchanged —
+it will only land correctly when inserted into a drawing on the same local grid.
 
 ## Layer naming and classification
 

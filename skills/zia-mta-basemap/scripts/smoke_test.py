@@ -159,6 +159,57 @@ else:
     notes.append(f"SEGMENTATION - ZONE 3 now contributes {n_z3:,} features - "
                  "update EXPECT and remove the Zone 3 gap entry from SKILL.md.")
 
+print("\ndrawing output")
+import tempfile  # noqa: E402
+try:
+    from drawing import sketch, write_dxf, load_title_block, PAPER, MARGIN, _pick_scale
+    from basemap import segment_patches as _sp
+
+    pats, strs = _sp("TE5.1")
+    with tempfile.TemporaryDirectory() as td:
+        files = sketch(inside, patches=pats, strips=strs,
+                       out=os.path.join(td, "t.pdf"),
+                       drawing_title="smoke test", paper="A3")
+        both = sorted(os.path.splitext(f)[1] for f in files)
+        check("sketch writes PDF + PNG", len(files), 2)
+        if both != [".pdf", ".png"]:
+            fails.append(f"sketch wrote {both}, expected ['.pdf', '.png']")
+        for f in files:
+            if os.path.getsize(f) < 20_000:
+                fails.append(f"{os.path.basename(f)} is {os.path.getsize(f)} bytes - "
+                             "suspiciously small for a full sheet")
+        dxf = write_dxf(os.path.join(td, "t.dxf"), fixtures=inside, patches=pats,
+                        strips=strs)
+        raw = open(dxf).read().split("\n")
+        codes = [(raw[i].strip(), raw[i + 1]) for i in range(0, len(raw) - 1, 2)]
+        npoint = sum(1 for c, v in codes if c == "0" and v.strip() == "POINT")
+        npoly = sum(1 for c, v in codes if c == "0" and v.strip() == "POLYLINE")
+        nseq = sum(1 for c, v in codes if c == "0" and v.strip() == "SEQEND")
+        check("DXF POINT per selected fixture", npoint, len(inside))
+        check("DXF POLYLINE/SEQEND balanced", npoly, nseq)
+        body = open(dxf).read()
+        for token, why in (("NOT UTM", "local-grid disclaimer"),
+                           ("RECONSTRUCTED", "reconstructed-patch warning")):
+            ok = token in body
+            print(f"  [{'PASS' if ok else 'FAIL'}] DXF carries {why:<34}")
+            if not ok:
+                fails.append(f"DXF is missing the {why} - the warning must travel "
+                             f"with the geometry, not just the covering email")
+
+    # The scale must come from the drafting series, and from the real axes box.
+    pw, ph = PAPER["A3"]
+    w = pw * (MARGIN["right"] - MARGIN["left"])
+    h = ph * (MARGIN["top"] - MARGIN["bottom"])
+    s = _pick_scale([(0, 0, 450, 450)], w, h)
+    check("A3 scale for a 450 m extent", s, 2500)
+    tb = load_title_block()
+    ok = all(k in tb for k in ("project", "drawing_no", "rev", "status"))
+    print(f"  [{'PASS' if ok else 'FAIL'}] titleblock.json has the expected fields")
+    if not ok:
+        fails.append("titleblock.json is missing expected fields")
+except ImportError as e:
+    notes.append(f"drawing checks skipped - {e} (matplotlib not installed)")
+
 print("\n" + "=" * 72)
 for n in notes:
     print("NOTE: " + n)
