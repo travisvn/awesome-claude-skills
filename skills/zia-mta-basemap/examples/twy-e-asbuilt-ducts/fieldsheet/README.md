@@ -150,6 +150,8 @@ python fieldsheet/build_marker_positions.py    # positions from Rev P05, verifie
 cd fieldsheet
 python asset_key.py                            # label prefix -> as-built class
 python reconcile_fieldsheet.py                 # rewrites the deck, then audits its own output
+python declutter_labels.py                     # resolve label collisions (replayed thereafter)
+python check_all.py                            # 12 end-to-end checks
 ```
 
 `asset_key.py` reads the previous output deck for its label inventory, so on a clean
@@ -173,7 +175,10 @@ LOC-01 TCCECH-03/018: expected 1 oval d=0.230" near (4.540,5.169), found 0
 
 `build_marker_positions.py` needs the skill's `scripts/` on the path (it points at the
 installed skill by default) and reads `../input/TWYEAGLSHOPDWGEDITABLE_RevP05.pptx`.
-`reconcile_fieldsheet.py` needs only `python-pptx` and the two JSON files.
+`reconcile_fieldsheet.py` needs only `python-pptx` and the JSON files. `check_all.py` and
+`declutter_labels.py` additionally need PyMuPDF and LibreOffice **with Impress** —
+`libreoffice-core` alone cannot open a .pptx, and `check_all.py` reports the layout
+checks as SKIPPED rather than passing them if it is missing.
 
 ## Files
 
@@ -187,6 +192,9 @@ installed skill by default) and reads `../input/TWYEAGLSHOPDWGEDITABLE_RevP05.pp
 | `asset_key.py` | label prefix -> as-built class, from the skill's classifier |
 | `asset_key.json` | per-prefix class, observed classes, count, match distance |
 | `legend.py` | legend spec + two-column builder + both-ways completeness audit |
+| `declutter_labels.py` | resolve rendered label collisions; writes `label_offsets.json` |
+| `label_offsets.json` | the base-layer label nudges, replayed by `reconcile_fieldsheet.py` |
+| `check_all.py` | the 12 end-to-end checks; run it against any revision |
 | `marker_positions.json` | per-light position + distance to nearest surveyed fixture |
 | `reconcile_fieldsheet.py` | rewrites the deck from the field sheets, then audits itself |
 | `src_RevP06.pptx` | input |

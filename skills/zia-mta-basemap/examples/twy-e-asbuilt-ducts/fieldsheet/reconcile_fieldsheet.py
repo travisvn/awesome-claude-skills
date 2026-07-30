@@ -368,6 +368,25 @@ def main():
         notes.sort(key=lambda t: t[:2])
         set_lines(note, notes)
 
+    # ---- base-layer label declutter -----------------------------------------
+    # LOC-03 has a dense cluster where existing-asset labels printed on top of each
+    # other and rendered as garble. The shifts are computed by declutter_labels.py
+    # from the rendered layout (a label's box is 1.15" wide but its text is shorter,
+    # so overlap is only visible once rendered) and replayed here so this script
+    # alone reproduces the issued sheet. Base-layer labels only; no symbol moves.
+    offsets_path = HERE / "label_offsets.json"
+    if offsets_path.exists():
+        offsets = json.loads(offsets_path.read_text())
+        for slide, loc in ((s2, "LOC-01"), (s3, "LOC-02"), (s4, "LOC-03")):
+            for text, dy in offsets.get(loc, {}).items():
+                hits = [sh for sh in slide.shapes
+                        if sh.has_text_frame and sh.text_frame.text.strip() == text
+                        and sh.left is not None and sh.left < Inches(11)]
+                if len(hits) != 1:
+                    raise LookupError(f"{loc}: {text!r} matched {len(hits)} labels, "
+                                      f"cannot apply its declutter offset")
+                hits[0].top = hits[0].top + Inches(dy)
+
     # ---- legends: rebuilt so every plotted symbol is accounted for -----------
     # P06 had dropped P05's "AGL FEED MANHOLE / HANDHOLE" row (the magenta square is
     # still drawn on all three sheets) and reused the row to relabel the grey ring
@@ -410,14 +429,18 @@ def main():
                   f"({m} m in cut) — confirm scope before works; no action assumed")
 
     # ---- consolidated totals ------------------------------------------------
+    # Counts exclude the four TCC103 assets throughout — they are on no field sheet.
+    # An earlier draft let them into the dummy-plate headline (8 = 4 + 4) while every
+    # other tile excluded them; check_all.py caught the inconsistency.
     cell_text_map = {
-        12: "8",
+        12: "4",
         15: "31",
         102: "11",
     }
     for sid, val in cell_text_map.items():
         set_lines(by_id(s6, sid), [val])
-    set_lines(by_id(s6, 13), ["Dummy plates", "4 (LOC-03) + 4 TCC103 unconfirmed"])
+    set_lines(by_id(s6, 13), ["Dummy plates",
+                              "LOC-03 only  ·  4 TCC103 not counted"])
     set_lines(by_id(s6, 16), ["Secondary cable runs", "per field sheets; +4 TCC103"])
     set_lines(by_id(s6, 103), [
         "Saw-cut route runs",
