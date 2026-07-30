@@ -6,19 +6,20 @@ All coordinates are ZIA LOCAL GRID, metres. NOT UTM. See references/coordinates.
 before putting any number from here into a client-facing document.
 
 Usage as a library:
-    from basemap import load_fixtures, load_segments, fixtures_near_segment, plot
+    from basemap import load_fixtures, load_segments, fixtures_in_segment, plot
 
     fx  = load_fixtures(leaf=["EL-TAXICL", "EL-STOPBAR"])
     seg = load_segments(label_prefix="Z1")
     plot(fx, seg, out="twy_z1.png", title="TWY Z1 - AGL vs MTA segmentation")
 
-    # everything within 15 m of milling segment TE5.1's division lines/patch
-    fx = fixtures_near_segment("TE5.1", buffer=15, assets_only=True)
+    # AGL impact of milling segment TE5.1 - patches reconstructed from its
+    # division lines, so assets mid-band (centreline, lead-in) are included
+    fx = fixtures_in_segment("TE5.1", assets_only=True)
 
 Usage from CLI:
     python basemap.py --list-leaves
     python basemap.py --leaf EL-TAXICL EL-STOPBAR --bbox 5800 55800 6400 56400 --out z1.png
-    python basemap.py --seg TE5.1 --buffer 15 --out te51.png --csv-out te51.csv
+    python basemap.py --seg TE5.1 --assets-only --out te51.png --csv-out te51.csv
 """
 from __future__ import annotations
 
@@ -39,7 +40,8 @@ from classify import classify, NON_ASSET_TYPES  # noqa: E402
 # BLOCK name as well as the layer - see the docstring there for why.
 __all__ = ["load_fixtures", "load_segments", "load_segment_labels", "load_routes",
            "load_layer_index", "bbox_filter", "routes_in_bbox", "wkt_length",
-           "segments_in_bbox", "segment_extent", "fixtures_near_segment",
+           "segments_in_bbox", "segment_extent", "segment_patches",
+           "fixtures_in_segment", "fixtures_near_segment",
            "wkt_coords", "plot", "classify", "NON_ASSET_TYPES"]
 
 
@@ -224,15 +226,163 @@ def segment_extent(seg_id: str, pad: float = 0.0):
     return (min(xs) - pad, min(ys) - pad, max(xs) + pad, max(ys) + pad)
 
 
-def fixtures_near_segment(seg_id: str, buffer: float = 15.0, **load_kwargs) -> pd.DataFrame:
-    """Fixtures within `buffer` metres of a segment's division lines / patch outline.
+def _point_line_dist(pts, line):
+    """min distance from each of pts (n,2) to polyline `line`."""
+    import numpy as np
+    a = np.asarray(line[:-1], dtype=float)
+    b = np.asarray(line[1:], dtype=float)
+    p = np.asarray(pts, dtype=float)[:, None, :]
+    ab = (b - a)[None, :, :]
+    ap = p - a[None, :, :]
+    t = np.clip((ap * ab).sum(-1) / np.maximum((ab * ab).sum(-1), 1e-12), 0.0, 1.0)
+    return np.linalg.norm(ap - t[..., None] * ab, axis=-1).min(axis=1)
 
-    This is the honest version of "assets inside milling segment X": the drawing
-    stores division lines, not closed patches, so proximity to the segment's
-    geometry is the strongest claim the data supports. Quote it as
-    "within <buffer> m of segment <ID> geometry" and pick the buffer from the
-    pavement width in play (a taxiway is ~23 m wide, so 12-15 m from the
-    centreline-ish division lines is a sensible default).
+
+def _points_in_ring(ring, pts):
+    """Ray-casting point-in-polygon for a closed ring, vectorised over pts."""
+    import numpy as np
+    P = np.asarray(ring, dtype=float)
+    q = np.asarray(pts, dtype=float)
+    x, y = q[:, 0], q[:, 1]
+    inside = np.zeros(len(q), dtype=bool)
+    x1, y1, x2, y2 = P[:-1, 0], P[:-1, 1], P[1:, 0], P[1:, 1]
+    for i in range(len(x1)):
+        straddles = (y1[i] > y) != (y2[i] > y)
+        if not straddles.any():
+            continue
+        with np.errstate(divide="ignore", invalid="ignore"):
+            xint = (x2[i] - x1[i]) * (y - y1[i]) / (y2[i] - y1[i]) + x1[i]
+        inside ^= straddles & (x < xint)
+    return inside
+
+
+def _band_ring(A, B):
+    """Close two roughly-parallel division lines into one band polygon."""
+    import numpy as np
+    if (np.linalg.norm(np.array(A[-1]) - np.array(B[0]))
+            > np.linalg.norm(np.array(A[-1]) - np.array(B[-1]))):
+        B = B[::-1]
+    ring = list(A) + list(B)
+    if ring[0] != ring[-1]:
+        ring.append(ring[0])
+    return ring
+
+
+def segment_patches(seg_id: str, max_pair_sep: float = 90.0):
+    """Reconstruct a segment's milling patches from its division lines.
+
+    The drawing stores a milling segment as division lines, not closed areas, and
+    the lines come in pairs that bound a band of pavement. This pairs each line
+    with its mutually-nearest neighbour (median point-to-line separation, capped at
+    `max_pair_sep`) and closes each pair into a band polygon; already-closed
+    features are kept as drawn.
+
+    Pairing matters because the *interior* of a band is where the centreline and
+    lead-in lights sit. On TE5.1 the two bands are 32 m apart, so any buffer small
+    enough to be defensible around a single line (12-15 m) reports zero taxiway
+    centreline lights for a taxiway milling job - which is obviously wrong, and is
+    exactly the failure this function exists to prevent.
+
+    Returns (patches, strips) where patches is [(label, ring), ...] and strips is
+    [(label, line), ...] for lines that found no partner. Strips are a genuine
+    unknown: a single division line does not say which side of it the milling is,
+    so callers must apply a width and say so.
+    """
+    seg = load_segments(seg_id=seg_id)
+    if not len(seg):
+        raise KeyError(
+            f"segment {seg_id!r} not in the extraction - check the ID, and note "
+            "Zone 3 segmentation is absent until the assets are rebuilt (SKILL.md).")
+    import numpy as np
+
+    closed = [wkt_coords(w) for w, c in zip(seg["wkt"], seg["closed"]) if c == 1]
+    opens = [wkt_coords(w) for w, c in zip(seg["wkt"], seg["closed"]) if c != 1]
+    # A 2-point division line is the common case (2,177 of 2,428 features) and pairs
+    # exactly like a longer one - excluding them would leave most segments with no
+    # reconstructed patch at all.
+    pairable = [o for o in opens if len(o) >= 2]
+    stubs = []
+
+    n = len(pairable)
+    med = np.full((n, n), np.inf)
+    for i in range(n):
+        for j in range(n):
+            if i != j:
+                med[i, j] = float(np.median(_point_line_dist(pairable[i], pairable[j])))
+
+    patches = [(f"closed patch {k + 1} (as drawn)", r) for k, r in enumerate(closed)]
+    used = set()
+    for _, i in sorted((med[i].min(), i) for i in range(n)):
+        if i in used:
+            continue
+        j = int(np.argmin(med[i]))
+        if j in used or med[i, j] > max_pair_sep or int(np.argmin(med[j])) != i:
+            continue
+        used.add(i)
+        used.add(j)
+        patches.append((f"band {len([p for p in patches if p[0].startswith('band')]) + 1} "
+                        f"({med[i, j]:.0f} m wide)", _band_ring(pairable[i], pairable[j])))
+    strips = [(f"unpaired division line {k + 1}", ln) for k, ln in
+              enumerate([pairable[i] for i in range(n) if i not in used] + stubs)]
+    return patches, strips
+
+
+def fixtures_in_segment(seg_id: str, strip_width: float = 25.0,
+                        line_buffer: float = 3.0, **load_kwargs) -> pd.DataFrame:
+    """Fixtures inside a segment's reconstructed milling patches.
+
+    Use this, not `fixtures_near_segment`, for "which AGL assets does milling
+    segment X affect" - it is the only one of the two that captures assets in the
+    *middle* of a milling band (centreline lights, lead-in lights). See
+    `segment_patches` for why, and SKILL.md for how to caveat the result: the
+    patches are reconstructed, so this is "inside the reconstructed TE5.1 patches",
+    never "inside TE5.1" as if the drawing said so.
+
+    strip_width : half-width applied to division lines with no partner. Cannot be
+                  derived from the drawing - state the assumption in the register.
+    line_buffer : catches assets sitting on a patch boundary.
+
+    Adds `basis` (why each row was selected) and `dist_m` (distance to the nearest
+    segment line, 0 for interior assets).
+    """
+    import numpy as np
+
+    patches, strips = segment_patches(seg_id)
+    rings = [r for _, r in patches]
+    lines = [ln for _, ln in strips]
+    allpts = [p for r in rings for p in r] + [p for ln in lines for p in ln]
+    pad = max(strip_width, line_buffer) + 5.0
+    xs = [p[0] for p in allpts]
+    ys = [p[1] for p in allpts]
+    fx = load_fixtures(bbox=(min(xs) - pad, min(ys) - pad,
+                             max(xs) + pad, max(ys) + pad), **load_kwargs)
+    if not len(fx):
+        return fx.assign(basis=pd.Series(dtype=object), dist_m=pd.Series(dtype=float))
+
+    pts = fx[["x", "y"]].to_numpy()
+    basis = np.array([""] * len(fx), dtype=object)
+    for label, ring in patches:
+        m = _points_in_ring(ring, pts) & (basis == "")
+        basis[m] = f"inside {label}"
+    for label, line in strips:
+        m = (_point_line_dist(pts, line) <= strip_width) & (basis == "")
+        basis[m] = f"within {strip_width:g} m of {label} (assumed width)"
+    for label, ring in patches:
+        m = (_point_line_dist(pts, ring) <= line_buffer) & (basis == "")
+        basis[m] = f"within {line_buffer:g} m of {label} boundary"
+
+    d = np.min([_point_line_dist(pts, g) for g in rings + lines], axis=0)
+    fx = fx.assign(basis=basis, dist_m=d.round(2))
+    return fx[fx["basis"] != ""].reset_index(drop=True)
+
+
+def fixtures_near_segment(seg_id: str, buffer: float = 15.0, **load_kwargs) -> pd.DataFrame:
+    """Fixtures within `buffer` metres of a segment's division LINES.
+
+    Pure proximity - "what is close to this line". Right for "how far is the
+    nearest handhole", wrong for milling impact: a band of pavement is bounded by a
+    pair of lines 30-45 m apart, so a defensible single-line buffer skips
+    everything down the middle of it. For impact work use `fixtures_in_segment`.
 
     load_kwargs pass through to load_fixtures (leaf=, assets_only=, ...).
     Adds a `dist_m` column. Raises KeyError for an unknown segment ID.
@@ -298,15 +448,25 @@ def _type_color(name: str):
 
 
 def plot(fixtures=None, segments=None, routes=None, out="basemap.png", title="",
-         figsize=(16, 12), dpi=200, label_segments=True, bbox=None):
+         figsize=(16, 12), dpi=200, label_segments=True, bbox=None, patches=None):
     """bbox clamps the axes - pass it whenever segments/routes are clipped by bbox
     membership, because a single far-away vertex in a kept polyline otherwise
-    stretches the view to the whole airfield."""
+    stretches the view to the whole airfield.
+
+    patches : [(label, ring), ...] from segment_patches(), shaded so a reviewer can
+              see which area the register was taken from."""
     import matplotlib
     matplotlib.use("Agg")
     import matplotlib.pyplot as plt
 
     fig, ax = plt.subplots(figsize=figsize)
+
+    if patches:
+        for label, ring in patches:
+            ax.fill([p[0] for p in ring], [p[1] for p in ring],
+                    color="#c0392b", alpha=0.12, zorder=0)
+            ax.plot([p[0] for p in ring], [p[1] for p in ring],
+                    color="#c0392b", lw=1.4, zorder=3)
 
     if segments is not None and len(segments):
         for _, r in segments.iterrows():
@@ -360,9 +520,14 @@ def main():
     p.add_argument("--layer-regex")
     p.add_argument("--bbox", nargs=4, type=float, metavar=("XMIN", "YMIN", "XMAX", "YMAX"))
     p.add_argument("--seg-prefix")
-    p.add_argument("--seg", help="segment ID, e.g. TE5.1 - plots fixtures within "
-                                 "--buffer metres of its geometry")
-    p.add_argument("--buffer", type=float, default=15.0)
+    p.add_argument("--seg", help="segment ID, e.g. TE5.1 - register + sketch of the "
+                                 "fixtures inside its reconstructed milling patches")
+    p.add_argument("--strip-width", type=float, default=25.0,
+                   help="assumed half-width for division lines with no partner")
+    p.add_argument("--buffer", type=float,
+                   help="with --seg, switch to pure proximity to the division LINES "
+                        "instead of patch reconstruction. Skips assets mid-band - "
+                        "only right for 'what is near this line' questions.")
     p.add_argument("--out", default="basemap.png")
     p.add_argument("--title", default="")
     p.add_argument("--csv-out")
@@ -389,21 +554,35 @@ def main():
         return
 
     if a.seg:
-        fx = fixtures_near_segment(a.seg, buffer=a.buffer, leaf=a.leaf, xref=a.xref,
-                                   layer_regex=a.layer_regex,
-                                   assets_only=a.assets_only)
-        ext = segment_extent(a.seg, pad=a.buffer * 2)
+        patches = None
+        if a.buffer is not None:
+            fx = fixtures_near_segment(a.seg, buffer=a.buffer, leaf=a.leaf,
+                                       xref=a.xref, layer_regex=a.layer_regex,
+                                       assets_only=a.assets_only)
+            basis = f"within {a.buffer:g} m of the {a.seg} division lines"
+            pad = a.buffer * 2
+        else:
+            fx = fixtures_in_segment(a.seg, strip_width=a.strip_width, leaf=a.leaf,
+                                     xref=a.xref, layer_regex=a.layer_regex,
+                                     assets_only=a.assets_only)
+            patches, strips = segment_patches(a.seg)
+            basis = (f"inside the reconstructed {a.seg} milling patches "
+                     f"({len(patches)} patches"
+                     + (f", {len(strips)} unpaired lines at {a.strip_width:g} m"
+                        if strips else "") + ")")
+            pad = a.strip_width * 2
+        ext = segment_extent(a.seg, pad=pad)
         seg = segments_in_bbox(load_segments(), ext)
         if not a.title:
-            a.title = (f"Segment {a.seg} - fixtures within {a.buffer:g} m "
-                       f"of segment geometry (ZIA local grid)")
+            a.title = f"Segment {a.seg} - AGL assets {basis} (ZIA local grid, not UTM)"
         print(fx.groupby("asset_type").size().sort_values(ascending=False).to_string(),
               file=sys.stderr)
+        print(f"\nselection basis: {basis}", file=sys.stderr)
         print(f"fixtures: {len(fx)}   segmentation features: {len(seg)}", file=sys.stderr)
         if a.csv_out:
             fx.to_csv(a.csv_out, index=False)
             print(f"wrote {a.csv_out}", file=sys.stderr)
-        plot(fx, seg, out=a.out, title=a.title, bbox=ext)
+        plot(fx, seg, out=a.out, title=a.title, bbox=ext, patches=patches)
         print(f"wrote {a.out}", file=sys.stderr)
         return
 

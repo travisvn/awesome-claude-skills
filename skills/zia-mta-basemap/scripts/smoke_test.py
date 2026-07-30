@@ -116,7 +116,8 @@ bad = [k for k, v in idx.items()
 check("duct layers with impossible bbox", len(bad), 0)
 
 print("\nsegment labels and helpers")
-from basemap import load_segment_labels, fixtures_near_segment  # noqa: E402
+from basemap import (load_segment_labels, fixtures_near_segment,  # noqa: E402
+                     fixtures_in_segment, segment_patches)
 lbl = load_segment_labels()
 dirty = int(lbl["label"].astype(str).str.contains(r"\\|[{}]", regex=True,
                                                   na=False).sum())
@@ -127,6 +128,25 @@ print(f"  [{'PASS' if ok else 'FAIL'}] fixtures_near_segment(TE5.1)"
       f"{'':<21} {len(near):>9,} rows")
 if not ok:
     fails.append("fixtures_near_segment(TE5.1) returned no rows")
+
+# TE5.1's bands are 32 m wide, so patch reconstruction must find the centreline
+# lights running down the middle of them. A single-line buffer finds none - that
+# regression is the whole reason segment_patches exists, so assert the difference.
+pat, strips = segment_patches("TE5.1")
+check("TE5.1 reconstructed patches", len(pat), 3)
+inside = fixtures_in_segment("TE5.1", assets_only=True)
+n_tcl = int((inside["asset_type"] == "Taxiway centreline light").sum())
+ok = n_tcl >= 50 and len(inside) > len(near)
+print(f"  [{'PASS' if ok else 'FAIL'}] TE5.1 centreline lights inside patches"
+      f"{'':<7} {n_tcl:>9,} (buffer method finds "
+      f"{int((near['asset_type'] == 'Taxiway centreline light').sum())})")
+if not ok:
+    fails.append(f"fixtures_in_segment(TE5.1) found {n_tcl} centreline lights and "
+                 f"{len(inside)} assets vs {len(near)} for the buffer method - patch "
+                 f"reconstruction is no longer capturing band interiors")
+if "basis" not in inside.columns:
+    fails.append("fixtures_in_segment lost the `basis` column - the register needs it "
+                 "to record why each asset was selected")
 z3 = pd.read_csv(os.path.join(os.path.dirname(__file__), "..", "assets",
                               "seg_geometry.csv"))
 n_z3 = int((z3["xref"] == "SEGMENTATION - ZONE 3").sum())

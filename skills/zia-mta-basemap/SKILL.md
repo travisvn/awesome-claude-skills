@@ -59,29 +59,46 @@ Always pass `bbox=` to `plot()` when you clipped by bbox: membership is per-feat
 so one kept polyline with a distant vertex otherwise zooms the view out to the whole
 airfield and the sketch is unreadable.
 
-3. **Asked "which assets are affected by segment X"?** Use the segment helpers rather
-   than guessing a window. They answer it the only way the data supports — proximity
-   to the segment's division lines / patch outline, since segments are not closed
-   areas:
+3. **Asked "which assets are affected by segment X"?** Use `fixtures_in_segment`:
 
 ```python
-from basemap import fixtures_near_segment, segment_extent
-fx  = fixtures_near_segment("TE5.1", buffer=15, assets_only=True)  # adds dist_m
-ext = segment_extent("TE5.1", pad=30)                              # plot window
+from basemap import fixtures_in_segment, segment_patches, segment_extent
+fx = fixtures_in_segment("TE5.1", assets_only=True)   # adds basis + dist_m
+patches, strips = segment_patches("TE5.1")            # for the sketch and the caveat
 ```
 
-or in one shot from the CLI (counts by type + register CSV + sketch):
+or in one shot from the CLI (counts by type + register CSV + shaded sketch):
 
 ```bash
-python scripts/basemap.py --seg TE5.1 --buffer 15 --assets-only \
+python scripts/basemap.py --seg TE5.1 --assets-only \
     --out te51.png --csv-out te51_register.csv
 ```
 
-Pick the buffer from the pavement in play — a ~23 m-wide taxiway means 12–15 m from
-centreline-ish division lines — and quote the result as "within N m of segment X
-geometry", never "inside segment X". Ducts and cable are separate: cross-check with
-`load_routes(..., bbox=segment_extent(seg_id, pad=buffer))`, because a point-fixture
-register says nothing about what runs beneath the patch.
+**Why not a simple buffer.** A milling segment is drawn as *pairs* of division lines
+bounding a band of pavement, and the assets that matter most — taxiway centreline
+and lead-in lights — run down the **middle** of that band. TE5.1's bands are 32 m
+wide, so a buffer small enough to defend around a single line (12–15 m) reports
+**zero taxiway centreline lights for a taxiway milling job**. That is not a tight
+answer, it is a wrong one, and it will read as authoritative in an RFI.
+`segment_patches()` pairs each line with its mutually-nearest partner and closes the
+pair, so the band interior is captured: on TE5.1 that is 373 assets including 73
+centreline and 18 lead-in lights, against 335 with **no** centreline lights from a
+15 m buffer.
+
+`fixtures_near_segment(seg_id, buffer=…)` still exists for genuine proximity
+questions ("how far is the nearest handhole from this line"). Reach for it when the
+question is about distance to a line, not about a milling area.
+
+Two things to carry into whatever you write:
+
+- The patches are **reconstructed**, not read from the drawing. Say "inside the
+  reconstructed TE5.1 patches", and attach the sketch — the shaded bands let a
+  reviewer check the reconstruction instead of trusting it. Where a division line
+  has no partner, `strip_width` (default 25 m) is a pure assumption about which side
+  the milling falls; state it, and say how many patches came from it.
+- Ducts and cable are separate. A point-fixture register says nothing about what
+  runs beneath the patch — cross-check with
+  `load_routes(..., bbox=segment_extent(seg_id, pad=30))`.
 
 4. For a register or an RFI attachment, write `fx.to_csv(...)` and quote counts by
    `asset_type`, not by raw layer name. Quote duct quantities by `leaf`, because the
@@ -137,9 +154,12 @@ leaf layer already states the duct type, size and way-count.
   division lines; only 10 are closed. A milling *area* has to be constructed from
   division lines against the pavement edge — it cannot be read straight out of the
   drawing. Never claim a segment area from this data without building it. Proximity to
-  a segment label is a triage screen, not containment; label it as such —
-  `fixtures_near_segment()` exists so the claim can be "within N m of the segment
-  geometry" rather than a containment claim the data can't support.
+  a segment label is a triage screen, not containment; label it as such.
+  `segment_patches()` does build the area — by pairing division lines — but the result
+  is a reconstruction: pairing can mis-associate lines where three or more run close
+  together, and an unpaired line gets an assumed width. Show the shaded sketch so the
+  reconstruction is auditable, and never present a reconstructed patch area as a
+  surveyed quantity.
 - **A long segment carries many label points** (up to 38 for `SIG3.3`), and 69
   segment IDs carry several geometry features. `load_segments()` collapses labels to
   one anchor per ID before merging — merging raw produced a 7.2× cartesian blow-up
