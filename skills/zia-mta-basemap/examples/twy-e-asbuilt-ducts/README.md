@@ -148,3 +148,36 @@ Stated on sheet 6 of the output, and they are the skill's own limits showing thr
   point — handholes, manholes, transformer pits, RRM — while AGL light fittings match to
   sub-millimetre. Set out civil features from survey.
 - **Z is unreliable** in the source drawing. 2D basemap only.
+
+## Rev P08 — final-submission review pass
+
+`pipeline/final_review_p08.py` takes the Rev P08 working deck
+(`input/TWYEAGLSHOPDWG_RevP08.pptx`) and produces the issue copy in `out/`. It is a
+checking pass, not a rebuild: every drawing coordinate is left alone except where the
+sheet contradicted its own text.
+
+What it resolves:
+
+- **Quantities that did not reconcile.** Sheet 7's TOTAL row read `11 @ 8" · 5 @ 12"`
+  coring and `16 side-entry shallow bases`; the per-location rows give 11 coring
+  (6 @ 8" · 5 @ 12") and 13 new bases — 3 No. at LOC-03 take cable into existing bases.
+  Sheets 1, 2, 6 and 7 now state the same figures.
+- **Works area vs. its own caption.** Every sheet notes the red area as the Rev P05
+  field-condition milling extent, unchanged at P08. Sheet 1001 matched (425.3 m²); the
+  patches on 1002 and 1003 had drifted to 99.7 m² and 292.9 m² against the stated
+  257.1 m² and 676.7 m². Both are redrawn from the Rev P05 geometry, and 1002 gains the
+  caption it was missing.
+- **Symbols vs. scope.** Three green "secondary cable affected" markers on sheet 1001 sat
+  on assets the panel lists as out of scope — removed. RRM.557 and RRM.670 were in scope
+  and legended on sheet 1003 but never plotted — rings added. Per-sheet legends now list
+  only the symbols that sheet actually uses.
+- **Stale references.** The `see sheet 6` cross-reference (a registration sheet that no
+  longer exists), the EPSG:32640 note, working file names on the cover, the blank
+  `Base layer` row, and the hold-point list starting at H2 with no H1.
+- **Tone.** Statements set against the civil team, and against the deck's own earlier
+  revisions, are re-worded as requests for confirmation or as superseded status.
+- **Layout.** Panels fitted to their text with columns levelled, titles on one line,
+  tables inside their frames, sheet footers on every page, ADB SAFEGATE logo throughout.
+
+`pipeline/textfit.py` measures wrapped text in Liberation Sans (metric-compatible with
+Arial) so the panel and table fitting is computed, not eyeballed.
