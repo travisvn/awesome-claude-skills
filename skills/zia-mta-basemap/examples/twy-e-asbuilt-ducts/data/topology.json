@@ -1,0 +1,731 @@
+{
+ "LOC-01": {
+  "n_segments": 51,
+  "n_nodes": 67,
+  "hubs": [
+   [
+    11,
+    "CV_ETRANS HH",
+    7.275957614183426e-12
+   ],
+   [
+    35,
+    "CV_ETRANS HH",
+    0.000976524448581418
+   ],
+   [
+    46,
+    "CV_ETRANS HH",
+    0.0012727922054947337
+   ],
+   [
+    50,
+    "CV_ETRANS HH",
+    0.0024041630573790117
+   ]
+  ],
+  "runs": [
+   {
+    "hub": 11,
+    "hub_layer": "CV_ETRANS HH",
+    "end": 16,
+    "length_m": 26.02,
+    "end_fixture": "EL-TAXIWAY EDGE",
+    "end_type": "Taxiway edge light",
+    "end_dist": 0.0,
+    "hops": 2
+   },
+   {
+    "hub": 11,
+    "hub_layer": "CV_ETRANS HH",
+    "end": 12,
+    "length_m": 30.08,
+    "end_fixture": "EL-TAXICL",
+    "end_type": "Taxiway centreline light",
+    "end_dist": 0.057,
+    "hops": 1
+   },
+   {
+    "hub": 11,
+    "hub_layer": "CV_ETRANS HH",
+    "end": 15,
+    "length_m": 26.21,
+    "end_fixture": "EL-TAXIWAY EDGE",
+    "end_type": "Taxiway edge light",
+    "end_dist": 0.065,
+    "hops": 1
+   },
+   {
+    "hub": 11,
+    "hub_layer": "CV_ETRANS HH",
+    "end": 34,
+    "length_m": 23.28,
+    "end_fixture": "EL-TAXICL",
+    "end_type": "Taxiway centreline light",
+    "end_dist": 0.0,
+    "hops": 1
+   },
+   {
+    "hub": 11,
+    "hub_layer": "CV_ETRANS HH",
+    "end": 60,
+    "length_m": 35.44,
+    "end_fixture": "EL-TAXICL",
+    "end_type": "Taxiway centreline light",
+    "end_dist": 5.131,
+    "hops": 1
+   },
+   {
+    "hub": 11,
+    "hub_layer": "CV_ETRANS HH",
+    "end": 61,
+    "length_m": 30.4,
+    "end_fixture": "EL-TAXICL",
+    "end_type": "Taxiway centreline light",
+    "end_dist": 0.0,
+    "hops": 1
+   },
+   {
+    "hub": 11,
+    "hub_layer": "CV_ETRANS HH",
+    "end": 65,
+    "length_m": 31.36,
+    "end_fixture": "EL-TAXICL",
+    "end_type": "Taxiway centreline light",
+    "end_dist": 0.0,
+    "hops": 1
+   },
+   {
+    "hub": 11,
+    "hub_layer": "CV_ETRANS HH",
+    "end": 66,
+    "length_m": 26.84,
+    "end_fixture": "EL-TAXICL",
+    "end_type": "Taxiway centreline light",
+    "end_dist": 0.0,
+    "hops": 1
+   },
+   {
+    "hub": 35,
+    "hub_layer": "CV_ETRANS HH",
+    "end": 36,
+    "length_m": 19.86,
+    "end_fixture": "EL-TAXICL",
+    "end_type": "Taxiway centreline light",
+    "end_dist": 0.0,
+    "hops": 1
+   },
+   {
+    "hub": 35,
+    "hub_layer": "CV_ETRANS HH",
+    "end": 37,
+    "length_m": 19.69,
+    "end_fixture": "EL-TAXICL",
+    "end_type": "Taxiway centreline light",
+    "end_dist": 0.0,
+    "hops": 1
+   },
+   {
+    "hub": 35,
+    "hub_layer": "CV_ETRANS HH",
+    "end": 38,
+    "length_m": 22.49,
+    "end_fixture": "EL-TAXICL",
+    "end_type": "Taxiway centreline light",
+    "end_dist": 0.031,
+    "hops": 1
+   },
+   {
+    "hub": 35,
+    "hub_layer": "CV_ETRANS HH",
+    "end": 39,
+    "length_m": 21.99,
+    "end_fixture": "EL-TAXICL",
+    "end_type": "Taxiway centreline light",
+    "end_dist": 0.001,
+    "hops": 1
+   },
+   {
+    "hub": 35,
+    "hub_layer": "CV_ETRANS HH",
+    "end": 44,
+    "length_m": 2.83,
+    "end_fixture": "CV_ETRANS HH",
+    "end_type": "Existing transformer handhole",
+    "end_dist": 2.834,
+    "hops": 1
+   },
+   {
+    "hub": 46,
+    "hub_layer": "CV_ETRANS HH",
+    "end": 45,
+    "length_m": 22.42,
+    "end_fixture": "EL-TAXICL",
+    "end_type": "Taxiway centreline light",
+    "end_dist": 0.0,
+    "hops": 1
+   },
+   {
+    "hub": 46,
+    "hub_layer": "CV_ETRANS HH",
+    "end": 47,
+    "length_m": 22.33,
+    "end_fixture": "EL-TAXICL",
+    "end_type": "Taxiway centreline light",
+    "end_dist": 0.003,
+    "hops": 1
+   },
+   {
+    "hub": 46,
+    "hub_layer": "CV_ETRANS HH",
+    "end": 59,
+    "length_m": 12.96,
+    "end_fixture": "EL-SGN-FNDTN",
+    "end_type": "Sign foundation",
+    "end_dist": 0.0,
+    "hops": 2
+   },
+   {
+    "hub": 50,
+    "hub_layer": "CV_ETRANS HH",
+    "end": 49,
+    "length_m": 9.66,
+    "end_fixture": "EL-STOPBAR",
+    "end_type": "Stop bar light",
+    "end_dist": 0.001,
+    "hops": 1
+   },
+   {
+    "hub": 50,
+    "hub_layer": "CV_ETRANS HH",
+    "end": 51,
+    "length_m": 30.08,
+    "end_fixture": "EL-STOPBAR",
+    "end_type": "Stop bar light",
+    "end_dist": 0.04,
+    "hops": 1
+   },
+   {
+    "hub": 50,
+    "hub_layer": "CV_ETRANS HH",
+    "end": 52,
+    "length_m": 12.48,
+    "end_fixture": "EL-STOPBAR",
+    "end_type": "Stop bar light",
+    "end_dist": 0.001,
+    "hops": 1
+   },
+   {
+    "hub": 50,
+    "hub_layer": "CV_ETRANS HH",
+    "end": 53,
+    "length_m": 15.37,
+    "end_fixture": "EL-STOPBAR",
+    "end_type": "Stop bar light",
+    "end_dist": 0.0,
+    "hops": 1
+   },
+   {
+    "hub": 50,
+    "hub_layer": "CV_ETRANS HH",
+    "end": 54,
+    "length_m": 8.85,
+    "end_fixture": "CV_HH",
+    "end_type": "Handhole",
+    "end_dist": 0.0,
+    "hops": 1
+   },
+   {
+    "hub": 50,
+    "hub_layer": "CV_ETRANS HH",
+    "end": 58,
+    "length_m": 12.84,
+    "end_fixture": "EL-SGN-FNDTN",
+    "end_type": "Sign foundation",
+    "end_dist": 0.28,
+    "hops": 2
+   },
+   {
+    "hub": 50,
+    "hub_layer": "CV_ETRANS HH",
+    "end": 56,
+    "length_m": 27.17,
+    "end_fixture": "EL-STOPBAR",
+    "end_type": "Stop bar light",
+    "end_dist": 0.0,
+    "hops": 1
+   },
+   {
+    "hub": 50,
+    "hub_layer": "CV_ETRANS HH",
+    "end": 57,
+    "length_m": 24.2,
+    "end_fixture": "EL-STOPBAR",
+    "end_type": "Stop bar light",
+    "end_dist": 0.0,
+    "hops": 1
+   },
+   {
+    "hub": 50,
+    "hub_layer": "CV_ETRANS HH",
+    "end": 63,
+    "length_m": 21.24,
+    "end_fixture": "EL-STOPBAR",
+    "end_type": "Stop bar light",
+    "end_dist": 0.0,
+    "hops": 1
+   },
+   {
+    "hub": 50,
+    "hub_layer": "CV_ETRANS HH",
+    "end": 64,
+    "length_m": 18.29,
+    "end_fixture": "EL-STOPBAR",
+    "end_type": "Stop bar light",
+    "end_dist": 0.0,
+    "hops": 1
+   }
+  ],
+  "degrees": [
+   10,
+   8,
+   5,
+   4,
+   3,
+   3,
+   3,
+   3,
+   2,
+   2,
+   2,
+   2,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1
+  ]
+ },
+ "LOC-02": {
+  "n_segments": 11,
+  "n_nodes": 17,
+  "hubs": [
+   [
+    7,
+    "CV_ETRANS HH",
+    0.0014283829243089943
+   ]
+  ],
+  "runs": [
+   {
+    "hub": 7,
+    "hub_layer": "CV_ETRANS HH",
+    "end": 6,
+    "length_m": 20.52,
+    "end_fixture": "EL-TAXICL",
+    "end_type": "Taxiway centreline light",
+    "end_dist": 0.003,
+    "hops": 1
+   },
+   {
+    "hub": 7,
+    "hub_layer": "CV_ETRANS HH",
+    "end": 8,
+    "length_m": 21.1,
+    "end_fixture": "EL-TAXICL",
+    "end_type": "Taxiway centreline light",
+    "end_dist": 0.002,
+    "hops": 1
+   },
+   {
+    "hub": 7,
+    "hub_layer": "CV_ETRANS HH",
+    "end": 9,
+    "length_m": 29.1,
+    "end_fixture": "EL-TAXICL",
+    "end_type": "Taxiway centreline light",
+    "end_dist": 0.003,
+    "hops": 1
+   },
+   {
+    "hub": 7,
+    "hub_layer": "CV_ETRANS HH",
+    "end": 10,
+    "length_m": 30.3,
+    "end_fixture": "EL-TAXICL",
+    "end_type": "Taxiway centreline light",
+    "end_dist": 0.002,
+    "hops": 1
+   },
+   {
+    "hub": 7,
+    "hub_layer": "CV_ETRANS HH",
+    "end": 11,
+    "length_m": 41.5,
+    "end_fixture": "EL-TAXICL",
+    "end_type": "Taxiway centreline light",
+    "end_dist": 0.004,
+    "hops": 1
+   },
+   {
+    "hub": 7,
+    "hub_layer": "CV_ETRANS HH",
+    "end": 16,
+    "length_m": 6.23,
+    "end_fixture": "CV_HH",
+    "end_type": "Handhole",
+    "end_dist": 0.0,
+    "hops": 1
+   }
+  ],
+  "degrees": [
+   6,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1
+  ]
+ },
+ "LOC-03": {
+  "n_segments": 45,
+  "n_nodes": 60,
+  "hubs": [
+   [
+    24,
+    "CV_ETRANS HH",
+    9.094947017729282e-13
+   ],
+   [
+    29,
+    "CV_ETRANS HH",
+    0.0014613540088333045
+   ]
+  ],
+  "runs": [
+   {
+    "hub": 24,
+    "hub_layer": "CV_ETRANS HH",
+    "end": 23,
+    "length_m": 23.13,
+    "end_fixture": "EL-TAXICL",
+    "end_type": "Taxiway centreline light",
+    "end_dist": 0.0,
+    "hops": 1
+   },
+   {
+    "hub": 24,
+    "hub_layer": "CV_ETRANS HH",
+    "end": 25,
+    "length_m": 20.57,
+    "end_fixture": "EL-TAXICL",
+    "end_type": "Taxiway centreline light",
+    "end_dist": 0.0,
+    "hops": 1
+   },
+   {
+    "hub": 24,
+    "hub_layer": "CV_ETRANS HH",
+    "end": 26,
+    "length_m": 20.68,
+    "end_fixture": "EL-TAXICL",
+    "end_type": "Taxiway centreline light",
+    "end_dist": 0.066,
+    "hops": 1
+   },
+   {
+    "hub": 24,
+    "hub_layer": "CV_ETRANS HH",
+    "end": 27,
+    "length_m": 27.57,
+    "end_fixture": "EL-TAXICL",
+    "end_type": "Taxiway centreline light",
+    "end_dist": 0.0,
+    "hops": 1
+   },
+   {
+    "hub": 24,
+    "hub_layer": "CV_ETRANS HH",
+    "end": 37,
+    "length_m": 6.8,
+    "end_fixture": "CV_HH",
+    "end_type": "Handhole",
+    "end_dist": 0.0,
+    "hops": 1
+   },
+   {
+    "hub": 24,
+    "hub_layer": "CV_ETRANS HH",
+    "end": 38,
+    "length_m": 7.0,
+    "end_fixture": "CV_HH",
+    "end_type": "Handhole",
+    "end_dist": 0.0,
+    "hops": 1
+   },
+   {
+    "hub": 24,
+    "hub_layer": "CV_ETRANS HH",
+    "end": 40,
+    "length_m": 13.46,
+    "end_fixture": "EL-STOPBAR",
+    "end_type": "Stop bar light",
+    "end_dist": 0.0,
+    "hops": 1
+   },
+   {
+    "hub": 24,
+    "hub_layer": "CV_ETRANS HH",
+    "end": 41,
+    "length_m": 10.65,
+    "end_fixture": "EL-STOPBAR",
+    "end_type": "Stop bar light",
+    "end_dist": 0.0,
+    "hops": 1
+   },
+   {
+    "hub": 24,
+    "hub_layer": "CV_ETRANS HH",
+    "end": 42,
+    "length_m": 16.34,
+    "end_fixture": "EL-STOPBAR",
+    "end_type": "Stop bar light",
+    "end_dist": 0.0,
+    "hops": 1
+   },
+   {
+    "hub": 24,
+    "hub_layer": "CV_ETRANS HH",
+    "end": 43,
+    "length_m": 19.24,
+    "end_fixture": "EL-STOPBAR",
+    "end_type": "Stop bar light",
+    "end_dist": 0.0,
+    "hops": 1
+   },
+   {
+    "hub": 24,
+    "hub_layer": "CV_ETRANS HH",
+    "end": 48,
+    "length_m": 22.34,
+    "end_fixture": "EL-STOPBAR",
+    "end_type": "Stop bar light",
+    "end_dist": 0.0,
+    "hops": 2
+   },
+   {
+    "hub": 24,
+    "hub_layer": "CV_ETRANS HH",
+    "end": 49,
+    "length_m": 25.23,
+    "end_fixture": "EL-STOPBAR",
+    "end_type": "Stop bar light",
+    "end_dist": 0.0,
+    "hops": 2
+   },
+   {
+    "hub": 24,
+    "hub_layer": "CV_ETRANS HH",
+    "end": 50,
+    "length_m": 28.16,
+    "end_fixture": "EL-STOPBAR",
+    "end_type": "Stop bar light",
+    "end_dist": 0.0,
+    "hops": 2
+   },
+   {
+    "hub": 24,
+    "hub_layer": "CV_ETRANS HH",
+    "end": 51,
+    "length_m": 31.13,
+    "end_fixture": "EL-STOPBAR",
+    "end_type": "Stop bar light",
+    "end_dist": 0.0,
+    "hops": 2
+   },
+   {
+    "hub": 29,
+    "hub_layer": "CV_ETRANS HH",
+    "end": 28,
+    "length_m": 25.99,
+    "end_fixture": "EL-RRM",
+    "end_type": "Runway guard light / RRM",
+    "end_dist": 4.989,
+    "hops": 1
+   },
+   {
+    "hub": 29,
+    "hub_layer": "CV_ETRANS HH",
+    "end": 30,
+    "length_m": 20.47,
+    "end_fixture": "EL-TAXICL",
+    "end_type": "Taxiway centreline light",
+    "end_dist": 0.001,
+    "hops": 1
+   },
+   {
+    "hub": 29,
+    "hub_layer": "CV_ETRANS HH",
+    "end": 31,
+    "length_m": 29.02,
+    "end_fixture": "EL-TAXICL",
+    "end_type": "Taxiway centreline light",
+    "end_dist": 0.001,
+    "hops": 1
+   },
+   {
+    "hub": 29,
+    "hub_layer": "CV_ETRANS HH",
+    "end": 32,
+    "length_m": 21.12,
+    "end_fixture": "EL-TAXICL",
+    "end_type": "Taxiway centreline light",
+    "end_dist": 0.0,
+    "hops": 1
+   },
+   {
+    "hub": 29,
+    "hub_layer": "CV_ETRANS HH",
+    "end": 33,
+    "length_m": 25.07,
+    "end_fixture": "EL-TAXICL",
+    "end_type": "Taxiway centreline light",
+    "end_dist": 0.0,
+    "hops": 1
+   },
+   {
+    "hub": 29,
+    "hub_layer": "CV_ETRANS HH",
+    "end": 34,
+    "length_m": 31.97,
+    "end_fixture": "EL-TAXICL",
+    "end_type": "Taxiway centreline light",
+    "end_dist": 0.0,
+    "hops": 3
+   }
+  ],
+  "degrees": [
+   14,
+   6,
+   5,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1
+  ]
+ }
+}

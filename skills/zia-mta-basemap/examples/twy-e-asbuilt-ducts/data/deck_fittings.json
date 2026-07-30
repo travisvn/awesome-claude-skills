@@ -1,0 +1,1548 @@
+{
+ "LOC-01": [
+  {
+   "px": 5419107.0,
+   "py": 9457413.0,
+   "asset": "RRM.76",
+   "label_d": 587147.8974577019,
+   "fill": "12A5B8",
+   "line": "12A5B8",
+   "d": 58522,
+   "type": "Runway guard light / RRM"
+  },
+  {
+   "px": 4237212.0,
+   "py": 6937897.0,
+   "asset": "RRM.282",
+   "label_d": 587147.8974577019,
+   "fill": "12A5B8",
+   "line": "12A5B8",
+   "d": 58522,
+   "type": "Runway guard light / RRM"
+  },
+  {
+   "px": 7918314.0,
+   "py": 7746852.0,
+   "asset": "TCC103.11.020",
+   "label_d": 450916.9529359037,
+   "fill": "12A5B8",
+   "line": "12A5B8",
+   "d": 58522,
+   "type": "Taxiway centreline light"
+  },
+  {
+   "px": 3334671.0,
+   "py": 5854361.0,
+   "asset": "RRM.539",
+   "label_d": 587147.8974577019,
+   "fill": "12A5B8",
+   "line": "12A5B8",
+   "d": 58522,
+   "type": "Runway guard light / RRM"
+  },
+  {
+   "px": 2306632.0,
+   "py": 4893142.0,
+   "asset": "X_CV_STH_PITS &.27153",
+   "label_d": 574607.5041669748,
+   "fill": "12A5B8",
+   "line": "12A5B8",
+   "d": 58522,
+   "type": "Existing transformer pit"
+  },
+  {
+   "px": 913046.0,
+   "py": 3656032.0,
+   "asset": "RRM.541",
+   "label_d": 587147.8974577019,
+   "fill": "12A5B8",
+   "line": "12A5B8",
+   "d": 58522,
+   "type": "Runway guard light / RRM"
+  },
+  {
+   "px": 4928624.0,
+   "py": 8152734.0,
+   "asset": "X_CV_STH_PITS &.27154",
+   "label_d": 266530.9816925605,
+   "fill": "12A5B8",
+   "line": "12A5B8",
+   "d": 58522,
+   "type": "Existing transformer pit"
+  },
+  {
+   "px": 7952848.0,
+   "py": 7785035.0,
+   "asset": "TCC103.11.020",
+   "label_d": 484353.9923754113,
+   "fill": "12A5B8",
+   "line": "12A5B8",
+   "d": 58522,
+   "type": "Taxiway centreline light"
+  },
+  {
+   "px": 9047614.0,
+   "py": 8666987.0,
+   "asset": "TCC103.11.019",
+   "label_d": 587147.8974577019,
+   "fill": "12A5B8",
+   "line": "12A5B8",
+   "d": 58522,
+   "type": "Taxiway centreline light"
+  },
+  {
+   "px": 7409208.0,
+   "py": 7339754.0,
+   "asset": "TCCECH-04/036",
+   "label_d": 517359.26929455897,
+   "fill": "12A5B8",
+   "line": "12A5B8",
+   "d": 58522,
+   "type": "Taxiway centreline light"
+  },
+  {
+   "px": 6454914.0,
+   "py": 4726559.0,
+   "asset": "TEC102.02.047",
+   "label_d": 587147.8974577019,
+   "fill": "12A5B8",
+   "line": "12A5B8",
+   "d": 58522,
+   "type": "Taxiway centreline light"
+  },
+  {
+   "px": 7621086.0,
+   "py": 5506316.0,
+   "asset": "TEC102.02.048",
+   "label_d": 587147.8974577019,
+   "fill": "12A5B8",
+   "line": "12A5B8",
+   "d": 58522,
+   "type": "Taxiway centreline light"
+  },
+  {
+   "px": 8453906.0,
+   "py": 5937278.0,
+   "asset": "TEC102.02.048",
+   "label_d": 529273.8315210757,
+   "fill": "12A5B8",
+   "line": "12A5B8",
+   "d": 58522,
+   "type": "Taxiway centreline light"
+  },
+  {
+   "px": 8497985.0,
+   "py": 4282963.0,
+   "asset": "HH.E6.034",
+   "label_d": 282646.079389048,
+   "fill": "12A5B8",
+   "line": "12A5B8",
+   "d": 58522,
+   "type": "Existing handhole"
+  },
+  {
+   "px": 3059529.0,
+   "py": 3849193.0,
+   "asset": "TCCECH.04.016",
+   "label_d": 462051.31891706574,
+   "fill": "12A5B8",
+   "line": "12A5B8",
+   "d": 58522,
+   "type": "Taxiway centreline light"
+  },
+  {
+   "px": 2535449.0,
+   "py": 3428525.0,
+   "asset": "TCCECH.03.016",
+   "label_d": 460915.0950229337,
+   "fill": "12A5B8",
+   "line": "12A5B8",
+   "d": 58522,
+   "type": "Taxiway centreline light"
+  },
+  {
+   "px": 2013240.0,
+   "py": 3009260.0,
+   "asset": "TCCECH.04.015",
+   "label_d": 462125.93778103386,
+   "fill": "12A5B8",
+   "line": "12A5B8",
+   "d": 58522,
+   "type": "Taxiway centreline light"
+  },
+  {
+   "px": 1489722.0,
+   "py": 2588593.0,
+   "asset": "TCCECH.03.015",
+   "label_d": 460622.8332377803,
+   "fill": "12A5B8",
+   "line": "12A5B8",
+   "d": 58522,
+   "type": "Taxiway centreline light"
+  },
+  {
+   "px": 968075.0,
+   "py": 2169703.0,
+   "asset": "TCCECH.03.015",
+   "label_d": 587147.8974577019,
+   "fill": "12A5B8",
+   "line": "12A5B8",
+   "d": 58522,
+   "type": "Taxiway centreline light"
+  },
+  {
+   "px": 3334952.0,
+   "py": 5328315.0,
+   "asset": "SBC102.02.027",
+   "label_d": 587147.8340673667,
+   "fill": "12A5B8",
+   "line": "12A5B8",
+   "d": 58522,
+   "type": "Stop bar light"
+  },
+  {
+   "px": 9112469.0,
+   "py": 8630957.0,
+   "asset": "TCC103.11.019",
+   "label_d": 521113.35872725426,
+   "fill": "12A5B8",
+   "line": "12A5B8",
+   "d": 58522,
+   "type": "Taxiway centreline light"
+  },
+  {
+   "px": 6493471.0,
+   "py": 8162373.0,
+   "asset": "TCCECH.03.038",
+   "label_d": 587147.8974577019,
+   "fill": "12A5B8",
+   "line": "12A5B8",
+   "d": 58522,
+   "type": "Taxiway centreline light"
+  },
+  {
+   "px": 6717890.0,
+   "py": 8793515.0,
+   "asset": "TCCECH.04.037",
+   "label_d": 587147.8974577019,
+   "fill": "12A5B8",
+   "line": "12A5B8",
+   "d": 58522,
+   "type": "Taxiway centreline light"
+  },
+  {
+   "px": 6925931.0,
+   "py": 9474164.0,
+   "asset": "TCCECH.03.039",
+   "label_d": 587147.8340673667,
+   "fill": "12A5B8",
+   "line": "12A5B8",
+   "d": 58522,
+   "type": "Taxiway centreline light"
+  },
+  {
+   "px": 7066778.0,
+   "py": 10153410.0,
+   "asset": "TCCECH.04.038",
+   "label_d": 587147.8974577019,
+   "fill": "12A5B8",
+   "line": "12A5B8",
+   "d": 58522,
+   "type": "Taxiway centreline light"
+  },
+  {
+   "px": 9117616.0,
+   "py": 8314918.0,
+   "asset": "TCCECH.03.020",
+   "label_d": 302889.5906200806,
+   "fill": "12A5B8",
+   "line": "12A5B8",
+   "d": 58522,
+   "type": "Taxiway centreline light"
+  },
+  {
+   "px": 8466914.0,
+   "py": 8056247.0,
+   "asset": "TCC103.12.019",
+   "label_d": 316701.60818031855,
+   "fill": "12A5B8",
+   "line": "12A5B8",
+   "d": 58522,
+   "type": "Taxiway centreline light"
+  },
+  {
+   "px": 5241294.0,
+   "py": 3169760.0,
+   "asset": "SBC102-01/026",
+   "label_d": 489862.0048595318,
+   "fill": "12A5B8",
+   "line": "12A5B8",
+   "d": 58522,
+   "type": "Stop bar light"
+  },
+  {
+   "px": 1935751.0,
+   "py": 5488347.0,
+   "asset": "HH.E6.039",
+   "label_d": 559014.3595472302,
+   "fill": "12A5B8",
+   "line": "12A5B8",
+   "d": 58522,
+   "type": "Existing handhole"
+  },
+  {
+   "px": 4133239.0,
+   "py": 8025083.0,
+   "asset": "HH.E6.041",
+   "label_d": 306422.7758897827,
+   "fill": "12A5B8",
+   "line": "12A5B8",
+   "d": 58522,
+   "type": "Existing handhole"
+  },
+  {
+   "px": 2291003.0,
+   "py": 796519.0,
+   "asset": "TCCECH.03.015",
+   "label_d": 1525749.4305478209,
+   "fill": "12A5B8",
+   "line": "12A5B8",
+   "d": 58522,
+   "type": "Taxiway centreline light"
+  },
+  {
+   "px": 8502664.0,
+   "py": 5683099.0,
+   "asset": "TEC102.02.048",
+   "label_d": 364942.6630718859,
+   "fill": "12A5B8",
+   "line": "12A5B8",
+   "d": 58522,
+   "type": "Taxiway centreline light"
+  },
+  {
+   "px": 5521022.0,
+   "py": 2355190.0,
+   "asset": "HH.E6.038",
+   "label_d": 587147.8974577019,
+   "fill": "12A5B8",
+   "line": "12A5B8",
+   "d": 58522,
+   "type": "Existing handhole"
+  },
+  {
+   "px": 5746189.0,
+   "py": 2514566.0,
+   "asset": "HH.E6.038",
+   "label_d": 410885.17522052315,
+   "fill": "12A5B8",
+   "line": "12A5B8",
+   "d": 58522,
+   "type": "Existing handhole"
+  },
+  {
+   "px": 6759068.0,
+   "py": 3247436.0,
+   "asset": "HH.E6.036",
+   "label_d": 587147.8974577019,
+   "fill": "12A5B8",
+   "line": "12A5B8",
+   "d": 58522,
+   "type": "Existing handhole"
+  },
+  {
+   "px": 7724966.0,
+   "py": 3958688.0,
+   "asset": "HH.E6.035",
+   "label_d": 587147.8974577019,
+   "fill": "12A5B8",
+   "line": "12A5B8",
+   "d": 58522,
+   "type": "Existing handhole"
+  },
+  {
+   "px": 2827998.0,
+   "py": 7173172.0,
+   "asset": "HH.E6.040",
+   "label_d": 587147.8974577019,
+   "fill": "12A5B8",
+   "line": "12A5B8",
+   "d": 58522,
+   "type": "Existing handhole"
+  },
+  {
+   "px": 3567232.0,
+   "py": 8368074.0,
+   "asset": "HH.E6.041",
+   "label_d": 587147.8340673667,
+   "fill": "12A5B8",
+   "line": "12A5B8",
+   "d": 58522,
+   "type": "Existing handhole"
+  },
+  {
+   "px": 4196222.0,
+   "py": 9903255.0,
+   "asset": "HH.E6.042",
+   "label_d": 587147.8974577019,
+   "fill": "12A5B8",
+   "line": "12A5B8",
+   "d": 58522,
+   "type": "Existing handhole"
+  },
+  {
+   "px": 8193831.0,
+   "py": 4298498.0,
+   "asset": "HH.E6.035",
+   "label_d": 394796.7822867861,
+   "fill": "12A5B8",
+   "line": "12A5B8",
+   "d": 58522,
+   "type": "Existing handhole"
+  },
+  {
+   "px": 9031236.0,
+   "py": 4748365.0,
+   "asset": "HH.E6.033",
+   "label_d": 505378.8144639623,
+   "fill": "12A5B8",
+   "line": "12A5B8",
+   "d": 58522,
+   "type": "Existing handhole"
+  },
+  {
+   "px": 1699822.0,
+   "py": 5961423.0,
+   "asset": "HH.E6.039",
+   "label_d": 587147.8974577019,
+   "fill": "12A5B8",
+   "line": "12A5B8",
+   "d": 58522,
+   "type": "Existing handhole"
+  },
+  {
+   "px": 3321476.0,
+   "py": 1612587.0,
+   "asset": "P6.009",
+   "label_d": 587147.8974577019,
+   "fill": "12A5B8",
+   "line": "12A5B8",
+   "d": 58522,
+   "type": "Existing transformer pit"
+  },
+  {
+   "px": 886842.0,
+   "py": 4640835.0,
+   "asset": "P6.038",
+   "label_d": 587147.8974577019,
+   "fill": "12A5B8",
+   "line": "12A5B8",
+   "d": 58522,
+   "type": "Existing transformer pit"
+  },
+  {
+   "px": 791853.0,
+   "py": 5199261.0,
+   "asset": "MH.E.024",
+   "label_d": 587147.8974577019,
+   "fill": "12A5B8",
+   "line": "12A5B8",
+   "d": 58522,
+   "type": "Existing manhole"
+  },
+  {
+   "px": 3992954.0,
+   "py": 1209138.0,
+   "asset": "P6.009",
+   "label_d": 376079.52824103576,
+   "fill": "12A5B8",
+   "line": "12A5B8",
+   "d": 58522,
+   "type": "Existing transformer pit"
+  },
+  {
+   "px": 4218402.0,
+   "py": 2467867.0,
+   "asset": "X_CV_STH_PITS &.23918",
+   "label_d": 587146.899468949,
+   "fill": "12A5B8",
+   "line": "12A5B8",
+   "d": 58522,
+   "type": "Existing transformer pit"
+  },
+  {
+   "px": 1585928.0,
+   "py": 6806877.0,
+   "asset": "SGC102.02.017",
+   "label_d": 587147.8974577019,
+   "fill": "12A5B8",
+   "line": "12A5B8",
+   "d": 58522,
+   "type": "Sign foundation"
+  },
+  {
+   "px": 5902852.0,
+   "py": 2299787.0,
+   "asset": "HH.E6.038",
+   "label_d": 204945.20306169646,
+   "fill": "12A5B8",
+   "line": "12A5B8",
+   "d": 58522,
+   "type": "Existing handhole"
+  },
+  {
+   "px": 9316205.0,
+   "py": 6295056.0,
+   "asset": "TEC102.02.049",
+   "label_d": 482060.986004883,
+   "fill": "12A5B8",
+   "line": "12A5B8",
+   "d": 58522,
+   "type": "Taxiway centreline light"
+  },
+  {
+   "px": 10396728.0,
+   "py": 8912657.0,
+   "asset": "TCC103.11.027",
+   "label_d": 767672.9014782272,
+   "fill": "12A5B8",
+   "line": "12A5B8",
+   "d": 91440,
+   "type": "Taxiway centreline light"
+  },
+  {
+   "px": 10401300.0,
+   "py": 7541057.0,
+   "asset": "TCCECH.04.019",
+   "label_d": 1014617.6496444362,
+   "fill": "0055CC",
+   "line": "0055CC",
+   "d": 100584,
+   "type": "Taxiway centreline light"
+  },
+  {
+   "px": 10401300.0,
+   "py": 7815377.0,
+   "asset": "TCCECH.04.019",
+   "label_d": 836988.4820772625,
+   "fill": "E8710A",
+   "line": "E8710A",
+   "d": 100584,
+   "type": "Taxiway centreline light"
+  },
+  {
+   "px": 10401300.0,
+   "py": 8089697.0,
+   "asset": "TCCECH.04.019",
+   "label_d": 722601.8184934218,
+   "fill": "1E8E3E",
+   "line": "1E8E3E",
+   "d": 100584,
+   "type": "Taxiway centreline light"
+  },
+  {
+   "px": 10401300.0,
+   "py": 8364017.0,
+   "asset": "TCCECH.04.019",
+   "label_d": 703036.2592711701,
+   "fill": "1E8E3E",
+   "line": "1E8E3E",
+   "d": 100584,
+   "type": "Taxiway centreline light"
+  },
+  {
+   "px": 4384516.0,
+   "py": 4015681.0,
+   "asset": "SBC102-02/025",
+   "label_d": 453116.92765223415,
+   "fill": "0055CC",
+   "line": "0055CC",
+   "d": 109728,
+   "type": "Stop bar light"
+  },
+  {
+   "px": 4208762.0,
+   "py": 4234766.0,
+   "asset": "SBC102-01/028",
+   "label_d": 452984.9714615265,
+   "fill": "0055CC",
+   "line": "0055CC",
+   "d": 109728,
+   "type": "Stop bar light"
+  },
+  {
+   "px": 4032914.0,
+   "py": 4453756.0,
+   "asset": "SBC102-02/026",
+   "label_d": 453055.91942386096,
+   "fill": "0055CC",
+   "line": "0055CC",
+   "d": 109728,
+   "type": "Stop bar light"
+  },
+  {
+   "px": 3857067.0,
+   "py": 4672747.0,
+   "asset": "SBC102-01/029",
+   "label_d": 453054.5076930589,
+   "fill": "0055CC",
+   "line": "0055CC",
+   "d": 109728,
+   "type": "Stop bar light"
+  },
+  {
+   "px": 3681313.0,
+   "py": 4891738.0,
+   "asset": "SBC102-02/027",
+   "label_d": 456063.71047256107,
+   "fill": "0055CC",
+   "line": "0055CC",
+   "d": 109728,
+   "type": "Stop bar light"
+  },
+  {
+   "px": 3505465.0,
+   "py": 5110728.0,
+   "asset": "SBC102.02.027",
+   "label_d": 452917.9192083263,
+   "fill": "0055CC",
+   "line": "0055CC",
+   "d": 109728,
+   "type": "Stop bar light"
+  },
+  {
+   "px": 4604349.0,
+   "py": 5228085.0,
+   "asset": "SBC102-01/029",
+   "label_d": 481311.7050654389,
+   "fill": "E8710A",
+   "line": "E8710A",
+   "d": 109728,
+   "type": "Stop bar light"
+  },
+  {
+   "px": 5063387.0,
+   "py": 5758716.0,
+   "asset": "TCCECH-03/036",
+   "label_d": 703865.3024435855,
+   "fill": "E8710A",
+   "line": "E8710A",
+   "d": 109728,
+   "type": "Taxiway centreline light"
+  },
+  {
+   "px": 5484617.0,
+   "py": 6320605.0,
+   "asset": "TCCECH-04/035",
+   "label_d": 703865.3024435855,
+   "fill": "E8710A",
+   "line": "E8710A",
+   "d": 109728,
+   "type": "Taxiway centreline light"
+  },
+  {
+   "px": 5864856.0,
+   "py": 6909915.0,
+   "asset": "TCCECH-03/037",
+   "label_d": 703865.3024435855,
+   "fill": "E8710A",
+   "line": "E8710A",
+   "d": 109728,
+   "type": "Taxiway centreline light"
+  },
+  {
+   "px": 6203730.0,
+   "py": 7525147.0,
+   "asset": "TCCECH-04/036",
+   "label_d": 703865.3024435855,
+   "fill": "E8710A",
+   "line": "E8710A",
+   "d": 109728,
+   "type": "Taxiway centreline light"
+  },
+  {
+   "px": 4106473.0,
+   "py": 4732361.0,
+   "asset": "SBC102-01/029",
+   "label_d": 257228.96676890805,
+   "fill": "1E8E3E",
+   "line": "1E8E3E",
+   "d": 109728,
+   "type": "Stop bar light"
+  },
+  {
+   "px": 4151675.0,
+   "py": 4726278.0,
+   "asset": "SBC102-02/026",
+   "label_d": 221822.65461399563,
+   "fill": "1E8E3E",
+   "line": "1E8E3E",
+   "d": 109728,
+   "type": "Stop bar light"
+  },
+  {
+   "px": 10401300.0,
+   "py": 8638337.0,
+   "asset": "TCC103.11.027",
+   "label_d": 704277.6174890127,
+   "fill": null,
+   "line": "9AA0A6",
+   "d": 192024,
+   "type": "Taxiway centreline light"
+  },
+  {
+   "px": 4560364.0,
+   "py": 3796691.0,
+   "asset": "SBC102-01/027",
+   "label_d": 453116.92765223415,
+   "fill": null,
+   "line": "9AA0A6",
+   "d": 210312,
+   "type": "Stop bar light"
+  }
+ ],
+ "LOC-02": [
+  {
+   "px": 5803107.0,
+   "py": 7912151.0,
+   "asset": "RRM.545",
+   "label_d": 584978.1934482687,
+   "fill": "12A5B8",
+   "line": "12A5B8",
+   "d": 58522,
+   "type": "Runway guard light / RRM"
+  },
+  {
+   "px": 2389371.0,
+   "py": 5162396.0,
+   "asset": "RRM.546",
+   "label_d": 584978.1934482687,
+   "fill": "12A5B8",
+   "line": "12A5B8",
+   "d": 58522,
+   "type": "Runway guard light / RRM"
+  },
+  {
+   "px": 7148346.0,
+   "py": 6234571.0,
+   "asset": "RRM.554",
+   "label_d": 584978.1934482687,
+   "fill": "12A5B8",
+   "line": "12A5B8",
+   "d": 58522,
+   "type": "Runway guard light / RRM"
+  },
+  {
+   "px": 1671987.0,
+   "py": 1836612.0,
+   "asset": "RRM.556",
+   "label_d": 584978.1934482687,
+   "fill": "12A5B8",
+   "line": "12A5B8",
+   "d": 58522,
+   "type": "Runway guard light / RRM"
+  },
+  {
+   "px": 2505033.0,
+   "py": 2025670.0,
+   "asset": "RRM.556",
+   "label_d": 335375.20112554537,
+   "fill": "12A5B8",
+   "line": "12A5B8",
+   "d": 58522,
+   "type": "Runway guard light / RRM"
+  },
+  {
+   "px": 9202989.0,
+   "py": 9351041.0,
+   "asset": "TCCECH.03.010",
+   "label_d": 584978.1934482687,
+   "fill": "12A5B8",
+   "line": "12A5B8",
+   "d": 58522,
+   "type": "Taxiway centreline light"
+  },
+  {
+   "px": 8176150.0,
+   "py": 8526939.0,
+   "asset": "TCCECH.04.009",
+   "label_d": 584977.1952862778,
+   "fill": "12A5B8",
+   "line": "12A5B8",
+   "d": 58522,
+   "type": "Taxiway centreline light"
+  },
+  {
+   "px": 4070722.0,
+   "py": 5230794.0,
+   "asset": "TCCECH.04.007",
+   "label_d": 584978.1934482687,
+   "fill": "12A5B8",
+   "line": "12A5B8",
+   "d": 58522,
+   "type": "Taxiway centreline light"
+  },
+  {
+   "px": 3046250.0,
+   "py": 4407218.0,
+   "asset": "TCCECH.03.007",
+   "label_d": 584978.1934482687,
+   "fill": "12A5B8",
+   "line": "12A5B8",
+   "d": 58522,
+   "type": "Taxiway centreline light"
+  },
+  {
+   "px": 2019762.0,
+   "py": 3584869.0,
+   "asset": "TCCECH.04.006",
+   "label_d": 584978.1328468613,
+   "fill": "12A5B8",
+   "line": "12A5B8",
+   "d": 58522,
+   "type": "Taxiway centreline light"
+  },
+  {
+   "px": 993361.0,
+   "py": 2761294.0,
+   "asset": "TCCECH.03.006",
+   "label_d": 584978.1934482687,
+   "fill": "12A5B8",
+   "line": "12A5B8",
+   "d": 58522,
+   "type": "Taxiway centreline light"
+  },
+  {
+   "px": 5097561.0,
+   "py": 6055860.0,
+   "asset": "TCCECH.03.008",
+   "label_d": 584978.1934482687,
+   "fill": "12A5B8",
+   "line": "12A5B8",
+   "d": 58522,
+   "type": "Taxiway centreline light"
+  },
+  {
+   "px": 6124576.0,
+   "py": 6879173.0,
+   "asset": "TCCECH.04.008",
+   "label_d": 584978.1934482687,
+   "fill": "12A5B8",
+   "line": "12A5B8",
+   "d": 58522,
+   "type": "Taxiway centreline light"
+  },
+  {
+   "px": 7149310.0,
+   "py": 7702048.0,
+   "asset": "TCCECH.03.009",
+   "label_d": 584978.1934482687,
+   "fill": "12A5B8",
+   "line": "12A5B8",
+   "d": 58522,
+   "type": "Taxiway centreline light"
+  },
+  {
+   "px": 5599669.0,
+   "py": 4187030.0,
+   "asset": "P2.002",
+   "label_d": 584978.1934482687,
+   "fill": "12A5B8",
+   "line": "12A5B8",
+   "d": 58522,
+   "type": "Existing transformer pit"
+  },
+  {
+   "px": 5945076.0,
+   "py": 3755600.0,
+   "asset": "P2.002",
+   "label_d": 450938.3694131605,
+   "fill": "12A5B8",
+   "line": "12A5B8",
+   "d": 58522,
+   "type": "Existing transformer pit"
+  },
+  {
+   "px": 4797752.0,
+   "py": 2696316.0,
+   "asset": "HH.E.056",
+   "label_d": 584978.1934482687,
+   "fill": "12A5B8",
+   "line": "12A5B8",
+   "d": 58522,
+   "type": "Existing handhole"
+  },
+  {
+   "px": 10396728.0,
+   "py": 7627010.0,
+   "asset": "TCCECH.03.010",
+   "label_d": 1795327.926395621,
+   "fill": "12A5B8",
+   "line": "12A5B8",
+   "d": 91440,
+   "type": "Taxiway centreline light"
+  },
+  {
+   "px": 10401300.0,
+   "py": 7078370.0,
+   "asset": "TCCECH.04.009",
+   "label_d": 2165778.7235606504,
+   "fill": "1E8E3E",
+   "line": "1E8E3E",
+   "d": 100584,
+   "type": "Taxiway centreline light"
+  },
+  {
+   "px": 10401300.0,
+   "py": 7352690.0,
+   "asset": "TCCECH.04.009",
+   "label_d": 1997637.5753144012,
+   "fill": "FFFFFF",
+   "line": "FFFFFF",
+   "d": 100584,
+   "type": "Taxiway centreline light"
+  },
+  {
+   "px": 3725665.0,
+   "py": 3484641.0,
+   "asset": "RRM.555",
+   "label_d": 703865.3024435855,
+   "fill": "FFFFFF",
+   "line": "FFFFFF",
+   "d": 109728,
+   "type": "Runway guard light / RRM"
+  }
+ ],
+ "LOC-03": [
+  {
+   "px": 8131389.0,
+   "py": 6989251.0,
+   "asset": "RRM.283",
+   "label_d": 589652.2486898528,
+   "fill": "12A5B8",
+   "line": "12A5B8",
+   "d": 58522,
+   "type": "Runway guard light / RRM"
+  },
+  {
+   "px": 4506817.0,
+   "py": 2767442.0,
+   "asset": "P4.036.399",
+   "label_d": 589652.2486898528,
+   "fill": "12A5B8",
+   "line": "12A5B8",
+   "d": 58522,
+   "type": "Existing transformer pit"
+  },
+  {
+   "px": 8138616.0,
+   "py": 8683595.0,
+   "asset": "TCCECH.03.005",
+   "label_d": 511029.36219849443,
+   "fill": "12A5B8",
+   "line": "12A5B8",
+   "d": 58522,
+   "type": "Taxiway centreline light"
+  },
+  {
+   "px": 6965925.0,
+   "py": 7742371.0,
+   "asset": "TCCECH.03.004",
+   "label_d": 511626.1143061406,
+   "fill": "12A5B8",
+   "line": "12A5B8",
+   "d": 58522,
+   "type": "Taxiway centreline light"
+  },
+  {
+   "px": 4281172.0,
+   "py": 7045963.0,
+   "asset": "RRM.547",
+   "label_d": 589652.2486898528,
+   "fill": "12A5B8",
+   "line": "12A5B8",
+   "d": 58522,
+   "type": "Runway guard light / RRM"
+  },
+  {
+   "px": 2580203.0,
+   "py": 5871265.0,
+   "asset": "P4.041",
+   "label_d": 501683.6578183507,
+   "fill": "12A5B8",
+   "line": "12A5B8",
+   "d": 58522,
+   "type": "Existing transformer pit"
+  },
+  {
+   "px": 3276912.0,
+   "py": 2635247.0,
+   "asset": "RRM.558",
+   "label_d": 589651.250908535,
+   "fill": "12A5B8",
+   "line": "12A5B8",
+   "d": 58522,
+   "type": "Runway guard light / RRM"
+  },
+  {
+   "px": 2329264.0,
+   "py": 1473397.0,
+   "asset": "RRM.559",
+   "label_d": 589651.250908535,
+   "fill": "12A5B8",
+   "line": "12A5B8",
+   "d": 58522,
+   "type": "Runway guard light / RRM"
+  },
+  {
+   "px": 1278830.0,
+   "py": 5148358.0,
+   "asset": "RRM.655",
+   "label_d": 589652.2486898528,
+   "fill": "12A5B8",
+   "line": "12A5B8",
+   "d": 58522,
+   "type": "Runway guard light / RRM"
+  },
+  {
+   "px": 4358763.0,
+   "py": 3688090.0,
+   "asset": "RRM.669",
+   "label_d": 589651.250908535,
+   "fill": "12A5B8",
+   "line": "12A5B8",
+   "d": 58522,
+   "type": "Runway guard light / RRM"
+  },
+  {
+   "px": 2760378.0,
+   "py": 7843148.0,
+   "asset": "HH.E.144",
+   "label_d": 589651.250908535,
+   "fill": "12A5B8",
+   "line": "12A5B8",
+   "d": 58522,
+   "type": "Existing handhole"
+  },
+  {
+   "px": 9313315.0,
+   "py": 9627229.0,
+   "asset": "TCCECH.03.006",
+   "label_d": 589651.250908535,
+   "fill": "12A5B8",
+   "line": "12A5B8",
+   "d": 58522,
+   "type": "Taxiway centreline light"
+  },
+  {
+   "px": 6377924.0,
+   "py": 7270002.0,
+   "asset": "TCCECH.04.003",
+   "label_d": 509017.3308955207,
+   "fill": "12A5B8",
+   "line": "12A5B8",
+   "d": 58522,
+   "type": "Taxiway centreline light"
+  },
+  {
+   "px": 5788416.0,
+   "py": 6800243.0,
+   "asset": "TCCECH.03.003",
+   "label_d": 511739.77674302395,
+   "fill": "12A5B8",
+   "line": "12A5B8",
+   "d": 58522,
+   "type": "Taxiway centreline light"
+  },
+  {
+   "px": 5203827.0,
+   "py": 6327774.0,
+   "asset": "TCCECH.04.002",
+   "label_d": 513131.0035078761,
+   "fill": "12A5B8",
+   "line": "12A5B8",
+   "d": 58522,
+   "type": "Taxiway centreline light"
+  },
+  {
+   "px": 4615424.0,
+   "py": 5853899.0,
+   "asset": "SBC102-02/037",
+   "label_d": 358103.6535767263,
+   "fill": "12A5B8",
+   "line": "12A5B8",
+   "d": 58522,
+   "type": "Stop bar light"
+  },
+  {
+   "px": 7552823.0,
+   "py": 8211829.0,
+   "asset": "TCCECH.04.004",
+   "label_d": 508717.0550915312,
+   "fill": "12A5B8",
+   "line": "12A5B8",
+   "d": 58522,
+   "type": "Taxiway centreline light"
+  },
+  {
+   "px": 590453.0,
+   "py": 3344302.0,
+   "asset": "TCCECH.05.034",
+   "label_d": 589651.250908535,
+   "fill": "12A5B8",
+   "line": "12A5B8",
+   "d": 58522,
+   "type": "Taxiway centreline light"
+  },
+  {
+   "px": 1964498.0,
+   "py": 3953885.0,
+   "asset": "TCCECH.06.036",
+   "label_d": 379617.94930166303,
+   "fill": "12A5B8",
+   "line": "12A5B8",
+   "d": 58522,
+   "type": "Taxiway centreline light"
+  },
+  {
+   "px": 2615937.0,
+   "py": 4334109.0,
+   "asset": "TCCECH.05.033",
+   "label_d": 424199.7342962393,
+   "fill": "12A5B8",
+   "line": "12A5B8",
+   "d": 58522,
+   "type": "Taxiway centreline light"
+  },
+  {
+   "px": 1289069.0,
+   "py": 3623648.0,
+   "asset": "TCCECH.05.034",
+   "label_d": 337146.8613794291,
+   "fill": "12A5B8",
+   "line": "12A5B8",
+   "d": 58522,
+   "type": "Taxiway centreline light"
+  },
+  {
+   "px": 852434.0,
+   "py": 3283575.0,
+   "asset": "TCCECH.05.034",
+   "label_d": 327067.44861572515,
+   "fill": "12A5B8",
+   "line": "12A5B8",
+   "d": 58522,
+   "type": "Taxiway centreline light"
+  },
+  {
+   "px": 1529368.0,
+   "py": 3595443.0,
+   "asset": "TCCECH.06.036",
+   "label_d": 348219.4317380924,
+   "fill": "12A5B8",
+   "line": "12A5B8",
+   "d": 58522,
+   "type": "Taxiway centreline light"
+  },
+  {
+   "px": 2195362.0,
+   "py": 3951576.0,
+   "asset": "TCCECH.05.033",
+   "label_d": 359383.34706132393,
+   "fill": "12A5B8",
+   "line": "12A5B8",
+   "d": 58522,
+   "type": "Taxiway centreline light"
+  },
+  {
+   "px": 2830139.0,
+   "py": 4351674.0,
+   "asset": "TCCECH.06.035",
+   "label_d": 378431.27191737207,
+   "fill": "12A5B8",
+   "line": "12A5B8",
+   "d": 58522,
+   "type": "Taxiway centreline light"
+  },
+  {
+   "px": 4027824.0,
+   "py": 5385144.0,
+   "asset": "SBC102.02.037",
+   "label_d": 389178.9636568246,
+   "fill": "12A5B8",
+   "line": "12A5B8",
+   "d": 58522,
+   "type": "Stop bar light"
+  },
+  {
+   "px": 3897134.0,
+   "py": 5472070.0,
+   "asset": "SBC102.02.037",
+   "label_d": 443867.44662455254,
+   "fill": "12A5B8",
+   "line": "12A5B8",
+   "d": 58522,
+   "type": "Stop bar light"
+  },
+  {
+   "px": 3707324.0,
+   "py": 5706748.0,
+   "asset": "SBC102.01.041",
+   "label_d": 445394.43695335934,
+   "fill": "12A5B8",
+   "line": "12A5B8",
+   "d": 58522,
+   "type": "Stop bar light"
+  },
+  {
+   "px": 3518918.0,
+   "py": 5942029.0,
+   "asset": "RRM.548",
+   "label_d": 367238.9659091203,
+   "fill": "12A5B8",
+   "line": "12A5B8",
+   "d": 58522,
+   "type": "Runway guard light / RRM"
+  },
+  {
+   "px": 3331316.0,
+   "py": 6177110.0,
+   "asset": "RRM.548",
+   "label_d": 381561.4469059997,
+   "fill": "12A5B8",
+   "line": "12A5B8",
+   "d": 58522,
+   "type": "Runway guard light / RRM"
+  },
+  {
+   "px": 1090826.0,
+   "py": 3028420.0,
+   "asset": "TCCECH.05.034",
+   "label_d": 290275.9230887054,
+   "fill": "12A5B8",
+   "line": "12A5B8",
+   "d": 58522,
+   "type": "Taxiway centreline light"
+  },
+  {
+   "px": 2267532.0,
+   "py": 3975867.0,
+   "asset": "TCCECH.05.033",
+   "label_d": 291807.19765283377,
+   "fill": "12A5B8",
+   "line": "12A5B8",
+   "d": 58522,
+   "type": "Taxiway centreline light"
+  },
+  {
+   "px": 3240174.0,
+   "py": 4754182.0,
+   "asset": "TCCECH.06.019",
+   "label_d": 404374.0653652259,
+   "fill": "12A5B8",
+   "line": "12A5B8",
+   "d": 58522,
+   "type": "Taxiway centreline light"
+  },
+  {
+   "px": 561545.0,
+   "py": 1477211.0,
+   "asset": "TCCECH.05.016",
+   "label_d": 589651.250908535,
+   "fill": "12A5B8",
+   "line": "12A5B8",
+   "d": 58522,
+   "type": "Taxiway centreline light"
+  },
+  {
+   "px": 1347387.0,
+   "py": 2759312.0,
+   "asset": "TCC102.01.052",
+   "label_d": 403622.8949031509,
+   "fill": "12A5B8",
+   "line": "12A5B8",
+   "d": 58522,
+   "type": "Taxiway centreline light"
+  },
+  {
+   "px": 2855534.0,
+   "py": 4444121.0,
+   "asset": "TCCECH.06.035",
+   "label_d": 379348.1341419778,
+   "fill": "12A5B8",
+   "line": "12A5B8",
+   "d": 58522,
+   "type": "Taxiway centreline light"
+  },
+  {
+   "px": 929924.0,
+   "py": 2131662.0,
+   "asset": "TCCECH.06.017",
+   "label_d": 589651.250908535,
+   "fill": "12A5B8",
+   "line": "12A5B8",
+   "d": 58522,
+   "type": "Taxiway centreline light"
+  },
+  {
+   "px": 1808413.0,
+   "py": 3353838.0,
+   "asset": "TCCECH.06.036",
+   "label_d": 240656.49338839788,
+   "fill": "12A5B8",
+   "line": "12A5B8",
+   "d": 58522,
+   "type": "Taxiway centreline light"
+  },
+  {
+   "px": 3444339.0,
+   "py": 4916991.0,
+   "asset": "TCCECH.03.001",
+   "label_d": 434078.53252263006,
+   "fill": "12A5B8",
+   "line": "12A5B8",
+   "d": 58522,
+   "type": "Taxiway centreline light"
+  },
+  {
+   "px": 2313404.0,
+   "py": 3911526.0,
+   "asset": "TCCECH.05.033",
+   "label_d": 239457.0929686569,
+   "fill": "12A5B8",
+   "line": "12A5B8",
+   "d": 58522,
+   "type": "Taxiway centreline light"
+  },
+  {
+   "px": 5486486.0,
+   "py": 3840862.0,
+   "asset": "SBC102-01/038",
+   "label_d": 571200.1944441196,
+   "fill": "12A5B8",
+   "line": "12A5B8",
+   "d": 58522,
+   "type": "Stop bar light"
+  },
+  {
+   "px": 8719190.0,
+   "py": 6554322.0,
+   "asset": "RRM.283",
+   "label_d": 395672.3725925276,
+   "fill": "12A5B8",
+   "line": "12A5B8",
+   "d": 58522,
+   "type": "Runway guard light / RRM"
+  },
+  {
+   "px": 9144784.0,
+   "py": 6083258.0,
+   "asset": "P4.039",
+   "label_d": 461459.47573866113,
+   "fill": "12A5B8",
+   "line": "12A5B8",
+   "d": 58522,
+   "type": "Existing transformer pit"
+  },
+  {
+   "px": 5772356.0,
+   "py": 3200564.0,
+   "asset": "HH.E.061",
+   "label_d": 589651.250908535,
+   "fill": "12A5B8",
+   "line": "12A5B8",
+   "d": 58522,
+   "type": "Existing handhole"
+  },
+  {
+   "px": 5983246.0,
+   "py": 3371002.0,
+   "asset": "P4.037",
+   "label_d": 406966.5224413428,
+   "fill": "12A5B8",
+   "line": "12A5B8",
+   "d": 58522,
+   "type": "Existing transformer pit"
+  },
+  {
+   "px": 4309880.0,
+   "py": 1774123.0,
+   "asset": "HH.E4.010",
+   "label_d": 589651.250908535,
+   "fill": "12A5B8",
+   "line": "12A5B8",
+   "d": 58522,
+   "type": "Existing handhole"
+  },
+  {
+   "px": 8039545.0,
+   "py": 5207981.0,
+   "asset": "HH.E.058",
+   "label_d": 589652.2486898528,
+   "fill": "12A5B8",
+   "line": "12A5B8",
+   "d": 58522,
+   "type": "Existing handhole"
+  },
+  {
+   "px": 7078647.0,
+   "py": 4223896.0,
+   "asset": "HH.E.059",
+   "label_d": 589652.2486898528,
+   "fill": "12A5B8",
+   "line": "12A5B8",
+   "d": 58522,
+   "type": "Existing handhole"
+  },
+  {
+   "px": 1676720.0,
+   "py": 6300873.0,
+   "asset": "MH.E.023",
+   "label_d": 291392.69378108985,
+   "fill": "12A5B8",
+   "line": "12A5B8",
+   "d": 58522,
+   "type": "Existing manhole"
+  },
+  {
+   "px": 4661296.0,
+   "py": 2069328.0,
+   "asset": "HH.E4.010",
+   "label_d": 409877.0947162088,
+   "fill": "12A5B8",
+   "line": "12A5B8",
+   "d": 58522,
+   "type": "Existing handhole"
+  },
+  {
+   "px": 1019560.0,
+   "py": 6623280.0,
+   "asset": "MH.E.023",
+   "label_d": 589651.250908535,
+   "fill": "12A5B8",
+   "line": "12A5B8",
+   "d": 58522,
+   "type": "Existing manhole"
+  },
+  {
+   "px": 1667586.0,
+   "py": 8376244.0,
+   "asset": "SGC102.02.015",
+   "label_d": 589651.250908535,
+   "fill": "12A5B8",
+   "line": "12A5B8",
+   "d": 58522,
+   "type": "Sign foundation"
+  },
+  {
+   "px": 5784903.0,
+   "py": 2371962.0,
+   "asset": "SGC102.02.014",
+   "label_d": 589651.250908535,
+   "fill": "12A5B8",
+   "line": "12A5B8",
+   "d": 58522,
+   "type": "Sign foundation"
+  },
+  {
+   "px": 10396728.0,
+   "py": 7901330.0,
+   "asset": "TCCECH.03.006",
+   "label_d": 1757798.4927357289,
+   "fill": "12A5B8",
+   "line": "12A5B8",
+   "d": 91440,
+   "type": "Taxiway centreline light"
+  },
+  {
+   "px": 10401300.0,
+   "py": 7078370.0,
+   "asset": "P4.039",
+   "label_d": 1230299.3886778129,
+   "fill": "1E8E3E",
+   "line": "1E8E3E",
+   "d": 100584,
+   "type": "Existing transformer pit"
+  },
+  {
+   "px": 10401300.0,
+   "py": 7352690.0,
+   "asset": "P4.039",
+   "label_d": 1377657.324366622,
+   "fill": "1E8E3E",
+   "line": "1E8E3E",
+   "d": 100584,
+   "type": "Existing transformer pit"
+  },
+  {
+   "px": 10401300.0,
+   "py": 7627010.0,
+   "asset": "P4.039",
+   "label_d": 1559726.1765390104,
+   "fill": "FFFFFF",
+   "line": "FFFFFF",
+   "d": 100584,
+   "type": "Existing transformer pit"
+  },
+  {
+   "px": 4650857.0,
+   "py": 4530444.0,
+   "asset": "SBC102-01/039",
+   "label_d": 458760.18350549997,
+   "fill": "1E8E3E",
+   "line": "1E8E3E",
+   "d": 109728,
+   "type": "Stop bar light"
+  },
+  {
+   "px": 4273042.0,
+   "py": 5003415.0,
+   "asset": "TCCECH.04.001",
+   "label_d": 271235.402115948,
+   "fill": "1E8E3E",
+   "line": "1E8E3E",
+   "d": 109728,
+   "type": "Taxiway centreline light"
+  },
+  {
+   "px": 4461748.0,
+   "py": 4766728.0,
+   "asset": "TCCECH.04.001",
+   "label_d": 443192.92006077897,
+   "fill": "1E8E3E",
+   "line": "1E8E3E",
+   "d": 109728,
+   "type": "Taxiway centreline light"
+  },
+  {
+   "px": 4085941.0,
+   "py": 5238696.0,
+   "asset": "TCCECH.04.001",
+   "label_d": 364869.95837558346,
+   "fill": "1E8E3E",
+   "line": "1E8E3E",
+   "d": 109728,
+   "type": "Taxiway centreline light"
+  },
+  {
+   "px": 6616115.0,
+   "py": 5673122.0,
+   "asset": "RRM.557",
+   "label_d": 703865.3024435855,
+   "fill": "FFFFFF",
+   "line": "FFFFFF",
+   "d": 109728,
+   "type": "Runway guard light / RRM"
+  },
+  {
+   "px": 5492408.0,
+   "py": 4686227.0,
+   "asset": "SBC102-01/038",
+   "label_d": 329652.3794696468,
+   "fill": "FFFFFF",
+   "line": "FFFFFF",
+   "d": 109728,
+   "type": "Stop bar light"
+  }
+ ]
+}
