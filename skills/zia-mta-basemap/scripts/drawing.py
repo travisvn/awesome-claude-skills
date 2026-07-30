@@ -103,17 +103,32 @@ def cluster_points(pts, gap: float = 200.0):
     return sorted(groups.values(), key=len, reverse=True)
 
 
+def assign_to_cluster(items, idx, pts, reach=75.0):
+    """Which of `items` [(label, coords)] belong to the cluster given by `idx`.
+
+    Proximity to the cluster's actual points, not a bbox overlap test: segment
+    clusters are long diagonals, so their bounding boxes overlap each other even
+    when the geometry is half a kilometre apart. A bbox test therefore pulls a
+    distant patch into a panel, which both draws it in the wrong place and inflates
+    the panel extent enough to drop the whole sheet a scale step.
+    """
+    import numpy as np
+    cp = np.asarray([pts[i] for i in idx], dtype=float)
+    out = []
+    for label, coords in items:
+        q = np.asarray(coords, dtype=float)
+        d = np.linalg.norm(q[:, None, :] - cp[None, :, :], axis=-1).min()
+        if d <= reach:
+            out.append((label, coords))
+    return out
+
+
 def _extent(idx, pts, rings, pad):
     xs = [pts[i][0] for i in idx]
     ys = [pts[i][1] for i in idx]
     for ring in rings:
-        rx = [p[0] for p in ring]
-        ry = [p[1] for p in ring]
-        # include a patch only if it overlaps this cluster's span
-        if (min(rx) <= max(xs) + pad and max(rx) >= min(xs) - pad
-                and min(ry) <= max(ys) + pad and max(ry) >= min(ys) - pad):
-            xs += rx
-            ys += ry
+        xs += [p[0] for p in ring]
+        ys += [p[1] for p in ring]
     return min(xs) - pad, min(ys) - pad, max(xs) + pad, max(ys) + pad
 
 
@@ -261,7 +276,16 @@ def sketch(fixtures, patches=None, strips=None, segments=None, routes=None,
     axes_w_mm = pw * (m["right"] - m["left"]) / (cols + (cols - 1) * m["wspace"])
     axes_h_mm = ph * (m["top"] - m["bottom"]) / (rows + (rows - 1) * m["hspace"])
 
-    extents = [_extent(g, pts, rings, pad=25.0) for g in groups]
+    # Patches and strips belong to the panel whose assets they sit among.
+    panel_patches = [assign_to_cluster(patches or [], g, pts) for g in groups]
+    panel_strips = [assign_to_cluster(strips or [], g, pts) for g in groups]
+    # Small pad on purpose. The axes box is a fixed size on the sheet, so whenever the
+    # geometry is smaller than the box the margin appears by itself; a generous pad
+    # here only risks tipping the extent past a scale step (933 m vs 910 m of paper
+    # at 1:5000 is the difference between 1:5000 and 1:10000, because the drafting
+    # series has no rung between them).
+    extents = [_extent(g, pts, [r for _, r in pp], pad=10.0)
+               for g, pp in zip(groups, panel_patches)]
     scale = _pick_scale(extents, axes_w_mm, axes_h_mm)
 
     ctx = None
@@ -276,7 +300,8 @@ def sketch(fixtures, patches=None, strips=None, segments=None, routes=None,
             ctx = ctx[[k not in key for k in zip(ctx.x, ctx.y, ctx.block)]]
 
     seen = {}
-    for k, (g, ext) in enumerate(zip(groups, extents)):
+    for k, (g, ext, pp, ps) in enumerate(zip(groups, extents, panel_patches,
+                                             panel_strips)):
         ax = fig.add_subplot(rows, cols, k + 1)
         ax._zia_paper = paper
         # centre each panel on its cluster at the shared scale
@@ -298,12 +323,12 @@ def sketch(fixtures, patches=None, strips=None, segments=None, routes=None,
                 q = wkt_coords(w)
                 ax.plot([p[0] for p in q], [p[1] for p in q], lw=0.8,
                         color="#8e44ad", alpha=0.75, zorder=3)
-        for label, ring in (patches or []):
+        for label, ring in pp:
             ax.fill([p[0] for p in ring], [p[1] for p in ring], color="#c0392b",
                     alpha=0.11, zorder=4)
             ax.plot([p[0] for p in ring], [p[1] for p in ring], color="#c0392b",
                     lw=1.5, zorder=5)
-        for label, ln in (strips or []):
+        for label, ln in ps:
             ax.plot([p[0] for p in ln], [p[1] for p in ln], color="#c0392b", lw=1.3,
                     ls=(0, (5, 3)), zorder=5)
 
