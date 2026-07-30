@@ -353,11 +353,13 @@ def main():
         extra = (" Shallow-base column blank on that sheet; confirmed \u2018NO\u2019 30.07.2026."
                  if slide is s3 else "")
         notes.append(
-            "7. Asset key: label prefix to as-built class, from the AGL asset survey "
-            "checked against the AGL duct-layout CAD. Civil items (HH / MH / pits / RRM) "
-            "plot about 2.1 m from the surveyed insertion point — set out from survey, not "
-            "from this sheet. A pit prefix can cover more than one civil class (manhole, "
-            "transformer handhole, earthing); confirm the individual pit before works."
+            "7. Existing assets carry the symbol of their as-built class — see legend. "
+            "Class is resolved from the AGL asset survey against the AGL duct-layout CAD; "
+            "where an asset is labelled the label governs. Where a works marker is drawn "
+            "the asset symbol sits beneath it, so legend counts include assets under "
+            "works markers. Civil items (handhole / manhole / pits / RRM) plot about "
+            "2.1 m from the surveyed insertion point — set out from survey, not from this "
+            "sheet, and confirm the individual pit before works."
         )
         notes.append(
             f"6. Rev P07: every asset on this sheet re-marked directly from field sheet "
@@ -400,7 +402,21 @@ def main():
              and sh.width is not None and abs(sh.width - Inches(0.21)) < Inches(0.02))._element)
     legend_problems = []
     for slide, loc in ((s2, "LOC-01"), (s3, "LOC-02"), (s4, "LOC-03")):
-        declared = legend.build(slide, loc, legend.load_asset_key(loc), square_tpl)
+        # give every existing asset the symbol of its as-built class, so the sheet
+        # distinguishes a centreline light from a handhole without reading the label.
+        # Classes come from asset_symbols.py; unclassified symbols keep the generic dot.
+        for rec in legend.load_symbols(loc):
+            cx, cy = Inches(rec["x"]), Inches(rec["y"])
+            hits = [sh for sh in slide.shapes
+                    if legend._kind(sh) is not None and sh.left is not None
+                    and sh.width is not None and sh.width <= Inches(0.11)
+                    and abs(legend._centre(sh)[0] - cx) < Inches(0.006)
+                    and abs(legend._centre(sh)[1] - cy) < Inches(0.006)]
+            if len(hits) != 1:
+                raise LookupError(f"{loc}: {len(hits)} asset symbols at "
+                                  f"({rec['x']},{rec['y']}), expected 1")
+            legend.draw_asset(hits[0], rec["cls"])
+        declared = legend.build(slide, loc, legend.load_asset_counts(loc), square_tpl)
         legend_problems += legend.audit(slide, loc, declared)
 
     # ---- title sheet: record the revision and the governing field sheets ----

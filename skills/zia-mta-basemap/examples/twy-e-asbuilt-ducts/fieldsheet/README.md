@@ -77,34 +77,49 @@ The indicative-duct reading was confirmed two ways before restoring P05's wordin
 own legend paired that colour swatch with that text, and 30 of 31 / 22 of 22 of those
 lines start on a plotted light and run to a pit.
 
-### Asset key
+### Existing assets: one symbol and one legend row per as-built class
 
-Every existing asset plots as the same teal dot, so a reader could only tell a stop bar
-light from a handhole by its label prefix — and nothing on the sheet explained the
-prefixes. Rather than invent new symbology on an issued drawing, each sheet gains an
-**ASSET KEY (AS-BUILT LABEL PREFIX)** column. Prefix → class is not guessed: `asset_key.py`
-matches each plotted symbol to its nearest fixture in the source DXF and reads
-`asset_type` from the skill's classifier.
+Rev P06 drew every existing asset as the same teal dot, so a reader could only tell a
+stop bar light from a handhole by its label prefix. Each as-built class now has its own
+symbol and its own legend row, as the as-built drawing does. Shape carries the family,
+colour carries the AGL optical colour where the asset has one:
 
-| | resolves to | match |
-|---|---|---|
-| `SBC102` | Stop bar light | 0.19–0.24 m |
-| `TCCECH`, `TCC102`, `TCC103` | Taxiway centreline light | 0.26–1.16 m |
-| `TEC102` | Taxiway edge light | 1.11 m |
-| `SGC102` | Sign foundation | 1.02–1.11 m |
-| `EL` | Existing light base (EBASE) | 1.69 m |
-| `HH` | Handhole | 2.04–2.18 m |
-| `MH` | Manhole | 2.02–2.23 m |
-| `RRM` | Runway guard light / RRM | 2.04–2.23 m |
-| `P2`, `P4`, `P6`, `X_CV_STH_PITS` | civil pit — mixed classes | 1.79–2.17 m |
+| Class | Symbol | Class | Symbol |
+|---|---|---|---|
+| Taxiway centreline light | green circle | Handhole | teal outlined square |
+| Stop bar light | red circle | Manhole | slate filled square |
+| Taxiway edge light | blue circle | Existing manhole | slate outlined square |
+| Runway guard light / RRM | yellow circle | Existing transformer handhole | teal diamond |
+| Existing light base | grey outlined circle | Earthing pit | olive outlined diamond |
+| Sign foundation | grey filled square | Earthing point | olive triangle |
 
-AGL light prefixes resolve unanimously and close. Civil prefixes resolve unanimously but
-at ~2.1 m, which is the documented civil-symbol plot offset, not a misidentification. The
-pit prefixes are genuinely mixed — the same prefix sits near "Existing manhole",
-"Existing transformer handhole" and "Earthing pit" fixtures in different places — so
-`asset_key.py` refuses to pick one and requires an explicit generic wording in
-`PREFIX_OVERRIDE`; `asset_key.json` keeps every observed class. General note 7 carries
-both caveats onto the drawing.
+Works action is conveyed only by the ring drawn over the symbol, so a green dot inside a
+red ring is unambiguous: green = centreline light, red ring = core out. Where a works
+marker is drawn the asset symbol sits beneath it, so legend counts include assets under
+works markers — general note 7 says so on the sheet.
+
+`asset_symbols.py` resolves the class of **every** plotted symbol, including the majority
+that carry no label. Two things make that a measurement rather than a guess:
+
+- **The systematic plot offset is removed first.** Civil symbols sit ~1.4–1.9 m from
+  their surveyed insertion point and AGL symbols ~0.7–1.0 m. The offset is estimated per
+  sheet per family from the labelled symbols, then subtracted before matching.
+- **Where a symbol is labelled, the label governs** — it is the drawing's own assertion
+  of what the asset is, and it outranks a proximity match. Nearest-fixture matching is
+  used only for the unlabelled symbols, and the labelled ones measure how well it
+  performs: **93 of 95 agree (97.9%)**, and the script refuses to write its output below
+  95%. The two disagreements are `EL.EBASE.13330/13331`, where the label says "light
+  base" and proximity says "centreline light" — a light base *is* the base of a light, so
+  the label is right and proximity is not wrong so much as unhelpful.
+
+124 symbols across the three sheets, 12 classes, 4 ambiguous (a rival class nearly as
+close), 0 unclassified. Ambiguous ones keep their resolved class but are flagged in
+`asset_symbols.json`; anything with no fixture within 3 m falls back to the generic dot
+and gets its own "Other existing asset" legend row rather than being forced into a class.
+
+`asset_key.json` (label prefix → class, from `asset_key.py`) is kept as the provenance
+record for the prefix mapping, though the drawing no longer needs a prefix key now that
+the symbols carry the class.
 
 ### A trap worth knowing about
 
@@ -149,6 +164,7 @@ pip install python-pptx numpy pandas scipy shapely
 python fieldsheet/build_marker_positions.py    # positions from Rev P05, verified vs the DXF
 cd fieldsheet
 python asset_key.py                            # label prefix -> as-built class
+python asset_symbols.py                        # class of every plotted asset symbol
 python reconcile_fieldsheet.py                 # rewrites the deck, then audits its own output
 python declutter_labels.py                     # resolve label collisions (replayed thereafter)
 python check_all.py                            # 12 end-to-end checks
@@ -191,7 +207,9 @@ checks as SKIPPED rather than passing them if it is missing.
 | `build_marker_positions.py` | plotted positions from Rev P05, verified against the DXF |
 | `asset_key.py` | label prefix -> as-built class, from the skill's classifier |
 | `asset_key.json` | per-prefix class, observed classes, count, match distance |
-| `legend.py` | legend spec + two-column builder + both-ways completeness audit |
+| `legend.py` | symbology + legend spec + two-column builder + both-ways completeness audit |
+| `asset_symbols.py` | classify every plotted asset symbol; writes `asset_symbols.json` |
+| `asset_symbols.json` | per-symbol class, source (label / fixture), match distance, margin |
 | `declutter_labels.py` | resolve rendered label collisions; writes `label_offsets.json` |
 | `label_offsets.json` | the base-layer label nudges, replayed by `reconcile_fieldsheet.py` |
 | `check_all.py` | the 12 end-to-end checks; run it against any revision |

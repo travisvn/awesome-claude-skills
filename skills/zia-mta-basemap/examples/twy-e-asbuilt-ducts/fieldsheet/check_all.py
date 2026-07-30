@@ -120,10 +120,17 @@ def declared_from_sheet(slide, loc):
              and abs(legend._centre(i)[1] - rc[1]) < Inches(0.02)]
         dec.append((legend.MARKER, legend._line(r), legend._fill(m[0])) if m
                    else (legend.RING, legend._line(r)))
-    for o in ov:
-        if abs(o.width - legend.DOT_D) < Inches(0.005):
-            dec.append((legend.DOT, legend._fill(o)))
+    claimed = set()
     for s in sw:
+        if s.width is None or s.width > Inches(0.16) or legend._kind(s) is None:
+            continue
+        cls = legend.asset_class_of_swatch(s)
+        if cls is not False:
+            dec.append((legend.ASSET, cls))
+            claimed.add(id(s._element))
+    for s in sw:
+        if id(s._element) in claimed:
+            continue          # already read as an asset-class swatch
         if s.height is not None and s.height < Inches(0.01) and legend._line(s):
             dec.append((legend.LINE, legend._line(s)))
         elif legend._kind(s) == "RECTANGLE" and s.width is not None and s.width < Inches(0.3):
@@ -134,21 +141,50 @@ def declared_from_sheet(slide, loc):
     return dec
 
 
-def check_asset_key(prs, asset_keys):
-    """Every label prefix plotted on a sheet appears in that sheet's asset key."""
+def check_asset_symbols(prs, symbols):
+    """Every existing-asset symbol carries the symbol of its classified as-built class,
+    and each class present on a sheet has its own legend row."""
+    bad = []
+    # the (prst, fill, line) triple must identify a class uniquely, or the legend is
+    # ambiguous and asset_class_of_swatch() would silently mis-attribute a row
+    triples = collections.Counter((v[0], v[2], v[3]) for v in legend.ASSET_SPEC.values())
+    for t, n in triples.items():
+        if n > 1:
+            bad.append(f"symbology: {n} classes share the swatch triple {t}")
+
+    for ix, loc in SHEETS.items():
+        slide = prs.slides[ix]
+        for rec in symbols[loc]["symbols"]:
+            cx, cy = Inches(rec["x"]), Inches(rec["y"])
+            hits = [sh for sh in slide.shapes
+                    if legend._kind(sh) is not None and sh.left is not None
+                    and sh.width is not None and sh.width <= Inches(0.11)
+                    and abs(legend._centre(sh)[0] - cx) < Inches(0.02)
+                    and abs(legend._centre(sh)[1] - cy) < Inches(0.02)]
+            if len(hits) != 1:
+                bad.append(f"{loc}: {len(hits)} asset symbols at ({rec['x']},{rec['y']})")
+                continue
+            got = legend.asset_key_of(hits[0])
+            if got is False:
+                bad.append(f"{loc}: symbol at ({rec['x']},{rec['y']}) matches no class "
+                           f"in the symbology")
+            elif got != rec["cls"]:
+                bad.append(f"{loc}: symbol at ({rec['x']},{rec['y']}) drawn as {got!r}, "
+                           f"classified {rec['cls']!r}")
+    check("every asset symbol is drawn as its as-built class", bad)
+
+
+def check_class_legend(prs, symbols):
     bad = []
     for ix, loc in SHEETS.items():
-        keyed = {k for k in asset_keys["order"][loc]}
-        plotted = collections.Counter()
-        for t, *_ in labels_on(prs.slides[ix]):
-            plotted[t.split(".")[0].split("-")[0].replace(" &", "")] += 1
-        for pre, n in plotted.items():
-            if pre not in keyed:
-                bad.append(f"{loc}: {n} x label prefix {pre!r} is not in the asset key")
-        for pre in keyed:
-            if pre not in plotted:
-                bad.append(f"{loc}: asset key lists {pre!r} but no such label is plotted")
-    check("the asset key covers every label prefix on its sheet", bad)
+        declared = {k[1] for k in declared_from_sheet(prs.slides[ix], loc)
+                    if k[0] == legend.ASSET}
+        present = {r["cls"] for r in symbols[loc]["symbols"]}
+        for cls in sorted(present - declared, key=str):
+            bad.append(f"{loc}: class {cls!r} is plotted but has no legend row")
+        for cls in sorted(declared - present, key=str):
+            bad.append(f"{loc}: legend row for {cls!r} but no such asset on the sheet")
+    check("each as-built class present has its own legend row", bad)
 
 
 # ---------------------------------------------------------------- 3. text vs data
@@ -365,12 +401,14 @@ def main():
     sheets = json.loads((HERE / "field_sheets.json").read_text())
     positions = json.loads((HERE / "marker_positions.json").read_text())
     asset_keys = json.loads((HERE / "asset_key.json").read_text())
+    symbols = json.loads((HERE / "asset_symbols.json").read_text())
     prs = Presentation(target)
 
     check_markers(prs, sheets, positions)
     check_no_stray_markers(prs, sheets)
     check_legends(prs, asset_keys)
-    check_asset_key(prs, asset_keys)
+    check_asset_symbols(prs, symbols)
+    check_class_legend(prs, symbols)
     check_scope_notes(prs, sheets)
     check_table(prs, sheets, positions)
     check_totals(prs, sheets)

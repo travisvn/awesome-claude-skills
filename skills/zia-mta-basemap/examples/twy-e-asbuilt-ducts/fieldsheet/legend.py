@@ -49,6 +49,30 @@ STOPBAR = "8B0000"
 EDGE = "7A8288"
 INDIC_DUCT = "C9CDD2"
 
+
+# --- existing-asset symbology, one per as-built class -----------------------
+# Shape carries the family, colour carries the AGL optical colour where the asset has
+# one (green centreline, red stop bar, blue edge, yellow guard light). Works action is
+# conveyed only by the ring drawn over the symbol, so a green asset dot inside a red
+# ring stays unambiguous: green = centreline light, red ring = core out.
+#   class -> (prst, size_in, fill or None, line, line_pt)
+ASSET_SPEC = {
+    "Taxiway centreline light":      ("ellipse",  0.075, "00A650", "00A650", 0.4),
+    "Stop bar light":                ("ellipse",  0.075, "D32F2F", "D32F2F", 0.4),
+    "Taxiway edge light":            ("ellipse",  0.075, "1565C0", "1565C0", 0.4),
+    "Runway guard light / RRM":      ("ellipse",  0.075, "F2C200", "9A7B00", 0.5),
+    "Existing light base":           ("ellipse",  0.080, None,     "7A8288", 0.75),
+    "Sign foundation":               ("rect",     0.090, "5F6368", "5F6368", 0.4),
+    "Handhole":                      ("rect",     0.075, None,     "12A5B8", 0.75),
+    "Manhole":                       ("rect",     0.085, "455A64", "455A64", 0.4),
+    "Existing manhole":              ("rect",     0.085, None,     "455A64", 0.75),
+    "Existing transformer handhole": ("diamond",  0.095, "12A5B8", "0B7C8A", 0.4),
+    "Earthing pit":                  ("diamond",  0.095, None,     "827717", 0.75),
+    "Earthing point":                ("triangle", 0.090, "827717", "827717", 0.4),
+}
+GENERIC_ASSET = ("ellipse", 0.064, "12A5B8", "12A5B8", 0.5)   # unclassified fallback
+ASSET = "asset"
+
 # --- layout ----------------------------------------------------------------
 COL_X = (Inches(11.27), Inches(13.62))     # swatch left, per column
 TEXT_X = (Inches(11.52), Inches(13.87))    # text left, per column
@@ -77,9 +101,6 @@ ROWS = {
         (MARKER, BLUE, GREEN, "NEW SEC. CABLE ONLY (DUCT)"),
         (MARKER, ORANGE, GREEN, "NEW SEC. CABLE ONLY (SAWCUT)"),
         (RING, GREY, "NOT AFFECTED / NOT ON FIELD SHEET"),
-        (HEAD, "EXISTING ASSETS (AS-BUILT)"),
-        (DOT, TEAL, "EXISTING AGL ASSET — see asset key"),
-        (SQUARE, MAGENTA, "AGL FEED MANHOLE / HANDHOLE"),
         (HEAD, "AREAS & LINEWORK"),
         (FILL, SHADE, "MILLING / CUT AREA"),
         (LINE, DEMARC, "AGL WORKS DEMARCATION (GOVERNING)"),
@@ -93,9 +114,6 @@ ROWS = {
         (HEAD, "WORKS ACTIONS"),
         (MARKER, BLUE, GREEN, "NEW SEC. CABLE ONLY (DUCT)"),
         (MARKER, MAGENTA, WHITE, "RRM — REMOVE / PROTECT / RE-FIX"),
-        (HEAD, "EXISTING ASSETS (AS-BUILT)"),
-        (DOT, TEAL, "EXISTING AGL ASSET — see asset key"),
-        (SQUARE, MAGENTA, "AGL FEED MANHOLE / HANDHOLE"),
         (HEAD, "AREAS & LINEWORK"),
         (FILL, SHADE, "MILLING / CUT AREA"),
         (LINE, DEMARC, "AGL WORKS DEMARCATION (GOVERNING)"),
@@ -110,9 +128,6 @@ ROWS = {
         (MARKER, BLUE, GREEN, "NEW SEC. CABLE ONLY (DUCT)"),
         (MARKER, MAGENTA, WHITE, "RRM — REMOVE / PROTECT / RE-FIX"),
         (SQUARE, BLACK, "FITTING LIFTED + OPENING PROTECTED"),
-        (HEAD, "EXISTING ASSETS (AS-BUILT)"),
-        (DOT, TEAL, "EXISTING AGL ASSET — see asset key"),
-        (SQUARE, MAGENTA, "AGL FEED MANHOLE / HANDHOLE"),
         (HEAD, "AREAS & LINEWORK"),
         (FILL, SHADE, "MILLING / CUT AREA"),
         (LINE, DEMARC, "AGL WORKS DEMARCATION (GOVERNING)"),
@@ -129,7 +144,7 @@ PANEL = {                      # legend panel rect: (left, top, width, height)
     "LOC-02": (11.05, 6.695, 5.15, 2.84),
     "LOC-03": (11.05, 6.948, 5.15, 3.44),
 }
-HEADER_TEXT = "LEGEND & ASSET KEY (THIS SHEET)"
+HEADER_TEXT = "LEGEND — THIS SHEET"
 SHEET_BOTTOM = Inches(11.60)   # keep clear of the sheet edge at 11.689
 ROW_TOP = Inches(0.32)         # first row, below the panel header
 PAD = Inches(0.10)
@@ -192,8 +207,61 @@ def _set_dash(sh, val):
     d.set("val", val)
 
 
+def _prst(sh):
+    g = sh._element.spPr.find(DRAWINGML + "prstGeom")
+    return None if g is None else g.get("prst")
+
+
+def _set_prst(sh, prst):
+    g = sh._element.spPr.find(DRAWINGML + "prstGeom")
+    if g is not None:
+        g.set("prst", prst)
+
+
 def _centre(sh):
     return (sh.left + sh.width // 2, sh.top + sh.height // 2)
+
+
+def asset_key_of(sh):
+    """The ASSET_SPEC key a plotted existing-asset symbol matches, or None."""
+    got = (_prst(sh), round(_in(sh.width), 3), _fill(sh), _line(sh))
+    for cls, (prst, size, fill, line, _w) in ASSET_SPEC.items():
+        if got == (prst, round(size, 3), fill, line):
+            return cls
+    if got == (GENERIC_ASSET[0], round(GENERIC_ASSET[1], 3), GENERIC_ASSET[2],
+               GENERIC_ASSET[3]):
+        return None          # generic fallback dot, legended separately
+    return False             # not an asset symbol at all
+
+
+def asset_class_of_swatch(sh):
+    """Match a legend swatch to its class on (prst, fill, line) — swatches are scaled
+    up from the map symbol, so size is deliberately ignored. The three-tuple is unique
+    across ASSET_SPEC; asserted by check_all.py."""
+    got = (_prst(sh), _fill(sh), _line(sh))
+    for cls, (prst, _size, fill, line, _w) in ASSET_SPEC.items():
+        if got == (prst, fill, line):
+            return cls
+    if got == (GENERIC_ASSET[0], GENERIC_ASSET[2], GENERIC_ASSET[3]):
+        return None
+    return False
+
+
+def draw_asset(sh, cls):
+    """Restyle a plotted asset symbol as its as-built class, about its own centre."""
+    prst, size, fill, line, line_pt = ASSET_SPEC.get(cls, GENERIC_ASSET)
+    cx, cy = _centre(sh)
+    d = Inches(size)
+    sh.width = sh.height = d
+    sh.left, sh.top = cx - d // 2, cy - d // 2
+    _set_prst(sh, prst)
+    if fill is None:
+        sh.fill.background()
+    else:
+        sh.fill.solid()
+        sh.fill.fore_color.rgb = RGBColor.from_string(fill)
+    sh.line.color.rgb = RGBColor.from_string(line)
+    sh.line.width = Pt(line_pt)
 
 
 def _in(v):
@@ -225,7 +293,19 @@ def plotted_symbols(slide, map_right=Inches(11.0)):
 
     rings = [o for o in ovals if abs(o.width - Inches(0.23)) < Inches(0.01)]
     inners = [o for o in ovals if abs(o.width - Inches(0.12)) < Inches(0.01)]
-    dots = [o for o in ovals if abs(o.width - Inches(0.064)) < Inches(0.005)]
+
+    # existing-asset symbols: everything small, keyed by its ASSET_SPEC tuple
+    for sh in ovals + others:
+        if sh.width is None or sh.width > Inches(0.11):
+            continue
+        k = asset_key_of(sh)
+        if k is False:
+            out[("unknown", _prst(sh), round(_in(sh.width), 3), _fill(sh), _line(sh))] = \
+                out.get(("unknown", _prst(sh), round(_in(sh.width), 3), _fill(sh),
+                         _line(sh)), 0) + 1
+        else:
+            key = (ASSET, k)
+            out[key] = out.get(key, 0) + 1
 
     for r in rings:
         rc = _centre(r)
@@ -237,10 +317,9 @@ def plotted_symbols(slide, map_right=Inches(11.0)):
         else:
             key = (RING, _line(r))
         out[key] = out.get(key, 0) + 1
-    if dots:
-        out[(DOT, TEAL)] = len(dots)
-
     for sh in others:
+        if sh.width is not None and sh.width <= Inches(0.11):
+            continue          # already counted as an asset symbol
         if _fill(sh) == SHADE:
             out[(FILL, SHADE)] = out.get((FILL, SHADE), 0) + 1
         elif _kind(sh) == "RECTANGLE" and _fill(sh) is None and _line(sh):
@@ -351,7 +430,7 @@ def _disc(sh, colour):
     sh.line.width = Pt(0.5)
 
 
-def build(slide, loc, asset_key, square_template=None):
+def build(slide, loc, asset_counts, square_template=None):
     """Clear the legend panel and lay it out afresh in two columns.
 
     Returns the list of style keys the legend declares, for the caller to audit.
@@ -383,8 +462,15 @@ def build(slide, loc, asset_key, square_template=None):
     tpl.head.left, tpl.head.top = left + Inches(0.15), top + Inches(0.08)
 
     rows = list(ROWS[loc])
-    key_rows = [(TEXT, f"{p}  —  {a['asset_type']}  ×{a['count']}") for p, a in asset_key]
-    rows_b = [(HEAD, "ASSET KEY (AS-BUILT LABEL PREFIX)")] + key_rows
+    # one row per as-built asset class actually plotted on this sheet, as the as-built
+    # does — ordered AGL lights first, then civil, each by descending count
+    counts = asset_counts
+    order = [c for c in ASSET_SPEC if c in counts]
+    rows_b = [(HEAD, "EXISTING ASSETS (AS-BUILT)")]
+    rows_b += [(ASSET, c, f"{c}  ×{counts[c]}") for c in order]
+    if counts.get(None):
+        rows_b.append((ASSET, None, f"Other existing asset  ×{counts[None]}"))
+    rows_b.append((SQUARE, MAGENTA, "AGL feed manhole / handhole"))
 
     def units(items, col):
         """Row slots the column needs, counting wrapped text as more than one."""
@@ -426,6 +512,24 @@ def build(slide, loc, asset_key, square_template=None):
             elif kind == RING:
                 _ring(_clone(slide, tpl.ring, COL_X[col], sy), row[1])
                 declared.append((RING, row[1]))
+                text = row[2]
+            elif kind == ASSET:
+                sw = _clone(slide, tpl.dot, COL_X[col], sy)
+                prst, size, _f, _l, _w = ASSET_SPEC.get(row[1], GENERIC_ASSET)
+                sw.width = sw.height = Inches(min(size * 1.7, 0.15))  # read larger,
+                #                                            but clear of the row pitch
+                sw.left = COL_X[col] + (RING_D - sw.width) // 2
+                sw.top = sy + (RING_D - sw.height) // 2
+                _set_prst(sw, prst)
+                spec = ASSET_SPEC.get(row[1], GENERIC_ASSET)
+                if spec[2] is None:
+                    sw.fill.background()
+                else:
+                    sw.fill.solid()
+                    sw.fill.fore_color.rgb = RGBColor.from_string(spec[2])
+                sw.line.color.rgb = RGBColor.from_string(spec[3])
+                sw.line.width = Pt(spec[4] * 1.6)
+                declared.append((ASSET, row[1]))
                 text = row[2]
             elif kind == DOT:
                 _disc(_clone(slide, tpl.dot, COL_X[col] + (RING_D - DOT_D) // 2,
@@ -491,6 +595,15 @@ def audit(slide, loc, declared):
     return problems
 
 
-def load_asset_key(loc):
-    data = json.loads((HERE / "asset_key.json").read_text())
-    return [(p, data[loc][p]) for p in data["order"][loc]]
+def load_asset_counts(loc):
+    """{class: count} for the sheet, from asset_symbols.json (None = unclassified)."""
+    data = json.loads((HERE / "asset_symbols.json").read_text())[loc]
+    counts = dict(data["counts"])
+    n_generic = sum(1 for r in data["symbols"] if r["cls"] is None)
+    if n_generic:
+        counts[None] = n_generic
+    return counts
+
+
+def load_symbols(loc):
+    return json.loads((HERE / "asset_symbols.json").read_text())[loc]["symbols"]
