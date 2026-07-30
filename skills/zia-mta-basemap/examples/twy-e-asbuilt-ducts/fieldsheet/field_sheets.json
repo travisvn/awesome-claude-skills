@@ -1,8 +1,8 @@
 {
-  "_note": "Transcribed verbatim from the issued field sheets. sec = 'Secondary cable effected', base = 'Shallow base effected', route = 'Duct/Saw cut'. null = the column does not exist on that sheet, or was left blank. route_deck = the Duct/Sawcut assignment already carried on the shop drawing (Rev P05/P06) where the field sheet has no route column \u2014 retained, not derived from the PDF.",
+  "_note": "Transcribed verbatim from the issued field sheets. sec = 'Secondary cable effected', base = 'Shallow base effected', route = 'Duct/Saw cut'. null = the column does not exist on that sheet. route_deck = the Duct/Sawcut assignment already carried on the shop drawing (Rev P05/P06) where the field sheet has no route column - retained, not derived from the PDF. LOC-02's shallow-base column was left blank on the sheet; confirmed as 'NO' 30.07.2026 and recorded as false here.",
   "sources": {
     "LOC-01": "Document_3_LOC-01.pdf",
-    "LOC-02": "Second_milling_area_rev1_LOC-02-03.pdf (2nd table, 'Second Milling Area')",
+    "LOC-02": "Second_milling_area_rev1_LOC-02-03.pdf (2nd table, 'Second Milling Area') - shallow-base column blank on the sheet, confirmed 'NO' 30.07.2026",
     "LOC-03": "Second_milling_area_rev1_LOC-02-03.pdf (1st table)",
     "superseded": "Second_milling_area_rev0_LOC-02-03.pdf \u2014 earlier revision, shallow base 'NO' for every light at LOC-02 and LOC-03"
   },
@@ -119,41 +119,46 @@
       "sl": 1,
       "light": "TCCECH-03/007",
       "sec": true,
-      "base": null,
+      "base": false,
       "route_deck": "Duct",
-      "route": null
+      "route": null,
+      "base_blank_on_sheet": true
     },
     {
       "sl": 2,
       "light": "TCCECH-04/007",
       "sec": true,
-      "base": null,
+      "base": false,
       "route_deck": "Duct",
-      "route": null
+      "route": null,
+      "base_blank_on_sheet": true
     },
     {
       "sl": 3,
       "light": "TCCECH-03/008",
       "sec": true,
-      "base": null,
+      "base": false,
       "route_deck": "Duct",
-      "route": null
+      "route": null,
+      "base_blank_on_sheet": true
     },
     {
       "sl": 4,
       "light": "TCCECH-04/008",
       "sec": true,
-      "base": null,
+      "base": false,
       "route_deck": "Duct",
-      "route": null
+      "route": null,
+      "base_blank_on_sheet": true
     },
     {
       "sl": 5,
       "light": "TCCECH-03/009",
       "sec": true,
-      "base": null,
+      "base": false,
       "route_deck": "Duct",
-      "route": null
+      "route": null,
+      "base_blank_on_sheet": true
     }
   ],
   "LOC-03": [

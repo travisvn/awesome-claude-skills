@@ -68,8 +68,12 @@ flagged for confirmation rather than removed from the drawing.
 `Second_milling_area_rev0_LOC-02-03.pdf` is the superseded revision — it reads shallow
 base "NO" for every light at LOC-02 and LOC-03. `rev _1` governs.
 
-The LOC-02 field sheet leaves its shallow-base column **blank**. It is read as "not
-affected" and the sheet now says so explicitly rather than asserting it as verified.
+The LOC-02 field sheet leaves its shallow-base column **blank**. It was confirmed as
+"NO" on 30.07.2026 and is recorded as `false` in `field_sheets.json`, with
+`base_blank_on_sheet: true` preserving where the value came from. The sheet states both
+the reading and the confirmation, so the provenance survives on the drawing. Those five
+lights therefore mark as new-secondary-cable-only — which is what the sheet already
+showed, so no marker changed at LOC-02.
 
 ## Running it
 
@@ -105,7 +109,7 @@ installed skill by default) and reads `../input/TWYEAGLSHOPDWGEDITABLE_RevP05.pp
 | `Document_3_LOC-01.pdf` | field sheet, LOC-01 — 15 lights, has a Duct/Sawcut column |
 | `Second_milling_area_rev1_LOC-02-03.pdf` | field sheet, LOC-03 (1st table) and LOC-02 (2nd table) |
 | `Second_milling_area_rev0_LOC-02-03.pdf` | superseded revision, kept for the record |
-| `field_sheets.json` | the three sheets transcribed; `route_deck` flags a route the PDF does not state |
+| `field_sheets.json` | the three sheets transcribed; `route_deck` flags a route the PDF does not state, `base_blank_on_sheet` a shallow-base value it does not print |
 | `build_marker_positions.py` | plotted positions from Rev P05, verified against the DXF |
 | `marker_positions.json` | per-light position + distance to nearest surveyed fixture |
 | `reconcile_fieldsheet.py` | rewrites the deck from the field sheets, then audits itself |
@@ -117,7 +121,7 @@ installed skill by default) and reads `../input/TWYEAGLSHOPDWGEDITABLE_RevP05.pp
 
 - The four TCC103 assets are not on any field sheet. No works action is assumed for
   them; confirm before works.
-- LOC-02's shallow-base column is blank on the field sheet, not marked "NO".
+- LOC-02's shallow-base column is blank on the field sheet; confirmed "NO" 30.07.2026.
 - TCCECH-03/035 and 03/018 are 0.49 m apart and share one label.
 - Positions are ZIA local project grid, not UTM, despite the sheet's label — the
   finding from `../README.md` still stands and is not fixed by this revision.

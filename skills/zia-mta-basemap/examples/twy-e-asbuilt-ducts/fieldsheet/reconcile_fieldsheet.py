@@ -15,6 +15,10 @@ Yes/No columns of the field sheet:
     sec YES + base NO   ->  NEW SEC. CABLE ONLY       outer blue (duct) or orange (sawcut) / inner green
     sec NO  + base NO   ->  not affected              outer grey ring, existing-asset dot only
 
+LOC-02's shallow-base column is blank on the field sheet. It is confirmed as "NO"
+(30.07.2026) and recorded as such in field_sheets.json, so those five lights mark as
+new-secondary-cable-only, which is what the sheet already showed.
+
 LOC-03's four shallow-base lights keep the base-retained + dummy-plate (amber/orange)
 treatment already agreed on Rev P06 — the field sheet gives the Yes, not the method.
 """
@@ -310,11 +314,11 @@ def main():
         "SITE RECORD 23.07.2026: 9 cored + 2 reinstatement completed",
     ])
 
-    # ---- LOC-02: the field sheet leaves the shallow-base column blank -------
+    # ---- LOC-02: shallow-base column blank on the sheet, confirmed "NO" -----
     sub(by_id(s3, 113),
         "NO SHALLOW BASES AFFECTED — NO ASSET LIES INSIDE THE MILLING POLYGON HERE",
-        "SHALLOW BASE COLUMN LEFT BLANK ON FIELD SHEET — READ AS NOT AFFECTED; "
-        "NO ASSET LIES INSIDE THE MILLING POLYGON. CONFIRM AT CUT LINE")
+        "NO SHALLOW BASES AFFECTED — COLUMN BLANK ON FIELD SHEET, CONFIRMED \u2018NO\u2019 "
+        "30.07.2026; NO ASSET LIES INSIDE THE MILLING POLYGON")
 
     # ---- LOC-03: state the field-sheet total -------------------------------
     tf = by_id(s4, 311).text_frame
@@ -338,11 +342,13 @@ def main():
             "Issued 28.07.2026 · Rev P07 30.07.2026")
         note = by_id(slide, {2: 315, 3: 116, 4: 314}[list(prs.slides).index(slide) + 1])
         notes = [p.text for p in note.text_frame.paragraphs if p.text.strip()]
+        extra = (" Shallow-base column blank on that sheet; confirmed \u2018NO\u2019 30.07.2026."
+                 if slide is s3 else "")
         notes.append(
             f"6. Rev P07: every asset on this sheet re-marked directly from field sheet "
             f"{sheet} — outer ring from the Secondary-cable / Shallow-base columns, "
             f"inner disc from Duct / Sawcut. Assets not listed on the field sheet are "
-            f"shown grey with no action assumed."
+            f"shown grey with no action assumed.{extra}"
         )
         set_lines(note, notes)
 
