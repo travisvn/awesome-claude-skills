@@ -1,0 +1,53 @@
+sheet,derived_spur_length_m,segments_chained,terminates_at_asset_type,terminates_at_source_layer,offset_to_fixture_m,hub_source_layer,snap_tolerance_m
+LOC-01,35.44,1,Taxiway centreline light,EL-TAXICL,5.131,CV_ETRANS HH,0.3
+LOC-01,31.36,1,Taxiway centreline light,EL-TAXICL,0.0,CV_ETRANS HH,0.3
+LOC-01,30.4,1,Taxiway centreline light,EL-TAXICL,0.0,CV_ETRANS HH,0.3
+LOC-01,30.08,1,Taxiway centreline light,EL-TAXICL,0.057,CV_ETRANS HH,0.3
+LOC-01,30.08,1,Stop bar light,EL-STOPBAR,0.04,CV_ETRANS HH,0.3
+LOC-01,27.17,1,Stop bar light,EL-STOPBAR,0.0,CV_ETRANS HH,0.3
+LOC-01,26.84,1,Taxiway centreline light,EL-TAXICL,0.0,CV_ETRANS HH,0.3
+LOC-01,26.21,1,Taxiway edge light,EL-TAXIWAY EDGE,0.065,CV_ETRANS HH,0.3
+LOC-01,26.02,2,Taxiway edge light,EL-TAXIWAY EDGE,0.0,CV_ETRANS HH,0.3
+LOC-01,24.2,1,Stop bar light,EL-STOPBAR,0.0,CV_ETRANS HH,0.3
+LOC-01,23.28,1,Taxiway centreline light,EL-TAXICL,0.0,CV_ETRANS HH,0.3
+LOC-01,22.49,1,Taxiway centreline light,EL-TAXICL,0.031,CV_ETRANS HH,0.3
+LOC-01,22.42,1,Taxiway centreline light,EL-TAXICL,0.0,CV_ETRANS HH,0.3
+LOC-01,22.33,1,Taxiway centreline light,EL-TAXICL,0.003,CV_ETRANS HH,0.3
+LOC-01,21.99,1,Taxiway centreline light,EL-TAXICL,0.001,CV_ETRANS HH,0.3
+LOC-01,21.24,1,Stop bar light,EL-STOPBAR,0.0,CV_ETRANS HH,0.3
+LOC-01,19.86,1,Taxiway centreline light,EL-TAXICL,0.0,CV_ETRANS HH,0.3
+LOC-01,19.69,1,Taxiway centreline light,EL-TAXICL,0.0,CV_ETRANS HH,0.3
+LOC-01,18.29,1,Stop bar light,EL-STOPBAR,0.0,CV_ETRANS HH,0.3
+LOC-01,15.37,1,Stop bar light,EL-STOPBAR,0.0,CV_ETRANS HH,0.3
+LOC-01,12.96,2,Sign foundation,EL-SGN-FNDTN,0.0,CV_ETRANS HH,0.3
+LOC-01,12.84,2,Sign foundation,EL-SGN-FNDTN,0.28,CV_ETRANS HH,0.3
+LOC-01,12.48,1,Stop bar light,EL-STOPBAR,0.001,CV_ETRANS HH,0.3
+LOC-01,9.66,1,Stop bar light,EL-STOPBAR,0.001,CV_ETRANS HH,0.3
+LOC-01,8.85,1,Handhole,CV_HH,0.0,CV_ETRANS HH,0.3
+LOC-01,2.83,1,Existing transformer handhole,CV_ETRANS HH,2.834,CV_ETRANS HH,0.3
+LOC-02,41.5,1,Taxiway centreline light,EL-TAXICL,0.004,CV_ETRANS HH,0.3
+LOC-02,30.3,1,Taxiway centreline light,EL-TAXICL,0.002,CV_ETRANS HH,0.3
+LOC-02,29.1,1,Taxiway centreline light,EL-TAXICL,0.003,CV_ETRANS HH,0.3
+LOC-02,21.1,1,Taxiway centreline light,EL-TAXICL,0.002,CV_ETRANS HH,0.3
+LOC-02,20.52,1,Taxiway centreline light,EL-TAXICL,0.003,CV_ETRANS HH,0.3
+LOC-02,6.23,1,Handhole,CV_HH,0.0,CV_ETRANS HH,0.3
+LOC-03,31.97,3,Taxiway centreline light,EL-TAXICL,0.0,CV_ETRANS HH,0.3
+LOC-03,31.13,2,Stop bar light,EL-STOPBAR,0.0,CV_ETRANS HH,0.3
+LOC-03,29.02,1,Taxiway centreline light,EL-TAXICL,0.001,CV_ETRANS HH,0.3
+LOC-03,28.16,2,Stop bar light,EL-STOPBAR,0.0,CV_ETRANS HH,0.3
+LOC-03,27.57,1,Taxiway centreline light,EL-TAXICL,0.0,CV_ETRANS HH,0.3
+LOC-03,25.99,1,Runway guard light / RRM,EL-RRM,4.989,CV_ETRANS HH,0.3
+LOC-03,25.23,2,Stop bar light,EL-STOPBAR,0.0,CV_ETRANS HH,0.3
+LOC-03,25.07,1,Taxiway centreline light,EL-TAXICL,0.0,CV_ETRANS HH,0.3
+LOC-03,23.13,1,Taxiway centreline light,EL-TAXICL,0.0,CV_ETRANS HH,0.3
+LOC-03,22.34,2,Stop bar light,EL-STOPBAR,0.0,CV_ETRANS HH,0.3
+LOC-03,21.12,1,Taxiway centreline light,EL-TAXICL,0.0,CV_ETRANS HH,0.3
+LOC-03,20.68,1,Taxiway centreline light,EL-TAXICL,0.066,CV_ETRANS HH,0.3
+LOC-03,20.57,1,Taxiway centreline light,EL-TAXICL,0.0,CV_ETRANS HH,0.3
+LOC-03,20.47,1,Taxiway centreline light,EL-TAXICL,0.001,CV_ETRANS HH,0.3
+LOC-03,19.24,1,Stop bar light,EL-STOPBAR,0.0,CV_ETRANS HH,0.3
+LOC-03,16.34,1,Stop bar light,EL-STOPBAR,0.0,CV_ETRANS HH,0.3
+LOC-03,13.46,1,Stop bar light,EL-STOPBAR,0.0,CV_ETRANS HH,0.3
+LOC-03,10.65,1,Stop bar light,EL-STOPBAR,0.0,CV_ETRANS HH,0.3
+LOC-03,7.0,1,Handhole,CV_HH,0.0,CV_ETRANS HH,0.3
+LOC-03,6.8,1,Handhole,CV_HH,0.0,CV_ETRANS HH,0.3

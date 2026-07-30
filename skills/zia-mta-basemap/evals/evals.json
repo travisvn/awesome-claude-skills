@@ -1,0 +1,31 @@
+{
+  "skill_name": "zia-mta-basemap",
+  "evals": [
+    {
+      "id": 0,
+      "name": "segment-impact-te51",
+      "prompt": "We're planning the milling works for MTA segment TE5.1 at ZIA. Which AGL assets are affected by that segment? I need counts by asset type, a CSV register of the affected assets, and a sketch (PNG) I can attach to the RFI.",
+      "expected_output": "CSV register with asset_type per row, PNG sketch of fixtures + segmentation, proximity-based ('within N m of segment geometry') claim, local-grid caveat.",
+      "files": [],
+      "assertions": [
+        "A CSV register of affected assets exists with an asset_type column and per-asset rows",
+        "A PNG sketch exists showing the affected fixtures with the MTA segmentation overlaid",
+        "The affected-asset claim is proximity-based, not an unqualified 'inside segment area' claim",
+        "The deliverable or summary states coordinates are ZIA local grid / not UTM"
+      ]
+    },
+    {
+      "id": 1,
+      "name": "stopbar-seg-window",
+      "prompt": "Plot the stop bar lights and taxiway centreline lights at ZIA in the window x 5000-6600, y 52800-55300 with the MTA segmentation overlaid. Tell me exactly how many stop bar lights, how many taxiway centreline lights, and how many segmentation features fall in that window, and save the plot as a PNG.",
+      "expected_output": "PNG plot; counts: 843 stop bar, 2105 taxiway centreline, 728 unique segmentation features (not the 5486 duplicated-merge figure); local-grid caveat.",
+      "files": [],
+      "assertions": [
+        "Reported stop bar light count is 843 and taxiway centreline light count is 2105",
+        "Reported segmentation feature count is 728 (unique geometry), not 5486 (duplicated merge)",
+        "A PNG plot exists showing both light types plus the segmentation overlay",
+        "The answer states coordinates are ZIA local grid / not UTM"
+      ]
+    }
+  ]
+}
