@@ -109,6 +109,10 @@ Skills for working with complex file formats:
   - [Blog post about its development](https://blog.fsck.com/2025/10/23/naming-claude-plugins/)
   - Install from `superpowers-marketplace` plugin
 
+- **[coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills)** - 49 marketing skills for AI agents covering SEO, copywriting, cold email, pricing, CRO, ads, and analytics
+  - Install: `npx skills add coreyhaines31/marketingskills`
+  - Per-skill guides & examples: [marketing-skills.com](https://marketing-skills.com)
+
 
 ### Individual Skills
 
