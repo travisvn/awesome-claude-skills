@@ -236,6 +236,12 @@ sub_all(shp(s2, "TextBox 4"), [
      "remains in the AGL scope.",
      "At Rev P08 every secondary route at the three locations is saw cut, and no duct route "
      "remains in the AGL scope."),
+    ("6.  Testing and commissioning of all affected circuits.", "6.  Testing and commissioning at circuit level — covering the affected fittings together with the fittings on the same circuits that fall outside these works, since the series circuits are proved end to end before handover."),
+    ("4.  Laying of new secondary cable through the saw cut. No joints — full manhole-to-light "
+     "replacement.",
+     "4.  Laying of new secondary cable through the saw cut — 1 No. 2-core 4 sq.mm cable to each "
+     "fitting, SBC and TCC alike (7 No. SBC, 12 No. TCC). No joints — full manhole-to-light "
+     "replacement."),
     ("R3.  Dummy plates installed on open bases for protection during milling and civil works.",
      "R3.  Dummy plates installed on the open bases, and on the 3 No. Location 1 fittings that "
      "take secondary cable only (SBC102-02/027, TCCECH-03/035, TCCECH-03/018), for protection during milling and civil "
@@ -1133,8 +1139,8 @@ SCH_ROWS = [
      "approx. 24 m · 1 No. 12\"", "H5 — detail accepted", "LOC-02 complete and tested"),
     ("5", "Reinstatement of the cut; re-fix RRM.555", "LOC-02 · 1002",
      "approx. 24 m · 1 No. RRM", "Per the awaited detail", "LOC-02 sealed; RRM re-fixed"),
-    ("5", "Testing and commissioning of the affected circuits — all three locations",
-     "LOC-01 / 02 / 03", "4 No. circuits", "—", "Circuits energised and proved"),
+    ("5", "Testing and commissioning at circuit level — affected and unaffected fittings alike",
+     "LOC-01 / 02 / 03", "4 No. circuits", "—", "Circuits energised and proved end to end"),
     ("5", "Final functionality check, then handover to Operations", "LOC-01 / 02 / 03",
      "19 No. fittings", "H4 — AGL / Operations", "Area returned to operational service"),
 ]
@@ -1231,7 +1237,7 @@ QTY_Y = 914400 + TILE_H + 274320
 QTY_ROWS = [
     ("Location", "Affected assets", "Core out\nexisting 8\"", "Core out\nexisting 12\"",
      "New coring\n8\" base", "New coring\n12\" base", "Saw cutting",
-     "Secondary cable required"),
+     "Secondary cable required\n(2c x 4 sq.mm)"),
     ("LOC-01 · sheet 1001", "14 No.", "6 No.", "3 No. †", "11 No.", "—",
      "approx. 300 m", "14 No. runs  ·  approx. 300 m"),
     ("LOC-02 · sheet 1002", "1 No.", "—", "1 No.", "—", "1 No.",
@@ -1337,6 +1343,9 @@ QLOWER = (
          "(SBC102-02/027, TCCECH-03/035, TCCECH-03/018), kept under a dummy plate during milling, and 3 No. at LOC-03 "
          "whose existing 12\" shallow base takes the new side entry. The saw cut routes plotted "
          "on sheets 1001 and 1003 already serve them.", 9.0),
+        ("Cable per fitting: 1 No. 2-core 4 sq.mm secondary cable to each fitting, SBC and TCC "
+         "alike — 7 No. SBC and 12 No. TCC, 19 No. runs in total (LOC-01 7 SBC + 7 TCC; LOC-02 "
+         "1 TCC; LOC-03 4 TCC).", 9.0),
         ("Saw cut lengths are scaled from the Rev P08 saw cut runs on sheets 1001–1003 using "
          "the per-sheet drawing scale — approx. 300 m, 24 m and 95 m. For programme and "
          "enquiry only; confirm on site before ordering.", 9.0),
@@ -1354,6 +1363,9 @@ QLOWER = (
          "arrangement agreed between the AGL team, the civil team and ADA AGL; permanent duct "
          "provision follows under the South Rehabilitation works. The existing 4 x 19 mm "
          "secondary duct bank is left in place with its obsolete cables withdrawn.", 9.0),
+        ("Testing and commissioning is carried out at circuit level: the affected fittings and "
+         "the fittings on the same circuits that fall outside these works are all proved before "
+         "handover. No material is allowed here for those unaffected fittings.", 9.0),
         ("Civil works — milling, asphalt laying and pavement reinstatement outside the AGL saw "
          "cut — are excluded.", 9.0),
     ], "P08 PANEL · QUANTITY EXCLUSIONS"),

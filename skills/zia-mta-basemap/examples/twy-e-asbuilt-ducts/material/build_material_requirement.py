@@ -67,9 +67,10 @@ ROWS = [
      "REVISED — 2 pair per fitting x 19 No. = 38 No. The 33 No. advised was against 16 No. "
      "fittings, before the 3 No. cable-only fittings at LOC-01 came into scope."),
     ("Secondary cable (2c x 4 sq.mm)", "mtr", 1500, 600,
-     "Saw cut route length is approx. 420 m over 19 No. runs. 1500 m covers the full "
+     "1 No. 2-core 4 sq.mm cable to each fitting, SBC and TCC alike — 7 No. SBC and 12 No. "
+     "TCC = 19 No. runs. Saw cut route length is approx. 420 m; 1500 m covers the full "
      "manhole-to-light runs (no joints) plus terminations and tails — confirm against the "
-     "run-by-run lengths now that 19 No. runs are in scope."),
+     "run-by-run lengths."),
     ("Masking tape", "Box", 50, 50,
      "As advised. No basis in the Rev P08 deck."),
     ("Shallow base 12 inch", "No", 2, None,
@@ -117,14 +118,17 @@ NOTES = [
     "the core diameter. Both are set by the saw cut & side-entry shallow base detail drawing, "
     "which had not been issued at Rev P08 (hold point H5). Re-check these three lines when it "
     "is issued.",
-    "4.  Secondary cable is ordered against the full manhole-to-light runs (19 No.), not the "
-    "saw cut "
-    "length — the cut measures approx. 420 m across the three locations (approx. 300 m LOC-01, "
-    "24 m LOC-02, 95 m LOC-03).",
+    "4.  One 2-core 4 sq.mm secondary cable serves each fitting, SBC and TCC alike — 7 No. SBC "
+    "and 12 No. TCC. Cable is ordered against the full manhole-to-light runs (19 No.), not the "
+    "saw cut length — the cut measures approx. 420 m across the three locations (approx. 300 m "
+    "LOC-01, 24 m LOC-02, 95 m LOC-03).",
     "5.  Saw cut is an interim arrangement agreed between the AGL team, the civil team and "
     "ADA AGL. Permanent duct provision follows under the South Rehabilitation works, and is "
     "not covered by this requirement.",
-    "6.  Remaining Qty is a formula (Required − Available). Edit only the Required and "
+    "6.  Testing and commissioning is carried out at circuit level and covers the affected "
+    "fittings together with the fittings on the same circuits that fall outside these works — "
+    "the series circuits are proved end to end before handover.",
+    "7.  Remaining Qty is a formula (Required − Available). Edit only the Required and "
     "Available columns.",
 ]
 for i, t in enumerate(NOTES):
