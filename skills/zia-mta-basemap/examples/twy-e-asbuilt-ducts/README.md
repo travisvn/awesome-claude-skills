@@ -252,3 +252,31 @@ The deck records this on the cover, in the technical-query panel (now headed *cl
 agreement*), in the way-forward panel, in *what changed*, in the quantity exclusions, and on
 the detail sheet — where item 8 becomes a termination detail at the milling edge rather than
 an open query.
+
+### Rev P08 update — 3 No. LOC-01 fittings back in scope
+
+`SBC102-02/027`, `TCCECH-03/035` and `TCCECH-03/018` at Location 1 are **secondary cable only**:
+new saw cut, **no coring**, the existing base kept and protected by a dummy plate during
+milling. They had been carried as out of scope. The saw cut runs plotted on sheet 1001 already
+reach all three (two sit on a run, the third 3.0 m off), so the ~300 m at LOC-01 and ~420 m
+overall are unchanged.
+
+Every count moves with them — affected fittings **16 → 19**, LOC-01 **11 → 14**, cable runs
+**16 → 19**, not-in-scope **15 → 12**. Coring stays 11 No. and new bases stay 13 No., since
+these three need neither.
+
+### Material requirement (separate deliverable)
+
+`material/build_material_requirement.py` writes
+`material/Material Requirement - TWY E AGL Installation - Rev P08.xlsx` — deliberately a
+separate workbook, not a deck sheet. Each line carries its basis against the Rev P08 plan, and
+three lines move:
+
+- **Shallow base 12"** — 2 No., added; the plan needs 13 No. new bases (11 @ 8" + 2 @ 12").
+- **Dummy plate** — 16 No., added; 13 No. open bases plus the 3 No. LOC-01 fittings kept
+  under a plate during milling.
+- **Secondary connectors** — 33 → **38 pair** (2 per fitting × 19 No.), so 5 pair short of
+  what is held.
+
+Sealant, mortar and backer-rod quantities cannot be firmed until the saw cut detail fixes cut
+width, depth and core diameter (hold point H5), and the sheet says so.
