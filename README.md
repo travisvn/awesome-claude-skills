@@ -134,6 +134,7 @@ _More community skills coming soon! Submit a PR to add your skill._
 ### Tools
 
 - **[yusufkaraaslan/Skill_Seekers](https://github.com/yusufkaraaslan/Skill_Seekers)** - Convert documentation websites into Claude Skills
+- **[SkillSignal](https://skillsignal.cc/)** - Free directory for reviewing Agent Skills by exact upstream source, pinned commit, maintenance, compatibility, documentation quality, and static risk indicators before installation
 
 ## ✏️ Creating Your First Skill
 
