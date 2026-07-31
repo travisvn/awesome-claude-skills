@@ -280,3 +280,18 @@ three lines move:
 
 Sealant, mortar and backer-rod quantities cannot be firmed until the saw cut detail fixes cut
 width, depth and core diameter (hold point H5), and the sheet says so.
+
+After the AGL team's own edit two lines fell short of ADB SAFEGATE stock — **7 No. shallow base
+8 inch** and **350 m of secondary cable**. The project team confirmed no ready stock and both
+are held in ADA inventory, so the table carries three further columns: the ADA item code, the
+current ADA stock, and the balance left after the withdrawal.
+
+| | ADA item | ADA stock | Withdrawn | Balance |
+|---|---|---|---|---|
+| Shallow base 8" | 10016966 | 10 No. | 7 No. | 3 No. |
+| Secondary cable 2c x 4 sq.mm | 10020584 | 1 RoL / 2000 m | 350 m | 1650 m |
+
+A block below the table reproduces the stores descriptions verbatim so the withdrawal request
+can be raised against them, and two notes ask for the base part number and the cable rating to
+be confirmed before withdrawal — the stores entry for the cable reads 2750.1 kV, which looks
+like a data-entry artefact.
