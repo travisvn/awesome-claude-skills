@@ -13,7 +13,7 @@ Drawing AUH-SK-AGL-TWYE-001 Rev P08 (sheets 1001 / 1002 / 1003) supersedes the R
 - **19 No. affected fittings** across the three milling locations — 14 No. at Location 1, 1 No. at Location 2, 4 No. at Location 3.
 - **11 No. existing bases cored out** (6 @ 8" and 5 @ 12"), and **13 No. new side-entry shallow bases** installed (11 @ 8" and 2 @ 12").
 - **6 No. fittings take new secondary cable only** with no coring — 3 No. at Location 1 (SBC102-02/027, TCCECH-03/035, TCCECH-03/018), which keep their existing base under a dummy plate during milling, and 3 No. at Location 3 whose existing 12" base accepts the new side entry.
-- **Approximately 420 m of saw cut** and **19 No. secondary cable runs**, one 2-core 4 sq.mm cable to each fitting, laid manhole to light with no joints.
+- **Approximately 420 m of saw cut** and **950 m of secondary cable** over 19 No. runs — 700 m at Location 1, 50 m at Location 2 and 200 m at Location 3. One 2-core 4 sq.mm cable to each fitting, laid manhole to light with no joints.
 
 **2. Secondary duct — position agreed and closed**
 

@@ -240,7 +240,8 @@ sub_all(shp(s2, "TextBox 4"), [
     ("4.  Laying of new secondary cable through the saw cut. No joints — full manhole-to-light "
      "replacement.",
      "4.  Laying of new secondary cable through the saw cut — 1 No. 2-core 4 sq.mm cable to each "
-     "fitting, SBC and TCC alike (7 No. SBC, 12 No. TCC). No joints — full manhole-to-light "
+     "fitting, SBC and TCC alike (7 No. SBC, 12 No. TCC), 950 m in total: 700 m at Location 1, "
+     "50 m at Location 2 and 200 m at Location 3. No joints — full manhole-to-light "
      "replacement."),
     ("R3.  Dummy plates installed on open bases for protection during milling and civil works.",
      "R3.  Dummy plates installed on the open bases, and on the 3 No. Location 1 fittings that "
@@ -1176,7 +1177,7 @@ SCH_ROWS = [
     ("2", "Set the new side-entry shallow bases in the cored positions", "LOC-01 · 1001",
      "11 No. 8\"", "—", "11 No. bases set and levelled"),
     ("3", "Lay new secondary cable through the saw cut — no joints, manhole to light",
-     "LOC-01 · 1001", "14 No. runs", "—", "LOC-01 cabled"),
+     "LOC-01 · 1001", "14 No. runs · 700 m", "—", "LOC-01 cabled"),
     ("3", "Termination, insulation resistance and continuity testing", "LOC-01 · 1001",
      "14 No. fittings", "—", "LOC-01 test records issued"),
     ("3", "Backfill, sealant and pavement reinstatement of the saw cut", "LOC-01 · 1001",
@@ -1186,11 +1187,12 @@ SCH_ROWS = [
     ("4", "Set 1 No. new base; the balance takes side entry into its existing base",
      "LOC-03 · 1003", "1 No. 12\" + 3 No.", "—", "Bases ready to receive cable"),
     ("4", "Cable, termination, insulation resistance and continuity testing",
-     "LOC-03 · 1003", "4 No. runs", "—", "LOC-03 test records issued"),
+     "LOC-03 · 1003", "4 No. runs · 200 m", "—", "LOC-03 test records issued"),
     ("4", "Reinstatement of the cut; re-fix RRM.557 and RRM.670", "LOC-03 · 1003",
      "approx. 95 m · 2 No. RRM", "Per the awaited detail", "LOC-03 sealed; RRMs re-fixed"),
     ("5", "Saw cut, new base, cable, termination and testing", "LOC-02 · 1002",
-     "approx. 24 m · 1 No. 12\"", "H5 — detail accepted", "LOC-02 complete and tested"),
+     "approx. 24 m cut · 50 m cable", "H5 — detail accepted",
+     "LOC-02 complete and tested"),
     ("5", "Reinstatement of the cut; re-fix RRM.555", "LOC-02 · 1002",
      "approx. 24 m · 1 No. RRM", "Per the awaited detail", "LOC-02 sealed; RRM re-fixed"),
     ("5", "Testing and commissioning at circuit level — affected and unaffected fittings alike",
@@ -1206,8 +1208,11 @@ LOW_BODY_H = max(
     for _, _, lines, _ in LOWER)
 LOW_H = LOW_BODY_H + CHROME
 LOW_Y = 10020300 - LOW_H
-ROW_H = max(240030, min(320040, (LOW_Y - 182880 - TBL_Y - CHROME) // len(SCH_ROWS)))
+ROW_H = max(216000, min(320040, (LOW_Y - 182880 - TBL_Y - CHROME) // len(SCH_ROWS)))
 tbl_h = ROW_H * len(SCH_ROWS)
+if TBL_Y + tbl_h + CHROME + 182880 > LOW_Y:
+    print("   ! schedule sheet: programme table overruns the lower panels by "
+          f"{TBL_Y + tbl_h + CHROME + 182880 - LOW_Y} EMU — shorten the basis text")
 pan_h = 109728 + 237744 + 128016 + tbl_h + 137160
 box(sched, L, TBL_Y, W, pan_h, name="P08 PANEL · FIVE-DAY PROGRAMME")
 textbox(sched, L + 146304, TBL_Y + 109728, W - 292608, 237744,
@@ -1278,7 +1283,7 @@ TILES = [
     ("11 No.", "EXISTING BASES CORED OUT", "6 @ 8\"  ·  5 @ 12\""),
     ("13 No.", "NEW SIDE-ENTRY BASES", "11 @ 8\"  ·  2 @ 12\""),
     ("approx. 420 m", "SAW CUTTING", "300 m  ·  24 m  ·  95 m"),
-    ("19 No.", "SECONDARY CABLE RUNS", "no joints — manhole to light"),
+    ("950 m", "SECONDARY CABLE", "19 No. runs — no joints, manhole to light"),
 ]
 TILE_H = 1005840
 for n, (big, cap, sub) in enumerate(TILES):
@@ -1295,13 +1300,13 @@ QTY_ROWS = [
      "New coring\n8\" base", "New coring\n12\" base", "Saw cutting",
      "Secondary cable required\n(2c x 4 sq.mm)"),
     ("LOC-01 · sheet 1001", "14 No.", "6 No.", "3 No. †", "11 No.", "—",
-     "approx. 300 m", "14 No. runs  ·  approx. 300 m"),
+     "approx. 300 m", "14 No. runs  ·  700 m"),
     ("LOC-02 · sheet 1002", "1 No.", "—", "1 No.", "—", "1 No.",
-     "approx. 24 m", "1 No. run  ·  approx. 24 m"),
+     "approx. 24 m", "1 No. run  ·  50 m"),
     ("LOC-03 · sheet 1003", "4 No.", "—", "1 No.", "—", "1 No.",
-     "approx. 95 m", "4 No. runs  ·  approx. 95 m"),
+     "approx. 95 m", "4 No. runs  ·  200 m"),
     ("TOTAL", "19 No.", "6 No.", "5 No.", "11 No.", "2 No.",
-     "approx. 420 m", "19 No. runs  ·  approx. 420 m"),
+     "approx. 420 m", "19 No. runs  ·  950 m"),
 ]
 QTY_AVAIL = W - 292608
 need = []
@@ -1316,7 +1321,7 @@ spare = QTY_AVAIL - sum(need)
 QTY_COLS = tuple(w + spare // len(need) for w in need)
 QTY_COLS = QTY_COLS[:-1] + (QTY_AVAIL - sum(QTY_COLS[:-1]),)
 
-QTY_ROW_H = 411480
+QTY_ROW_H = 316000
 qtbl_h = QTY_ROW_H * len(QTY_ROWS)
 qpan_h = 109728 + 237744 + 128016 + qtbl_h + 237744 + 137160
 box(qty, L, QTY_Y, W, qpan_h, name="P08 PANEL · WORKS QUANTITIES")
@@ -1400,8 +1405,10 @@ QLOWER = (
          "whose existing 12\" shallow base takes the new side entry. The saw cut routes plotted "
          "on sheets 1001 and 1003 already serve them.", 9.0),
         ("Cable per fitting: 1 No. 2-core 4 sq.mm secondary cable to each fitting, SBC and TCC "
-         "alike — 7 No. SBC and 12 No. TCC, 19 No. runs in total (LOC-01 7 SBC + 7 TCC; LOC-02 "
-         "1 TCC; LOC-03 4 TCC).", 9.0),
+         "alike — 7 No. SBC and 12 No. TCC, 19 No. runs. Secondary cable totals 950 m: LOC-01 "
+         "700 m over 14 No. runs, LOC-02 50 m over 1 No. run, LOC-03 200 m over 4 No. runs — the "
+         "ordered length for the full manhole-to-light runs at an average 50 m per run, not the "
+         "saw cut length, which measures approx. 420 m.", 9.0),
         ("Saw cut lengths are scaled from the Rev P08 saw cut runs on sheets 1001–1003 using "
          "the per-sheet drawing scale — approx. 300 m, 24 m and 95 m. For programme and "
          "enquiry only; confirm on site before ordering.", 9.0),
@@ -1412,9 +1419,9 @@ QLOWER = (
          "detail. The figures above are counts, not dimensions.", 9.0),
         ("Saw cut width and depth, and the cover to the new secondary cable, are per the same "
          "awaited detail — hold point H5.", 9.0),
-        ("Secondary cable figures are route lengths taken off the saw cut alignment. An "
-         "allowance for terminations, base entry and manhole tails is to be added at ordering "
-         "and is not included here.", 9.0),
+        ("The 950 m of secondary cable is the ordered length for the full manhole-to-light "
+         "runs, which includes terminations, base entry and manhole tails. Saw cut lengths are "
+         "stated separately and are not the cable quantity.", 9.0),
         ("No duct is laid under the AGL scope at Rev P08. Saw cut is adopted as an interim "
          "arrangement agreed between the AGL team, the civil team and ADA AGL; permanent duct "
          "provision follows under the South Rehabilitation works. The existing 4 x 19 mm "
@@ -1437,6 +1444,9 @@ ACT_CHROME = 109728 + 237744 + 128016 + 137160
 ACT_ROW_H = max(228600, min(457200,
                             (QLOW_Y - 182880 - ACT_Y - ACT_CHROME) // len(ACT_ROWS)))
 atbl_h = ACT_ROW_H * len(ACT_ROWS)
+if ACT_Y + atbl_h + ACT_CHROME + 182880 > QLOW_Y:
+    print("   ! quantities sheet: action table overruns the lower panels by "
+          f"{ACT_Y + atbl_h + ACT_CHROME + 182880 - QLOW_Y} EMU — shorten the basis text")
 box(qty, L, ACT_Y, W, atbl_h + ACT_CHROME, name="P08 PANEL · WORKS ACTION BREAKDOWN")
 textbox(qty, L + 146304, ACT_Y + 109728, W - 292608, 237744,
         [("AFFECTED ASSETS BEHIND THE COUNTS — BY WORKS ACTION", 9.5, True, NAVY)], "ACT HDR")

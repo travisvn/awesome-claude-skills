@@ -72,9 +72,10 @@ ROWS = [
     ("Secondary connectors (plug & receptacle)", None, "Pair", 38, 38, None,
      "2 pair per fitting x 19 No. = 38 No."),
     ("Secondary cable (2c x 4 sq.mm)", "10020584", "mtr", 950, 600, 2000,
-     "1 No. 2-core 4 sq.mm cable to each fitting, SBC and TCC alike — 7 No. SBC and 12 No. "
-     "TCC = 19 No. runs. 350 m short of ADB SAFEGATE stock and drawn from ADA inventory, "
-     "which holds 1 RoL @ 2000 m — 1650 m remain on the roll after withdrawal."),
+     "1 No. 2-core 4 sq.mm cable to each fitting, SBC and TCC alike — 19 No. runs totalling "
+     "950 m: LOC-01 700 m over 14 No., LOC-02 50 m over 1 No., LOC-03 200 m over 4 No. "
+     "350 m short of ADB SAFEGATE stock and drawn from ADA inventory, which holds 1 RoL @ "
+     "2000 m — 1650 m remain on the roll after withdrawal."),
     ("Masking tape", None, "Box", 50, 50, None,
      "As advised, for general protection. The signboard masking is by matt black vinyl "
      "sticker — see note 7; there is no material line for it in this table."),
@@ -162,9 +163,9 @@ NOTES = [
     "under Phase 1 (R4) and unmasked in Phase 3 before the functionality check. There is no "
     "material line for the vinyl in this table — add one once the sign faces are measured.",
     "8.  One 2-core 4 sq.mm secondary cable serves each fitting, SBC and TCC alike — 7 No. SBC "
-    "and 12 No. TCC. Cable is ordered against the full manhole-to-light runs (19 No.), not the "
-    "saw cut length — the cut measures approx. 420 m across the three locations (approx. 300 m "
-    "LOC-01, 24 m LOC-02, 95 m LOC-03).",
+    "and 12 No. TCC. The 950 m is the ordered length for the full manhole-to-light runs at an "
+    "average 50 m per run — LOC-01 700 m, LOC-02 50 m, LOC-03 200 m. It is not the saw cut "
+    "length, which measures approx. 420 m (approx. 300 m LOC-01, 24 m LOC-02, 95 m LOC-03).",
     "9.  Saw cut is an interim arrangement agreed between the AGL team, the civil team and "
     "ADA AGL. Permanent duct provision follows under the South Rehabilitation works, and is "
     "not covered by this requirement.",
