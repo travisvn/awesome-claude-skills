@@ -214,8 +214,11 @@ set_para(shp(s1, "Text 10").text_frame.paragraphs[0],
          "TCCECH-03/003, with the remaining 3 No. TCC taking new secondary cable into their "
          "existing 12\" bases. The affected-fitting list moves from 30 No. to 16 No. A saw cut and "
          "side-entry base detail sheet is included and is held pending issue of the detail "
-         "drawing. As-built duct geometry, sheet registration and the stated limits of Rev P06 "
-         "are carried forward unchanged.")
+         "drawing. The technical queries on the existing 4 x 19 mm secondary duct are closed by "
+         "agreement between the AGL team, the civil team and ADA AGL: saw cut is adopted as an "
+         "interim arrangement, with permanent duct provision to follow under the South "
+         "Rehabilitation works. As-built duct geometry, sheet registration and the stated limits "
+         "of Rev P06 are carried forward unchanged.")
 log("S1  Cover summary restated so its quantities read the same as sheets 6 and 7.")
 
 add_logo(s1, 914400 + 13258800, 838200, 700000, reverse=True)
@@ -242,31 +245,42 @@ sub_all(hp, [("No saw cutting before the saw cut and side-entry base detail draw
               "issued and accepted (Rev P08).")])
 log("S2  Hold points renumbered H1–H5 — the list started at H2 with no H1.")
 
-sub_all(shp(s2, "TextBox 10"), [
-    ("Q2.  The existing duct cannot be reused for the new secondary cable. The existing cables "
-     "are obsolete and are to be withdrawn, and the existing duct cross-section will not "
-     "accommodate the new secondary cable.",
-     "Q2.  The existing duct is not suitable for reuse for the new secondary cable: the existing "
-     "cables are obsolete and are to be withdrawn, and the existing duct cross-section does not "
-     "accommodate the new secondary cable."),
-    ("confirmation is required from Civil on how the transition into the duct in the "
-     "non-construction area is to be made.",
-     "the transition into the duct in the non-construction area is to be agreed with the civil "
-     "team."),
+set_para(shp(s2, "TextBox 9").text_frame.paragraphs[0],
+         "TECHNICAL QUERY — CLOSED BY AGREEMENT (AGL TEAM · CIVIL TEAM · ADA AGL)")
+set_lines(shp(s2, "TextBox 10"), [
+    "Subject:  existing 4 x 19 mm secondary duct — cover, reuse and continuity",
+    "Field condition:  the existing 4 x 19 mm secondary duct bank was exposed at 50 mm milling "
+    "depth.",
+    "Q1.  Whether new duct may be re-laid on the existing duct alignment.   CLOSED — no duct is "
+    "re-laid on the existing alignment under this scope; the new secondary cable is laid by saw "
+    "cut.",
+    "Q2.  Suitability of the existing duct for reuse.   CLOSED — the existing 4 x 19 mm "
+    "cross-section does not accommodate the new secondary cable, and the existing cables are "
+    "obsolete and are to be withdrawn. Reuse is not adopted; the duct bank is left in place.",
+    "Q3.  Transition into the duct in the non-construction area.   CLOSED — the civil scope of "
+    "work covers the milling area only, so a full-stretch duct cannot be delivered under this "
+    "work. Saw cut is adopted for the full affected length, which removes the transition.",
 ])
-log("S2  Technical query Q2 / Q3 reworded as a request for agreement.")
+log("S2  Technical query updated: duct size corrected to 4 x 19 mm and Q1–Q3 recorded as closed "
+    "by agreement rather than open.")
 
-sub_all(shp(s2, "TextBox 13"), [
-    ("Status at Rev P08:  NOT ADOPTED. The final scope of work issued 30.07.2026 adopts SAW CUT "
-     "for every secondary route at all three locations, which answers Q3 — the full length is saw "
-     "cut and no new duct is laid under the AGL scope.",
-     "Status at Rev P08:  superseded. The final scope of work issued 30.07.2026 adopts SAW CUT "
-     "for every secondary route at the three locations, which answers Q3 — the full length is saw "
-     "cut and no new duct is laid under the AGL scope."),
-    ("Not a construction instruction until answered.",
-     "Recorded here for confirmation; it is not a construction instruction."),
+set_para(shp(s2, "TextBox 12").text_frame.paragraphs[0],
+         "AGREED WAY FORWARD — SAW CUT AS AN INTERIM ARRANGEMENT")
+set_lines(shp(s2, "TextBox 13"), [
+    "The AGL team's original proposal was a full-stretch new secondary duct sized for the new "
+    "secondary cable, giving a continuous route end to end and minimising saw cutting in the "
+    "finished pavement.",
+    "Agreed position:  the matter was raised with the civil team and with ADA AGL. It is agreed "
+    "that the existing 4 x 19 mm duct cannot accommodate the new secondary cable, and that the "
+    "civil scope of work covers the milling area only, so a full-stretch duct cannot be delivered "
+    "under this work. SAW CUT is therefore adopted for every milling-affected asset — agreed by "
+    "the AGL team (ADB SAFEGATE), the civil team and ADA AGL.",
+    "Status:  the saw cut route is an INTERIM arrangement. Permanent duct provision is to follow "
+    "under the South Rehabilitation works, where the saw cut routes are to be replaced with duct "
+    "to the standard design. Q1, Q2 and Q3 are closed on that basis.",
 ])
-log("S2  AGL team proposal status changed from 'NOT ADOPTED' to 'superseded'.")
+log("S2  Proposal panel becomes the record of the agreed way forward — saw cut adopted as an "
+    "interim arrangement, permanent duct under the South Rehabilitation works.")
 
 sub_all(shp(s2, "TextBox 16"), [
     ("All secondary routes saw cut at all three locations; no duct route remains in the AGL scope.",
@@ -278,7 +292,14 @@ sub_all(shp(s2, "TextBox 16"), [
      "Coring: 11 No. in total — LOC-01 9 No. (3 No. 12\" + 6 No. 8\"); LOC-02 1 No. 12\"; "
      "LOC-03 1 No. 12\"."),
 ])
-log("S2  'What changed' quantities restated so they reconcile with sheets 6 and 7.")
+wc = shp(s2, "TextBox 16")
+clone_para(wc, len(wc.text_frame.paragraphs) - 1,
+           "Technical queries Q1–Q3 on the existing 4 x 19 mm secondary duct are closed by "
+           "agreement between the AGL team, the civil team and ADA AGL: saw cut is adopted as an "
+           "interim arrangement, with permanent duct provision under the South Rehabilitation "
+           "works.")
+log("S2  'What changed' quantities restated so they reconcile with the quantities and schedule "
+    "sheets, and the closure of Q1–Q3 by agreement recorded.")
 
 set_para(shp(s2, "TextBox 17").text_frame.paragraphs[0],
          "Sequence and hold points apply to the three milling locations (sheets 1001, 1002, 1003). "
@@ -772,16 +793,22 @@ log("S7  Internal 'paste the issued detail into this frame' instruction removed;
 sub_all(shp(s7, "TextBox 14"), [
     ("How the saw cut route transitions into the existing duct in the NON-CONSTRUCTION area — "
      "this is open technical query Q3 and it governs the ends of every run.",
-     "How the saw cut route transitions into the existing duct in the non-construction area — "
-     "this is open technical query Q3, and it governs the ends of every run."),
+     "How the saw cut route terminates at the edge of the milling area, where the existing "
+     "4 x 19 mm duct continues into the non-construction area. Saw cut for the full affected "
+     "length is agreed, so no duct transition is made; the detail is to show the termination and "
+     "the seal at that point."),
+    ("Treatment where the saw cut crosses the existing 4 x 110 mm secondary duct bank exposed at "
+     "50 mm milling depth.",
+     "Treatment where the saw cut crosses the existing 4 x 19 mm secondary duct bank exposed at "
+     "50 mm milling depth, which is left in place."),
     ("Items 8 and 9 are the two that are not purely detailing. Item 8 is open technical query Q3 "
      "— the transition into the non-construction area was never answered, and every run has two "
      "ends. Item 9 is a physical clash with a duct bank the field already found at 50 mm. Neither "
      "can be closed out on site.",
-     "Items 8 and 9 are the two that go beyond detailing. Item 8 is open technical query Q3 — the "
-     "transition into the non-construction area is still to be confirmed, and every run has two "
-     "ends. Item 9 is a physical clash with a duct bank already found in the field at 50 mm. "
-     "Neither can be closed out on site."),
+     "Items 8 and 9 are the two that go beyond plain detailing. Item 8 follows from the agreed "
+     "saw cut arrangement and governs the ends of every run. Item 9 is a physical clash with a "
+     "duct bank already found in the field at 50 mm. Both are to be resolved in the detail rather "
+     "than on site."),
 ])
 sub_all(shp(s7, "TextBox 8"), [
     ("12.  At Location 2, the method for coring out the EXISTING shallow base and making good "
@@ -1281,8 +1308,10 @@ QLOWER = (
         ("Secondary cable figures are route lengths taken off the saw cut alignment. An "
          "allowance for terminations, base entry and manhole tails is to be added at ordering "
          "and is not included here.", 9.0),
-        ("No duct is laid under the AGL scope at Rev P08. The existing 4 x 110 mm secondary "
-         "duct bank remains subject to open technical queries Q1 and Q2.", 9.0),
+        ("No duct is laid under the AGL scope at Rev P08. Saw cut is adopted as an interim "
+         "arrangement agreed between the AGL team, the civil team and ADA AGL; permanent duct "
+         "provision follows under the South Rehabilitation works. The existing 4 x 19 mm "
+         "secondary duct bank is left in place with its obsolete cables withdrawn.", 9.0),
         ("Civil works — milling, asphalt laying and pavement reinstatement outside the AGL saw "
          "cut — are excluded.", 9.0),
     ], "P08 PANEL · QUANTITY EXCLUSIONS"),

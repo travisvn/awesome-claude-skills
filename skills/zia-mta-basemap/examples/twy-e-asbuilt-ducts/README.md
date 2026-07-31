@@ -233,3 +233,22 @@ allowance for terminations, base entry or manhole tails.
 The sheet reconciles against the consolidated scope sheet and the saw cut & coring schedule:
 16 No. fittings, 11 No. cores (6 @ 8" · 5 @ 12"), 13 No. new side-entry bases (11 @ 8" ·
 2 @ 12").
+
+### Rev P08 update — technical query closed by agreement
+
+The existing secondary duct exposed at 50 mm milling depth is **4 x 19 mm**, not the
+4 x 110 mm the earlier revisions recorded. (The as-built duct layers lifted from the DXF do
+carry real 110 mm ducts — `CV_OUTER DUCT 4x110mm dia` and similar — those are different ducts
+and keep their source labels. Only the technical-query narrative changes.)
+
+Q1, Q2 and Q3 are no longer open. Raised with the civil team and with ADA AGL, it was agreed
+that the 4 x 19 mm duct cannot accommodate the new secondary cable and that the civil scope
+covers the milling area only, so a full-stretch duct cannot be delivered under this work. Saw
+cut is adopted for every milling-affected asset as an **interim arrangement**, with permanent
+duct provision to follow under the South Rehabilitation works where the saw cut routes are
+replaced with duct to the standard design.
+
+The deck records this on the cover, in the technical-query panel (now headed *closed by
+agreement*), in the way-forward panel, in *what changed*, in the quantity exclusions, and on
+the detail sheet — where item 8 becomes a termination detail at the milling edge rather than
+an open query.
