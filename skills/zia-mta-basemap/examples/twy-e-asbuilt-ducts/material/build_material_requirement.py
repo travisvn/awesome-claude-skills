@@ -72,10 +72,15 @@ ROWS = [
      "manhole-to-light runs (no joints) plus terminations and tails — confirm against the "
      "run-by-run lengths."),
     ("Masking tape", "Box", 50, 50,
-     "As advised. No basis in the Rev P08 deck."),
+     "As advised, for general protection. The signboard masking is by matt black vinyl "
+     "sticker — see the separate line below."),
     ("Shallow base 12 inch", "No", 2, None,
      "ADDED — the plan needs 13 No. new bases: 11 No. 8\" plus 2 No. 12\" (LOC-02 "
      "TCCECH-03/008 and LOC-03 TCCECH-03/003). Not in the list as issued."),
+    ("Vinyl sticker, matt black — signboard masking", "m²", None, None,
+     "ADDED — masks the direction signboards leading to E4 and E6 under Phase 1, R4; removed "
+     "in Phase 3 before the functionality check. Quantity depends on the number of sign faces "
+     "and their area, which the deck does not carry — to be measured on site."),
     ("Dummy plate (8\" / 12\")", "No", 16, None,
      "ADDED — 13 No. open bases plus the 3 No. LOC-01 fittings kept under a plate during "
      "milling (Phase 1, R3). Confirm whether the plates already installed are recovered for "
@@ -109,7 +114,7 @@ cell(TOT, 7, "Count of lines with a shortfall against the required quantity.", s
 n = TOT + 2
 cell(n, 1, "NOTES", bold=True, size=11, color=NAVY, border=False)
 NOTES = [
-    "1.  Rows 1–8 are the quantities as advised. Rows 9 and 10 are added, and the connector "
+    "1.  Rows 1–8 are the quantities as advised. Rows 9 to 11 are added, and the connector "
     "quantity is revised, so the list covers what the Rev P08 plan requires. Availability "
     "of the added lines is to be filled in (yellow cells).",
     "2.  The plan needs 13 No. new side-entry shallow bases in total — 11 No. 8\" at LOC-01, "
@@ -125,10 +130,14 @@ NOTES = [
     "5.  Saw cut is an interim arrangement agreed between the AGL team, the civil team and "
     "ADA AGL. Permanent duct provision follows under the South Rehabilitation works, and is "
     "not covered by this requirement.",
-    "6.  Testing and commissioning is carried out at circuit level and covers the affected "
+    "6.  The direction signboards leading to E4 and E6 are masked with matt black vinyl "
+    "sticker under Phase 1 (R4) and unmasked in Phase 3 before the functionality check. The "
+    "vinyl quantity depends on the number of sign faces and their area — measure on site "
+    "before ordering.",
+    "7.  Testing and commissioning is carried out at circuit level and covers the affected "
     "fittings together with the fittings on the same circuits that fall outside these works — "
     "the series circuits are proved end to end before handover.",
-    "7.  Remaining Qty is a formula (Required − Available). Edit only the Required and "
+    "8.  Remaining Qty is a formula (Required − Available). Edit only the Required and "
     "Available columns.",
 ]
 for i, t in enumerate(NOTES):

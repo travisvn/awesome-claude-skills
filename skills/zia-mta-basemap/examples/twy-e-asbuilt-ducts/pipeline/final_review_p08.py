@@ -251,6 +251,35 @@ sub_all(shp(s2, "TextBox 4"), [
      "Balance 3 No. TCC at Location 3 and 3 No. at Location 1: existing shallow base maintained, "
      "new side-entry cable only, no coring."),
 ])
+sub_all(shp(s2, "TextBox 4"), [
+    ("7.  Final functionality check, then handover to Operations for final inspection and "
+     "return of the area to operational service.",
+     "8.  Final functionality check, then handover to Operations for final inspection and "
+     "return of the area to operational service."),
+])
+
+
+def insert_after(shape, prefix, text):
+    """Add a paragraph directly after the one whose text starts with `prefix`."""
+    tf = shape.text_frame
+    for n, para in enumerate(tf.paragraphs):
+        if para.text.startswith(prefix):
+            return clone_para(shape, n, text)
+    raise AssertionError("paragraph not found: " + prefix)
+
+
+seq = shp(s2, "TextBox 4")
+insert_after(seq, "R3.",
+             "R4.  Direction signboards leading to E4 and E6 masked with matt black vinyl "
+             "sticker before works commence, and unmasked under Phase 3 before the functionality "
+             "check.")
+insert_after(seq, "6.  Testing and commissioning at circuit level",
+             "7.  Remove the matt black vinyl masking from the direction signboards leading to "
+             "E4 and E6 (applied under Phase 1, R4).")
+sub_all(shp(s2, "TextBox 7"), [("(Phase 3, Item 7)", "(Phase 3, Item 8)")])
+log("S2  Signboard masking added — Phase 1 R4 masks the direction signboards leading to E4 and "
+    "E6, Phase 3 item 7 unmasks them before the functionality check (which becomes item 8, with "
+    "hold point H4 re-referenced).")
 log("S2  Phase 2 / Phase 3 wording softened without changing the requirement.")
 
 hp = shp(s2, "TextBox 7")
@@ -333,12 +362,28 @@ HDR_H, PAD_TOP, PAD_BOT, GAP = 237744, 109728, 137160, 146304
 BOT = 10020300
 
 
+def _scale_font(shape, factor, base):
+    """Set every run to `factor` x its original size (captured in `base`)."""
+    for pi, para in enumerate(shape.text_frame.paragraphs):
+        for ri, run in enumerate(para.runs):
+            orig = base.setdefault((pi, ri), run.font.size.pt if run.font.size else 10.0)
+            run.font.size = Pt(round(orig * factor * 4) / 4)
+
+
 def lay_column(panels, top, bottom):
+    avail = (bottom - top) - GAP * (len(panels) - 1)
+    bases = [{} for _ in panels]
     fitted = []
-    for pan, hdr, body in panels:
-        body.width = Emu(COL_W - 2 * (body.left - pan.left))
-        fitted.append(PAD_TOP + HDR_H + int(0.55 * HDR_H) + fit_height(body) + PAD_BOT)
-    slack = (bottom - top) - sum(fitted) - GAP * (len(panels) - 1)
+    for factor in (1.0, 0.96, 0.92, 0.88, 0.84, 0.80):
+        fitted = []
+        for (pan, hdr, body), base in zip(panels, bases):
+            body.width = Emu(COL_W - 2 * (body.left - pan.left))
+            if factor != 1.0 or base:
+                _scale_font(body, factor, base)
+            fitted.append(PAD_TOP + HDR_H + int(0.55 * HDR_H) + fit_height(body) + PAD_BOT)
+        if sum(fitted) <= avail:
+            break
+    slack = avail - sum(fitted)
     if slack > 0:                       # spread the spare room evenly
         share = slack // len(fitted)
         fitted = [h + share for h in fitted]
@@ -387,6 +432,10 @@ NOTES = [
     "indicative at 23 m — to be confirmed on site.",
     "8.  Every asset in frame carries its own as-built symbol, legended right. Type is taken from "
     "the source layer, not from the label.",
+    "9.  AGL assets within the closed area pass into the civil team's care for the duration of "
+    "the closure. Any damage to an AGL asset inside the closed area is to be made good under the "
+    "civil scope, and is to be reported to the AGL Team Leader on discovery so that it is "
+    "recorded and rectified before handover.",
 ]
 
 SCOPE_TEXT = {
@@ -475,10 +524,13 @@ for i in (3, 4, 5):
         set_para(p, t)
         p.space_after = Pt(0)
         p.space_before = Pt(0)
-    ntf = shp(sl, NOTES_SHAPE[i]).text_frame
+    notes_shape = shp(sl, NOTES_SHAPE[i])
+    ntf = notes_shape.text_frame
     while len(ntf.paragraphs) > len(NOTES):
         p = ntf.paragraphs[-1]._p
         p.getparent().remove(p)
+    while len(ntf.paragraphs) < len(NOTES):
+        clone_para(notes_shape, len(ntf.paragraphs) - 1, "x")
     for p, t in zip(ntf.paragraphs, NOTES):
         set_para(p, t)
 log("S3–S5  Scope panels and general notes rewritten: EPSG note reworded, the stale 'see sheet 6' "
@@ -1077,9 +1129,11 @@ LOWER = (
          9.0),
     ], "P08 PANEL · HOLD POINTS GOVERNING"),
     (7699248, "BASIS, ASSUMPTIONS & INDICATIVE RESOURCES", [
-        ("Covers Phase 3 AGL installation only. Phase 1 asset removal and coring is recorded "
-         "complete (site record 23.07.2026); Phase 2 civil attendance sits outside these five "
-         "days.", 9.0),
+        ("Covers Phase 3 AGL installation only. Phase 1 asset removal, coring and the masking "
+         "of the direction signboards leading to E4 and E6 with matt black vinyl sticker sit "
+         "before this window; Phase 2 civil "
+         "attendance sits outside it. Unmasking the signboards is Day 5, ahead of the "
+         "functionality check.", 9.0),
         ("The three locations are worked one front at a time — LOC-01 over Days 1–3, LOC-03 on "
          "Day 4, LOC-02 on Day 5 — so each is cut, cabled, tested and sealed before the next is "
          "opened. Days are allocated to the work each location carries: 14 No. fittings and "
@@ -1141,6 +1195,8 @@ SCH_ROWS = [
      "approx. 24 m · 1 No. RRM", "Per the awaited detail", "LOC-02 sealed; RRM re-fixed"),
     ("5", "Testing and commissioning at circuit level — affected and unaffected fittings alike",
      "LOC-01 / 02 / 03", "4 No. circuits", "—", "Circuits energised and proved end to end"),
+    ("5", "Remove the matt black vinyl masking from the direction signboards",
+     "E4 / E6 approaches", "Per Phase 1 R4", "—", "Signboards returned to normal display"),
     ("5", "Final functionality check, then handover to Operations", "LOC-01 / 02 / 03",
      "19 No. fittings", "H4 — AGL / Operations", "Area returned to operational service"),
 ]
