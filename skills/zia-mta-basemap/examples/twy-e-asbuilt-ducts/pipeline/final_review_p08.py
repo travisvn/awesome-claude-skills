@@ -212,7 +212,9 @@ set_para(shp(s1, "Text 10").text_frame.paragraphs[0],
          "Location 1 — 11 No. 8\" (9 No. bases cored out: 3 No. 12\" + 6 No. 8\"; 2 No. 12\" bases "
          "removed earlier); Location 2 — 1 No. 12\" at TCCECH-03/008; Location 3 — 1 No. 12\" at "
          "TCCECH-03/003, with the remaining 3 No. TCC taking new secondary cable into their "
-         "existing 12\" bases. The affected-fitting list moves from 30 No. to 16 No. A saw cut and "
+         "existing 12\" bases. A further 3 No. fittings at Location 1 (SBC102-02/027, TCCECH-03/035, TCCECH-03/018) take new "
+         "secondary cable only — no coring — and are protected by a dummy plate during "
+         "milling. The affected-fitting list moves from 30 No. to 19 No. A saw cut and "
          "side-entry base detail sheet is included and is held pending issue of the detail "
          "drawing. The technical queries on the existing 4 x 19 mm secondary duct are closed by "
          "agreement between the AGL team, the civil team and ADA AGL: saw cut is adopted as an "
@@ -234,6 +236,14 @@ sub_all(shp(s2, "TextBox 4"), [
      "remains in the AGL scope.",
      "At Rev P08 every secondary route at the three locations is saw cut, and no duct route "
      "remains in the AGL scope."),
+    ("R3.  Dummy plates installed on open bases for protection during milling and civil works.",
+     "R3.  Dummy plates installed on the open bases, and on the 3 No. Location 1 fittings that "
+     "take secondary cable only (SBC102-02/027, TCCECH-03/035, TCCECH-03/018), for protection during milling and civil "
+     "works."),
+    ("Balance 3 No. TCC at Location 3: existing 12\" shallow base maintained, new side-entry "
+     "cable only.",
+     "Balance 3 No. TCC at Location 3 and 3 No. at Location 1: existing shallow base maintained, "
+     "new side-entry cable only, no coring."),
 ])
 log("S2  Phase 2 / Phase 3 wording softened without changing the requirement.")
 
@@ -285,7 +295,11 @@ log("S2  Proposal panel becomes the record of the agreed way forward — saw cut
 sub_all(shp(s2, "TextBox 16"), [
     ("All secondary routes saw cut at all three locations; no duct route remains in the AGL scope.",
      "All secondary routes saw cut at the three locations; no duct route remains in the AGL scope."),
-    ("Affected fittings reduce from 30 to 16", "Affected fittings move from 30 No. to 16 No."),
+    ("Affected fittings reduce from 30 to 16", "Affected fittings move from 30 No. to 19 No."),
+    ("LOC-01 11, LOC-02 1 (TCCECH-03/008), LOC-03 4 (TCC only — 03/003 cored, balance 3 "
+     "secondary cable only).",
+     "LOC-01 14 (11 with new bases, 3 secondary cable only), LOC-02 1 (TCCECH-03/008), LOC-03 4 "
+     "(TCC only — 03/003 cored, balance 3 secondary cable only)."),
     ("2 No. 12\" removed prior", "2 No. 12\" removed earlier"),
     ("Coring applies at all three locations: LOC-01 mixed 12\"/8\" (9 cored); LOC-02 and LOC-03 "
      "one 12\" core each.",
@@ -371,7 +385,7 @@ NOTES = [
 
 SCOPE_TEXT = {
 3: [
-    "FINAL SCOPE (REV P08) — 11 No. FITTINGS AFFECTED, ALL ROUTES SAW CUT",
+    "FINAL SCOPE (REV P08) — 14 No. FITTINGS AFFECTED, ALL ROUTES SAW CUT",
     "CORE OUT 3 No. 12\" + 6 No. 8\" (9 No. cored); 2 No. 12\" bases removed earlier — INSTALL "
     "11 No. 8\" SIDE-ENTRY SHALLOW BASE + NEW CABLE.",
     "   • SBC (6 No.): SBC102-02/024, 01/027, 02/025, 01/028, 02/026, 01/029",
@@ -379,7 +393,8 @@ SCOPE_TEXT = {
     "ROUTE: SAW CUT throughout — the Rev P06/P07 via-duct routes become saw cut secondary cable "
     "laying at Rev P08. Saw cut detail per the SAW CUT & SIDE-ENTRY SHALLOW BASE DETAIL sheet; "
     "detail drawing to be issued.",
-    "NOT IN THE REV P08 SCOPE — no works: SBC102-02/027, TCCECH-03/035, TCCECH-03/018",
+    "SECONDARY CABLE ONLY — 3 No.: SBC102-02/027, TCCECH-03/035, TCCECH-03/018. New saw cut, NO CORING; existing "
+    "base kept and protected by a dummy plate during milling.",
     "FIELD VERIFIED NOT AFFECTED: SBC102-01/026 (no works)",
     "TCC103 FITTINGS NOT IN THE FIELD SCOPE — SHOWN AS EXISTING ONLY",
     "ISOLATE CIRCUITS: SBC102.01/.02, TCCECH.03/.04",
@@ -467,6 +482,7 @@ log("S3–S5  Scope panels and general notes rewritten: EPSG note reworded, the 
 LEGEND_ROWS = {
     3: [("ring", "CORE OUT 12\" — NEW 8\" SIDE-ENTRY BASE (SAW CUT)"),
         ("ring8", "CORE OUT 8\" — NEW 8\" SIDE-ENTRY BASE (SAW CUT)"),
+        ("green", "SECONDARY CABLE ONLY — NO CORING (DUMMY PLATE)"),
         ("line_sc", "SECONDARY CABLE — SAW CUT ROUTE (REV P08)"),
         ("line_new", "NEW SAW CUT — SECONDARY CABLE (REV P08)"),
         ("line_area", "AGL WORKS AREA (GOVERNING)")],
@@ -562,12 +578,9 @@ for i in (3, 4, 5):
                                   for top, grp in clusters]}
 
 # --- sheet 1001: drop the green markers on assets that carry no works -------
-for nm in ("Shape 297", "Shape 300", "Shape 303"):
-    g = shp(S[2], nm)
-    if g:
-        del_shape(g)
-log("S3  Three green 'secondary cable affected' markers removed — they sat on SBC102-02/027, "
-    "TCCECH-03/035 and TCCECH-03/018, which the panel lists as not in the Rev P08 scope.")
+log("S3  The three green markers at SBC102-02/027, TCCECH-03/035, TCCECH-03/018 are kept — those fittings take new "
+    "secondary cable by saw cut with no coring, and are protected by a dummy plate during "
+    "milling.")
 
 # --- sheet 1003: plot the RRM remove/protect rings the scope calls for ------
 s5 = S[4]
@@ -688,8 +701,21 @@ for i in (3, 4, 5):
         y += h + GAP2
 
     st = LEGEND_STATE[i]
-    n = len(LEGEND_ROWS[i])
-    leg_h = 137160 + 219456 + 128016 + 274320 * max(n, len(st["assets"])) + 137160
+    # each legend row is as tall as its own wrapped label needs
+    LEG_MIN, LEG_LINE = 274320, 152400
+    row_h = []
+    for k, label in LEGEND_ROWS[i]:
+        w = st["rows"][k]["text"].width
+        lines = textfit.wrap_lines(label, (w - 91440) / textfit.EMU_PT, 8.0)
+        row_h.append(max(LEG_MIN, lines * LEG_LINE + 91440))
+    LEG_CHROME = 137160 + 219456 + 128016 + 137160
+    rows_h = max(sum(row_h), 274320 * len(st["assets"]))
+    avail = 10058400 - y - LEG_CHROME                  # keep clear of the sheet footer
+    if rows_h > avail:                                  # scale back rather than overrun
+        k = avail / rows_h
+        row_h = [max(228600, int(h * k)) for h in row_h]
+        rows_h = max(sum(row_h), 274320 * len(st["assets"]))
+    leg_h = rows_h + LEG_CHROME
     place(shp(sl, LEG_PANEL[i]), top=y, height=leg_h)
     place(shp(sl, LEG_HDR[i]), top=y + 137160)
     sub_y = y + 137160 + 256848
@@ -697,12 +723,14 @@ for i in (3, 4, 5):
     for s_ in st["subs"]:
         s_.top = Emu(sub_y)
     # works-action / linework column
+    yy = row0
     for n_i, (k, _) in enumerate(LEGEND_ROWS[i]):
         row = st["rows"][k]
-        new_top = row0 + n_i * 274320
         for g, dy in zip(row["glyphs"], row["dy"]):
-            g.top = Emu(new_top + dy)
-        row["text"].top = Emu(new_top)
+            g.top = Emu(yy + dy)
+        row["text"].top = Emu(yy)
+        row["text"].height = Emu(row_h[n_i])
+        yy += row_h[n_i]
     # as-built asset column on the same row pitch
     for n_i, (_, grp) in enumerate(st["assets"]):
         new_top = row0 + n_i * 274320
@@ -753,7 +781,16 @@ REMARK = {
     "Remove / protect before saw cut, re-fix after paving":
         "Remove and protect before saw cut; re-fix after paving",
 }
+CABLE_ONLY_L1 = ("SBC102-02/027", "TCCECH-03/035", "TCCECH-03/018")
 for ri in range(1, len(tbl.rows)):
+    if tbl.cell(ri, 1).text in CABLE_ONLY_L1:
+        set_para(tbl.cell(ri, 2).text_frame.paragraphs[0],
+                 "SECONDARY CABLE ONLY — NEW SAW CUT, NO CORING")
+        set_para(tbl.cell(ri, 3).text_frame.paragraphs[0], "Sawcut")
+        set_para(tbl.cell(ri, 4).text_frame.paragraphs[0],
+                 "Existing base kept, no coring; protected by dummy plate during milling; "
+                 "new cable via saw cut")
+        continue
     for ci, mapping in ((2, ACTION), (4, REMARK)):
         cell = tbl.cell(ri, ci)
         if cell.text_frame.text in mapping:
@@ -767,12 +804,13 @@ log("S6  Action and remark wording shortened and softened; columns re-proportion
     "is a single line — the table used to run underneath the totals line.")
 
 set_para(shp(s6, "Text 1").text_frame.paragraphs[0],
-         "Totals (Rev P08 final scope): 16 No. fittings — LOC-01 11 No. (9 No. cored: 3 No. 12\" + "
-         "6 No. 8\"; 2 No. 12\" removed earlier; 11 No. new 8\" bases); LOC-02 1 No. (12\" core, "
-         "new 12\" base); LOC-03 4 No. (12\" core at 03/003 only, balance 3 No. secondary cable "
-         "only) — all new cable via SAW CUT.   ·   Coring 11 No. (6 @ 8\" · 5 @ 12\")   ·   New "
-         "side-entry bases 13 No.   ·   15 No. not in the Rev P08 scope   ·   3 No. RRM remove / "
-         "protect / re-fix   ·   1 No. field verified not affected.")
+         "Totals (Rev P08 final scope): 19 No. fittings — LOC-01 14 No. (9 No. cored: 3 No. 12\" + "
+         "6 No. 8\"; 2 No. 12\" removed earlier; 11 No. new 8\" bases; balance 3 No. secondary "
+         "cable only, no coring); LOC-02 1 No. (12\" core, new 12\" base); LOC-03 4 No. (12\" "
+         "core at 03/003 only, balance 3 No. secondary cable only) — all new cable via SAW CUT."
+         "   ·   Coring 11 No. (6 @ 8\" · 5 @ 12\")   ·   New side-entry bases 13 No.   ·   "
+         "12 No. not in the Rev P08 scope   ·   3 No. RRM remove / protect / re-fix   ·   1 No. "
+         "field verified not affected.")
 place(shp(s6, "Text 1"), top=960120 + 240030 * len(tbl.rows) + 182880, width=14173200)
 place(shp(s6, "Text 0"), width=14173200 - 1700000)
 add_logo(s6, 457200 + 14173200, 265430, 434340)
@@ -821,13 +859,13 @@ log("S7  Wording on items 8, 9 and 12 reworded.")
 sched_tbl_shape = [s for s in s7.shapes if s.has_table][0]
 tt = sched_tbl_shape.table
 ROWS = [
-    ("LOC-01", "11 No.  (6 SBC · 5 TCC)", "9 No. — 3 @ 12\" · 6 @ 8\"",
-     "11 No. 8\" side-entry base", "Saw cut", "1001"),
+    ("LOC-01", "14 No.  (7 SBC · 7 TCC)", "9 No. — 3 @ 12\" · 6 @ 8\"",
+     "11 No. 8\" new; 3 No. existing kept", "Saw cut", "1001"),
     ("LOC-02", "1 No.  (TCCECH-03/008)", "1 No. 12\" (existing base)",
      "1 No. 12\" side-entry base", "Saw cut", "1002"),
     ("LOC-03", "4 No.  (TCC only)", "1 No. 12\" (TCCECH-03/003)",
      "1 No. 12\" new; 3 No. existing kept", "Saw cut", "1003"),
-    ("TOTAL", "16 No.", "11 No. — 6 @ 8\" · 5 @ 12\"",
+    ("TOTAL", "19 No.", "11 No. — 6 @ 8\" · 5 @ 12\"",
      "13 No. new side-entry bases", "Saw cut", "—"),
 ]
 for ri, row in enumerate(ROWS, start=1):
@@ -1038,7 +1076,7 @@ LOWER = (
          "days.", 9.0),
         ("The three locations are worked one front at a time — LOC-01 over Days 1–3, LOC-03 on "
          "Day 4, LOC-02 on Day 5 — so each is cut, cabled, tested and sealed before the next is "
-         "opened. Days are allocated to the work each location carries: 11 No. fittings and "
+         "opened. Days are allocated to the work each location carries: 14 No. fittings and "
          "approx. 300 m of cut at LOC-01, 4 No. and approx. 95 m at LOC-03, 1 No. and approx. "
          "24 m at LOC-02.", 9.0),
         ("Only two items span all three locations: the setting-out on Day 1, taken in one survey "
@@ -1078,9 +1116,9 @@ SCH_ROWS = [
     ("2", "Set the new side-entry shallow bases in the cored positions", "LOC-01 · 1001",
      "11 No. 8\"", "—", "11 No. bases set and levelled"),
     ("3", "Lay new secondary cable through the saw cut — no joints, manhole to light",
-     "LOC-01 · 1001", "11 No. runs", "—", "LOC-01 cabled"),
+     "LOC-01 · 1001", "14 No. runs", "—", "LOC-01 cabled"),
     ("3", "Termination, insulation resistance and continuity testing", "LOC-01 · 1001",
-     "11 No. fittings", "—", "LOC-01 test records issued"),
+     "14 No. fittings", "—", "LOC-01 test records issued"),
     ("3", "Backfill, sealant and pavement reinstatement of the saw cut", "LOC-01 · 1001",
      "approx. 300 m", "Per the awaited detail", "LOC-01 cut sealed; cure period started"),
     ("4", "Saw cutting — full route", "LOC-03 · 1003", "approx. 95 m",
@@ -1098,7 +1136,7 @@ SCH_ROWS = [
     ("5", "Testing and commissioning of the affected circuits — all three locations",
      "LOC-01 / 02 / 03", "4 No. circuits", "—", "Circuits energised and proved"),
     ("5", "Final functionality check, then handover to Operations", "LOC-01 / 02 / 03",
-     "16 No. fittings", "H4 — AGL / Operations", "Area returned to operational service"),
+     "19 No. fittings", "H4 — AGL / Operations", "Area returned to operational service"),
 ]
 SCH_COLS = (640080, 4297680, 1371600, 1600200, 1828800, 4142232)
 LOW_BODY_H = max(
@@ -1174,11 +1212,11 @@ add_logo(qty, L + W, 265430, 434340)
 
 # ---- headline tiles --------------------------------------------------------
 TILES = [
-    ("16 No.", "AFFECTED FITTINGS", "11 · 1 · 4 across LOC-01 / 02 / 03"),
+    ("19 No.", "AFFECTED FITTINGS", "14 · 1 · 4 across LOC-01 / 02 / 03"),
     ("11 No.", "EXISTING BASES CORED OUT", "6 @ 8\"  ·  5 @ 12\""),
     ("13 No.", "NEW SIDE-ENTRY BASES", "11 @ 8\"  ·  2 @ 12\""),
     ("approx. 420 m", "SAW CUTTING", "300 m  ·  24 m  ·  95 m"),
-    ("16 No.", "SECONDARY CABLE RUNS", "no joints — manhole to light"),
+    ("19 No.", "SECONDARY CABLE RUNS", "no joints — manhole to light"),
 ]
 TILE_H = 1005840
 for n, (big, cap, sub) in enumerate(TILES):
@@ -1194,14 +1232,14 @@ QTY_ROWS = [
     ("Location", "Affected assets", "Core out\nexisting 8\"", "Core out\nexisting 12\"",
      "New coring\n8\" base", "New coring\n12\" base", "Saw cutting",
      "Secondary cable required"),
-    ("LOC-01 · sheet 1001", "11 No.", "6 No.", "3 No. †", "11 No.", "—",
-     "approx. 300 m", "11 No. runs  ·  approx. 300 m"),
+    ("LOC-01 · sheet 1001", "14 No.", "6 No.", "3 No. †", "11 No.", "—",
+     "approx. 300 m", "14 No. runs  ·  approx. 300 m"),
     ("LOC-02 · sheet 1002", "1 No.", "—", "1 No.", "—", "1 No.",
      "approx. 24 m", "1 No. run  ·  approx. 24 m"),
     ("LOC-03 · sheet 1003", "4 No.", "—", "1 No.", "—", "1 No.",
      "approx. 95 m", "4 No. runs  ·  approx. 95 m"),
-    ("TOTAL", "16 No.", "6 No.", "5 No.", "11 No.", "2 No.",
-     "approx. 420 m", "16 No. runs  ·  approx. 420 m"),
+    ("TOTAL", "19 No.", "6 No.", "5 No.", "11 No.", "2 No.",
+     "approx. 420 m", "19 No. runs  ·  approx. 420 m"),
 ]
 QTY_AVAIL = W - 292608
 need = []
@@ -1271,6 +1309,8 @@ ACT_ROWS = [
      "TCCECH-03/008", "1 No.", "12\"", "Saw cut"),
     ("LOC-03", "Core out existing 12\" → new side-entry shallow base — no side entry in the "
      "existing base", "TCCECH-03/003", "1 No.", "12\"", "Saw cut"),
+    ("LOC-01", "No coring — secondary cable only; dummy plate protection during milling",
+     "SBC102-02/027, TCCECH-03/035, TCCECH-03/018", "3 No.", "existing", "Saw cut"),
     ("LOC-03", "No coring — the existing 12\" shallow base takes the new side entry",
      "TCCECH-03/002, 04/002, 04/003", "3 No.", "existing", "Saw cut"),
 ]
@@ -1293,8 +1333,10 @@ QLOWER = (
          "taken to receive the new side-entry shallow base. The two counts differ at LOC-01 "
          "because 2 No. 12\" bases were removed earlier, so 11 No. new 8\" bases are set "
          "against 9 No. cored positions.", 9.0),
-        ("At LOC-03, 3 No. of the 4 No. fittings take new secondary cable into their existing "
-         "12\" shallow base with no coring; the saw cut route serves all 4 No.", 9.0),
+        ("6 No. fittings take new secondary cable with no coring — 3 No. at LOC-01 "
+         "(SBC102-02/027, TCCECH-03/035, TCCECH-03/018), kept under a dummy plate during milling, and 3 No. at LOC-03 "
+         "whose existing 12\" shallow base takes the new side entry. The saw cut routes plotted "
+         "on sheets 1001 and 1003 already serve them.", 9.0),
         ("Saw cut lengths are scaled from the Rev P08 saw cut runs on sheets 1001–1003 using "
          "the per-sheet drawing scale — approx. 300 m, 24 m and 95 m. For programme and "
          "enquiry only; confirm on site before ordering.", 9.0),
