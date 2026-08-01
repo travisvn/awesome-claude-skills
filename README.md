@@ -64,6 +64,7 @@ Skills for working with complex file formats:
 
 - **[docx](https://github.com/anthropics/skills/tree/main/skills/docx)** - Create, edit, and analyze Word documents with support for tracked changes, comments, formatting preservation, and text extraction
 - **[pdf](https://github.com/anthropics/skills/tree/main/skills/pdf)** - Comprehensive PDF manipulation toolkit for extracting text and tables, creating new PDFs, merging/splitting documents, and handling forms
+- **[pdf-to-markdown-skill](https://github.com/zhijun-dai/pdf-to-markdown-skill)** - Convert text-based PDFs into clean, AI-friendly Markdown with image extraction, scan-page detection, and a conversion report
 - **[pptx](https://github.com/anthropics/skills/tree/main/skills/pptx)** - Create, edit, and analyze PowerPoint presentations with support for layouts, templates, charts, and automated slide generation
 - **[xlsx](https://github.com/anthropics/skills/tree/main/skills/xlsx)** - Create, edit, and analyze Excel spreadsheets with support for formulas, formatting, data analysis, and visualization
 
