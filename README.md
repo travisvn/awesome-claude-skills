@@ -109,6 +109,11 @@ Skills for working with complex file formats:
   - [Blog post about its development](https://blog.fsck.com/2025/10/23/naming-claude-plugins/)
   - Install from `superpowers-marketplace` plugin
 
+- **[linusnicolau/secureship](https://github.com/linusnicolau/secureship)** - 7 senior-engineer subagents + 3 skills for Claude Code, tuned for Next.js/TypeScript security & code review
+  - Free `code-reviewer` agent (adversarial, hunts real correctness bugs) + free `secureship-audit` static scanner: `npx github:linusnicolau/secureship-cli .`
+  - Full pack: 40-point Next.js security checklist, `security-auditor`, `test-architect`, `refactor-engineer`, `debug-detective`, `doc-writer`, `pr-polisher`, and `/audit` `/ship` `/debug` workflows
+  - Benchmark: found 7/7 vs 4/7 on a demo repo with planted vulnerabilities
+
 
 ### Individual Skills
 
