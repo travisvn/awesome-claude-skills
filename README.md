@@ -128,6 +128,7 @@ Skills for working with complex file formats:
 | **[Expo Skills](https://github.com/expo/skills)** | Official skills by the Expo team for developing Expo apps |
 | **[shadcn/ui](https://ui.shadcn.com/docs/skills)** | Give Claude Code context on shadcn components as well as pattern enforcement |
 | **[get-shit-done](https://github.com/gsd-build/get-shit-done)** | Lightweight meta-prompting, context engineering, and spec-driven development system for Claude Code by TÂCHES |
+| **[gh-attach](https://github.com/sudosubin/gh-attach)** | Upload and download GitHub user-attachments (screenshots, PDFs, zips, videos) from the terminal; lets Claude Code attach files to PRs, issues, and comments and fetch their URLs via the gh CLI |
 
 _More community skills coming soon! Submit a PR to add your skill._
 
