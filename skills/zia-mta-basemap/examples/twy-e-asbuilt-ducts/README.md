@@ -181,3 +181,150 @@ Stated on sheet 6 of the output, and they are the skill's own limits showing thr
   point — handholes, manholes, transformer pits, RRM — while AGL light fittings match to
   sub-millimetre. Set out civil features from survey.
 - **Z is unreliable** in the source drawing. 2D basemap only.
+
+## Rev P08 — final-submission review pass
+
+`pipeline/final_review_p08.py` takes the Rev P08 working deck
+(`input/TWYEAGLSHOPDWG_RevP08.pptx`) and produces the issue copy in `out/`. It is a
+checking pass, not a rebuild: every drawing coordinate is left alone except where the
+sheet contradicted its own text.
+
+What it resolves:
+
+- **Quantities that did not reconcile.** Sheet 7's TOTAL row read `11 @ 8" · 5 @ 12"`
+  coring and `16 side-entry shallow bases`; the per-location rows give 11 coring
+  (6 @ 8" · 5 @ 12") and 13 new bases — 3 No. at LOC-03 take cable into existing bases.
+  Sheets 1, 2, 6 and 7 now state the same figures.
+- **Works area vs. its own caption.** Every sheet notes the red area as the Rev P05
+  field-condition milling extent, unchanged at P08. Sheet 1001 matched (425.3 m²); the
+  patches on 1002 and 1003 had drifted to 99.7 m² and 292.9 m² against the stated
+  257.1 m² and 676.7 m². Both are redrawn from the Rev P05 geometry, and 1002 gains the
+  caption it was missing.
+- **Symbols vs. scope.** Three green "secondary cable affected" markers on sheet 1001 sat
+  on assets the panel lists as out of scope — removed. RRM.557 and RRM.670 were in scope
+  and legended on sheet 1003 but never plotted — rings added. Per-sheet legends now list
+  only the symbols that sheet actually uses.
+- **Stale references.** The `see sheet 6` cross-reference (a registration sheet that no
+  longer exists), the EPSG:32640 note, working file names on the cover, the blank
+  `Base layer` row, and the hold-point list starting at H2 with no H1.
+- **Tone.** Statements set against the civil team, and against the deck's own earlier
+  revisions, are re-worded as requests for confirmation or as superseded status.
+- **Layout.** Panels fitted to their text with columns levelled, titles on one line,
+  tables inside their frames, sheet footers on every page, ADB SAFEGATE logo throughout.
+
+`pipeline/textfit.py` measures wrapped text in Liberation Sans (metric-compatible with
+Arial) so the panel and table fitting is computed, not eyeballed.
+
+### Sheet 3 — 5-day AGL installation schedule
+
+The review pass also adds a programme sheet after the scope & sequence sheet. It covers
+**Phase 3 AGL installation only** — Phase 1 asset removal and coring is recorded complete,
+and Phase 2 civil attendance sits outside the five days.
+
+Every figure on it comes from the deck itself: 16 No. fittings, 11 No. 8" bases at LOC-01,
+1 No. 12" at LOC-02 and LOC-03, 3 No. RRM, 4 No. circuits, and saw cut lengths measured off
+the Rev P08 new-saw-cut runs on sheets 1001–1003 (approx. 300 m / 24 m / 95 m, approx. 420 m
+total) using the per-sheet EMU-per-metre scale from `data/registration.json`. The sheet
+states that those lengths are scaled for programme only.
+
+The five days are allocated across the three locations rather than by trade, so each
+location is cut, cabled, tested and sealed as one front before the next is opened —
+**LOC-01 over Days 1–3** (11 No. fittings, approx. 300 m of cut), **LOC-03 on Day 4**
+(4 No., approx. 95 m), **LOC-02 on Day 5** (1 No., approx. 24 m). Only two items span all
+three: the setting-out on Day 1, taken in a single survey visit, and the circuit testing and
+commissioning on Day 5, which cannot complete until every location is cabled because the
+circuits run through all three.
+
+The programme is gated on the deck's own hold points: Day 1 cannot start until H1 (curing
+confirmed) and H5 (saw cut detail issued and accepted) are released, and neither is released
+at Rev P08. Sealant cure time before return to operational service is per the awaited detail,
+so the sheet says handover moves to the following shift if the cure exceeds the Day 5 window.
+Shift hours and resourcing are marked indicative, to be set against the approved AWAN.
+
+### Sheet 7 — works quantities
+
+A quantities sheet ahead of the asset-by-asset consolidated scope, carrying one row per
+location plus a total:
+
+| | Affected | Core out 8" | Core out 12" | New coring 8" | New coring 12" | Saw cut | Secondary cable |
+|---|---|---|---|---|---|---|---|
+| LOC-01 | 11 No. | 6 No. | 3 No. † | 11 No. | — | ~300 m | 11 No. runs |
+| LOC-02 | 1 No. | — | 1 No. | — | 1 No. | ~24 m | 1 No. run |
+| LOC-03 | 4 No. | — | 1 No. | — | 1 No. | ~95 m | 4 No. runs |
+| **TOTAL** | **16 No.** | **6 No.** | **5 No.** | **11 No.** | **2 No.** | **~420 m** | **16 No. runs** |
+
+† 2 No. further 12" bases at LOC-01 were removed earlier and need no coring out, so 11 No.
+new 8" bases are set against 9 No. cored positions — which is why core-out and new-coring
+do not match at LOC-01.
+
+*Core out* is removal of the existing shallow base by coring; *new coring* is the core taken
+to receive the new side-entry base. A second table lists the asset IDs behind each count. The
+figures are counts, not dimensions — core diameter, core depth, saw cut width and depth all
+sit behind the awaited detail (hold point H5), and cable figures are route lengths with no
+allowance for terminations, base entry or manhole tails.
+
+The sheet reconciles against the consolidated scope sheet and the saw cut & coring schedule:
+16 No. fittings, 11 No. cores (6 @ 8" · 5 @ 12"), 13 No. new side-entry bases (11 @ 8" ·
+2 @ 12").
+
+### Rev P08 update — technical query closed by agreement
+
+The existing secondary duct exposed at 50 mm milling depth is **4 x 19 mm**, not the
+4 x 110 mm the earlier revisions recorded. (The as-built duct layers lifted from the DXF do
+carry real 110 mm ducts — `CV_OUTER DUCT 4x110mm dia` and similar — those are different ducts
+and keep their source labels. Only the technical-query narrative changes.)
+
+Q1, Q2 and Q3 are no longer open. Raised with the civil team and with ADA AGL, it was agreed
+that the 4 x 19 mm duct cannot accommodate the new secondary cable and that the civil scope
+covers the milling area only, so a full-stretch duct cannot be delivered under this work. Saw
+cut is adopted for every milling-affected asset as an **interim arrangement**, with permanent
+duct provision to follow under the South Rehabilitation works where the saw cut routes are
+replaced with duct to the standard design.
+
+The deck records this on the cover, in the technical-query panel (now headed *closed by
+agreement*), in the way-forward panel, in *what changed*, in the quantity exclusions, and on
+the detail sheet — where item 8 becomes a termination detail at the milling edge rather than
+an open query.
+
+### Rev P08 update — 3 No. LOC-01 fittings back in scope
+
+`SBC102-02/027`, `TCCECH-03/035` and `TCCECH-03/018` at Location 1 are **secondary cable only**:
+new saw cut, **no coring**, the existing base kept and protected by a dummy plate during
+milling. They had been carried as out of scope. The saw cut runs plotted on sheet 1001 already
+reach all three (two sit on a run, the third 3.0 m off), so the ~300 m at LOC-01 and ~420 m
+overall are unchanged.
+
+Every count moves with them — affected fittings **16 → 19**, LOC-01 **11 → 14**, cable runs
+**16 → 19**, not-in-scope **15 → 12**. Coring stays 11 No. and new bases stay 13 No., since
+these three need neither.
+
+### Material requirement (separate deliverable)
+
+`material/build_material_requirement.py` writes
+`material/Material Requirement - TWY E AGL Installation - Rev P08.xlsx` — deliberately a
+separate workbook, not a deck sheet. Each line carries its basis against the Rev P08 plan, and
+three lines move:
+
+- **Shallow base 12"** — 2 No., added; the plan needs 13 No. new bases (11 @ 8" + 2 @ 12").
+- **Dummy plate** — 16 No., added; 13 No. open bases plus the 3 No. LOC-01 fittings kept
+  under a plate during milling.
+- **Secondary connectors** — 33 → **38 pair** (2 per fitting × 19 No.), so 5 pair short of
+  what is held.
+
+Sealant, mortar and backer-rod quantities cannot be firmed until the saw cut detail fixes cut
+width, depth and core diameter (hold point H5), and the sheet says so.
+
+After the AGL team's own edit two lines fell short of ADB SAFEGATE stock — **7 No. shallow base
+8 inch** and **350 m of secondary cable**. The project team confirmed no ready stock and both
+are held in ADA inventory, so the table carries three further columns: the ADA item code, the
+current ADA stock, and the balance left after the withdrawal.
+
+| | ADA item | ADA stock | Withdrawn | Balance |
+|---|---|---|---|---|
+| Shallow base 8" | 10016966 | 10 No. | 7 No. | 3 No. |
+| Secondary cable 2c x 4 sq.mm | 10020584 | 1 RoL / 2000 m | 350 m | 1650 m |
+
+A block below the table reproduces the stores descriptions verbatim so the withdrawal request
+can be raised against them, and two notes ask for the base part number and the cable rating to
+be confirmed before withdrawal — the stores entry for the cable reads 2750.1 kV, which looks
+like a data-entry artefact.
