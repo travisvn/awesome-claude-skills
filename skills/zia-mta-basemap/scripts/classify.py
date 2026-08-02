@@ -101,7 +101,7 @@ LAYER_RULES = {
     "CV_E_TRANSFO PIT": "Existing transformer pit",
     "CV_TRANSFO PIT": "Transformer pit",
     "CV_MH": "Manhole", "CV-EX-MH": "Existing manhole", "CV_EX-MH": "Existing manhole",
-    "CV_ETRANS MH": "Existing manhole", "CV-ZONE2-MANHOLE": "Manhole",
+    "CV_ETRANS MH": "Existing transformer manhole", "CV-ZONE2-MANHOLE": "Manhole",
     "CV_GRND": "Earthing point", "CV-GRND": "Earthing point", "CV-EX-GRND": "Earthing point",
     "CV_NEW GROUNDING": "Earthing point", "CV_GROUNDING ROD": "Earthing point",
     "CV_GRND PIT": "Earthing pit",
