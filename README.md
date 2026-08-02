@@ -128,6 +128,7 @@ Skills for working with complex file formats:
 | **[Expo Skills](https://github.com/expo/skills)** | Official skills by the Expo team for developing Expo apps |
 | **[shadcn/ui](https://ui.shadcn.com/docs/skills)** | Give Claude Code context on shadcn components as well as pattern enforcement |
 | **[get-shit-done](https://github.com/gsd-build/get-shit-done)** | Lightweight meta-prompting, context engineering, and spec-driven development system for Claude Code by TÂCHES |
+| **[humanizer-multilingual](https://github.com/finestructure-ai/humanizer-multilingual)** | Removes AI-writing tells in Spanish, Portuguese, French, German, Italian, Hebrew, Arabic, Russian, Japanese and Chinese, with per-language calque, typography, register and syntax patterns graded P0/P1/P2 |
 
 _More community skills coming soon! Submit a PR to add your skill._
 
