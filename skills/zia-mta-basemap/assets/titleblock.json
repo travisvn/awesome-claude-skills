@@ -1,0 +1,15 @@
+{
+  "_comment": "Title block fields for sketch(). Edit these once for your project; anything left empty renders as '- not set -' on the drawing rather than a fabricated value, because a wrong drawing number on an RFI attachment is worse than a blank one. Pass title_block={...} to sketch() to override per drawing.",
+  "project": "Zayed International Airport - MTA Milling & Overlay",
+  "client": "Abu Dhabi Airports (ADA)",
+  "contractor": "",
+  "discipline": "Airfield Ground Lighting (AGL)",
+  "drawing_title": "",
+  "drawing_no": "",
+  "rev": "",
+  "date": "",
+  "drawn_by": "",
+  "checked_by": "",
+  "approved_by": "",
+  "status": "FOR INFORMATION"
+}

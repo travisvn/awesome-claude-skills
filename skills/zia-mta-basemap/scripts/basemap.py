@@ -512,6 +512,26 @@ def plot(fixtures=None, segments=None, routes=None, out="basemap.png", title="",
 
 
 # ----------------------------------------------------------------- CLI
+def _deliverables(a, fx, patches, strips, seg):
+    """--sketch / --dxf-out. drawing.py is imported lazily so the data helpers stay
+    usable in an environment where only pandas is installed."""
+    from drawing import sketch, write_dxf
+    if not len(fx):
+        print("no fixtures selected - skipping --sketch/--dxf-out. Widen the bbox, "
+              "drop --assets-only, or check the leaf layer names with --list-leaves.",
+              file=sys.stderr)
+        return
+    tb = {k: v for k, v in (("drawing_no", a.drawing_no), ("rev", a.rev)) if v}
+    if a.sketch:
+        for f in sketch(fx, patches=patches, strips=strips, segments=seg,
+                        out=a.sketch, paper=a.paper,
+                        drawing_title=a.drawing_title or a.title, title_block=tb):
+            print(f"wrote {f}", file=sys.stderr)
+    if a.dxf_out:
+        print(f"wrote {write_dxf(a.dxf_out, fixtures=fx, patches=patches, strips=strips, segments=seg)}",
+              file=sys.stderr)
+
+
 def main():
     p = argparse.ArgumentParser(description=__doc__,
                                 formatter_class=argparse.RawDescriptionHelpFormatter)
@@ -531,6 +551,15 @@ def main():
     p.add_argument("--out", default="basemap.png")
     p.add_argument("--title", default="")
     p.add_argument("--csv-out")
+    p.add_argument("--sketch", metavar="PATH",
+                   help="deliverable drawing (.pdf/.png; both are written) with title "
+                        "block, scale bar, grid-north arrow and auto panels")
+    p.add_argument("--dxf-out", metavar="PATH",
+                   help="write the selection + reconstructed patches as DXF R12")
+    p.add_argument("--paper", default="A3", choices=("A4", "A3", "A2", "A1"))
+    p.add_argument("--drawing-title")
+    p.add_argument("--drawing-no")
+    p.add_argument("--rev")
     p.add_argument("--list-leaves", action="store_true")
     p.add_argument("--list-xrefs", action="store_true")
     p.add_argument("--list-types", action="store_true")
@@ -584,6 +613,8 @@ def main():
             print(f"wrote {a.csv_out}", file=sys.stderr)
         plot(fx, seg, out=a.out, title=a.title, bbox=ext, patches=patches)
         print(f"wrote {a.out}", file=sys.stderr)
+        if a.sketch or a.dxf_out:
+            _deliverables(a, fx, patches, strips if a.buffer is None else None, seg)
         return
 
     fx = load_fixtures(leaf=a.leaf, xref=a.xref, layer_regex=a.layer_regex,
@@ -597,6 +628,8 @@ def main():
         print(f"wrote {a.csv_out}", file=sys.stderr)
     plot(fx, seg, out=a.out, title=a.title, bbox=a.bbox)
     print(f"wrote {a.out}", file=sys.stderr)
+    if a.sketch or a.dxf_out:
+        _deliverables(a, fx, None, None, seg)
 
 
 if __name__ == "__main__":
