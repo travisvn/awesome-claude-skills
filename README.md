@@ -128,6 +128,7 @@ Skills for working with complex file formats:
 | **[Expo Skills](https://github.com/expo/skills)** | Official skills by the Expo team for developing Expo apps |
 | **[shadcn/ui](https://ui.shadcn.com/docs/skills)** | Give Claude Code context on shadcn components as well as pattern enforcement |
 | **[get-shit-done](https://github.com/gsd-build/get-shit-done)** | Lightweight meta-prompting, context engineering, and spec-driven development system for Claude Code by TÂCHES |
+| **[eu-ai-act](https://github.com/dankofly/eu-ai-act-skill)** | EU AI Act compliance advisor: Article 50 labeling duties (applicable since Aug 2, 2026), every written exemption as a no-label decision path, provider vs. deployer analysis, enforcement risk; legal text quoted verbatim from EUR-Lex; ships SKILL.md (Claude) and AGENTS.md (Codex) |
 
 _More community skills coming soon! Submit a PR to add your skill._
 
