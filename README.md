@@ -226,6 +226,7 @@ The easiest way to create a skill is to use the built-in `skill-creator`:
 
 - [anthropics/skills](https://github.com/anthropics/skills) - Official public repository for Skills
 - [Claude Cookbooks - Skills](https://github.com/anthropics/claude-cookbooks/tree/main/skills) - Example notebooks and tutorials
+- [aaaa.fyi](https://aaaa.fyi) - Directory of Claude skills, MCP servers and plugins, ranked by real install counts from GitHub, npm and PyPI
 
 ## 📅 Recent Updates
 
