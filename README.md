@@ -327,6 +327,7 @@ _Video tutorials coming soon! Have a good video about Claude Skills? Submit a PR
 - **Prompt injection attacks** could be amplified through compromised skills
 - **Sandboxing limitations** - Understand the security model before enterprise deployment
 - **Security research**: [Weaponizing Claude Code Skills](https://medium.com/@yossifqassim/weaponizing-claude-code-skills-from-5-5-to-remote-shell-a14af2d109c9) - Analysis of potential security risks
+- [warrant-policy-author](https://github.com/rmanish2000-del/warrant-mcp/tree/main/skills/warrant-policy-author) — Writes plain-English policies for the warrant-mcp agent firewall, shaped for its closed rule set so review has the best chance of accepting them first time; explains what an action firewall can and cannot promise instead of overpromising. MIT.
 
 ### Best Practices
 
