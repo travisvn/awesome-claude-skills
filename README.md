@@ -128,6 +128,7 @@ Skills for working with complex file formats:
 | **[Expo Skills](https://github.com/expo/skills)** | Official skills by the Expo team for developing Expo apps |
 | **[shadcn/ui](https://ui.shadcn.com/docs/skills)** | Give Claude Code context on shadcn components as well as pattern enforcement |
 | **[get-shit-done](https://github.com/gsd-build/get-shit-done)** | Lightweight meta-prompting, context engineering, and spec-driven development system for Claude Code by TÂCHES |
+| **[alter](https://github.com/alter-persona/alter)** | Build and run a digital persona of the user — interviews them through chat and voice memos, learns from their documents and AI chat exports, then chats and drafts messages in their voice. Local-first (Postgres + whisper.cpp + Ollama), improves from every correction, and benchmarks itself against sealed hold-out questions |
 
 _More community skills coming soon! Submit a PR to add your skill._
 
