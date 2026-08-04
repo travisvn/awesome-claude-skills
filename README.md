@@ -128,6 +128,7 @@ Skills for working with complex file formats:
 | **[Expo Skills](https://github.com/expo/skills)** | Official skills by the Expo team for developing Expo apps |
 | **[shadcn/ui](https://ui.shadcn.com/docs/skills)** | Give Claude Code context on shadcn components as well as pattern enforcement |
 | **[get-shit-done](https://github.com/gsd-build/get-shit-done)** | Lightweight meta-prompting, context engineering, and spec-driven development system for Claude Code by TÂCHES |
+| **[unillm-sdk](https://github.com/DanZai233/unillm-sdk)** | Zero-dependency unified LLM integration for 14 providers (OpenAI, Claude, Gemini, Volcengine Doubao, DeepSeek, Kimi, Qwen, GLM, Grok, Ollama, ...): chat/stream/JSON calls, real model listing, visual dashboard, and zero-rename migration from hand-written per-provider adapters |
 
 _More community skills coming soon! Submit a PR to add your skill._
 
