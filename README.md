@@ -128,6 +128,7 @@ Skills for working with complex file formats:
 | **[Expo Skills](https://github.com/expo/skills)** | Official skills by the Expo team for developing Expo apps |
 | **[shadcn/ui](https://ui.shadcn.com/docs/skills)** | Give Claude Code context on shadcn components as well as pattern enforcement |
 | **[get-shit-done](https://github.com/gsd-build/get-shit-done)** | Lightweight meta-prompting, context engineering, and spec-driven development system for Claude Code by TÂCHES |
+| **[claude-code-vision-skill](https://github.com/xiincs/claude-code-vision-skill)** | Routes screenshots to external vision APIs (Doubao, Qwen, GPT-4o, or custom OpenAI-compatible endpoints) so Claude Code sessions on text-only models like DeepSeek can analyze images; auto-detects native vision support via a SessionStart hook to skip the extra call when it isn't needed |
 
 _More community skills coming soon! Submit a PR to add your skill._
 
