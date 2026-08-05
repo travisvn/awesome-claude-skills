@@ -128,6 +128,7 @@ Skills for working with complex file formats:
 | **[Expo Skills](https://github.com/expo/skills)** | Official skills by the Expo team for developing Expo apps |
 | **[shadcn/ui](https://ui.shadcn.com/docs/skills)** | Give Claude Code context on shadcn components as well as pattern enforcement |
 | **[get-shit-done](https://github.com/gsd-build/get-shit-done)** | Lightweight meta-prompting, context engineering, and spec-driven development system for Claude Code by TÂCHES |
+| **[Create a Meme](https://github.com/RiskAverseTech/createa-meme-skill)** | Turn any idea into a finished meme — picks the format, writes captions that land, generates via the Create a Meme MCP, and offers variations. Works in Claude Code, Cursor, and any MCP agent |
 
 _More community skills coming soon! Submit a PR to add your skill._
 
