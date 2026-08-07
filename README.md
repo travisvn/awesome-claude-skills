@@ -134,6 +134,7 @@ _More community skills coming soon! Submit a PR to add your skill._
 ### Tools
 
 - **[yusufkaraaslan/Skill_Seekers](https://github.com/yusufkaraaslan/Skill_Seekers)** - Convert documentation websites into Claude Skills
+- **[Claude Market](https://claudemarket.ai)** - Directory of 13,891+ MCP servers, 3,688+ Claude Code plugins, and Agent Skills, searchable via web or `npx remoteopenclaw search <query>`
 
 ## ✏️ Creating Your First Skill
 
