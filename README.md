@@ -108,6 +108,11 @@ Skills for working with complex file formats:
   - Uses new techniques that are still being refined and tested (i.e. skills here may change over time)
   - [Blog post about its development](https://blog.fsck.com/2025/10/23/naming-claude-plugins/)
   - Install from `superpowers-marketplace` plugin
+- **[product-on-purpose/pm-skills](https://github.com/product-on-purpose/pm-skills)** - Product management skill library with 68 skills spanning discovery, definition, delivery, measurement, and iteration
+  - 6 sub-agents, 12 multi-skill workflows, and 200+ real sample outputs
+  - Every skill is held to a CI-enforced contract and versioned with SemVer, so counts and behavior stay accurate as the library changes
+  - Follows the agentskills.io specification, Apache 2.0
+  - Installation: `npx skills add product-on-purpose/pm-skills`
 
 
 ### Individual Skills
