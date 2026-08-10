@@ -134,6 +134,7 @@ _More community skills coming soon! Submit a PR to add your skill._
 ### Tools
 
 - **[yusufkaraaslan/Skill_Seekers](https://github.com/yusufkaraaslan/Skill_Seekers)** - Convert documentation websites into Claude Skills
+- **[AgentScan](https://github.com/thesfb/scanaskill)** - Deterministic local scanner for AI agent skills: detects prompt injection, secrets, network calls, and malware patterns before you install. Never runs the skill, works offline.
 
 ## ✏️ Creating Your First Skill
 
