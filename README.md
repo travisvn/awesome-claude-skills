@@ -116,6 +116,7 @@ Skills for working with complex file formats:
 
 | Skill | Description |
 | --- | --- |
+| **[outbound-master](https://github.com/skyzer/skills/tree/main/outbound-master)** | B2B cold outbound end to end: source, score, research a dated hook, write and deslop copy, verify every address, send idempotently with an append-only event log, and draft replies for human approval |
 | **[ios-simulator-skill](https://github.com/conorluddy/ios-simulator-skill)** | iOS app building, navigation, and testing through automation |
 | **[ffuf-web-fuzzing](https://github.com/jthack/ffuf_claude_skill)** | Expert guidance for ffuf web fuzzing during penetration testing, including authenticated fuzzing with raw requests, auto-calibration, and result analysis |
 | **[playwright-skill](https://github.com/lackeyjb/playwright-skill)** | General-purpose browser automation using Playwright |
