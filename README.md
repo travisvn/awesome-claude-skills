@@ -128,6 +128,7 @@ Skills for working with complex file formats:
 | **[Expo Skills](https://github.com/expo/skills)** | Official skills by the Expo team for developing Expo apps |
 | **[shadcn/ui](https://ui.shadcn.com/docs/skills)** | Give Claude Code context on shadcn components as well as pattern enforcement |
 | **[get-shit-done](https://github.com/gsd-build/get-shit-done)** | Lightweight meta-prompting, context engineering, and spec-driven development system for Claude Code by TÂCHES |
+| **[WordPress Security Audit](https://github.com/mwstech/wp-security-audit-skill)** | Audits a live WordPress site from outside its own runtime (SSH + external HTTP checks), so a compromised site can't feed the auditor clean results the way an in-site plugin can. Remote and full modes; findings tiered Critical/Important/Polish with the exact fix for each |
 
 _More community skills coming soon! Submit a PR to add your skill._
 
