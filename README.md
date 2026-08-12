@@ -129,6 +129,8 @@ Skills for working with complex file formats:
 | **[shadcn/ui](https://ui.shadcn.com/docs/skills)** | Give Claude Code context on shadcn components as well as pattern enforcement |
 | **[get-shit-done](https://github.com/gsd-build/get-shit-done)** | Lightweight meta-prompting, context engineering, and spec-driven development system for Claude Code by TÂCHES |
 
+| **[workflow-design](https://github.com/ghorbanies/workflow-design)** | Design, prove, measure, and safely change workflows — approval chains, ticketing, human gates over AI output. Four stdlib-only tools (flow linter, guard red-proof runner, transition-log metrics, log-vs-model conformance), each self-tested and red-proofed by shipped specs |
+
 _More community skills coming soon! Submit a PR to add your skill._
 
 ### Tools
