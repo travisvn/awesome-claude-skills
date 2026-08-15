@@ -109,6 +109,11 @@ Skills for working with complex file formats:
   - [Blog post about its development](https://blog.fsck.com/2025/10/23/naming-claude-plugins/)
   - Install from `superpowers-marketplace` plugin
 
+- **[trothbyte/low-level-skills-trothbyte](https://github.com/TrothByte/low-level-skills-trothbyte)** - 124 verified low-level engineering skills for AI coding agents: C/C++, Rust, assembly, kernel, embedded, Zig, GPU, reverse engineering, build systems
+  - 65/124 skills executed on real toolchains (GCC, rustc, objdump, CMake/Ninja); every normative claim source-traced (177 primary sources)
+  - Includes `research/` surveys of 55+ documented AI-agent failures in low-level code
+  - Install: clone into `~/.claude/skills/` or `/plugin marketplace add TrothByte/low-level-skills-trothbyte`
+
 
 ### Individual Skills
 
