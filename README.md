@@ -128,6 +128,7 @@ Skills for working with complex file formats:
 | **[Expo Skills](https://github.com/expo/skills)** | Official skills by the Expo team for developing Expo apps |
 | **[shadcn/ui](https://ui.shadcn.com/docs/skills)** | Give Claude Code context on shadcn components as well as pattern enforcement |
 | **[get-shit-done](https://github.com/gsd-build/get-shit-done)** | Lightweight meta-prompting, context engineering, and spec-driven development system for Claude Code by TÂCHES |
+| **[minto-pyramid](https://github.com/millwright-labs/minto-pyramid-skill)** | Restructures recommendations, memos and emails into Barbara Minto's Pyramid Principle — conclusion first, grouped reasons, evidence under each. Offers before rewriting your draft rather than doing it unasked, and declines timelines and runbooks where chronology is the content. Includes an eval suite |
 
 _More community skills coming soon! Submit a PR to add your skill._
 
