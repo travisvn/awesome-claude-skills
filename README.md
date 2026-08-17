@@ -134,6 +134,7 @@ _More community skills coming soon! Submit a PR to add your skill._
 ### Tools
 
 - **[yusufkaraaslan/Skill_Seekers](https://github.com/yusufkaraaslan/Skill_Seekers)** - Convert documentation websites into Claude Skills
+- **[lfnfromchina-bot/skilldoctor](https://github.com/lfnfromchina-bot/skilldoctor)** - Test and auto-improve your skills' trigger rate: LLM-simulated routing decisions, competitor-skill collision checks, and a closed-loop description rewriter
 
 ## ✏️ Creating Your First Skill
 
