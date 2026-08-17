@@ -128,6 +128,7 @@ Skills for working with complex file formats:
 | **[Expo Skills](https://github.com/expo/skills)** | Official skills by the Expo team for developing Expo apps |
 | **[shadcn/ui](https://ui.shadcn.com/docs/skills)** | Give Claude Code context on shadcn components as well as pattern enforcement |
 | **[get-shit-done](https://github.com/gsd-build/get-shit-done)** | Lightweight meta-prompting, context engineering, and spec-driven development system for Claude Code by TÂCHES |
+| **[faceless-skill](https://github.com/Side-Products/faceless-skill)** | Install with `npx skills add Side-Products/faceless-skill`. Agents create and publish faceless videos via faceless-cli or MCP (`https://faceless.so/api/v1/mcp` or `npx -y faceless-mcp`) |
 
 _More community skills coming soon! Submit a PR to add your skill._
 
