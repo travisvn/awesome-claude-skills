@@ -116,6 +116,7 @@ Skills for working with complex file formats:
 
 | Skill | Description |
 | --- | --- |
+| **[aivpn](https://github.com/ZoniBoy00/aivpn)** | Per-location Docker WireGuard relay for Proton VPN with kill switch, SOCKS5 proxy, and prompt-injection-safe fetching for agents |
 | **[ios-simulator-skill](https://github.com/conorluddy/ios-simulator-skill)** | iOS app building, navigation, and testing through automation |
 | **[ffuf-web-fuzzing](https://github.com/jthack/ffuf_claude_skill)** | Expert guidance for ffuf web fuzzing during penetration testing, including authenticated fuzzing with raw requests, auto-calibration, and result analysis |
 | **[playwright-skill](https://github.com/lackeyjb/playwright-skill)** | General-purpose browser automation using Playwright |
