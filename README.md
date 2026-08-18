@@ -119,6 +119,7 @@ Skills for working with complex file formats:
 | **[ios-simulator-skill](https://github.com/conorluddy/ios-simulator-skill)** | iOS app building, navigation, and testing through automation |
 | **[ffuf-web-fuzzing](https://github.com/jthack/ffuf_claude_skill)** | Expert guidance for ffuf web fuzzing during penetration testing, including authenticated fuzzing with raw requests, auto-calibration, and result analysis |
 | **[playwright-skill](https://github.com/lackeyjb/playwright-skill)** | General-purpose browser automation using Playwright |
+| **[flutter-smoke-auto](https://github.com/ceeyang/flutter-smoke-auto)** | Automated smoke testing for Flutter apps (Android/iOS/Web) — derives journeys from source, generates Maestro/Playwright suites from a selector contract, self-heals failures, and ships integrity gates that block AI agents from weakening tests |
 | **[claude-d3js-skill](https://github.com/chrisvoncsefalvay/claude-d3js-skill)** | Visualizations in d3.js |
 | **[claude-scientific-skills](https://github.com/K-Dense-AI/claude-scientific-skills)** | Comprehensive collection of ready-to-use scientific skills, including working with specialized scientific libraries and databases |
 | **[web-asset-generator](https://github.com/alonw0/web-asset-generator)** | Generates web assets like favicons, app icons, and social media images |
