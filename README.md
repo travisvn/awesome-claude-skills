@@ -128,6 +128,7 @@ Skills for working with complex file formats:
 | **[Expo Skills](https://github.com/expo/skills)** | Official skills by the Expo team for developing Expo apps |
 | **[shadcn/ui](https://ui.shadcn.com/docs/skills)** | Give Claude Code context on shadcn components as well as pattern enforcement |
 | **[get-shit-done](https://github.com/gsd-build/get-shit-done)** | Lightweight meta-prompting, context engineering, and spec-driven development system for Claude Code by TÂCHES |
+| **[wavespeed-skill](https://github.com/WaveSpeedAI/wavespeed-cli/tree/main/skills)** | Generate and edit images, video, audio, and 3D via the WaveSpeed platform's open-source CLI — live model catalog search, per-model schema introspection, local-file upload, price quotes before running |
 
 _More community skills coming soon! Submit a PR to add your skill._
 
