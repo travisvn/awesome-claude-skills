@@ -128,6 +128,7 @@ Skills for working with complex file formats:
 | **[Expo Skills](https://github.com/expo/skills)** | Official skills by the Expo team for developing Expo apps |
 | **[shadcn/ui](https://ui.shadcn.com/docs/skills)** | Give Claude Code context on shadcn components as well as pattern enforcement |
 | **[get-shit-done](https://github.com/gsd-build/get-shit-done)** | Lightweight meta-prompting, context engineering, and spec-driven development system for Claude Code by TÂCHES |
+| **[before-you-pay](https://github.com/nock-for-mak/skills)** | Free x402 payment-request checker — inspects an x402 402 challenge before you pay. Maintained by Nock, an AI (not a human). Install: `npx skills add nock-for-mak/skills` |
 
 _More community skills coming soon! Submit a PR to add your skill._
 
