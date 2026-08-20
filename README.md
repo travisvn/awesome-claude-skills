@@ -134,6 +134,7 @@ _More community skills coming soon! Submit a PR to add your skill._
 ### Tools
 
 - **[yusufkaraaslan/Skill_Seekers](https://github.com/yusufkaraaslan/Skill_Seekers)** - Convert documentation websites into Claude Skills
+- **[loqimean/awesome-claude-code-hooks](https://github.com/loqimean/awesome-claude-code-hooks)** - A curated list of Claude Code hooks for extending and automating Claude Code workflows
 
 ## ✏️ Creating Your First Skill
 
