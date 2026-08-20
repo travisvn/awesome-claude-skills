@@ -110,6 +110,8 @@ Skills for working with complex file formats:
   - Install from `superpowers-marketplace` plugin
 
 
+- **[awesome-agentic-ai](https://github.com/adriannoes/awesome-agentic-ai)** - Learning hub of Claude Code, Cursor, and Codex skills, plus prompts, notebooks, and papers for product builders
+
 ### Individual Skills
 
 > These will be broken down into categories once there are enough community skills available to list
