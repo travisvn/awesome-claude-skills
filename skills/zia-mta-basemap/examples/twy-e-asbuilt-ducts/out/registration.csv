@@ -1,0 +1,4 @@
+sheet,fitting_symbols_in_frame,matched_within_50mm,fit_rms_m,fit_max_residual_m,holdout_rms_m,holdout_pairs,scale_emu_per_m,frame_ground_span_m,rotation_deg,y_reflected,window_xmin,window_ymin,window_xmax,window_ymax
+LOC-01,64,37,0.000387,0.000713,0.000404,14,93613.5,102.07,0.000123,True,6089.047,54388.442,6191.697,54488.394
+LOC-02,18,9,0.000342,0.000503,0.000456,4,87715.5,108.94,-1e-06,True,5898.162,54553.346,6005.417,54639.014
+LOC-03,59,11,0.05825,0.087028,0.000485,13,100476.3,95.1,0.002688,True,5811.052,54628.466,5908.986,54709.615

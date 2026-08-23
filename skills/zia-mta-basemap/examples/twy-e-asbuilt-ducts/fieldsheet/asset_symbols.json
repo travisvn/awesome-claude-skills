@@ -1,0 +1,1197 @@
+{
+ "LOC-01": {
+  "symbols": [
+   {
+    "x": 5.9264,
+    "y": 10.3428,
+    "cls": "Runway guard light / RRM",
+    "source": "label",
+    "label": "RRM.76",
+    "nearest_cls": "Runway guard light / RRM",
+    "match_m": 3.03
+   },
+   {
+    "x": 8.6596,
+    "y": 8.4721,
+    "cls": "Taxiway centreline light",
+    "source": "label",
+    "label": "TCCECH.04.018",
+    "nearest_cls": "Taxiway centreline light",
+    "match_m": 1.04
+   },
+   {
+    "x": 2.5226,
+    "y": 5.3512,
+    "cls": "Runway guard light / RRM",
+    "source": "label",
+    "label": "RRM.540",
+    "nearest_cls": "Runway guard light / RRM",
+    "match_m": 3.01
+   },
+   {
+    "x": 0.9985,
+    "y": 3.9983,
+    "cls": "Runway guard light / RRM",
+    "source": "label",
+    "label": "RRM.541",
+    "nearest_cls": "Runway guard light / RRM",
+    "match_m": 2.93
+   },
+   {
+    "x": 5.39,
+    "y": 8.9159,
+    "cls": "Runway guard light / RRM",
+    "source": "label",
+    "label": "RRM.636",
+    "nearest_cls": "Runway guard light / RRM",
+    "match_m": 2.97
+   },
+   {
+    "x": 8.6973,
+    "y": 8.5138,
+    "cls": "Taxiway centreline light",
+    "source": "label",
+    "label": "TCC103.12.019",
+    "nearest_cls": "Taxiway centreline light",
+    "match_m": 1.04
+   },
+   {
+    "x": 9.8946,
+    "y": 9.4783,
+    "cls": "Taxiway centreline light",
+    "source": "fixture",
+    "match_m": 0.45,
+    "margin_m": 23.5,
+    "ambiguous": false
+   },
+   {
+    "x": 8.1028,
+    "y": 8.0269,
+    "cls": "Taxiway centreline light",
+    "source": "label",
+    "label": "TCC103.11.020",
+    "nearest_cls": "Taxiway centreline light",
+    "match_m": 1.04
+   },
+   {
+    "x": 7.0592,
+    "y": 5.169,
+    "cls": "Taxiway edge light",
+    "source": "label",
+    "label": "TEC102.02.047",
+    "nearest_cls": "Taxiway edge light",
+    "match_m": 1.04
+   },
+   {
+    "x": 8.3345,
+    "y": 6.0218,
+    "cls": "Taxiway edge light",
+    "source": "label",
+    "label": "TEC102.02.048",
+    "nearest_cls": "Taxiway edge light",
+    "match_m": 1.04
+   },
+   {
+    "x": 9.2453,
+    "y": 6.4931,
+    "cls": "Taxiway edge light",
+    "source": "label",
+    "label": "TEC102.02.049",
+    "nearest_cls": "Taxiway edge light",
+    "match_m": 1.04
+   },
+   {
+    "x": 9.2935,
+    "y": 4.6839,
+    "cls": "Handhole",
+    "source": "label",
+    "label": "HH.E6.033",
+    "nearest_cls": "Handhole",
+    "match_m": 1.09
+   },
+   {
+    "x": 3.3459,
+    "y": 4.2095,
+    "cls": "Taxiway centreline light",
+    "source": "label",
+    "label": "TCCECH.03.017",
+    "nearest_cls": "Taxiway centreline light",
+    "match_m": 1.04
+   },
+   {
+    "x": 2.7728,
+    "y": 3.7495,
+    "cls": "Taxiway centreline light",
+    "source": "label",
+    "label": "TCCECH.04.016",
+    "nearest_cls": "Taxiway centreline light",
+    "match_m": 1.04
+   },
+   {
+    "x": 2.2017,
+    "y": 3.291,
+    "cls": "Taxiway centreline light",
+    "source": "label",
+    "label": "TCCECH.03.016",
+    "nearest_cls": "Taxiway centreline light",
+    "match_m": 1.04
+   },
+   {
+    "x": 1.6292,
+    "y": 2.8309,
+    "cls": "Taxiway centreline light",
+    "source": "label",
+    "label": "TCCECH.04.015",
+    "nearest_cls": "Taxiway centreline light",
+    "match_m": 1.04
+   },
+   {
+    "x": 1.0587,
+    "y": 2.3728,
+    "cls": "Taxiway centreline light",
+    "source": "label",
+    "label": "TCCECH.03.015",
+    "nearest_cls": "Taxiway centreline light",
+    "match_m": 1.04
+   },
+   {
+    "x": 3.6471,
+    "y": 5.8271,
+    "cls": "Stop bar light",
+    "source": "label",
+    "label": "SBC102-02/027",
+    "nearest_cls": "Stop bar light",
+    "match_m": 1.04
+   },
+   {
+    "x": 9.9655,
+    "y": 9.4389,
+    "cls": "Taxiway centreline light",
+    "source": "fixture",
+    "match_m": 1.04,
+    "margin_m": 22.24,
+    "ambiguous": false
+   },
+   {
+    "x": 7.1013,
+    "y": 8.9265,
+    "cls": "Taxiway centreline light",
+    "source": "label",
+    "label": "TCCECH.03.038",
+    "nearest_cls": "Taxiway centreline light",
+    "match_m": 1.04
+   },
+   {
+    "x": 7.3468,
+    "y": 9.6167,
+    "cls": "Taxiway centreline light",
+    "source": "label",
+    "label": "TCCECH.04.037",
+    "nearest_cls": "Taxiway centreline light",
+    "match_m": 1.04
+   },
+   {
+    "x": 7.5743,
+    "y": 10.3611,
+    "cls": "Taxiway centreline light",
+    "source": "label",
+    "label": "TCCECH.03.039",
+    "nearest_cls": "Taxiway centreline light",
+    "match_m": 1.04
+   },
+   {
+    "x": 7.7283,
+    "y": 11.1039,
+    "cls": "Taxiway centreline light",
+    "source": "label",
+    "label": "TCCECH.04.038",
+    "nearest_cls": "Taxiway centreline light",
+    "match_m": 1.04
+   },
+   {
+    "x": 9.9711,
+    "y": 9.0933,
+    "cls": "Taxiway centreline light",
+    "source": "fixture",
+    "match_m": 1.04,
+    "margin_m": 19.3,
+    "ambiguous": false
+   },
+   {
+    "x": 9.2595,
+    "y": 8.8104,
+    "cls": "Taxiway centreline light",
+    "source": "label",
+    "label": "TCCECH.03.020",
+    "nearest_cls": "Taxiway centreline light",
+    "match_m": 1.04
+   },
+   {
+    "x": 5.7319,
+    "y": 3.4665,
+    "cls": "Existing transformer handhole",
+    "source": "fixture",
+    "match_m": 1.14,
+    "margin_m": 1.17,
+    "ambiguous": false
+   },
+   {
+    "x": 2.117,
+    "y": 6.0021,
+    "cls": "Existing transformer handhole",
+    "source": "fixture",
+    "match_m": 1.19,
+    "margin_m": 5.15,
+    "ambiguous": false
+   },
+   {
+    "x": 4.5202,
+    "y": 8.7763,
+    "cls": "Existing transformer handhole",
+    "source": "fixture",
+    "match_m": 1.08,
+    "margin_m": 6.99,
+    "ambiguous": false
+   },
+   {
+    "x": 2.5055,
+    "y": 0.8711,
+    "cls": "Existing transformer handhole",
+    "source": "fixture",
+    "match_m": 1.12,
+    "margin_m": 3.72,
+    "ambiguous": false
+   },
+   {
+    "x": 9.2986,
+    "y": 6.2151,
+    "cls": "Existing transformer handhole",
+    "source": "fixture",
+    "match_m": 1.14,
+    "margin_m": 1.71,
+    "ambiguous": false
+   },
+   {
+    "x": 6.0379,
+    "y": 2.5757,
+    "cls": "Handhole",
+    "source": "label",
+    "label": "HH.E6.038",
+    "nearest_cls": "Handhole",
+    "match_m": 1.09
+   },
+   {
+    "x": 6.2841,
+    "y": 2.75,
+    "cls": "Handhole",
+    "source": "label",
+    "label": "HH.E6.037",
+    "nearest_cls": "Handhole",
+    "match_m": 1.13
+   },
+   {
+    "x": 7.3918,
+    "y": 3.5514,
+    "cls": "Handhole",
+    "source": "label",
+    "label": "HH.E6.036",
+    "nearest_cls": "Handhole",
+    "match_m": 1.15
+   },
+   {
+    "x": 8.4481,
+    "y": 4.3293,
+    "cls": "Handhole",
+    "source": "label",
+    "label": "HH.E6.035",
+    "nearest_cls": "Handhole",
+    "match_m": 1.07
+   },
+   {
+    "x": 3.0927,
+    "y": 7.8447,
+    "cls": "Handhole",
+    "source": "fixture",
+    "match_m": 1.14,
+    "margin_m": 12.92,
+    "ambiguous": false
+   },
+   {
+    "x": 3.9012,
+    "y": 9.1514,
+    "cls": "Handhole",
+    "source": "label",
+    "label": "HH.E6.041",
+    "nearest_cls": "Handhole",
+    "match_m": 1.09
+   },
+   {
+    "x": 4.589,
+    "y": 10.8303,
+    "cls": "Handhole",
+    "source": "label",
+    "label": "HH.E6.042",
+    "nearest_cls": "Handhole",
+    "match_m": 1.15
+   },
+   {
+    "x": 8.9609,
+    "y": 4.7009,
+    "cls": "Handhole",
+    "source": "label",
+    "label": "HH.E6.034",
+    "nearest_cls": "Handhole",
+    "match_m": 1.08
+   },
+   {
+    "x": 9.8767,
+    "y": 5.1929,
+    "cls": "Handhole",
+    "source": "fixture",
+    "match_m": 1.13,
+    "margin_m": 11.48,
+    "ambiguous": false
+   },
+   {
+    "x": 1.8589,
+    "y": 6.5195,
+    "cls": "Handhole",
+    "source": "label",
+    "label": "HH.E6.039",
+    "nearest_cls": "Handhole",
+    "match_m": 1.18
+   },
+   {
+    "x": 3.6324,
+    "y": 1.7635,
+    "cls": "Earthing point",
+    "source": "fixture",
+    "match_m": 1.12,
+    "margin_m": 0.01,
+    "ambiguous": true
+   },
+   {
+    "x": 0.9699,
+    "y": 5.0753,
+    "cls": "Existing manhole",
+    "source": "fixture",
+    "match_m": 1.11,
+    "margin_m": 5.97,
+    "ambiguous": false
+   },
+   {
+    "x": 0.866,
+    "y": 5.686,
+    "cls": "Manhole",
+    "source": "label",
+    "label": "MH.E.024",
+    "nearest_cls": "Manhole",
+    "match_m": 1.1
+   },
+   {
+    "x": 4.3667,
+    "y": 1.3223,
+    "cls": "Manhole",
+    "source": "label",
+    "label": "MH.E.014",
+    "nearest_cls": "Manhole",
+    "match_m": 1.12
+   },
+   {
+    "x": 4.6133,
+    "y": 2.6989,
+    "cls": "Earthing pit",
+    "source": "fixture",
+    "match_m": 1.11,
+    "margin_m": 1.43,
+    "ambiguous": false
+   },
+   {
+    "x": 1.7344,
+    "y": 7.4441,
+    "cls": "Sign foundation",
+    "source": "label",
+    "label": "SGC102.02.017",
+    "nearest_cls": "Sign foundation",
+    "match_m": 1.04
+   },
+   {
+    "x": 6.4554,
+    "y": 2.5151,
+    "cls": "Sign foundation",
+    "source": "label",
+    "label": "SGC102.02.016",
+    "nearest_cls": "Sign foundation",
+    "match_m": 1.04
+   },
+   {
+    "x": 10.1883,
+    "y": 6.8844,
+    "cls": "Taxiway edge light",
+    "source": "fixture",
+    "match_m": 1.04,
+    "margin_m": 7.69,
+    "ambiguous": false
+   },
+   {
+    "x": 6.9,
+    "y": 7.0756,
+    "cls": "Taxiway centreline light",
+    "source": "label",
+    "label": "TCC103-11/126",
+    "nearest_cls": "Taxiway centreline light",
+    "match_m": 0.99
+   },
+   {
+    "x": 7.5005,
+    "y": 7.5508,
+    "cls": "Taxiway centreline light",
+    "source": "label",
+    "label": "TCC103-12/021",
+    "nearest_cls": "Taxiway centreline light",
+    "match_m": 1.04
+   },
+   {
+    "x": 6.2602,
+    "y": 6.6188,
+    "cls": "Taxiway centreline light",
+    "source": "label",
+    "label": "TCC103-11/021",
+    "nearest_cls": "Taxiway centreline light",
+    "match_m": 0.55
+   },
+   {
+    "x": 4.9947,
+    "y": 4.1455,
+    "cls": "Stop bar light",
+    "source": "label",
+    "label": "SBC102-01/026",
+    "nearest_cls": "Stop bar light",
+    "match_m": 1.13
+   },
+   {
+    "x": 5.6999,
+    "y": 6.0777,
+    "cls": "Taxiway centreline light",
+    "source": "fixture",
+    "match_m": 1.24,
+    "margin_m": 13.76,
+    "ambiguous": false
+   },
+   {
+    "x": 3.9166,
+    "y": 4.6691,
+    "cls": "Taxiway centreline light",
+    "source": "fixture",
+    "match_m": 1.02,
+    "margin_m": 4.02,
+    "ambiguous": false
+   }
+  ],
+  "counts": {
+   "Runway guard light / RRM": 4,
+   "Taxiway centreline light": 21,
+   "Taxiway edge light": 4,
+   "Handhole": 11,
+   "Stop bar light": 2,
+   "Existing transformer handhole": 5,
+   "Earthing point": 1,
+   "Existing manhole": 1,
+   "Manhole": 2,
+   "Earthing pit": 1,
+   "Sign foundation": 2
+  },
+  "offset_correction_m": {
+   "AGL": [
+    -0.627,
+    -0.825
+   ],
+   "CIVIL": [
+    -1.866,
+    1.147
+   ]
+  },
+  "ambiguous": 1,
+  "unclassified": 0
+ },
+ "LOC-02": {
+  "symbols": [
+   {
+    "x": 6.3464,
+    "y": 8.6528,
+    "cls": "Runway guard light / RRM",
+    "source": "label",
+    "label": "RRM.545",
+    "nearest_cls": "Runway guard light / RRM",
+    "match_m": 1.82
+   },
+   {
+    "x": 2.613,
+    "y": 5.6457,
+    "cls": "Runway guard light / RRM",
+    "source": "label",
+    "label": "RRM.546",
+    "nearest_cls": "Runway guard light / RRM",
+    "match_m": 1.81
+   },
+   {
+    "x": 7.8175,
+    "y": 6.8182,
+    "cls": "Runway guard light / RRM",
+    "source": "label",
+    "label": "RRM.554",
+    "nearest_cls": "Runway guard light / RRM",
+    "match_m": 1.79
+   },
+   {
+    "x": 1.8285,
+    "y": 2.0085,
+    "cls": "Runway guard light / RRM",
+    "source": "label",
+    "label": "RRM.556",
+    "nearest_cls": "Runway guard light / RRM",
+    "match_m": 1.84
+   },
+   {
+    "x": 2.7395,
+    "y": 2.2153,
+    "cls": "Earthing pit",
+    "source": "fixture",
+    "match_m": 1.22,
+    "margin_m": 0.23,
+    "ambiguous": true
+   },
+   {
+    "x": 10.0645,
+    "y": 10.2264,
+    "cls": "Taxiway centreline light",
+    "source": "fixture",
+    "match_m": 0.74,
+    "margin_m": 15.5,
+    "ambiguous": false
+   },
+   {
+    "x": 8.9415,
+    "y": 9.3252,
+    "cls": "Taxiway centreline light",
+    "source": "label",
+    "label": "TCCECH.04.009",
+    "nearest_cls": "Taxiway centreline light",
+    "match_m": 0.74
+   },
+   {
+    "x": 4.4518,
+    "y": 5.7205,
+    "cls": "Taxiway centreline light",
+    "source": "label",
+    "label": "TCCECH-04/007",
+    "nearest_cls": "Taxiway centreline light",
+    "match_m": 0.74
+   },
+   {
+    "x": 3.3314,
+    "y": 4.8198,
+    "cls": "Taxiway centreline light",
+    "source": "label",
+    "label": "TCCECH-03/007",
+    "nearest_cls": "Taxiway centreline light",
+    "match_m": 0.74
+   },
+   {
+    "x": 2.2088,
+    "y": 3.9205,
+    "cls": "Taxiway centreline light",
+    "source": "label",
+    "label": "TCCECH.04.006",
+    "nearest_cls": "Taxiway centreline light",
+    "match_m": 0.74
+   },
+   {
+    "x": 1.0864,
+    "y": 3.0198,
+    "cls": "Taxiway centreline light",
+    "source": "label",
+    "label": "TCCECH.03.006",
+    "nearest_cls": "Taxiway centreline light",
+    "match_m": 0.74
+   },
+   {
+    "x": 5.5748,
+    "y": 6.6228,
+    "cls": "Taxiway centreline light",
+    "source": "label",
+    "label": "TCCECH-03/008",
+    "nearest_cls": "Taxiway centreline light",
+    "match_m": 0.74
+   },
+   {
+    "x": 6.6979,
+    "y": 7.5232,
+    "cls": "Taxiway centreline light",
+    "source": "label",
+    "label": "TCCECH-04/008",
+    "nearest_cls": "Taxiway centreline light",
+    "match_m": 0.74
+   },
+   {
+    "x": 7.8186,
+    "y": 8.4231,
+    "cls": "Taxiway centreline light",
+    "source": "label",
+    "label": "TCCECH-03/009",
+    "nearest_cls": "Taxiway centreline light",
+    "match_m": 0.74
+   },
+   {
+    "x": 6.1239,
+    "y": 4.579,
+    "cls": "Existing transformer handhole",
+    "source": "fixture",
+    "match_m": 1.16,
+    "margin_m": 3.9,
+    "ambiguous": false
+   },
+   {
+    "x": 6.5016,
+    "y": 4.1072,
+    "cls": "Handhole",
+    "source": "label",
+    "label": "HH.E.055",
+    "nearest_cls": "Handhole",
+    "match_m": 1.24
+   },
+   {
+    "x": 5.2469,
+    "y": 2.9487,
+    "cls": "Handhole",
+    "source": "label",
+    "label": "HH.E.056",
+    "nearest_cls": "Handhole",
+    "match_m": 1.23
+   }
+  ],
+  "counts": {
+   "Runway guard light / RRM": 4,
+   "Earthing pit": 1,
+   "Taxiway centreline light": 9,
+   "Existing transformer handhole": 1,
+   "Handhole": 2
+  },
+  "offset_correction_m": {
+   "AGL": [
+    -0.693,
+    0.261
+   ],
+   "CIVIL": [
+    -1.86,
+    1.03
+   ]
+  },
+  "ambiguous": 1,
+  "unclassified": 0
+ },
+ "LOC-03": {
+  "symbols": [
+   {
+    "x": 8.8926,
+    "y": 7.6435,
+    "cls": "Runway guard light / RRM",
+    "source": "label",
+    "label": "RRM.283",
+    "nearest_cls": "Runway guard light / RRM",
+    "match_m": 1.98
+   },
+   {
+    "x": 4.9287,
+    "y": 3.0265,
+    "cls": "Existing manhole",
+    "source": "fixture",
+    "match_m": 1.04,
+    "margin_m": 5.17,
+    "ambiguous": false
+   },
+   {
+    "x": 8.9005,
+    "y": 9.4965,
+    "cls": "Taxiway centreline light",
+    "source": "label",
+    "label": "TCCECH.04.005",
+    "nearest_cls": "Taxiway centreline light",
+    "match_m": 0.56
+   },
+   {
+    "x": 7.618,
+    "y": 8.4672,
+    "cls": "Taxiway centreline light",
+    "source": "label",
+    "label": "TCCECH.04.004",
+    "nearest_cls": "Taxiway centreline light",
+    "match_m": 0.57
+   },
+   {
+    "x": 4.6819,
+    "y": 7.7056,
+    "cls": "Runway guard light / RRM",
+    "source": "label",
+    "label": "RRM.547",
+    "nearest_cls": "Runway guard light / RRM",
+    "match_m": 1.94
+   },
+   {
+    "x": 2.8217,
+    "y": 6.4209,
+    "cls": "Runway guard light / RRM",
+    "source": "label",
+    "label": "RRM.548",
+    "nearest_cls": "Runway guard light / RRM",
+    "match_m": 1.88
+   },
+   {
+    "x": 3.5837,
+    "y": 2.8819,
+    "cls": "Runway guard light / RRM",
+    "source": "label",
+    "label": "RRM.558",
+    "nearest_cls": "Runway guard light / RRM",
+    "match_m": 1.89
+   },
+   {
+    "x": 2.5473,
+    "y": 1.6113,
+    "cls": "Runway guard light / RRM",
+    "source": "label",
+    "label": "RRM.559",
+    "nearest_cls": "Runway guard light / RRM",
+    "match_m": 1.85
+   },
+   {
+    "x": 1.3985,
+    "y": 5.6303,
+    "cls": "Runway guard light / RRM",
+    "source": "label",
+    "label": "RRM.655",
+    "nearest_cls": "Runway guard light / RRM",
+    "match_m": 1.88
+   },
+   {
+    "x": 4.7668,
+    "y": 4.0333,
+    "cls": "Runway guard light / RRM",
+    "source": "label",
+    "label": "RRM.669",
+    "nearest_cls": "Runway guard light / RRM",
+    "match_m": 1.88
+   },
+   {
+    "x": 3.0188,
+    "y": 8.5774,
+    "cls": "Handhole",
+    "source": "label",
+    "label": "HH.E.144",
+    "nearest_cls": "Handhole",
+    "match_m": 1.08
+   },
+   {
+    "x": 10.1852,
+    "y": 10.5285,
+    "cls": "Taxiway centreline light",
+    "source": "fixture",
+    "match_m": 0.55,
+    "margin_m": 11.53,
+    "ambiguous": false
+   },
+   {
+    "x": 6.975,
+    "y": 7.9506,
+    "cls": "Taxiway centreline light",
+    "source": "label",
+    "label": "TCCECH.03.004",
+    "nearest_cls": "Taxiway centreline light",
+    "match_m": 0.57
+   },
+   {
+    "x": 6.3303,
+    "y": 7.4368,
+    "cls": "Taxiway centreline light",
+    "source": "label",
+    "label": "TCCECH-04/003",
+    "nearest_cls": "Taxiway centreline light",
+    "match_m": 0.58
+   },
+   {
+    "x": 5.691,
+    "y": 6.9201,
+    "cls": "Taxiway centreline light",
+    "source": "label",
+    "label": "TCCECH-03/003",
+    "nearest_cls": "Taxiway centreline light",
+    "match_m": 0.58
+   },
+   {
+    "x": 5.0475,
+    "y": 6.4019,
+    "cls": "Taxiway centreline light",
+    "source": "label",
+    "label": "TCCECH-04/002",
+    "nearest_cls": "Taxiway centreline light",
+    "match_m": 0.59
+   },
+   {
+    "x": 8.2599,
+    "y": 8.9806,
+    "cls": "Taxiway centreline light",
+    "source": "label",
+    "label": "TCCECH.03.005",
+    "nearest_cls": "Taxiway centreline light",
+    "match_m": 0.56
+   },
+   {
+    "x": 0.6457,
+    "y": 3.6574,
+    "cls": "Taxiway centreline light",
+    "source": "label",
+    "label": "TCCECH.05.034",
+    "nearest_cls": "Taxiway centreline light",
+    "match_m": 0.62
+   },
+   {
+    "x": 2.1484,
+    "y": 4.324,
+    "cls": "Taxiway centreline light",
+    "source": "fixture",
+    "match_m": 0.61,
+    "margin_m": 2.76,
+    "ambiguous": false
+   },
+   {
+    "x": 2.8608,
+    "y": 4.7398,
+    "cls": "Taxiway centreline light",
+    "source": "label",
+    "label": "TCCECH.06.035",
+    "nearest_cls": "Taxiway centreline light",
+    "match_m": 0.61
+   },
+   {
+    "x": 1.4097,
+    "y": 3.9629,
+    "cls": "Taxiway centreline light",
+    "source": "fixture",
+    "match_m": 0.62,
+    "margin_m": 2.72,
+    "ambiguous": false
+   },
+   {
+    "x": 0.9322,
+    "y": 3.591,
+    "cls": "Existing light base",
+    "source": "label",
+    "label": "EL.EBASE.13328",
+    "nearest_cls": "Existing light base",
+    "match_m": 1.89
+   },
+   {
+    "x": 1.6725,
+    "y": 3.932,
+    "cls": "Existing light base",
+    "source": "label",
+    "label": "EL.EBASE.13329",
+    "nearest_cls": "Existing light base",
+    "match_m": 1.85
+   },
+   {
+    "x": 2.4009,
+    "y": 4.3215,
+    "cls": "Existing light base",
+    "source": "label",
+    "label": "EL.EBASE.13330",
+    "nearest_cls": "Taxiway centreline light",
+    "match_m": 0.16
+   },
+   {
+    "x": 3.0951,
+    "y": 4.759,
+    "cls": "Taxiway centreline light",
+    "source": "fixture",
+    "match_m": 0.75,
+    "margin_m": 1.14,
+    "ambiguous": false
+   },
+   {
+    "x": 4.4049,
+    "y": 5.8893,
+    "cls": "Taxiway centreline light",
+    "source": "label",
+    "label": "TCCECH-03/002",
+    "nearest_cls": "Taxiway centreline light",
+    "match_m": 0.59
+   },
+   {
+    "x": 4.262,
+    "y": 5.9843,
+    "cls": "Stop bar light",
+    "source": "label",
+    "label": "SBC102-01/040",
+    "nearest_cls": "Stop bar light",
+    "match_m": 0.59
+   },
+   {
+    "x": 4.0544,
+    "y": 6.241,
+    "cls": "Stop bar light",
+    "source": "label",
+    "label": "SBC102-02/037",
+    "nearest_cls": "Stop bar light",
+    "match_m": 0.6
+   },
+   {
+    "x": 3.8483,
+    "y": 6.4983,
+    "cls": "Stop bar light",
+    "source": "label",
+    "label": "SBC102-01/041",
+    "nearest_cls": "Stop bar light",
+    "match_m": 0.59
+   },
+   {
+    "x": 3.6432,
+    "y": 6.7554,
+    "cls": "Stop bar light",
+    "source": "label",
+    "label": "SBC102-02/038",
+    "nearest_cls": "Stop bar light",
+    "match_m": 0.6
+   },
+   {
+    "x": 1.1929,
+    "y": 3.3119,
+    "cls": "Taxiway centreline light",
+    "source": "label",
+    "label": "TCC102.01.052",
+    "nearest_cls": "Taxiway centreline light",
+    "match_m": 0.62
+   },
+   {
+    "x": 2.4798,
+    "y": 4.3481,
+    "cls": "Taxiway centreline light",
+    "source": "label",
+    "label": "TCCECH.05.018",
+    "nearest_cls": "Taxiway centreline light",
+    "match_m": 0.61
+   },
+   {
+    "x": 3.5435,
+    "y": 5.1992,
+    "cls": "Taxiway centreline light",
+    "source": "label",
+    "label": "TCCECH.03.001",
+    "nearest_cls": "Taxiway centreline light",
+    "match_m": 0.6
+   },
+   {
+    "x": 0.6141,
+    "y": 1.6155,
+    "cls": "Taxiway centreline light",
+    "source": "label",
+    "label": "TCCECH.05.016",
+    "nearest_cls": "Taxiway centreline light",
+    "match_m": 0.63
+   },
+   {
+    "x": 1.4735,
+    "y": 3.0176,
+    "cls": "Taxiway centreline light",
+    "source": "label",
+    "label": "TCCECH.05.017",
+    "nearest_cls": "Taxiway centreline light",
+    "match_m": 0.62
+   },
+   {
+    "x": 3.1228,
+    "y": 4.8601,
+    "cls": "Existing light base",
+    "source": "label",
+    "label": "EL.EBASE.13331",
+    "nearest_cls": "Taxiway centreline light",
+    "match_m": 0.6
+   },
+   {
+    "x": 1.017,
+    "y": 2.3312,
+    "cls": "Taxiway centreline light",
+    "source": "label",
+    "label": "TCCECH.06.017",
+    "nearest_cls": "Taxiway centreline light",
+    "match_m": 0.62
+   },
+   {
+    "x": 1.9777,
+    "y": 3.6678,
+    "cls": "Taxiway centreline light",
+    "source": "label",
+    "label": "TCCECH.06.018",
+    "nearest_cls": "Taxiway centreline light",
+    "match_m": 0.61
+   },
+   {
+    "x": 3.7668,
+    "y": 5.3773,
+    "cls": "Taxiway centreline light",
+    "source": "label",
+    "label": "TCCECH.04.001",
+    "nearest_cls": "Taxiway centreline light",
+    "match_m": 0.6
+   },
+   {
+    "x": 2.53,
+    "y": 4.2777,
+    "cls": "Taxiway centreline light",
+    "source": "fixture",
+    "match_m": 0.61,
+    "margin_m": 1.61,
+    "ambiguous": false
+   },
+   {
+    "x": 6.0001,
+    "y": 4.2004,
+    "cls": "Existing transformer handhole",
+    "source": "fixture",
+    "match_m": 0.99,
+    "margin_m": 4.81,
+    "ambiguous": false
+   },
+   {
+    "x": 9.5354,
+    "y": 7.1679,
+    "cls": "Existing transformer handhole",
+    "source": "fixture",
+    "match_m": 0.95,
+    "margin_m": 4.39,
+    "ambiguous": false
+   },
+   {
+    "x": 10.0009,
+    "y": 6.6527,
+    "cls": "Handhole",
+    "source": "fixture",
+    "match_m": 1.02,
+    "margin_m": 6.23,
+    "ambiguous": false
+   },
+   {
+    "x": 6.3127,
+    "y": 3.5002,
+    "cls": "Handhole",
+    "source": "label",
+    "label": "HH.E.061",
+    "nearest_cls": "Handhole",
+    "match_m": 0.96
+   },
+   {
+    "x": 6.5434,
+    "y": 3.6866,
+    "cls": "Handhole",
+    "source": "label",
+    "label": "HH.E.060",
+    "nearest_cls": "Handhole",
+    "match_m": 1.0
+   },
+   {
+    "x": 4.7133,
+    "y": 1.9402,
+    "cls": "Handhole",
+    "source": "label",
+    "label": "HH.E4.010",
+    "nearest_cls": "Handhole",
+    "match_m": 1.01
+   },
+   {
+    "x": 8.7922,
+    "y": 5.6955,
+    "cls": "Handhole",
+    "source": "label",
+    "label": "HH.E.058",
+    "nearest_cls": "Handhole",
+    "match_m": 1.01
+   },
+   {
+    "x": 7.7413,
+    "y": 4.6193,
+    "cls": "Handhole",
+    "source": "label",
+    "label": "HH.E.059",
+    "nearest_cls": "Handhole",
+    "match_m": 1.01
+   },
+   {
+    "x": 1.8337,
+    "y": 6.8907,
+    "cls": "Existing manhole",
+    "source": "fixture",
+    "match_m": 1.06,
+    "margin_m": 7.13,
+    "ambiguous": false
+   },
+   {
+    "x": 5.0977,
+    "y": 2.263,
+    "cls": "Manhole",
+    "source": "label",
+    "label": "MH.E.015",
+    "nearest_cls": "Manhole",
+    "match_m": 0.97
+   },
+   {
+    "x": 1.115,
+    "y": 7.2433,
+    "cls": "Manhole",
+    "source": "label",
+    "label": "MH.E.023",
+    "nearest_cls": "Manhole",
+    "match_m": 1.01
+   },
+   {
+    "x": 1.8237,
+    "y": 9.1604,
+    "cls": "Sign foundation",
+    "source": "label",
+    "label": "SGC102.02.015",
+    "nearest_cls": "Sign foundation",
+    "match_m": 0.6
+   },
+   {
+    "x": 6.3264,
+    "y": 2.594,
+    "cls": "Sign foundation",
+    "source": "label",
+    "label": "SGC102.02.014",
+    "nearest_cls": "Sign foundation",
+    "match_m": 0.59
+   }
+  ],
+  "counts": {
+   "Runway guard light / RRM": 7,
+   "Existing manhole": 2,
+   "Taxiway centreline light": 23,
+   "Handhole": 7,
+   "Existing light base": 4,
+   "Stop bar light": 4,
+   "Existing transformer handhole": 2,
+   "Manhole": 2,
+   "Sign foundation": 2
+  },
+  "offset_correction_m": {
+   "AGL": [
+    -0.518,
+    0.186
+   ],
+   "CIVIL": [
+    -1.68,
+    1.114
+   ]
+  },
+  "ambiguous": 0,
+  "unclassified": 0
+ }
+}
