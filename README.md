@@ -110,6 +110,10 @@ Skills for working with complex file formats:
   - Install from `superpowers-marketplace` plugin
 
 
+- **[YannisKiefer/dark-psychology-skills](https://github.com/YannisKiefer/dark-psychology-skills)** - 13 sales and negotiation skills distilled from 36 books: CIA psyop manuals, FBI behavioral research, propaganda science, persuasion classics
+  - Plain-English SKILL.md format; includes a deal-router skill that picks the right move for any incoming message
+  - Honest-influence filter: every tactic must still work when fully disclosed to the other side
+
 ### Individual Skills
 
 > These will be broken down into categories once there are enough community skills available to list
