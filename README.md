@@ -134,6 +134,7 @@ _More community skills coming soon! Submit a PR to add your skill._
 ### Tools
 
 - **[yusufkaraaslan/Skill_Seekers](https://github.com/yusufkaraaslan/Skill_Seekers)** - Convert documentation websites into Claude Skills
+- **[FrankFu916/skill-audit](https://github.com/FrankFu916/skill-audit)** - Zero-dependency CLI that statically audits SKILL.md packages for prompt injection, credential exfiltration, destructive commands, and spec violations before you install them — 24 explainable rules, 0–100 health score per skill, SARIF/JSON output for CI (`npx @frankfu0916/skill-audit ~/.claude/skills`)
 
 ## ✏️ Creating Your First Skill
 
@@ -320,6 +321,7 @@ _Video tutorials coming soon! Have a good video about Claude Skills? Submit a PR
 - **Review SKILL.md and all scripts** before enabling a skill
 - **Be cautious of skills** that request sensitive data access
 - **Audit carefully** before deploying to production or enterprise environments
+- **Run an automated audit first**: [skill-audit](https://github.com/FrankFu916/skill-audit) scans any skill for prompt injection, credential exfiltration, and dangerous commands in seconds — `npx @frankfu0916/skill-audit <skill-path>`
 
 ### Security Concerns
 
