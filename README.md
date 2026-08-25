@@ -98,6 +98,11 @@ Skills for working with complex file formats:
 
 ### Collections & Libraries
 
+- **[VoDaiLocz/kilo-kit-mcp](https://github.com/VoDaiLocz/kilo-kit-mcp)** - Comprehensive library of 177 curated skills paired with an MCP runtime that enforces protocol-level C4 workflow gates, sandboxed execution, and 5 cognitive reasoning engines (Tree of Thoughts DAG, Adversarial Grilling, 5-Whys Root Cause Tracer, Context Compactor, Self-Evolution)
+  - Features 1-click universal setup: `claude mcp add kilo-kit -- npx -y @vodailoc/kilo-kit-mcp` or `npx -y @vodailoc/kilo-kit-mcp setup`
+  - Includes 177 validated skills covering software engineering, architecture, debugging, security, and multi-agent coordination
+
+
 - **[obra/superpowers](https://github.com/obra/superpowers)** - Core skills library for Claude Code with 20+ battle-tested skills including TDD, debugging, and collaboration patterns
   - Features `/brainstorm`, `/write-plan`, `/execute-plan` commands and skills-search tool
   - [superpowers-skills](https://github.com/obra/superpowers-skills) - Community-editable skills repository
