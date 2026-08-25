@@ -129,6 +129,7 @@ Skills for working with complex file formats:
 | **[shadcn/ui](https://ui.shadcn.com/docs/skills)** | Give Claude Code context on shadcn components as well as pattern enforcement |
 | **[get-shit-done](https://github.com/gsd-build/get-shit-done)** | Lightweight meta-prompting, context engineering, and spec-driven development system for Claude Code by TÂCHES |
 
+| **[docker-agent-cache-optimized-workflow](https://github.com/jack89-ML/docker-agent-cache-optimized-workflow)** | Playbook + scaffold for running autonomous agents in Docker containers with a prompt-cache-hit strategy: 98.96% cache-hit, up to -94% LLM cost, validated in production on a 305-call session |
 _More community skills coming soon! Submit a PR to add your skill._
 
 ### Tools
