@@ -109,8 +109,8 @@ Skills for working with complex file formats:
   - [Blog post about its development](https://blog.fsck.com/2025/10/23/naming-claude-plugins/)
   - Install from `superpowers-marketplace` plugin
 
-- **[pm-claude-skills](https://github.com/mohitagw15856/pm-claude-skills)** - 771 professional Agent Skills across 35 professions — PRDs, postmortems, lease/medical-bill decoders, negotiation simulators, calculators — all SkillSpec-gated and security-scanned in CI
-  - Browser playground, searchable catalog, and pre-converted exports for ChatGPT, Gemini, Cursor & 8 more tools
+- **[pm-claude-skills](https://github.com/mohitagw15856/pm-claude-skills)** - 1,153 professional Agent Skills across 35 professions — PRDs, postmortems, lease/medical-bill decoders, negotiation simulators, calculators — all SkillSpec-gated and security-scanned in CI
+  - Browser playground, searchable catalog, and pre-converted exports for ChatGPT, Gemini, Cursor & 10 more tools
   - Installation: `/plugin marketplace add mohitagw15856/pm-claude-skills` or `npx pm-claude-skills add`
 
 
