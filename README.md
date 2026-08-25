@@ -129,6 +129,7 @@ Skills for working with complex file formats:
 | **[shadcn/ui](https://ui.shadcn.com/docs/skills)** | Give Claude Code context on shadcn components as well as pattern enforcement |
 | **[get-shit-done](https://github.com/gsd-build/get-shit-done)** | Lightweight meta-prompting, context engineering, and spec-driven development system for Claude Code by TÂCHES |
 
+| **[hypergrok-trading-desk](https://github.com/galleonlabs/hypergrok-trading-desk)** | 7-role Hyperliquid trading desk: research, risk, ticketed execution, review. You approve every trade by ticket id. |
 _More community skills coming soon! Submit a PR to add your skill._
 
 ### Tools
