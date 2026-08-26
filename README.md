@@ -98,6 +98,11 @@ Skills for working with complex file formats:
 
 ### Collections & Libraries
 
+- **[Accordo](https://github.com/khaoss85/agent-crm)** - Eleven skills for building a custom CRM as code you own: modules, deterministic workflows, domain packages, commercial operations, contract activation, delivery and service
+  - Commercial policy is generated as code and proven by tests in the project's merge gate, so a rule the agent is asked to bypass fails a test rather than a prompt
+  - Ships a local project MCP; code generation stays dry-run until `--apply`
+  - Installation: `/plugin marketplace add khaoss85/agent-crm` then `/plugin install accordo`
+
 - **[obra/superpowers](https://github.com/obra/superpowers)** - Core skills library for Claude Code with 20+ battle-tested skills including TDD, debugging, and collaboration patterns
   - Features `/brainstorm`, `/write-plan`, `/execute-plan` commands and skills-search tool
   - [superpowers-skills](https://github.com/obra/superpowers-skills) - Community-editable skills repository
