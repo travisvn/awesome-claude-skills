@@ -129,6 +129,8 @@ Skills for working with complex file formats:
 | **[shadcn/ui](https://ui.shadcn.com/docs/skills)** | Give Claude Code context on shadcn components as well as pattern enforcement |
 | **[get-shit-done](https://github.com/gsd-build/get-shit-done)** | Lightweight meta-prompting, context engineering, and spec-driven development system for Claude Code by TÂCHES |
 
+| **[found-by-ai](https://github.com/techhorizonlabs/thl-open/tree/main/skills/found-by-ai)** | Live AI-visibility check for any business: free scan via the public API returns visibility and readiness scores, who AI names instead, the fix list, and a shareable report ([areyoufoundbyai.com](https://areyoufoundbyai.com)) |
+
 _More community skills coming soon! Submit a PR to add your skill._
 
 ### Tools
