@@ -128,6 +128,7 @@ Skills for working with complex file formats:
 | **[Expo Skills](https://github.com/expo/skills)** | Official skills by the Expo team for developing Expo apps |
 | **[shadcn/ui](https://ui.shadcn.com/docs/skills)** | Give Claude Code context on shadcn components as well as pattern enforcement |
 | **[get-shit-done](https://github.com/gsd-build/get-shit-done)** | Lightweight meta-prompting, context engineering, and spec-driven development system for Claude Code by TÂCHES |
+| **[falsify](https://github.com/263311487-ux/falsify)** | Scientific thinking protocol for AI agents — falsify before you believe. 5-stage protocol (axioms → hypothesis → adversarial test → evidence → calibrated verdict) that stops agents from giving confident answers they cannot falsify. Works with Claude Code, Codex, Cursor, Gemini CLI and 20+ agents. 28 evals, npm: falsify-skill |
 
 _More community skills coming soon! Submit a PR to add your skill._
 
