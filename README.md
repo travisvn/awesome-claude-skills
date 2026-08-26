@@ -129,6 +129,7 @@ Skills for working with complex file formats:
 | **[shadcn/ui](https://ui.shadcn.com/docs/skills)** | Give Claude Code context on shadcn components as well as pattern enforcement |
 | **[get-shit-done](https://github.com/gsd-build/get-shit-done)** | Lightweight meta-prompting, context engineering, and spec-driven development system for Claude Code by TÂCHES |
 
+| **[codebase-tour](https://github.com/cyberpatrolunit/agentready/tree/main/skills/codebase-tour)** | Generates a guided tour of an unfamiliar codebase — entry points, data flow, conventions, and where to make common kinds of changes |
 _More community skills coming soon! Submit a PR to add your skill._
 
 ### Tools
