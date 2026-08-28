@@ -127,6 +127,7 @@ Skills for working with complex file formats:
 | **[frontend-slides](https://github.com/zarazhangrui/frontend-slides)** | Create animation-rich HTML presentations — from scratch or by converting PowerPoint files |
 | **[Expo Skills](https://github.com/expo/skills)** | Official skills by the Expo team for developing Expo apps |
 | **[shadcn/ui](https://ui.shadcn.com/docs/skills)** | Give Claude Code context on shadcn components as well as pattern enforcement |
+| **[ifrs-skill](https://github.com/ramyatrouny/ifrs-skill)** | IFRS and IAS reference with paragraph-level citations: 43 standards including IFRS 18, IFRS 19 and IFRS S1/S2, disclosure checklists, worked journal entries, and a GAAP-to-IFRS transition guide |
 | **[get-shit-done](https://github.com/gsd-build/get-shit-done)** | Lightweight meta-prompting, context engineering, and spec-driven development system for Claude Code by TÂCHES |
 
 _More community skills coming soon! Submit a PR to add your skill._
