@@ -133,6 +133,8 @@ _More community skills coming soon! Submit a PR to add your skill._
 
 ### Tools
 
+- **[SandBase CLI](https://github.com/sandbaseai/cli)** - Run a local command-line MCP server that lets Claude-compatible clients discover and invoke models through one interface; supports 2,000+ AI models via a single configuration
+
 - **[yusufkaraaslan/Skill_Seekers](https://github.com/yusufkaraaslan/Skill_Seekers)** - Convert documentation websites into Claude Skills
 
 ## ✏️ Creating Your First Skill
