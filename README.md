@@ -130,6 +130,8 @@ Skills for working with complex file formats:
 | **[get-shit-done](https://github.com/gsd-build/get-shit-done)** | Lightweight meta-prompting, context engineering, and spec-driven development system for Claude Code by TÂCHES |
 | **[alibaba-java-coding-guidelines-en](https://github.com/Castlebin/alibaba-java-coding-guidelines-en)** | Enforce the official English Alibaba Java Coding Guidelines (5 sections, 181 rules) for Java development: code-time self-check, English review checklist, and an upstream Markdown sync pipeline |
 
+| **[alibaba-java-coding-guidelines-en](https://github.com/Castlebin/alibaba-java-coding-guidelines-en)** | Enforce the official English Alibaba Java Coding Guidelines (5 sections, 181 rules) for Java development: code-time self-check, English review checklist, and an upstream Markdown sync pipeline |
+
 
 _More community skills coming soon! Submit a PR to add your skill._
 
