@@ -134,6 +134,7 @@ _More community skills coming soon! Submit a PR to add your skill._
 ### Tools
 
 - **[yusufkaraaslan/Skill_Seekers](https://github.com/yusufkaraaslan/Skill_Seekers)** - Convert documentation websites into Claude Skills
+- **[OpenAdapt](https://github.com/OpenAdaptAI/OpenAdapt)** - Compiles a demonstrated GUI task into a program that reports VERIFIED only if an independent check agrees. `openadapt-agent emit-skill` writes a portable skill folder with those halt semantics. https://openadapt.ai
 
 ## ✏️ Creating Your First Skill
 
