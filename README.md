@@ -134,7 +134,7 @@ _More community skills coming soon! Submit a PR to add your skill._
 ### Tools
 
 - **[yusufkaraaslan/Skill_Seekers](https://github.com/yusufkaraaslan/Skill_Seekers)** - Convert documentation websites into Claude Skills
-- **[truelove-dreamer/plugin-forge](https://github.com/truelove-dreamer/plugin-forge)** - Five-phase gated workflow for building and shipping skills/plugins: intake, scaffold, best-practice authoring, structural validation, then GitHub publish and release (includes validator + starter templates)
+- **[truelove-dreamer/plugin-forge](https://github.com/truelove-dreamer/plugin-forge)** - Five-phase gated workflow for building and shipping skills/plugins in the portable SKILL.md format (works in Claude Code, ZCode, and other Agent Skills hosts): intake, scaffold, best-practice authoring, structural validation, then GitHub publish and release (includes validator + starter templates)
 
 ## ✏️ Creating Your First Skill
 
