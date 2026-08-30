@@ -16,6 +16,7 @@
 
 They are specialized folders containing instructions, scripts, and resources that Claude dynamically discovers and loads when relevant to tasks.
 
+- [memory-shield](https://github.com/vnbochkarev-netizen/memory-shield) - Defend agent memory against prompt-injection poisoning: snapshots before compaction, poisoned-content quarantine, masked secrets, diff audit (MIT, zero deps)
 ### How Skills Work
 
 Skills employ a **progressive disclosure architecture** for efficiency:
