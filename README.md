@@ -109,6 +109,10 @@ Skills for working with complex file formats:
   - [Blog post about its development](https://blog.fsck.com/2025/10/23/naming-claude-plugins/)
   - Install from `superpowers-marketplace` plugin
 
+- **[Sketchjar/stipple-agent-skills](https://github.com/Sketchjar/stipple-agent-skills)** - 7 document-trust skills: forensic document authenticity (tamper risk bands + per-signal evidence), citation verification, grounded extraction, AI-written-text detection, identity checks, adverse-media screening, and free AU/NZ tender search
+  - Uses the Stipple API (free anonymous tier, no signup)
+  - Works with Claude Code, Codex, Cursor, Gemini CLI, and other agents that read SKILL.md files
+
 
 ### Individual Skills
 
