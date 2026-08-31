@@ -134,6 +134,7 @@ _More community skills coming soon! Submit a PR to add your skill._
 ### Tools
 
 - **[yusufkaraaslan/Skill_Seekers](https://github.com/yusufkaraaslan/Skill_Seekers)** - Convert documentation websites into Claude Skills
+- **[Skills Directory](https://www.skillsdirectory.com)** - Searchable directory of 100,000+ skills with security grades and one-command install
 
 ## ✏️ Creating Your First Skill
 
@@ -320,6 +321,7 @@ _Video tutorials coming soon! Have a good video about Claude Skills? Submit a PR
 - **Review SKILL.md and all scripts** before enabling a skill
 - **Be cautious of skills** that request sensitive data access
 - **Audit carefully** before deploying to production or enterprise environments
+- **Use a scan report**: [Skills Directory Security Reports](https://www.skillsdirectory.com/security) - free automated scans of 100,000+ community skills, each graded A–F (prompt injection, exfiltration, dangerous shell patterns) with a public per-skill report to check before installing
 
 ### Security Concerns
 
