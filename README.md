@@ -110,6 +110,13 @@ Skills for working with complex file formats:
   - Install from `superpowers-marketplace` plugin
 
 
+- **[gaznilmuzammil12-prog/seo-skills-by-gaznil](https://github.com/gaznilmuzammil12-prog/seo-skills-by-gaznil)** - 81-skill SEO library with no overlapping coverage: technical SEO, on-page, AI search (GEO/AEO/LLMO), ecommerce, international, backlinks, local, measurement, and a full blog content pipeline
+  - Filtered rather than merged: no two skills share a purpose, names are collision-checked against common SEO packs, and every internal cross-reference resolves
+  - [Docs with full catalogue](https://gaznilmuzammil12-prog.github.io/seo-skills-by-gaznil/) - all 81 skills categorised
+  - MIT licensed; assembled from MIT sources with attribution retained in [NOTICE.md](https://github.com/gaznilmuzammil12-prog/seo-skills-by-gaznil/blob/main/NOTICE.md)
+  - Installation: `npx skills add gaznilmuzammil12-prog/seo-skills-by-gaznil`
+
+
 ### Individual Skills
 
 > These will be broken down into categories once there are enough community skills available to list
