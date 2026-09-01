@@ -110,6 +110,9 @@ Skills for working with complex file formats:
   - Install from `superpowers-marketplace` plugin
 
 
+- **[seo-ai-visibility-skills](https://github.com/zaialamm/seo-ai-visibility-skills)** - 13 SEO & AI-visibility skills: free llms.txt, schema-markup, GEO-rewrite and AI-crawler build skills, plus data-backed citability audits, keyword research with real volumes, rank tracking, and AI-citation checks the agent pays per call via x402 (USDC on Solana) — no API key or account
+  - Installation: `npx skills add zaialamm/seo-ai-visibility-skills` or `/plugin marketplace add zaialamm/seo-ai-visibility-skills`
+
 ### Individual Skills
 
 > These will be broken down into categories once there are enough community skills available to list
