@@ -109,6 +109,10 @@ Skills for working with complex file formats:
   - [Blog post about its development](https://blog.fsck.com/2025/10/23/naming-claude-plugins/)
   - Install from `superpowers-marketplace` plugin
 
+- **[apexbymanish/claude-ai-agents-ios](https://github.com/apexbymanish/claude-ai-agents-ios)** - Claude Code subagents & Skills specialized for iOS/Swift/Xcode development: architecture, testing, memory/performance, security, App Store readiness, and Tuist project generation
+  - Every agent reports against a seven-tier evidence taxonomy (ASSUMPTION → HUMAN_VERIFICATION) instead of asserting claims
+  - Ships a `.claude-plugin` manifest for one-command install via `/plugin marketplace add`
+
 
 ### Individual Skills
 
