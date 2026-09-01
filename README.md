@@ -128,6 +128,7 @@ Skills for working with complex file formats:
 | **[Expo Skills](https://github.com/expo/skills)** | Official skills by the Expo team for developing Expo apps |
 | **[shadcn/ui](https://ui.shadcn.com/docs/skills)** | Give Claude Code context on shadcn components as well as pattern enforcement |
 | **[get-shit-done](https://github.com/gsd-build/get-shit-done)** | Lightweight meta-prompting, context engineering, and spec-driven development system for Claude Code by TÂCHES |
+| **[mloda](https://github.com/mloda-ai/mloda)** | Declarative, deterministic data access for AI agents: describe WHAT features you need, mloda resolves HOW to compute or fetch them across a plugin graph, with lineage back to source. Companion skills at [mloda-ai/mloda-skills](https://github.com/mloda-ai/mloda-skills) |
 
 _More community skills coming soon! Submit a PR to add your skill._
 
