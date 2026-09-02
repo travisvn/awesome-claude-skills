@@ -109,6 +109,12 @@ Skills for working with complex file formats:
   - [Blog post about its development](https://blog.fsck.com/2025/10/23/naming-claude-plugins/)
   - Install from `superpowers-marketplace` plugin
 
+- **[skill-governance-oss](https://github.com/0mandrock1/skill-governance-oss)** - Governance spec + three linters (`validate_registry`, `lint_dependencies`, `audit_triggers`) for large Claude Skills collections
+  - Models each skill as a class: state = fields, trigger phrases + Inter-Skill API = public interface, `Inherits from:` = inheritance
+  - Catches semantic trigger-collisions and orphaned state-ownership across a whole collection — defects a per-file linter can't see by definition
+  - Case study on a real 116-skill collection: 37 FAIL / 22 WARN — [CASE.md](https://github.com/0mandrock1/skill-governance-oss/blob/main/CASE.md)
+  - MIT, no roadmap, no support promise
+
 
 ### Individual Skills
 
