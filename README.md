@@ -133,7 +133,9 @@ _More community skills coming soon! Submit a PR to add your skill._
 
 ### Tools
 
-- **[yusufkaraaslan/Skill_Seekers](https://github.com/yusufkaraaslan/Skill_Seekers)** - Convert documentation websites into Claude Skills
+- **[yusufkaraaslan/Skill_Seekers](https://github.com/yusufkaraaslan/Skill_Seekers)** - Convert
+documentation websites into Claude Skills
+- [NerdBlaq/agent-file-organizer](https://github.com/NerdBlaq/agent-file-organizer) [![NerdBlaq/agent-file-organizer MCP server](https://glama.ai/mcp/servers/NerdBlaq/agent-file-organizer/badges/score.svg)](https://glama.ai/mcp/servers/NerdBlaq/agent-file-organizer) 🐍 🏠 🍎 🪟 🐧 - Intelligent, safety-first, cross-platform file organizer for Windows, macOS, and Linux with FastMCP server and Agent Skill support.
 
 ## ✏️ Creating Your First Skill
 
