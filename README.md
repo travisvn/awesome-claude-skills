@@ -128,6 +128,8 @@ Skills for working with complex file formats:
 | **[Expo Skills](https://github.com/expo/skills)** | Official skills by the Expo team for developing Expo apps |
 | **[shadcn/ui](https://ui.shadcn.com/docs/skills)** | Give Claude Code context on shadcn components as well as pattern enforcement |
 | **[get-shit-done](https://github.com/gsd-build/get-shit-done)** | Lightweight meta-prompting, context engineering, and spec-driven development system for Claude Code by TÂCHES |
+| **[sniff](https://github.com/Aboudjem/sniff)** | QA skills that walk a running web app in a real browser and report 12 classes of bugs with reproduction steps, a screenshot, and a severity |
+| **[ui-ux-suite](https://github.com/Aboudjem/ui-ux-suite)** | Design-audit skills that check a project's color, typography, accessibility, and layout, with a weighted 0-10 score across 12 dimensions |
 
 _More community skills coming soon! Submit a PR to add your skill._
 
