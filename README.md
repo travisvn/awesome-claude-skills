@@ -109,6 +109,11 @@ Skills for working with complex file formats:
   - [Blog post about its development](https://blog.fsck.com/2025/10/23/naming-claude-plugins/)
   - Install from `superpowers-marketplace` plugin
 
+- **[JasonColapietro/suede-creator-skills](https://github.com/JasonColapietro/suede-creator-skills)** - Library of 74 skills for Claude Code and Codex, led by design: `suede-design` and `johnny-suede-design` cover design tokens, visual hierarchy, dark mode, and visual QA on shipped screens
+  - Also covers code review with a blunt A-F ship grade, CI ship gates, AI evals, SEO and AEO audits, and creator-rights tooling
+  - MIT, with adapted components under their upstream notices
+  - Installation: `/plugin marketplace add JasonColapietro/suede-creator-skills`
+
 
 ### Individual Skills
 
