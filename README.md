@@ -109,6 +109,9 @@ Skills for working with complex file formats:
   - [Blog post about its development](https://blog.fsck.com/2025/10/23/naming-claude-plugins/)
   - Install from `superpowers-marketplace` plugin
 
+- **[n3wth/skills](https://github.com/n3wth/skills)** - AI coding assistant skills with a live registry at [skills.n3wth.com](https://skills.n3wth.com)
+  - Installation: `npx skills add n3wth/skills`
+
 
 ### Individual Skills
 
