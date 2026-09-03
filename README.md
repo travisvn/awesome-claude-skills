@@ -128,6 +128,7 @@ Skills for working with complex file formats:
 | **[Expo Skills](https://github.com/expo/skills)** | Official skills by the Expo team for developing Expo apps |
 | **[shadcn/ui](https://ui.shadcn.com/docs/skills)** | Give Claude Code context on shadcn components as well as pattern enforcement |
 | **[get-shit-done](https://github.com/gsd-build/get-shit-done)** | Lightweight meta-prompting, context engineering, and spec-driven development system for Claude Code by TÂCHES |
+| **[immich-photo-manager](https://github.com/drolosoft/immich-photo-manager)** | Intelligent photo management for self-hosted Immich: 13 skills over an MCP server with 94 tools, covering natural language and OCR search, geographic album curation, duplicate detection, people and faces, metadata repair, library health, and PDF album reports; tested live on Immich 2.x and 3.x |
 
 _More community skills coming soon! Submit a PR to add your skill._
 
