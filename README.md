@@ -128,6 +128,9 @@ Skills for working with complex file formats:
 | **[Expo Skills](https://github.com/expo/skills)** | Official skills by the Expo team for developing Expo apps |
 | **[shadcn/ui](https://ui.shadcn.com/docs/skills)** | Give Claude Code context on shadcn components as well as pattern enforcement |
 | **[get-shit-done](https://github.com/gsd-build/get-shit-done)** | Lightweight meta-prompting, context engineering, and spec-driven development system for Claude Code by TÂCHES |
+| **[competitor-xray](https://github.com/Axel-freeman-marketing-framework/competitor-xray)** | Competitor research that ends in a weekly copy-list, not a report — free methods only |
+| **[inbox-audit](https://github.com/Axel-freeman-marketing-framework/inbox-audit)** | Free DNS deliverability audit for any domain (SPF/DKIM/DMARC) with paste-ready fixes |
+| **[agent-stack-starter](https://github.com/Axel-freeman-marketing-framework/agent-stack-starter)** | Self-hosted AI marketing stack in one evening: docker-compose, skills, scheduled jobs |
 
 _More community skills coming soon! Submit a PR to add your skill._
 
