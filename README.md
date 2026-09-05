@@ -306,6 +306,7 @@ _Video tutorials coming soon! Have a good video about Claude Skills? Submit a PR
 
 - [Skills Explained](https://claude.com/blog/skills-explained) - Official Anthropic blog post covering progressive disclosure, use cases, and when to use Skills vs other tools
 - [Simon Willison: Claude Skills are awesome, maybe a bigger deal than MCP](https://simonwillison.net/2025/Oct/16/claude-skills/) - Technical deep dive and analysis
+- [Building Custom Skills for Claude Code: A Practical Guide](https://lachlancb.me/building-custom-skills-claude-code/) - How a solo operator runs a business on 320 installed skills: what a skill is, a daily skill stack, a worked `SKILL.md` example, and where to find community skills
 
 ## 🔒 Security & Best Practices
 
