@@ -134,6 +134,7 @@ _More community skills coming soon! Submit a PR to add your skill._
 ### Tools
 
 - **[yusufkaraaslan/Skill_Seekers](https://github.com/yusufkaraaslan/Skill_Seekers)** - Convert documentation websites into Claude Skills
+- - **[DevScratchpad AI Skill Studio](https://www.devscratchpad.tech/ai-skill-studio/claude-skills)** - Interactive browser-based scratchpad and generator to compose, test, and export Claude Code `SKILL.md` files and `.claude/skills/` directives with 36+ verified framework presets and 100% client-side privacy.
 
 ## ✏️ Creating Your First Skill
 
