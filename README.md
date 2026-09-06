@@ -133,6 +133,8 @@ _More community skills coming soon! Submit a PR to add your skill._
 
 ### Tools
 
+- **[chrome-bridge](https://github.com/siropkin/chrome-bridge)** - Zero-dependency Node CLI plus a tiny Chrome extension that lets any AI agent drive your real, logged-in browser (accessibility-tree snapshots with element refs, click/fill by ref); ships as a Claude Code skill
+
 - **[yusufkaraaslan/Skill_Seekers](https://github.com/yusufkaraaslan/Skill_Seekers)** - Convert documentation websites into Claude Skills
 
 ## ✏️ Creating Your First Skill
