@@ -128,6 +128,7 @@ Skills for working with complex file formats:
 | **[Expo Skills](https://github.com/expo/skills)** | Official skills by the Expo team for developing Expo apps |
 | **[shadcn/ui](https://ui.shadcn.com/docs/skills)** | Give Claude Code context on shadcn components as well as pattern enforcement |
 | **[get-shit-done](https://github.com/gsd-build/get-shit-done)** | Lightweight meta-prompting, context engineering, and spec-driven development system for Claude Code by TÂCHES |
+| **[EdgeVerdict](https://github.com/edgeverdict/edgeverdict-make-me-money-trading)** | Read-only agent skill for Path A $0.10 micropay signal receipts (unpaid HTTP 402 until paid) + paper waitlist Path B. Method card: https://edgeverdict.io/receipts — `npx skills add edgeverdict/edgeverdict-make-me-money-trading` |
 
 _More community skills coming soon! Submit a PR to add your skill._
 
