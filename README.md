@@ -128,6 +128,7 @@ Skills for working with complex file formats:
 | **[Expo Skills](https://github.com/expo/skills)** | Official skills by the Expo team for developing Expo apps |
 | **[shadcn/ui](https://ui.shadcn.com/docs/skills)** | Give Claude Code context on shadcn components as well as pattern enforcement |
 | **[get-shit-done](https://github.com/gsd-build/get-shit-done)** | Lightweight meta-prompting, context engineering, and spec-driven development system for Claude Code by TÂCHES |
+| **[EdgeVerdict](https://github.com/edgeverdict/edgeverdict-make-me-money-trading)** | Free research-first: health → receipts → /math → install. `npx skills add edgeverdict/edgeverdict-make-me-money-trading` · https://edgeverdict.io/llms.txt · https://edgeverdict.io/receipts · https://edgeverdict.io/math · https://www.skills.sh/edgeverdict/edgeverdict-make-me-money-trading — Paper ≠ live. No custody. No sleeve recipe. |
 
 _More community skills coming soon! Submit a PR to add your skill._
 
