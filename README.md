@@ -134,6 +134,7 @@ _More community skills coming soon! Submit a PR to add your skill._
 ### Tools
 
 - **[yusufkaraaslan/Skill_Seekers](https://github.com/yusufkaraaslan/Skill_Seekers)** - Convert documentation websites into Claude Skills
+- **[antigravity-skill-porter](https://github.com/Pranav-Nexus/antigravity-skill-porter)** - Convert and optimize Claude Skills into Google Antigravity multi-agent plugins with parallel subagents and artifact generation
 
 ## ✏️ Creating Your First Skill
 
