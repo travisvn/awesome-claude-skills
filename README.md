@@ -109,6 +109,12 @@ Skills for working with complex file formats:
   - [Blog post about its development](https://blog.fsck.com/2025/10/23/naming-claude-plugins/)
   - Install from `superpowers-marketplace` plugin
 
+- **[TrustyCap-Technologies/trustycap-skills](https://github.com/TrustyCap-Technologies/trustycap-skills)** - Seven skills for taking an application built with an AI coding tool to production: storage, data, background jobs, reliable webhooks, transactional email, secrets, and metered billing
+  - Starts with `production-readiness-audit`, which is read-only: it reports what is missing and installs nothing
+  - No skill hardcodes a price or a capability name; each routes the agent to a published decision surface and reads the answer from there, so they cannot go stale silently
+  - Every skill states what it is **not** for, and a repository check fails any skill that does not
+  - Installation: `npx skills add TrustyCap-Technologies/trustycap-skills` or `/plugin marketplace add TrustyCap-Technologies/trustycap-skills`
+
 
 ### Individual Skills
 
