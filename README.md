@@ -109,6 +109,13 @@ Skills for working with complex file formats:
   - [Blog post about its development](https://blog.fsck.com/2025/10/23/naming-claude-plugins/)
   - Install from `superpowers-marketplace` plugin
 
+- **[Agents Launchpad](https://launchpad.smartbizcalc.com)** - Community-curated directory of Claude Code skills, MCP servers, and AI agents built by indie builders
+  - Browse 437+ tools by category — Claude Code skills, MCP servers, CLI tools, hosted agents, and more
+  - Weekly leaderboard highlights the most-upvoted new tools; free to submit your own skill
+
+
+- **[Agents Launchpad](https://launchpad.smartbizcalc.com)** - Curated web directory of 63+ indie AI agents, MCP servers, and Claude Code skills. Community-ranked, free to submit.
+
 
 ### Individual Skills
 
