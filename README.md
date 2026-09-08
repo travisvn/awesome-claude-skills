@@ -116,6 +116,8 @@ Skills for working with complex file formats:
 
 | Skill | Description |
 | --- | --- |
+| **[bug-solver](https://github.com/RJLfoever/bug-solver)** | Given a bug phenomenon (error/log/symptom), searches a Feishu (Lark) Bitable bug-knowledge base and combines historical root causes to hypothesize the likely cause and solution, outputting a structured diagnosis report |
+| **[bug-summary](https://github.com/RJLfoever/bug-summary)** | Daily Git commit capture: classifies commits into feature development vs bug fixes and records structured phenomenon / root cause / solution insights for bug-fix commits into a Feishu (Lark) Bitable knowledge base readable by humans and agents |
 | **[ios-simulator-skill](https://github.com/conorluddy/ios-simulator-skill)** | iOS app building, navigation, and testing through automation |
 | **[ffuf-web-fuzzing](https://github.com/jthack/ffuf_claude_skill)** | Expert guidance for ffuf web fuzzing during penetration testing, including authenticated fuzzing with raw requests, auto-calibration, and result analysis |
 | **[playwright-skill](https://github.com/lackeyjb/playwright-skill)** | General-purpose browser automation using Playwright |
