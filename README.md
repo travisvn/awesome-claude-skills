@@ -109,6 +109,11 @@ Skills for working with complex file formats:
   - [Blog post about its development](https://blog.fsck.com/2025/10/23/naming-claude-plugins/)
   - Install from `superpowers-marketplace` plugin
 
+- **[SuresoftTechnologies/dvera-plugin](https://github.com/SuresoftTechnologies/dvera-plugin)** - 14 skills that prepare and coordinate C/C++ unit and integration verification with CT (Controller Tester) for mission-critical software
+  - Covers project setup, analysis, test generation and execution, statement/branch/MC-DC coverage review, GoogleTest reuse, and regression follow-up
+  - CT itself performs the analysis, builds, execution, and measurement; requires a licensed CT 2026.06 or later deployment
+  - Installation: `/plugin marketplace add SuresoftTechnologies/dvera-plugin`
+
 
 ### Individual Skills
 
