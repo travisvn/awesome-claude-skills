@@ -128,6 +128,7 @@ Skills for working with complex file formats:
 | **[Expo Skills](https://github.com/expo/skills)** | Official skills by the Expo team for developing Expo apps |
 | **[shadcn/ui](https://ui.shadcn.com/docs/skills)** | Give Claude Code context on shadcn components as well as pattern enforcement |
 | **[get-shit-done](https://github.com/gsd-build/get-shit-done)** | Lightweight meta-prompting, context engineering, and spec-driven development system for Claude Code by TÂCHES |
+| **[humanize-pro](https://github.com/msdanyg/humanize-pro)** | A skill that removes "AI style writing" but does not change the data. It will not change the facts, just the style. It will not update legal docs. It will respect your brand guidelines. It has channel-specific rules. |
 
 _More community skills coming soon! Submit a PR to add your skill._
 
