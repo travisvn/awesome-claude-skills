@@ -109,6 +109,10 @@ Skills for working with complex file formats:
   - [Blog post about its development](https://blog.fsck.com/2025/10/23/naming-claude-plugins/)
   - Install from `superpowers-marketplace` plugin
 
+- **[zenstory-ai/oh-story-claudecode](https://github.com/zenstory-ai/oh-story-claudecode)** - Skill pack for writing long- and short-form web fiction with coding agents: bestseller-chart scanning, outline deconstruction, drafting, de-AI editing, cover generation
+  - 13 skills and 7 custom agents with deterministic verifiers and blocking reference gates; adapters for Claude Code, Codex CLI, Google Antigravity, OpenCode, OpenClaw
+  - [English README](https://github.com/zenstory-ai/oh-story-claudecode/blob/main/README_EN.md) · MIT · 6.7k stars
+  - Installation: `npx skills add zenstory-ai/oh-story-claudecode -y -g`
 
 ### Individual Skills
 
