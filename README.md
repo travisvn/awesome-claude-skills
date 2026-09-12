@@ -109,6 +109,8 @@ Skills for working with complex file formats:
   - [Blog post about its development](https://blog.fsck.com/2025/10/23/naming-claude-plugins/)
   - Install from `superpowers-marketplace` plugin
 
+- **[meshcode-ai/skills](https://github.com/meshcode-ai/skills)** - 73 knowledge-first Agent Skills (2KB each) for SEO/AEO, marketing, operations and more — agentskills.io standard, MIT
+
 
 ### Individual Skills
 
