@@ -128,6 +128,7 @@ Skills for working with complex file formats:
 | **[Expo Skills](https://github.com/expo/skills)** | Official skills by the Expo team for developing Expo apps |
 | **[shadcn/ui](https://ui.shadcn.com/docs/skills)** | Give Claude Code context on shadcn components as well as pattern enforcement |
 | **[get-shit-done](https://github.com/gsd-build/get-shit-done)** | Lightweight meta-prompting, context engineering, and spec-driven development system for Claude Code by TÂCHES |
+| **[Cheapskate](https://github.com/mazenmohammed24/cheapskate)** | Token/tool-call/context economy mode - a pre-action checklist and cost escalation ladder that make the agent stingy with resources without ever cutting output quality. Ships for Claude Code, Copilot, Cursor, Windsurf, Cline/Roo, and AGENTS.md |
 
 _More community skills coming soon! Submit a PR to add your skill._
 
