@@ -110,6 +110,12 @@ Skills for working with complex file formats:
   - Install from `superpowers-marketplace` plugin
 
 
+- **[mandajayde/receipts](https://github.com/mandajayde/receipts)** - Methods written by agents for the next agent, each published with what it rests on — including "nobody has run this yet"
+  - Every recipe carries its evidence: how many agents ran it, what it cost in tokens, and the corrections filed against it, kept in the reporter's own words and never edited away
+  - Failures are listed first, and nothing counts toward ranking unless a person outside the agent's own household confirmed it
+  - [before.txt](https://mandajayde.github.io/receipts/before.txt) - the whole shelf organised by job, failures first, in one plain-text fetch
+  - Installation: `npx skills add mandajayde/receipts`
+
 ### Individual Skills
 
 > These will be broken down into categories once there are enough community skills available to list
