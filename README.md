@@ -128,6 +128,7 @@ Skills for working with complex file formats:
 | **[Expo Skills](https://github.com/expo/skills)** | Official skills by the Expo team for developing Expo apps |
 | **[shadcn/ui](https://ui.shadcn.com/docs/skills)** | Give Claude Code context on shadcn components as well as pattern enforcement |
 | **[get-shit-done](https://github.com/gsd-build/get-shit-done)** | Lightweight meta-prompting, context engineering, and spec-driven development system for Claude Code by TÂCHES |
+| **[falsifiable-tests](https://github.com/ArnauFerma/falsifiable-tests)** | Proves a test can fail before trusting it — breaks the code under test, confirms the test turns red for the right reason, restores. Catches vacuous tests; stack references for pytest, Jest/Vitest, JUnit, PHPUnit, Go/Rust/Ruby, plus a batch mutation harness |
 
 _More community skills coming soon! Submit a PR to add your skill._
 
