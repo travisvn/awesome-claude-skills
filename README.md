@@ -110,6 +110,10 @@ Skills for working with complex file formats:
   - Install from `superpowers-marketplace` plugin
 
 
+- **[kudosity/skills](https://github.com/kudosity/skills)** - Official skills from [Kudosity](https://kudosity.com): send SMS, MMS, WhatsApp and RCS messages, manage contact lists and delivery webhooks (8 skills, MIT)
+  - Installation: `npx skills add kudosity/skills`
+  - Listed on [skills.sh](https://skills.sh/kudosity/skills) · guide at [developers.kudosity.com/docs/agent-skills](https://developers.kudosity.com/docs/agent-skills)
+
 ### Individual Skills
 
 > These will be broken down into categories once there are enough community skills available to list
