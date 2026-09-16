@@ -110,6 +110,11 @@ Skills for working with complex file formats:
   - Install from `superpowers-marketplace` plugin
 
 
+- **[rickbauer327-cell/solo-stack-starter](https://github.com/rickbauer327-cell/solo-stack-starter)** - 5 skills for the business side of freelancing: business-context setup, meeting notes to actions, HTML invoices, weekly review, LinkedIn posts
+  - One shared `business.md` (rates, terms, tone, clients) that every skill reads first; skills write files to fixed paths so they chain
+  - Includes unedited example outputs from real runs; MIT
+  - Installation: `/plugin marketplace add rickbauer327-cell/solo-stack-starter`
+
 ### Individual Skills
 
 > These will be broken down into categories once there are enough community skills available to list
