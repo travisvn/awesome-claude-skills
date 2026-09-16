@@ -109,6 +109,11 @@ Skills for working with complex file formats:
   - [Blog post about its development](https://blog.fsck.com/2025/10/23/naming-claude-plugins/)
   - Install from `superpowers-marketplace` plugin
 
+- **[jgsystemsconsulting/jgs-magic-sysmlv1-read-skills](https://github.com/jgsystemsconsulting/jgs-magic-sysmlv1-read-skills)** - 18 free, read-only SysML v1 analysis skills for CATIA Magic (MSOSA), driven by the `/jgs-v1` dispatcher over the jgs-magic-sysmlv1-mcp bridge
+  - Navigate, inspect, search, impact, audit (six specialists), report + RTM, diagrams, units, status, fix-plan
+  - Works with Claude Code, ZCode, OpenAI Codex, Gemini CLI, Copilot, and Cursor; install with `python install.py`
+  - Proprietary (JG Systems Consulting Ltd EULA), free of charge
+
 
 ### Individual Skills
 
