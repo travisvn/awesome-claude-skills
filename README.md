@@ -106,7 +106,7 @@ Skills for working with complex file formats:
  
 - **[obra/superpowers-lab](https://github.com/obra/superpowers-lab)** - Experimental skills for `Claude Code Superpowers` (see above)
   - Uses new techniques that are still being refined and tested (i.e. skills here may change over time)
-  - [Blog post about its development](https://blog.fsck.com/2025/10/23/naming-claude-plugins/) - Install from `superpowers-marketplace` plugin
+  - [Blog post about its development](https://blog.fsck.com/2025/10/23/naming-claude-plugins/)
   - Install from `superpowers-marketplace` plugin
 
 
@@ -279,6 +279,7 @@ The easiest way to create a skill is to use the built-in `skill-creator`:
 | ----------------- | --------------------------------------------------- | --------------------------------- |
 | **Structure**     | Folder with YAML frontmatter, instructions, scripts | Plain text instructions           |
 | **Reusability**   | Version-controlled, shareable, composable           | Copy-paste, conversation-specific |
+| **Loading**       | On-demand (only when relevant)                      | Always in context                 |
 | **Maintenance**   | Centralized updates                                 | Manual updates per conversation   |
 | **Composability** | Multiple skills stack automatically                 | Manual combination                |
 
@@ -422,6 +423,14 @@ A: Yes! Skills can be shared via:
 
 A: Skills are available for Pro, Max, Team, and Enterprise users. Free tier users do not have access to Skills.
 
+**Q: Can skills call external APIs?**
+
+A: Yes, skills can include scripts that call external APIs. For complex API integrations, consider using MCP (Model Context Protocol) alongside skills.
+
+**Q: How does Claude decide which skill to use?**
+
+A: Claude scans all available skills' frontmatter (name and description), evaluates relevance to the current task, then loads the full content of relevant skills. Multiple skills can be loaded and composed together automatically.
+
 **Q: Can I use Skills and MCP together?**
 
 A: Absolutely! They complement each other. Use Skills for task-specific workflows and MCP for external data/API integration. The `mcp-builder` skill can even help you build MCP servers.
@@ -429,6 +438,10 @@ A: Absolutely! They complement each other. Use Skills for task-specific workflow
 **Q: Are there any costs beyond my Claude subscription?**
 
 A: No additional costs for using official skills. Community and custom skills are free to use, though some may require external services (APIs, databases, etc.) that have their own costs.
+
+**Q: Can I monetize custom skills?**
+
+A: Currently, there is no official marketplace for paid skills. Anthropic has mentioned plans for community contributions and a potential marketplace in the future.
 
 **Q: How do I update a skill?**
 
