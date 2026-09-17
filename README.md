@@ -128,7 +128,6 @@ Skills for working with complex file formats:
 | **[Expo Skills](https://github.com/expo/skills)** | Official skills by the Expo team for developing Expo apps |
 | **[shadcn/ui](https://ui.shadcn.com/docs/skills)** | Give Claude Code context on shadcn components as well as pattern enforcement |
 | **[get-shit-done](https://github.com/gsd-build/get-shit-done)** | Lightweight meta-prompting, context engineering, and spec-driven development system for Claude Code by TÂCHES |
-| **[marketing-mindset](https://github.com/axelfreeman/marketing-mindset)** | Marketing OS for AI agents — think like a marketer first, get tactics as the output |
 
 _More community skills coming soon! Submit a PR to add your skill._
 
@@ -316,6 +315,7 @@ _Video tutorials coming soon! Have a good video about Claude Skills? Submit a PR
 <summary><strong>Security Guidelines & Best Practices</strong></summary>
 
 ### Vetting Skills
+- [marketing-mindset](https://axelfreeman.github.io/marketing-mindset/) — open agent skill (SKILL.md) for B2B marketing tests: sample size, kill rules, pricing, cold-email deliverability. Install: `npx marketing-mindset`
 
 - **Only install skills from trusted sources**
 - **Review SKILL.md and all scripts** before enabling a skill
