@@ -315,6 +315,7 @@ _Video tutorials coming soon! Have a good video about Claude Skills? Submit a PR
 <summary><strong>Security Guidelines & Best Practices</strong></summary>
 
 ### Vetting Skills
+- [marketing-mindset](https://axelfreeman.github.io/marketing-mindset/) — open agent skill (SKILL.md) for B2B marketing tests: sample size, kill rules, pricing, cold-email deliverability. Install: `npx marketing-mindset`
 
 - **Only install skills from trusted sources**
 - **Review SKILL.md and all scripts** before enabling a skill
