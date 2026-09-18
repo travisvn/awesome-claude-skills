@@ -113,6 +113,7 @@ Skills for working with complex file formats:
 ### Individual Skills
 
 > These will be broken down into categories once there are enough community skills available to list
+| **[data-transform](https://github.com/seastarmoon/data-transform)** | Infer data transformations from a source file plus a desired sample, then apply them to the whole dataset. Handles xlsx/csv/json/txt conversion, field transforms, template output, streaming reads, model-driven batching, and integrity checks. |
 
 | Skill | Description |
 | --- | --- |
