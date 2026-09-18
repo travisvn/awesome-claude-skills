@@ -288,6 +288,7 @@ The easiest way to create a skill is to use the built-in `skill-creator`:
 
 - [How to Create Your First Claude Skill](https://skywork.ai/blog/ai-agent/how-to-create-claude-skill-step-by-step-guide/) - Step-by-step tutorial with examples
 - [How to Use Skills in Claude Code](https://skywork.ai/blog/how-to-use-skills-in-claude-code-install-path-project-scoping-testing/) - Installation, project scoping, and testing guide
+- [How to clone a viral video with a coding agent](https://hypit.video/guides/how-to-clone-a-video/) - Installs the hypit skill, feeds the agent a reference video, and rebuilds the edit (script, timing, captions) in one session
 
 ### Video Tutorials
 
