@@ -109,6 +109,11 @@ Skills for working with complex file formats:
   - [Blog post about its development](https://blog.fsck.com/2025/10/23/naming-claude-plugins/)
   - Install from `superpowers-marketplace` plugin
 
+- **[devrudals/master-of](https://github.com/devrudals/master-of)** - Universal skill-gate system and token gatekeeper for Claude Code and AI agents
+  - Keeps large skill libraries dormant behind domain gates (design, dev, research, planning, stock, pipelines) to cut 92% of system prompt tokens (from 27k to 2.2k tok/session)
+  - One-command batch parking (`mo park --all`) for skills, agents, and slash commands
+  - Installation: `/plugin marketplace add devrudals/master-of` then `/plugin install master-of@master-of`
+
 
 ### Individual Skills
 
