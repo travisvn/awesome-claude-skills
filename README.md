@@ -110,6 +110,10 @@ Skills for working with complex file formats:
   - Install from `superpowers-marketplace` plugin
 
 
+- **[thatrebeccarae/claude-marketing](https://github.com/thatrebeccarae/claude-marketing)** - A full marketing department for Claude Code: 56 skills covering Klaviyo, Shopify, GA4, Looker Studio, paid media (Google, Meta, Microsoft, TikTok, LinkedIn), SEO, CRO, and content operations
+
+- **[firatcand/founder-skills](https://github.com/firatcand/founder-skills)** - Claude Code skills for founders building B2B SaaS: GTM channel strategy, pricing and packaging, positioning, sales, prospecting, and copywriting
+
 ### Individual Skills
 
 > These will be broken down into categories once there are enough community skills available to list
