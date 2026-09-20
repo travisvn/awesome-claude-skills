@@ -128,6 +128,12 @@ Skills for working with complex file formats:
 | **[Expo Skills](https://github.com/expo/skills)** | Official skills by the Expo team for developing Expo apps |
 | **[shadcn/ui](https://ui.shadcn.com/docs/skills)** | Give Claude Code context on shadcn components as well as pattern enforcement |
 | **[get-shit-done](https://github.com/gsd-build/get-shit-done)** | Lightweight meta-prompting, context engineering, and spec-driven development system for Claude Code by TÂCHES |
+| **[minimal-skill](https://github.com/xiaogege6697/minimal-skill)** | Project minimal-topology skill: fix only identity, boundary, stable contracts, evidence and evolution — keep everything else replaceable across models, tools and sessions |
+| **[web-crawler-skill](https://github.com/xiaogege6697/web-crawler-skill)** | Responsible web crawling for AI agents: lightest lawful access path, provenance, validation, and hard stop conditions |
+| **[metalslime-perspective-skill](https://github.com/xiaogege6697/metalslime-perspective-skill)** | Investment thinking lens distilled from 5 years of a Chinese cross-market investor's public posts: cycles, IRR discipline, supply-chain penetration, propagation-chain pricing |
+| **[cognitive-path-comic-content](https://github.com/xiaogege6697/cognitive-path-comic-content)** | Turn complex knowledge into 5–8 page cognitive-path comics with QA gates, for Xiaohongshu/WeChat image posts |
+| **[butler-skill](https://github.com/xiaogege6697/butler-skill)** | Autonomy-first execution: the strong model owns the goal end-to-end and delegates verifiable slices to cheap models only when it pays |
+| **[dream-skill](https://github.com/xiaogege6697/dream-skill)** | Sleep-time maintenance for file-based agent memory: consolidate, link, slim, clean, and solidify high-frequency loops |
 
 _More community skills coming soon! Submit a PR to add your skill._
 
