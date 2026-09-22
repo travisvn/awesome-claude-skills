@@ -129,6 +129,8 @@ Skills for working with complex file formats:
 | **[shadcn/ui](https://ui.shadcn.com/docs/skills)** | Give Claude Code context on shadcn components as well as pattern enforcement |
 | **[get-shit-done](https://github.com/gsd-build/get-shit-done)** | Lightweight meta-prompting, context engineering, and spec-driven development system for Claude Code by TÂCHES |
 
+| **[china-standard](https://github.com/lightgogo007/china-standard)** | Evidence-driven Chinese standardization research & engineering: standards search with verification, gap analysis, GB/T 1.1-compliant structured drafting, review-revision workflows with full traceability |
+
 _More community skills coming soon! Submit a PR to add your skill._
 
 ### Tools
