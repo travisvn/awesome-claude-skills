@@ -109,7 +109,8 @@ Skills for working with complex file formats:
   - [Blog post about its development](https://blog.fsck.com/2025/10/23/naming-claude-plugins/)
   - Install from `superpowers-marketplace` plugin
 
-
+### writing, creative or content skill
+- [adapting-novels-to-screenplays](https://github.com/almakamberi/adapting-novels-to-screenplays) - Adapts any novel into a feature screenplay in approved stages: you rule on every cut, every scene cites its chapter, and nothing is invented. Outputs Fountain + PDF.
 ### Individual Skills
 
 > These will be broken down into categories once there are enough community skills available to list
