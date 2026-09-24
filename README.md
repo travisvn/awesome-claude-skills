@@ -1,4 +1,5 @@
-<p align="center">
+ok 21918
+"center">
   <a href="https://github.com/travisvn/awesome-claude-skills">
     <img alt="Awesome Claude Skills" src="https://pc0o4oduww.ufs.sh/f/crfz5GypRfo0lI4924gMSJKLY6297aVP0zZpilXBvqTbDyrs"/>
   </a>
@@ -128,6 +129,7 @@ Skills for working with complex file formats:
 | **[Expo Skills](https://github.com/expo/skills)** | Official skills by the Expo team for developing Expo apps |
 | **[shadcn/ui](https://ui.shadcn.com/docs/skills)** | Give Claude Code context on shadcn components as well as pattern enforcement |
 | **[get-shit-done](https://github.com/gsd-build/get-shit-done)** | Lightweight meta-prompting, context engineering, and spec-driven development system for Claude Code by TÂCHES |
+| **[awesome-bug-bounty](https://github.com/YangTech-gh/Awesome-Bug-Bounty)** | Authorized bug-bounty skill: recon methodology, vuln playbooks (XSS/SSRF/IDOR/SQLi), payloads, business-logic checks, and tool guidance |
 
 _More community skills coming soon! Submit a PR to add your skill._
 
