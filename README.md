@@ -108,6 +108,7 @@ Skills for working with complex file formats:
   - Uses new techniques that are still being refined and tested (i.e. skills here may change over time)
   - [Blog post about its development](https://blog.fsck.com/2025/10/23/naming-claude-plugins/)
   - Install from `superpowers-marketplace` plugin
+- **[stayingapi/travel-skills](https://github.com/stayingapi/travel-skills)** - Skills for pulling live hotel and short-rental data (rates, availability, listings, reviews) across Airbnb, Booking.com, Vrbo and Google Hotels through the StayingAPI MCP server
 
 
 ### Individual Skills
