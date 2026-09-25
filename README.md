@@ -206,6 +206,10 @@ The easiest way to create a skill is to use the built-in `skill-creator`:
 - **Document dependencies** - List any prerequisites or required packages
 - **Test thoroughly** - Verify your skill works across different scenarios
 
+### Tutorials & Guides
+
+- **[How to Create Claude Skills: Build, Install and Test Your First Skill](https://nulltensor.com/posts/getting-started-with-claude-skills/?utm_source=github&utm_medium=referral&utm_campaign=getting-started-with-claude-skills)** - Step-by-step guide to writing SKILL.md, installing it in Claude.ai and Claude Code, and checking that the skill actually triggers
+
 </details>
 
 ## 📚 Official Documentation & Resources
