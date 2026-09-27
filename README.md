@@ -129,6 +129,7 @@ Skills for working with complex file formats:
 | **[shadcn/ui](https://ui.shadcn.com/docs/skills)** | Give Claude Code context on shadcn components as well as pattern enforcement |
 | **[get-shit-done](https://github.com/gsd-build/get-shit-done)** | Lightweight meta-prompting, context engineering, and spec-driven development system for Claude Code by TÂCHES |
 
+| **[Second Take](https://github.com/flashfrogluo/second-take)** | Second-opinion QA for AI chain-of-thought — diagnoses weak reasoning (omissions, contradictions, unsupported claims, constraint conflicts) and returns a "retake note" you paste back into the original chat |
 _More community skills coming soon! Submit a PR to add your skill._
 
 ### Tools
