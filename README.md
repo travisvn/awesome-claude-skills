@@ -110,6 +110,11 @@ Skills for working with complex file formats:
   - Install from `superpowers-marketplace` plugin
 
 
+- **[qikairo7/penguin-oss-suite](https://github.com/qikairo7/penguin-oss-suite)** - Open-source contribution suite: 29 skills in 7 layers behind a single `oss-workflow` entry
+  - Guard PreToolUse hook blocks `git push` / `gh pr create` until a task checklist with evidence-backed sign-off exists (16-assertion test suite, 6 real-session battle reports)
+  - Rules distilled from 4,243 real PRs across Tencent public repos
+  - Install: `npx skills add qikairo7/penguin-oss-suite`
+
 ### Individual Skills
 
 > These will be broken down into categories once there are enough community skills available to list
