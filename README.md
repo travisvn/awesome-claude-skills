@@ -128,6 +128,7 @@ Skills for working with complex file formats:
 | **[Expo Skills](https://github.com/expo/skills)** | Official skills by the Expo team for developing Expo apps |
 | **[shadcn/ui](https://ui.shadcn.com/docs/skills)** | Give Claude Code context on shadcn components as well as pattern enforcement |
 | **[get-shit-done](https://github.com/gsd-build/get-shit-done)** | Lightweight meta-prompting, context engineering, and spec-driven development system for Claude Code by TÂCHES |
+| **[gpuslider](https://github.com/niklasp/gpuslider/tree/main/skills/gpuslider)** | Adds image sliders, carousels and galleries with GPU shader transitions (liquid, burn, glitch…), pointer effects and a lightbox, in plain JS, React or Next.js, using the 4.7 KB gpuslider library. |
 
 _More community skills coming soon! Submit a PR to add your skill._
 
