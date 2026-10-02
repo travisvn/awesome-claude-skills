@@ -110,6 +110,8 @@ Skills for working with complex file formats:
   - Install from `superpowers-marketplace` plugin
 
 
+- **[cmj-hub/gtm-operator-skills](https://github.com/cmj-hub/gtm-operator-skills)** - Claude Code marketplace suite of free GTM operator skills (pricing, cold email, ICP/PSP, value props, founder brand, landing pages, GEO, sales offers, prospecting, email sequences), installable via `npx skills add`, with a public catalog at jaymountconsulting.com/skills
+
 ### Individual Skills
 
 > These will be broken down into categories once there are enough community skills available to list
