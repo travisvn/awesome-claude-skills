@@ -133,6 +133,7 @@ _More community skills coming soon! Submit a PR to add your skill._
 
 ### Tools
 
+- **[vineetgoyalhuf/connectmeguru-mcp](https://github.com/vineetgoyalhuf/connectmeguru-mcp)** - Model Context Protocol (MCP) server & skills for global travel connectivity and automated eSIM provisioning across 190+ countries
 - **[yusufkaraaslan/Skill_Seekers](https://github.com/yusufkaraaslan/Skill_Seekers)** - Convert documentation websites into Claude Skills
 
 ## ✏️ Creating Your First Skill
