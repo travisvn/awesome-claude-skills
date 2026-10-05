@@ -109,6 +109,9 @@ Skills for working with complex file formats:
   - [Blog post about its development](https://blog.fsck.com/2025/10/23/naming-claude-plugins/)
   - Install from `superpowers-marketplace` plugin
 
+- **[cometchat/cometchat-skills](https://github.com/cometchat/cometchat-skills)** - Official CometChat skills for adding chat, voice and video calling to React, Angular, React Native, iOS, Android and Flutter apps
+  - A `/cometchat` entry skill detects the framework and routes to platform skills; also migrates apps from other chat providers to CometChat
+  - Installation: `/plugin marketplace add cometchat/cometchat-skills`
 
 ### Individual Skills
 
