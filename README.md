@@ -134,6 +134,7 @@ _More community skills coming soon! Submit a PR to add your skill._
 ### Tools
 
 - **[yusufkaraaslan/Skill_Seekers](https://github.com/yusufkaraaslan/Skill_Seekers)** - Convert documentation websites into Claude Skills
+- **[Keyflow Skills Directory](https://keyflowhub.com/skills)** - Free, searchable index of 1,200+ open-source skills pulled from public GitHub repos, each with its SKILL.md and one-line install commands
 
 ## ✏️ Creating Your First Skill
 
