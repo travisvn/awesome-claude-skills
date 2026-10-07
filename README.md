@@ -109,6 +109,10 @@ Skills for working with complex file formats:
   - [Blog post about its development](https://blog.fsck.com/2025/10/23/naming-claude-plugins/)
   - Install from `superpowers-marketplace` plugin
 
+- **[00200200/maintainer-skills-lab](https://github.com/00200200/maintainer-skills-lab)** - 17 reusable skills & 6 agent profiles built for maintainers (verifiable bug reproduction, automated PR review, ML training diagnostics, humanized technical docs)
+  - Installation: `/plugin marketplace add 00200200/maintainer-skills-lab`
+
+
 
 ### Individual Skills
 
