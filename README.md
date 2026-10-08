@@ -128,7 +128,7 @@ Skills for working with complex file formats:
 | **[Expo Skills](https://github.com/expo/skills)** | Official skills by the Expo team for developing Expo apps |
 | **[shadcn/ui](https://ui.shadcn.com/docs/skills)** | Give Claude Code context on shadcn components as well as pattern enforcement |
 | **[get-shit-done](https://github.com/gsd-build/get-shit-done)** | Lightweight meta-prompting, context engineering, and spec-driven development system for Claude Code by TÂCHES |
-| **[sell-unused-tokens](https://github.com/galleonlabs/sell-unused-tokens)** | List leftover LLM API credits on tokensto.cash and cash out USDC (Revolut, Monzo, Chime, Zelle direct; Venmo, Cash App, Wise, PayPal after a one-time USDCtoFiat Verify registration) |
+| **[sell-unused-tokens](https://tokensto.cash/skills/sell-unused-tokens)** | List unused LLM provider capacity for USDC through a local CLI with hidden credential prompts and an explicit daily budget. Cash-out remains a separate manual action. |
 
 _More community skills coming soon! Submit a PR to add your skill._
 
