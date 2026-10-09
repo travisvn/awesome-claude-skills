@@ -72,6 +72,7 @@ Skills for working with complex file formats:
 - **[algorithmic-art](https://github.com/anthropics/skills/tree/main/skills/algorithmic-art)** - Create generative art using p5.js with seeded randomness, flow fields, and particle systems
 - **[canvas-design](https://github.com/anthropics/skills/tree/main/skills/canvas-design)** - Design beautiful visual art in .png and .pdf formats using design philosophies
 - **[slack-gif-creator](https://github.com/anthropics/skills/tree/main/skills/slack-gif-creator)** - Create animated GIFs optimized for Slack's size constraints
+- **[livepair](https://github.com/livepairai/livepair-cli)** - Generate images and video with LivePair AI models via the `livepair` CLI — live model catalog, aliases, async job polling
 
 ### Development
 
