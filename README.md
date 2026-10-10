@@ -110,6 +110,11 @@ Skills for working with complex file formats:
   - Install from `superpowers-marketplace` plugin
 
 
+- **[skillmds/skillmd](https://github.com/skillmds/skillmd)** - MIT toolchain for Agent Skills: CLI, MCP server, lint engine and GitHub Action
+  - [skillmd.com](https://skillmd.com) - Open registry of 1,000,000+ `SKILL.md` files, each linted against the format spec
+  - Independent scanner results from NVIDIA SkillSpector and Cisco AI Defense shown on every skill that carries them
+  - Install: `npx skillmds add owner/name`, or wire the registry into an agent over MCP with `npx -y skillmds`
+
 ### Individual Skills
 
 > These will be broken down into categories once there are enough community skills available to list
