@@ -128,6 +128,8 @@ Skills for working with complex file formats:
 | **[Expo Skills](https://github.com/expo/skills)** | Official skills by the Expo team for developing Expo apps |
 | **[shadcn/ui](https://ui.shadcn.com/docs/skills)** | Give Claude Code context on shadcn components as well as pattern enforcement |
 | **[get-shit-done](https://github.com/gsd-build/get-shit-done)** | Lightweight meta-prompting, context engineering, and spec-driven development system for Claude Code by TÂCHES |
+| **[use-telegram-serverless](https://github.com/rijans/agent-skills/tree/main/skills/use-telegram-serverless)** | Build, ship, and scale simple or full-stack Telegram bots and Mini Apps on Telegram Serverless with V8 JS, SQLite (`sdk/db`), Mini App RPC, and `tgcloud` |
+| **[humanize-text](https://github.com/rijans/agent-skills/tree/main/skills/humanize-text)** | Write and rewrite natural, specific, human-sounding prose while preserving voice, meaning, nuance, and facts |
 
 _More community skills coming soon! Submit a PR to add your skill._
 
