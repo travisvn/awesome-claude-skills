@@ -134,6 +134,7 @@ _More community skills coming soon! Submit a PR to add your skill._
 ### Tools
 
 - **[yusufkaraaslan/Skill_Seekers](https://github.com/yusufkaraaslan/Skill_Seekers)** - Convert documentation websites into Claude Skills
+- **[WorkflowStacks](https://workflowstacks.com)** - Free marketplace and MCP server for discovering open-source Claude skills; search the catalog and load a skill's instructions mid-conversation
 
 ## ✏️ Creating Your First Skill
 
