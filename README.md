@@ -128,6 +128,7 @@ Skills for working with complex file formats:
 | **[Expo Skills](https://github.com/expo/skills)** | Official skills by the Expo team for developing Expo apps |
 | **[shadcn/ui](https://ui.shadcn.com/docs/skills)** | Give Claude Code context on shadcn components as well as pattern enforcement |
 | **[get-shit-done](https://github.com/gsd-build/get-shit-done)** | Lightweight meta-prompting, context engineering, and spec-driven development system for Claude Code by TÂCHES |
+| **[yovoice](https://github.com/leemysw/yovoice/tree/main/skills/yovoice)** | Sets up the yovoice CLI and a local TTS model, then generates narration from text and a reference voice, with emotion control and multi-track score rendering. Works with a local CLI or a remote yovoice server. |
 
 _More community skills coming soon! Submit a PR to add your skill._
 
