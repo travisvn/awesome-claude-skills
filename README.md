@@ -109,6 +109,8 @@ Skills for working with complex file formats:
   - [Blog post about its development](https://blog.fsck.com/2025/10/23/naming-claude-plugins/)
   - Install from `superpowers-marketplace` plugin
 
+- **[SurgePix Agent Skills](https://github.com/SurgePix/agent-skills)** - A collection of AI visual skills (AI presentations, background removal, image translation, inpainting, logos, posters, storyboards) for Claude Code, Cursor, Codex & any SKILL.md agent. MIT-licensed; also runs in-browser at surgepix.ai.
+
 
 ### Individual Skills
 
