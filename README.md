@@ -134,6 +134,7 @@ _More community skills coming soon! Submit a PR to add your skill._
 ### Tools
 
 - **[yusufkaraaslan/Skill_Seekers](https://github.com/yusufkaraaslan/Skill_Seekers)** - Convert documentation websites into Claude Skills
+- **[santiago0071/SkillDocker](https://github.com/santiago0071/SkillDocker)** - Lightweight desktop dock to inspect, toggle, and hot-inject skills across Claude Code, Cursor, and Antigravity
 
 ## ✏️ Creating Your First Skill
 
