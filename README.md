@@ -134,6 +134,7 @@ _More community skills coming soon! Submit a PR to add your skill._
 ### Tools
 
 - **[yusufkaraaslan/Skill_Seekers](https://github.com/yusufkaraaslan/Skill_Seekers)** - Convert documentation websites into Claude Skills
+- **[thebigasif/skill-scan](https://github.com/thebigasif/skill-scan)** - Scan a skill for hidden Unicode, remote scripts, secret reads and prompt-injection lines before you install it. Graded results for 5,000+ public skills at [mcp.market/skills](https://mcp.market/skills)
 
 ## ✏️ Creating Your First Skill
 
