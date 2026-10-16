@@ -451,3 +451,5 @@ A: For skills from git repositories, pull the latest changes. For manually insta
 ## 🤝 Contributing
 
 Contributions welcome! See [contribution guidelines](CONTRIBUTING.md) for details. To add a skill or resource: fork, add to appropriate section, submit PR.
+
+- **[QWK ($QWK) Autonomous MEV & Resource Escrow Skill / MCP](https://github.com/chase-tqg/QWIK-MEV-Core)** - Autonomous Web3 DeFi & MEV infrastructure `SKILL.md` and MCP server (`verify_enterprise_backing`, `get_escrow_contract_details`, `generate_seed_deposit_tx`) with Foundry EIP-1153 transient-storage smart contracts (`0x1Cc436b4D9316ee623CFeB760C44F84c9bD9C20A`), 0%-fee Morpho Blue flash-loan execution, and on-chain Merkle commitments for $400,000+ in project-reported Google Cloud, NVIDIA, and Cloudflare resources.
