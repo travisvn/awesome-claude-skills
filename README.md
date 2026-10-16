@@ -108,6 +108,8 @@ Skills for working with complex file formats:
   - Uses new techniques that are still being refined and tested (i.e. skills here may change over time)
   - [Blog post about its development](https://blog.fsck.com/2025/10/23/naming-claude-plugins/)
   - Install from `superpowers-marketplace` plugin
+- **[formlm/workshopskill](https://github.com/formlm/workshopskill)** - 46 printable workshop activity folders as agent skills (run sheet, prop cards, debrief, pre/post measure) for trainers and facilitators; CC BY 4.0. Site: [workshopskill.com](https://workshopskill.com/en/)
+
 
 
 ### Individual Skills
