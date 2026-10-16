@@ -117,6 +117,11 @@ Skills for working with complex file formats:
 | Skill | Description |
 | --- | --- |
 | **[ios-simulator-skill](https://github.com/conorluddy/ios-simulator-skill)** | iOS app building, navigation, and testing through automation |
+| **[moooai/takeout-coupon](https://github.com/moooai/takeout-coupon)** | Fetches food-delivery coupons for Meituan, Ele.me/Taobao Shangou and JD Waimai; returns promo codes, claim links and QR codes |
+| **[moooai/trip-coupon](https://github.com/moooai/trip-coupon)** | Travel coupons: Didi ride-hailing bundles and hotel deals from Meituan, Tongcheng and Fliggy |
+| **[moooai/movie-coupon](https://github.com/moooai/movie-coupon)** | Movie ticket coupons from Taopiaopiao and Maoyan, with claim links and QR codes |
+| **[moooai/parcel-coupon](https://github.com/moooai/parcel-coupon)** | Courier coupons for SF Express, ZTO, YTO, Yunda, STO and Cainiao |
+| **[moooai/obtain-coupons-all-in-one](https://github.com/moooai/obtain-coupons-all-in-one)** | All-in-one coupon fetcher covering takeout, travel, movie and parcel coupons |
 | **[ffuf-web-fuzzing](https://github.com/jthack/ffuf_claude_skill)** | Expert guidance for ffuf web fuzzing during penetration testing, including authenticated fuzzing with raw requests, auto-calibration, and result analysis |
 | **[playwright-skill](https://github.com/lackeyjb/playwright-skill)** | General-purpose browser automation using Playwright |
 | **[claude-d3js-skill](https://github.com/chrisvoncsefalvay/claude-d3js-skill)** | Visualizations in d3.js |
