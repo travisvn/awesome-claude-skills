@@ -110,6 +110,8 @@ Skills for working with complex file formats:
   - Install from `superpowers-marketplace` plugin
 
 
+- **[Shaisolaris/solaris-dev-shop](https://github.com/Shaisolaris/solaris-dev-shop)** - Free MIT library of SKILL.md files with a deterministic intake router
+
 ### Individual Skills
 
 > These will be broken down into categories once there are enough community skills available to list
