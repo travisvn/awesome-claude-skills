@@ -96,6 +96,9 @@ Skills for working with complex file formats:
 > 
 > See [Security & Best Practices](#-security--best-practices) for more information
 
+- **[Trustbaselab/trustbase-skills](https://github.com/Trustbaselab/trustbase-skills)** - 8 cognitive skills that turn classic books (Factfulness, Thinking Fast and Slow, Noise, Thinking in Systems, Scarcity + Deep Work, The Knowledge Illusion, Who Can You Trust?) into executable if-then rules, each with before/after validation data from a real project. Includes a meta `book-to-skill` skill. Apache-2.0, bilingual (EN + Chinese).
+  - Install: `npx skills add Trustbaselab/trustbase-skills`
+
 ### Collections & Libraries
 
 - **[obra/superpowers](https://github.com/obra/superpowers)** - Core skills library for Claude Code with 20+ battle-tested skills including TDD, debugging, and collaboration patterns
