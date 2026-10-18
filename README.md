@@ -134,6 +134,7 @@ _More community skills coming soon! Submit a PR to add your skill._
 ### Tools
 
 - **[yusufkaraaslan/Skill_Seekers](https://github.com/yusufkaraaslan/Skill_Seekers)** - Convert documentation websites into Claude Skills
+- **[AgentSkillsDir](https://agentskillsdir.com)** - Free directory of Claude skills, MCP servers and plugins, each pinned to a public GitHub commit with setup snippets
 
 ## ✏️ Creating Your First Skill
 
