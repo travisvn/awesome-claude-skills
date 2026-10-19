@@ -108,6 +108,7 @@ Skills for working with complex file formats:
   - Uses new techniques that are still being refined and tested (i.e. skills here may change over time)
   - [Blog post about its development](https://blog.fsck.com/2025/10/23/naming-claude-plugins/)
   - Install from `superpowers-marketplace` plugin
+- **[ykjshenzhen2008-ship-it/commercial-real-estate-skills](https://github.com/ykjshenzhen2008-ship-it/commercial-real-estate-skills)** - 39 MIT-licensed, battle-tested agent skills for commercial real estate & content ops
 
 
 ### Individual Skills
