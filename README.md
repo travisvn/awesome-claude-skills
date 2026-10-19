@@ -334,6 +334,7 @@ _Video tutorials coming soon! Have a good video about Claude Skills? Submit a PR
 - **Code review** - Peer review custom skills before team distribution
 - **Least privilege** - Only grant necessary permissions and access
 - **Regular audits** - Periodically review installed skills
+- **Automated skill & context scanning** - Run [CtxWise](https://github.com/FramY2/ctxwise) (`npx @framy2/ctxwise shield --fail-on-risk` and `npx @framy2/ctxwise agents`) locally or in GitHub Actions to scan `SKILL.md`, `CLAUDE.md`, and `.mcp.json` for hardcoded API keys, covert HTML comment prompt injections, hidden Trojan Unicode characters, and startup token bloat.
 - **Documentation** - Maintain clear documentation for custom skills
 - **Testing** - Thoroughly test skills in non-production environments first
 
