@@ -134,6 +134,7 @@ _More community skills coming soon! Submit a PR to add your skill._
 ### Tools
 
 - **[yusufkaraaslan/Skill_Seekers](https://github.com/yusufkaraaslan/Skill_Seekers)** - Convert documentation websites into Claude Skills
+- **[badnexus/Aurao](https://github.com/badnexus/Aurao)** - Friendly, zero-jargon desktop GUI for Claude Code with built-in `.claude/skills` workspace sync and 1-click file approval cards
 
 ## ✏️ Creating Your First Skill
 
