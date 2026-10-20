@@ -128,6 +128,7 @@ Skills for working with complex file formats:
 | **[Expo Skills](https://github.com/expo/skills)** | Official skills by the Expo team for developing Expo apps |
 | **[shadcn/ui](https://ui.shadcn.com/docs/skills)** | Give Claude Code context on shadcn components as well as pattern enforcement |
 | **[get-shit-done](https://github.com/gsd-build/get-shit-done)** | Lightweight meta-prompting, context engineering, and spec-driven development system for Claude Code by TÂCHES |
+| **[code-review-gate](https://github.com/wangheng19901021/skills)** | Five-gate code review skill for Java backends — 41 rules across concurrency, transactions, security, NPE and requirement review: 13 distilled from real production incidents, 28 from architecture review. Measured on an AI-writing-code team: online bugs 11/month → 2/month. Includes team rules template and a runnable Spring AI MCP Server demo |
 
 _More community skills coming soon! Submit a PR to add your skill._
 
