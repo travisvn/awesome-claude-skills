@@ -134,6 +134,7 @@ _More community skills coming soon! Submit a PR to add your skill._
 ### Tools
 
 - **[yusufkaraaslan/Skill_Seekers](https://github.com/yusufkaraaslan/Skill_Seekers)** - Convert documentation websites into Claude Skills
+- **[nodegenie/awesome-agent-skills](https://github.com/nodegenie/awesome-agent-skills)** - Open-source safety scanner for skill repos (`npx github:nodegenie/awesome-agent-skills scan`, also a GitHub Action) that flags remote code execution, destructive commands, data exfiltration and obfuscation in SKILL.md files and bundled scripts; also an dex of 1,700+ skills with side-by-side proofs
 
 ## ✏️ Creating Your First Skill
 
