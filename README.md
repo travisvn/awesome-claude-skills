@@ -110,6 +110,11 @@ Skills for working with complex file formats:
   - Install from `superpowers-marketplace` plugin
 
 
+- **[laolaoshiren/claude-code-skills-zh](https://github.com/laolaoshiren/claude-code-skills-zh)** - Curated collection of 438+ Claude Code Skills, Agents, and Plugins for Chinese-speaking developers, organized by scenario with Chinese documentation
+  - Includes 20 original install-ready skills (zh-code-reviewer, zh-readme, api-tester, refactor-advisor, perf-profiler)
+  - Website with category browsing: https://claude-skills.bt199.com
+
+
 ### Individual Skills
 
 > These will be broken down into categories once there are enough community skills available to list
