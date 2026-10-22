@@ -95,7 +95,7 @@ Skills for working with complex file formats:
 > Skills can execute arbitrary code in Claude's environment.
 > 
 > See [Security & Best Practices](#-security--best-practices) for more information
-
+- [effective-passkey](https://github.com/xsignon-secure/EffectivePasskey/tree/main/skills/effective-passkey) - Audit Microsoft Entra ID passkey and admin sign-in policy offline from read-only exports; explains findings and simulates fixes.
 ### Collections & Libraries
 
 - **[obra/superpowers](https://github.com/obra/superpowers)** - Core skills library for Claude Code with 20+ battle-tested skills including TDD, debugging, and collaboration patterns
