@@ -1,4 +1,4 @@
-<img width="1227" height="331" alt="image" src="https://github.com/user-attachments/assets/3671e225-612e-4931-a5d5-10df931c8e5f" /><p align="center">
+<p align="center">
   <a href="https://github.com/travisvn/awesome-claude-skills">
     <img alt="Awesome Claude Skills" src="https://pc0o4oduww.ufs.sh/f/crfz5GypRfo0lI4924gMSJKLY6297aVP0zZpilXBvqTbDyrs"/>
   </a>
