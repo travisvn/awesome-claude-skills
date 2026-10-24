@@ -1,4 +1,4 @@
-<p align="center">
+<img width="1227" height="331" alt="image" src="https://github.com/user-attachments/assets/3671e225-612e-4931-a5d5-10df931c8e5f" /><p align="center">
   <a href="https://github.com/travisvn/awesome-claude-skills">
     <img alt="Awesome Claude Skills" src="https://pc0o4oduww.ufs.sh/f/crfz5GypRfo0lI4924gMSJKLY6297aVP0zZpilXBvqTbDyrs"/>
   </a>
@@ -109,6 +109,13 @@ Skills for working with complex file formats:
   - [Blog post about its development](https://blog.fsck.com/2025/10/23/naming-claude-plugins/)
   - Install from `superpowers-marketplace` plugin
 
+- **[AyeJK/phase-runner](https://github.com/AyeJK/phase-runner)** - A set of Claude skills that takes a product from a rough idea to shipped code.
+  - `product-planner` - Turns your idea into a product plan.
+  - `design-planner` - Mocks up every screen before any code is written.
+  - `phase-planner` - Breaks the plan into sprints and tasks.
+  - `phase-builder` - Runs the build loop, phase by phase.
+  - `phase-viewer` - A live dashboard to view your build progress.
+  - Installation: `/plugin marketplace add AyeJK/phase-runner`
 
 ### Individual Skills
 
