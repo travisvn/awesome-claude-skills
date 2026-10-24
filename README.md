@@ -134,6 +134,7 @@ _More community skills coming soon! Submit a PR to add your skill._
 ### Tools
 
 - **[yusufkaraaslan/Skill_Seekers](https://github.com/yusufkaraaslan/Skill_Seekers)** - Convert documentation websites into Claude Skills
+- **[skill-advisor](https://github.com/under71/skill-advisor)** - Which skill should I use? Inventories every installed SKILL.md across Claude Code, Codex, Cursor, Hermes and OpenClaw, recommends one for a task (English and Korean), and flags duplicate, overlapping or vaguely described skills. Zero dependencies.
 
 ## ✏️ Creating Your First Skill
 
