@@ -393,6 +393,7 @@ _Video tutorials coming soon! Have a good video about Claude Skills? Submit a PR
 - [Official Skills Repository Issues](https://github.com/anthropics/skills/issues)
 - [Claude Documentation](https://docs.claude.com/)
 - [Community Discussions](https://github.com/anthropics/skills/discussions)
+- [Mode VC Radar MCP](https://modevc.com/api/mcp) - Read-only venture capital & AI market research MCP server (39 empirical AI charts, 3,650 VC firms, SEC Form D filings, and 18 founder financial calculators; free Streamable HTTP at https://modevc.com/api/mcp).
 
 </details>
 
