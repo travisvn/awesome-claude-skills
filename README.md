@@ -135,6 +135,8 @@ _More community skills coming soon! Submit a PR to add your skill._
 
 - **[yusufkaraaslan/Skill_Seekers](https://github.com/yusufkaraaslan/Skill_Seekers)** - Convert documentation websites into Claude Skills
 
+- **[skills-manager](https://github.com/shenysun/skills-manager)** - CLI hub (`npx skills-manager-cli`) that manages agent skills in chat and distributes them to 70+ agents
+
 ## ✏️ Creating Your First Skill
 
 <details>
