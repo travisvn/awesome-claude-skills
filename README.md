@@ -129,6 +129,8 @@ Skills for working with complex file formats:
 | **[shadcn/ui](https://ui.shadcn.com/docs/skills)** | Give Claude Code context on shadcn components as well as pattern enforcement |
 | **[get-shit-done](https://github.com/gsd-build/get-shit-done)** | Lightweight meta-prompting, context engineering, and spec-driven development system for Claude Code by TÂCHES |
 
+| **[CortexForge Multi-Agent Skills](https://github.com/rekurt/cortex-forge)** | Multi-tenant agent infrastructure & skill suite (`corp-messenger` inter-agent broker, `admin-dashboard` token quota/resource monitor, and `qmd` markdown search) |
+
 _More community skills coming soon! Submit a PR to add your skill._
 
 ### Tools
