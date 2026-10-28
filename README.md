@@ -75,6 +75,7 @@ Skills for working with complex file formats:
 
 ### Development
 
+- **[taste-skill](https://github.com/WuDao0123/taste-skill)** - Reverse-engineer any website URL or UI screenshot into a deterministic `SKILL.md` with 30 flagship brand design systems (Linear, Stripe, Resend, Cursor, Raycast) and multi-agent export (`.claude/skills/`, `CLAUDE.md`, `AGENTS.md`, `.cursor/rules/`).
 - **[frontend-design](https://github.com/anthropics/skills/blob/main/skills/frontend-design)** - Instructs Claude to avoid "AI slop" or generic aesthetics and to make bold design decisions. Works very well for React & Tailwind.
 - **[web-artifacts-builder](https://github.com/anthropics/skills/tree/main/skills/web-artifacts-builder)** - Build complex claude.ai HTML artifacts using React, Tailwind CSS, and shadcn/ui components
 - **[mcp-builder](https://github.com/anthropics/skills/tree/main/skills/mcp-builder)** - Guide for creating high-quality MCP servers to integrate external APIs and services
