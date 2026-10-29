@@ -108,6 +108,9 @@ Skills for working with complex file formats:
   - Uses new techniques that are still being refined and tested (i.e. skills here may change over time)
   - [Blog post about its development](https://blog.fsck.com/2025/10/23/naming-claude-plugins/)
   - Install from `superpowers-marketplace` plugin
+- **[yayashuxue/solo-founder-playbook](https://github.com/yayashuxue/solo-founder-playbook)** - Six startup skills for solo founders grounded in patterns from 101 Starter Story founder interviews
+  - `/solo-analyze`, `/solo-failures`, `/solo-growth`, `/solo-patterns`, `/solo-playbook`, `/solo-roast`
+  - Installation: `/plugin marketplace add yayashuxue/solo-founder-playbook`
 
 
 ### Individual Skills
