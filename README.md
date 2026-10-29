@@ -108,7 +108,10 @@ Skills for working with complex file formats:
   - Uses new techniques that are still being refined and tested (i.e. skills here may change over time)
   - [Blog post about its development](https://blog.fsck.com/2025/10/23/naming-claude-plugins/)
   - Install from `superpowers-marketplace` plugin
-
+- **[jgsystemsconsulting/jgs-se-knowledge-packs](https://github.com/jgsystemsconsulting/jgs-se-knowledge-packs)** - 74 licence-vetted systems-engineering reference packs for coding agents (requirements, architecture, testing, safety, data, ops)
+  - Install: `npx skills add jgsystemsconsulting/jgs-se-knowledge-packs --all` (or pick packs with `--skill`)
+  - Listed on skills.sh and in VoltAgent/awesome-agent-skills; browsable catalogue site linked from the repo README
+  - License: repo LICENSE + NOTICE; per-pack open sources recorded in catalog.json
 
 ### Individual Skills
 
