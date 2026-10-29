@@ -128,12 +128,14 @@ Skills for working with complex file formats:
 | **[Expo Skills](https://github.com/expo/skills)** | Official skills by the Expo team for developing Expo apps |
 | **[shadcn/ui](https://ui.shadcn.com/docs/skills)** | Give Claude Code context on shadcn components as well as pattern enforcement |
 | **[get-shit-done](https://github.com/gsd-build/get-shit-done)** | Lightweight meta-prompting, context engineering, and spec-driven development system for Claude Code by TÂCHES |
+| **[agy-claude-crash-guard-kit](https://github.com/jashory/agy-claude-crash-guard-kit)** | Pre-flight multimodal firewall & self-healing JSONL trajectory surgeon that prevents and repairs permanent HTTP 400 INVALID_ARGUMENT session crashes in Claude Code |
 
 _More community skills coming soon! Submit a PR to add your skill._
 
 ### Tools
 
 - **[yusufkaraaslan/Skill_Seekers](https://github.com/yusufkaraaslan/Skill_Seekers)** - Convert documentation websites into Claude Skills
+- **[jashory/mcp-agent-security-auditor](https://github.com/jashory/mcp-agent-security-auditor)** - Zero-dependency Python AST taint & static security analyzer for MCP servers and Claude skills (OWASP LLM01–LLM10, SARIF v2.1.0)
 
 ## ✏️ Creating Your First Skill
 
