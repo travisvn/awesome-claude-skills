@@ -128,6 +128,7 @@ Skills for working with complex file formats:
 | **[Expo Skills](https://github.com/expo/skills)** | Official skills by the Expo team for developing Expo apps |
 | **[shadcn/ui](https://ui.shadcn.com/docs/skills)** | Give Claude Code context on shadcn components as well as pattern enforcement |
 | **[get-shit-done](https://github.com/gsd-build/get-shit-done)** | Lightweight meta-prompting, context engineering, and spec-driven development system for Claude Code by TÂCHES |
+| **[transcreva](https://github.com/arkyu2077/transcreva-mcp/tree/main/skills/transcreva)** | Transcribe audio and video files (MP3, M4A, WAV, OGG, OPUS, MP4, MOV, WEBM) into timestamped text, SRT/VTT subtitles, or DOCX in Brazilian Portuguese and 12+ languages with speaker diarization via [Transcreva](https://transcreva.net) |
 
 _More community skills coming soon! Submit a PR to add your skill._
 
