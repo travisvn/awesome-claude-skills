@@ -306,6 +306,7 @@ _Video tutorials coming soon! Have a good video about Claude Skills? Submit a PR
 
 - [Skills Explained](https://claude.com/blog/skills-explained) - Official Anthropic blog post covering progressive disclosure, use cases, and when to use Skills vs other tools
 - [Simon Willison: Claude Skills are awesome, maybe a bigger deal than MCP](https://simonwillison.net/2025/Oct/16/claude-skills/) - Technical deep dive and analysis
+- [Claude finance plugin, skill by skill](https://agentsfinance.io/entries/guide-claude-finance-plugin-skills-prompts-2026/) - Guide to the eight skills in Anthropic's open-source finance plugin for Cowork and Claude Code, each with a worked example and a copy-ready prompt
 
 ## 🔒 Security & Best Practices
 
