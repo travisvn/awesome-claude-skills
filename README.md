@@ -131,6 +131,8 @@ Skills for working with complex file formats:
 
 _More community skills coming soon! Submit a PR to add your skill._
 
+| **[tv-box-setup (TV Box Tools)](https://github.com/smartago/tvboxtools-plugin/tree/main/skills/tv-box-setup)** | Set up and manage Android TV, Google TV, and Fire TV boxes over ADB: discover on LAN, pair, set the persistent default HOME launcher without root, install APKs, and run diagnostics ([tvboxtools.com](https://tvboxtools.com) · [Google Play](https://play.google.com/store/apps/details?id=com.tv.launcher.manager.adb.tvboxtools&gl=us)) |
+
 ### Tools
 
 - **[yusufkaraaslan/Skill_Seekers](https://github.com/yusufkaraaslan/Skill_Seekers)** - Convert documentation websites into Claude Skills
