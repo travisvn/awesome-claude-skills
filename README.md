@@ -116,6 +116,7 @@ Skills for working with complex file formats:
 
 | Skill | Description |
 | --- | --- |
+| **[synter-ad-operations](https://github.com/synter-media/synter-media/tree/main/packages/mcp-server)** | Unified multi-channel advertising and marketing operations across 30+ ad platforms (Google Ads, Meta, LinkedIn, X, Reddit, TikTok, Snap, Microsoft Bing, Amazon Ads & DSP, AppLovin, Liftoff, The Trade Desk, etc.). Features 100% free diagnostic reads ($0.00 / 0 credits), zero-credential sandbox mode (`--demo`), and Ångström mutation verification |
 | **[ios-simulator-skill](https://github.com/conorluddy/ios-simulator-skill)** | iOS app building, navigation, and testing through automation |
 | **[ffuf-web-fuzzing](https://github.com/jthack/ffuf_claude_skill)** | Expert guidance for ffuf web fuzzing during penetration testing, including authenticated fuzzing with raw requests, auto-calibration, and result analysis |
 | **[playwright-skill](https://github.com/lackeyjb/playwright-skill)** | General-purpose browser automation using Playwright |
