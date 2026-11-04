@@ -116,6 +116,7 @@ Skills for working with complex file formats:
 
 | Skill | Description |
 | --- | --- |
+| **[Astrodai Vedic Astrology & Ephemeris](https://github.com/tanudai/astrodai-mcp/tree/main/skills/astrodai-astrology)** | Precision Vedic birth chart calculations and ephemeris engine calibrated to Swiss Ephemeris and JHora desktop accuracy. Resolves rising signs, divisional vargas, and Vimshottari dasha chapters via MCP |
 | **[ios-simulator-skill](https://github.com/conorluddy/ios-simulator-skill)** | iOS app building, navigation, and testing through automation |
 | **[ffuf-web-fuzzing](https://github.com/jthack/ffuf_claude_skill)** | Expert guidance for ffuf web fuzzing during penetration testing, including authenticated fuzzing with raw requests, auto-calibration, and result analysis |
 | **[playwright-skill](https://github.com/lackeyjb/playwright-skill)** | General-purpose browser automation using Playwright |
