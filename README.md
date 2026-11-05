@@ -109,6 +109,10 @@ Skills for working with complex file formats:
   - [Blog post about its development](https://blog.fsck.com/2025/10/23/naming-claude-plugins/)
   - Install from `superpowers-marketplace` plugin
 
+- **[ronitgupta43-ops/country-skills](https://github.com/ronitgupta43-ops/country-skills)** - 27 skills for tax, money, jobs and crypto in India, Canada and the US; each runs a tested Python calculator instead of guessing
+  - Covers income tax, capital gains, TFSA/RRSP/FHSA, first home, GST, crypto tax, resumes and interview prep
+  - Installation: `/plugin marketplace add ronitgupta43-ops/country-skills`
+
 
 ### Individual Skills
 
