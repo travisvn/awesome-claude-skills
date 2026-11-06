@@ -128,6 +128,7 @@ Skills for working with complex file formats:
 | **[Expo Skills](https://github.com/expo/skills)** | Official skills by the Expo team for developing Expo apps |
 | **[shadcn/ui](https://ui.shadcn.com/docs/skills)** | Give Claude Code context on shadcn components as well as pattern enforcement |
 | **[get-shit-done](https://github.com/gsd-build/get-shit-done)** | Lightweight meta-prompting, context engineering, and spec-driven development system for Claude Code by TÂCHES |
+| **[Deutero Agent Skills](https://github.com/deutero-ai/agent-skill)** | Eight skills for AI-moderated research interviews — run user research and idea validation on real participants, simulate users, recruit participants, and analyze transcripts via Deutero's MCP |
 
 _More community skills coming soon! Submit a PR to add your skill._
 
