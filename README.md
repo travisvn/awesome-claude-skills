@@ -128,6 +128,7 @@ Skills for working with complex file formats:
 | **[Expo Skills](https://github.com/expo/skills)** | Official skills by the Expo team for developing Expo apps |
 | **[shadcn/ui](https://ui.shadcn.com/docs/skills)** | Give Claude Code context on shadcn components as well as pattern enforcement |
 | **[get-shit-done](https://github.com/gsd-build/get-shit-done)** | Lightweight meta-prompting, context engineering, and spec-driven development system for Claude Code by TÂCHES |
+| **[x402-defi-data](https://github.com/rezearcher/x402-defi-data)** | Decision-tagged DeFi and trading market data an agent pays for by the call over x402 (USDC on Base): pool yields each tagged SUSTAINABLE/DECAYING/OUTLIER/AVOID with a risk score, cross-venue perp funding with an OI-weighted arb verdict, and token prices with a confidence and provenance trajectory. Keyless previews and a small daily full-output trial, no API key or account. |
 
 _More community skills coming soon! Submit a PR to add your skill._
 
