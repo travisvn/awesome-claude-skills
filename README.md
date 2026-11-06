@@ -116,6 +116,7 @@ Skills for working with complex file formats:
 
 | Skill | Description |
 | --- | --- |
+| **[virtual-cfo](https://github.com/zengyu199009/virtual-cfo)** | AI financial modeling, unit economics, runway & fundraising analysis for one-person companies — real 2026 baselines + zero-dependency Python calculators |
 | **[ios-simulator-skill](https://github.com/conorluddy/ios-simulator-skill)** | iOS app building, navigation, and testing through automation |
 | **[ffuf-web-fuzzing](https://github.com/jthack/ffuf_claude_skill)** | Expert guidance for ffuf web fuzzing during penetration testing, including authenticated fuzzing with raw requests, auto-calibration, and result analysis |
 | **[playwright-skill](https://github.com/lackeyjb/playwright-skill)** | General-purpose browser automation using Playwright |
