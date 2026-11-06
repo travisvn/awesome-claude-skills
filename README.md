@@ -128,7 +128,7 @@ Skills for working with complex file formats:
 | **[Expo Skills](https://github.com/expo/skills)** | Official skills by the Expo team for developing Expo apps |
 | **[shadcn/ui](https://ui.shadcn.com/docs/skills)** | Give Claude Code context on shadcn components as well as pattern enforcement |
 | **[get-shit-done](https://github.com/gsd-build/get-shit-done)** | Lightweight meta-prompting, context engineering, and spec-driven development system for Claude Code by TÂCHES |
-| **[mach-gtm-mcp](https://github.com/verma6uc/mach-gtm-mcp)** | B2B outbound sales tools via MCP: build ICPs, draft personalised cold emails and LinkedIn messages (1-3-1 framework), research prospects, score leads 0-100, and build multi-touch outbound sequences — install with `npx mach-gtm-mcp` |
+| **[mach-gtm-mcp](https://github.com/verma6uc/mach-gtm-mcp)** | Five outbound sales helpers: build an ICP, draft cold emails and LinkedIn messages from signals you provide, get a research checklist, score leads 0-100, and lay out multi-touch sequences. Template-based; it looks nothing up and sends nothing. Install with `npx -y github:verma6uc/mach-gtm-mcp` |
 
 _More community skills coming soon! Submit a PR to add your skill._
 
