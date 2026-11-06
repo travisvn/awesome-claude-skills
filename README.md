@@ -128,6 +128,7 @@ Skills for working with complex file formats:
 | **[Expo Skills](https://github.com/expo/skills)** | Official skills by the Expo team for developing Expo apps |
 | **[shadcn/ui](https://ui.shadcn.com/docs/skills)** | Give Claude Code context on shadcn components as well as pattern enforcement |
 | **[get-shit-done](https://github.com/gsd-build/get-shit-done)** | Lightweight meta-prompting, context engineering, and spec-driven development system for Claude Code by TÂCHES |
+| **[kintsugi-core-guard-free](https://github.com/tunguyen1993/kintsugi-harness/tree/main/free-skill-pack)** | Deterministic AST + Regex verification guard and 7-layer Zero-Trust MCP DLP shield for Claude Code that catches hallucinated completion claims, runaway token loops, and OWASP vulnerabilities before shipping |
 
 _More community skills coming soon! Submit a PR to add your skill._
 
