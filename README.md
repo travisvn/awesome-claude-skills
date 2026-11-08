@@ -128,6 +128,7 @@ Skills for working with complex file formats:
 | **[Expo Skills](https://github.com/expo/skills)** | Official skills by the Expo team for developing Expo apps |
 | **[shadcn/ui](https://ui.shadcn.com/docs/skills)** | Give Claude Code context on shadcn components as well as pattern enforcement |
 | **[get-shit-done](https://github.com/gsd-build/get-shit-done)** | Lightweight meta-prompting, context engineering, and spec-driven development system for Claude Code by TÂCHES |
+| **[frihet-mcp](https://github.com/Frihet-io/frihet-mcp)** | 8 guided ERP skills (`frihet-mcp`, `clientes`, `cobros`, `documentos`, `gastos`, `operaciones`, `revision-mensual`, `tesoreria`) and MCP server for invoicing, quotes, expenses, CRM, treasury, and Spanish/EU e-invoicing compliance (VeriFactu, TicketBAI, Facturae). Install: `npx skills add Frihet-io/frihet-mcp` |
 
 _More community skills coming soon! Submit a PR to add your skill._
 
