@@ -128,6 +128,8 @@ Skills for working with complex file formats:
 | **[Expo Skills](https://github.com/expo/skills)** | Official skills by the Expo team for developing Expo apps |
 | **[shadcn/ui](https://ui.shadcn.com/docs/skills)** | Give Claude Code context on shadcn components as well as pattern enforcement |
 | **[get-shit-done](https://github.com/gsd-build/get-shit-done)** | Lightweight meta-prompting, context engineering, and spec-driven development system for Claude Code by TÂCHES |
+| **[fundraising](https://github.com/diaryofamademan/skills/tree/main/fundraising)** | Run a capital raise or company sale end to end as one competitive process, with human checkpoints (MIT) |
+| **[first-principles-thinking](https://github.com/diaryofamademan/skills/tree/main/first-principles-thinking)** | Strip decisions, costs, and designs down to fundamental truths that carry named evidence, then rebuild a better option from the floor up (MIT) |
 
 _More community skills coming soon! Submit a PR to add your skill._
 
