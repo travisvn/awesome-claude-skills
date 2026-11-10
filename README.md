@@ -128,6 +128,7 @@ Skills for working with complex file formats:
 | **[Expo Skills](https://github.com/expo/skills)** | Official skills by the Expo team for developing Expo apps |
 | **[shadcn/ui](https://ui.shadcn.com/docs/skills)** | Give Claude Code context on shadcn components as well as pattern enforcement |
 | **[get-shit-done](https://github.com/gsd-build/get-shit-done)** | Lightweight meta-prompting, context engineering, and spec-driven development system for Claude Code by TÂCHES |
+| **[ask-shiheng](https://github.com/Pabears/software-phase-theory)** | Mandatory pre-coding architecture triage: classifies each module by its [Telos, Process, Schema] coordinates into 5 software phases (Solid / Liquid Crystal / Bounded Liquid / Gas / Institutional Crystal), blocks phase-mismatch traps like "everything is an Agent", and outputs a one-page PHASE_SPEC.md before any code is written. Bilingual (EN/ZH), ships a full methodology manual and a 45-paper literature index. CC BY-SA 4.0. |
 
 _More community skills coming soon! Submit a PR to add your skill._
 
