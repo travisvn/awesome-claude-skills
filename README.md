@@ -109,6 +109,9 @@ Skills for working with complex file formats:
   - [Blog post about its development](https://blog.fsck.com/2025/10/23/naming-claude-plugins/)
   - Install from `superpowers-marketplace` plugin
 
+- **[felipealvarenga/fintech-skills](https://github.com/felipealvarenga/fintech-skills)** - 13 fintech engineering skills (money arithmetic, double-entry ledger, idempotent payments, webhooks, reconciliation, Pix and boleto) with test vectors and published with/without eval results
+  - Installation: `/plugin marketplace add felipealvarenga/fintech-skills` then `/plugin install fintech-skills@felipealvarenga`, or `npx skills add felipealvarenga/fintech-skills`
+
 
 ### Individual Skills
 
