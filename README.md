@@ -110,6 +110,10 @@ Skills for working with complex file formats:
   - Install from `superpowers-marketplace` plugin
 
 
+- **[ouxxyy/ouba-classmate](https://github.com/ouxxyy/ouba-classmate)** - Career & creative skills suite with 8 local-first skills (deterministic resume-vs-JD rubric scoring with line-number evidence citation `L1..Ln`, multi-platform job search, behavioral mock interviewer, employer due diligence, and AI video storyboarding) plus an open 12-repo benchmark dataset
+  - Includes a zero-dependency local stdio MCP server (`jd-resume-match-mcp`) and unit tests
+  - Installation: `/plugin marketplace add ouxxyy/ouba-classmate` or `npx skills add ouxxyy/ouba-classmate`
+
 ### Individual Skills
 
 > These will be broken down into categories once there are enough community skills available to list
