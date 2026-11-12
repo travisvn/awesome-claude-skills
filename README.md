@@ -128,6 +128,7 @@ Skills for working with complex file formats:
 | **[Expo Skills](https://github.com/expo/skills)** | Official skills by the Expo team for developing Expo apps |
 | **[shadcn/ui](https://ui.shadcn.com/docs/skills)** | Give Claude Code context on shadcn components as well as pattern enforcement |
 | **[get-shit-done](https://github.com/gsd-build/get-shit-done)** | Lightweight meta-prompting, context engineering, and spec-driven development system for Claude Code by TÂCHES |
+| **[vibe-shield](https://github.com/avivgerz-hue/vibe-shield)** | Static security scanner (92 rules across 8 vectors including Next.js/Supabase RLS, auth routes, secrets, and MCP/Skill poisoning) with OWASP Top 10:2025 mappings and SARIF output |
 
 _More community skills coming soon! Submit a PR to add your skill._
 
