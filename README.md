@@ -134,6 +134,7 @@ _More community skills coming soon! Submit a PR to add your skill._
 ### Tools
 
 - **[yusufkaraaslan/Skill_Seekers](https://github.com/yusufkaraaslan/Skill_Seekers)** - Convert documentation websites into Claude Skills
+- [tq-forge](https://github.com/tanishq286/tq-forge) - Autonomous skill & subagent factory for Claude Code with 0–100 rubric scoring, model-compatibility lint, web/social skill learning, and lossless context compression (-57.5%).
 
 ## ✏️ Creating Your First Skill
 
