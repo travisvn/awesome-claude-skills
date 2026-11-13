@@ -109,6 +109,9 @@ Skills for working with complex file formats:
   - [Blog post about its development](https://blog.fsck.com/2025/10/23/naming-claude-plugins/)
   - Install from `superpowers-marketplace` plugin
 
+- **[Pagepro/nexity](https://github.com/Pagepro/nexity)** - Agent skills and read-only agents for Next.js + Sanity websites, and a marketing skills plugin for any site and CMS
+  - Installation: `/plugin marketplace add Pagepro/nexity`
+
 
 ### Individual Skills
 
