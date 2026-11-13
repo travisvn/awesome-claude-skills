@@ -109,6 +109,10 @@ Skills for working with complex file formats:
   - [Blog post about its development](https://blog.fsck.com/2025/10/23/naming-claude-plugins/)
   - Install from `superpowers-marketplace` plugin
 
+- **[StudentSuite/awesome-skills-plugins-for-students](https://github.com/StudentSuite/awesome-skills-plugins-for-students)** - Curated list of 205 skills and 31 plugins for student workflows across Claude Code, Cursor, Copilot, and Gemini CLI
+  - Covers IB/IGCSE coursework, exam prep, STEM and CS projects, academic writing, and college applications
+  - Every entry links to its own repo and is tagged by platform; MIT-licensed with no paid product funnel
+  - Install themed bundles with `/plugin marketplace add StudentSuite/awesome-skills-plugins-for-students`
 
 ### Individual Skills
 
