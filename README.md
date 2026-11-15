@@ -112,6 +112,7 @@ Skills for working with complex file formats:
 
 ### Individual Skills
 
+- [anchor-spec](https://github.com/lankongtongmeng/anchor-spec) - Tiered project anchors for AI coding agents: right-size project memory (T0 zero-anchor / T1 seed card / T2 full anchor), keep anchors thin with a three-layer info model (snapshot + append-only decisions), and automate lifecycle care with anchor-doctor (cold-storage alerts, task distillation, archiving).
 > These will be broken down into categories once there are enough community skills available to list
 
 | Skill | Description |
