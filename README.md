@@ -134,6 +134,7 @@ _More community skills coming soon! Submit a PR to add your skill._
 ### Tools
 
 - **[yusufkaraaslan/Skill_Seekers](https://github.com/yusufkaraaslan/Skill_Seekers)** - Convert documentation websites into Claude Skills
+- **[Shanmukh-l33t/skillporter](https://github.com/Shanmukh-l33t/skillporter)** - Package manager and lockfile for skills: installs and pins the same skill across Claude Code, Codex, Cursor, Copilot and 15 more harnesses, with drift detection, rollback and a static scan
 
 ## ✏️ Creating Your First Skill
 
