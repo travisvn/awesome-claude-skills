@@ -134,6 +134,7 @@ _More community skills coming soon! Submit a PR to add your skill._
 ### Tools
 
 - **[yusufkaraaslan/Skill_Seekers](https://github.com/yusufkaraaslan/Skill_Seekers)** - Convert documentation websites into Claude Skills
+- **[ohwald/skill-history](https://github.com/ohwald/skill-history)** - The wayback machine for Agent Skills: browse 1,200+ skills from 24 sources, diff any two side by side, and replay any skill's commit-by-commit history — fresh snapshot daily ([live site](https://ohwald.github.io/skill-history/))
 
 ## ✏️ Creating Your First Skill
 
