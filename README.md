@@ -133,6 +133,7 @@ _More community skills coming soon! Submit a PR to add your skill._
 
 ### Tools
 
+- **[AaronWong1999/ccx](https://github.com/AaronWong1999/ccx/tree/main/plugins/ccx/skills/claude)** - macOS menu bar app that hands a live task between Claude Code, Codex and Antigravity with its context attached; ships four Claude Code skills (to/from Codex, to/from Antigravity) for moving a session to another app when a 5-hour quota window closes
 - **[yusufkaraaslan/Skill_Seekers](https://github.com/yusufkaraaslan/Skill_Seekers)** - Convert documentation websites into Claude Skills
 
 ## ✏️ Creating Your First Skill
