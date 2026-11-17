@@ -108,6 +108,9 @@ Skills for working with complex file formats:
   - Uses new techniques that are still being refined and tested (i.e. skills here may change over time)
   - [Blog post about its development](https://blog.fsck.com/2025/10/23/naming-claude-plugins/)
   - Install from `superpowers-marketplace` plugin
+ 
+- **[off-grid-ai/skills](https://github.com/off-grid-ai/skills)** - 49 skills for testing changes in the running app, design review, legacy codebases and deploys
+  - Installation: `/plugin marketplace add off-grid-ai/skills`
 
 
 ### Individual Skills
