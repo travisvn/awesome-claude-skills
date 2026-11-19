@@ -128,6 +128,7 @@ Skills for working with complex file formats:
 | **[Expo Skills](https://github.com/expo/skills)** | Official skills by the Expo team for developing Expo apps |
 | **[shadcn/ui](https://ui.shadcn.com/docs/skills)** | Give Claude Code context on shadcn components as well as pattern enforcement |
 | **[get-shit-done](https://github.com/gsd-build/get-shit-done)** | Lightweight meta-prompting, context engineering, and spec-driven development system for Claude Code by TÂCHES |
+| **[modern-java-guidance](https://github.com/wkd09/modern-java-guidance)** | Version-aware Java 17/21+ and Spring Boot 3.x+ Agent Skill, CLI scanner, and 31ms PostToolUse hook preventing Java 8 & Boot 2.x regressions |
 
 _More community skills coming soon! Submit a PR to add your skill._
 
