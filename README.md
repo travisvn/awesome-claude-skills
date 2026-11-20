@@ -128,6 +128,7 @@ Skills for working with complex file formats:
 | **[Expo Skills](https://github.com/expo/skills)** | Official skills by the Expo team for developing Expo apps |
 | **[shadcn/ui](https://ui.shadcn.com/docs/skills)** | Give Claude Code context on shadcn components as well as pattern enforcement |
 | **[get-shit-done](https://github.com/gsd-build/get-shit-done)** | Lightweight meta-prompting, context engineering, and spec-driven development system for Claude Code by TÂCHES |
+| **[agentic-tab-context](https://github.com/gainratio/agentic-tab-context)** | Let Claude Code, Codex, and Antigravity inspect and operate your already logged-in Chrome tabs via local CLI (`npm install -g agentic-tab-context`) + MV3 Chrome Web Store extension with per-tab share consent, password masking, and session keep-alive |
 
 _More community skills coming soon! Submit a PR to add your skill._
 
