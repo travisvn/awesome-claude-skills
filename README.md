@@ -134,6 +134,7 @@ _More community skills coming soon! Submit a PR to add your skill._
 ### Tools
 
 - **[yusufkaraaslan/Skill_Seekers](https://github.com/yusufkaraaslan/Skill_Seekers)** - Convert documentation websites into Claude Skills
+- **[MohibShaikh/clawvet](https://github.com/MohibShaikh/clawvet)** - Offline static and Tree-sitter AST security scanner for agent skills, Claude Code hooks, rules, and MCP configs, with rug-pull update diffs and a client-side WASM playground
 
 ## ✏️ Creating Your First Skill
 
