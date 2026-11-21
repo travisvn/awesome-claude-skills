@@ -109,6 +109,10 @@ Skills for working with complex file formats:
   - [Blog post about its development](https://blog.fsck.com/2025/10/23/naming-claude-plugins/)
   - Install from `superpowers-marketplace` plugin
 
+- **[ludditenoti-maker/nameio-plugin](https://github.com/ludditenoti-maker/nameio-plugin)** - 14 MIT-licensed ecommerce AI visibility & SEO skills paired with [NameIO](https://getnameio.com)'s hosted OAuth MCP server (`https://app.getnameio.com/mcp`)
+  - Covers AI shopping funnels (ChatGPT, Gemini, Google AI Overviews, Perplexity), competitor framing, technical AEO & UCP checkout readiness, GSC/GA4, and reviewable page fix drafts
+  - Install: `npx skills add ludditenoti-maker/nameio-plugin` or `claude mcp add --transport http nameio https://app.getnameio.com/mcp`
+
 
 ### Individual Skills
 
