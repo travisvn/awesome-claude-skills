@@ -129,6 +129,8 @@ Skills for working with complex file formats:
 | **[shadcn/ui](https://ui.shadcn.com/docs/skills)** | Give Claude Code context on shadcn components as well as pattern enforcement |
 | **[get-shit-done](https://github.com/gsd-build/get-shit-done)** | Lightweight meta-prompting, context engineering, and spec-driven development system for Claude Code by TÂCHES |
 
+| **[training-watch](https://github.com/Veryyoung957/training-watch)** | Model- and framework-agnostic watchdog for remote training runs: alerts on crash, OOM, NaN or stall with the log tail, and wakes the agent so it can respond |
+
 _More community skills coming soon! Submit a PR to add your skill._
 
 ### Tools
