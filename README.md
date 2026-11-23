@@ -110,6 +110,11 @@ Skills for working with complex file formats:
   - Install from `superpowers-marketplace` plugin
 
 
+- **[Dipeshpal/dipesh-skills](https://github.com/Dipeshpal/dipesh-skills)** - Marketplace of general-purpose Agent Skills for software delivery
+ - dipesh-task-planner-skill: plan-first workflow from requirement to verified, documented code with one plan approval
+ - dipesh-browser-control: drive a copy of your own Chrome/Edge/Brave/Firefox profile through one CLI on Playwright
+ - Installation: `/plugin marketplace add Dipeshpal/dipesh-skills`
+
 ### Individual Skills
 
 > These will be broken down into categories once there are enough community skills available to list
