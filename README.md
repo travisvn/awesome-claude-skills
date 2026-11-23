@@ -128,6 +128,7 @@ Skills for working with complex file formats:
 | **[Expo Skills](https://github.com/expo/skills)** | Official skills by the Expo team for developing Expo apps |
 | **[shadcn/ui](https://ui.shadcn.com/docs/skills)** | Give Claude Code context on shadcn components as well as pattern enforcement |
 | **[get-shit-done](https://github.com/gsd-build/get-shit-done)** | Lightweight meta-prompting, context engineering, and spec-driven development system for Claude Code by TÂCHES |
+| **[starveil-comic-studio](https://github.com/gdfsdjj145/starveil-comic-skill)** | DaVinci-style comic & webtoon studio skill + Streamable HTTP MCP with 0-credit photo character lock, multi-page continuity, drag-to-box speech-bubble editing, and 6-language localization |
 
 _More community skills coming soon! Submit a PR to add your skill._
 
