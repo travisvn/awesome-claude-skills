@@ -134,6 +134,7 @@ _More community skills coming soon! Submit a PR to add your skill._
 ### Tools
 
 - **[yusufkaraaslan/Skill_Seekers](https://github.com/yusufkaraaslan/Skill_Seekers)** - Convert documentation websites into Claude Skills
+- **[alvintclam/opxskills](https://github.com/alvintclam/opxskills)** - Zero-dependency CLI and [browser SKILL.md validator](https://www.opxskills.com/tools/skill-validator) to lint frontmatter, generate starter skills, and install portable skills across Claude Code, Cursor, Codex CLI, and Gemini CLI
 
 ## ✏️ Creating Your First Skill
 
