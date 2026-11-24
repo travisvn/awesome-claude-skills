@@ -109,6 +109,8 @@ Skills for working with complex file formats:
   - [Blog post about its development](https://blog.fsck.com/2025/10/23/naming-claude-plugins/)
   - Install from `superpowers-marketplace` plugin
 
+ - **[网赚案例库 AI Skills](https://wz.790221.xyz/tools.html)** - Curated directory of 15 verified AI agent skills for making money (marketing, SEO, video, social media, e-commerce)
+
 
 ### Individual Skills
 
