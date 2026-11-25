@@ -129,6 +129,8 @@ Skills for working with complex file formats:
 | **[shadcn/ui](https://ui.shadcn.com/docs/skills)** | Give Claude Code context on shadcn components as well as pattern enforcement |
 | **[get-shit-done](https://github.com/gsd-build/get-shit-done)** | Lightweight meta-prompting, context engineering, and spec-driven development system for Claude Code by TÂCHES |
 
+| **[stuttering-packets-turn0-flood](https://github.com/luchtan-GIT/m4r-data/tree/main/plugins/stuttering-packets-turn0-flood)** | Turn-0 Session Flood skill & open unquantized music corpus (CC-BY-4.0, 909 empirical evaluations) that feeds live unquantized music to multimodal agents before Turn 1 to expand divergent brainstorming (+41.5% vs. silence, beating 120 BPM clicks & white noise) |
+
 _More community skills coming soon! Submit a PR to add your skill._
 
 ### Tools
