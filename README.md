@@ -134,6 +134,7 @@ _More community skills coming soon! Submit a PR to add your skill._
 ### Tools
 
 - **[yusufkaraaslan/Skill_Seekers](https://github.com/yusufkaraaslan/Skill_Seekers)** - Convert documentation websites into Claude Skills
+- **[OrkasVideoStudio](https://github.com/Orkas-AI/Orkas-VideoStudio)** - MIT-licensed video toolkit for Claude Code with a skill pack, the `ovs` CLI and MCP server, and editable production folders.
 
 ## ✏️ Creating Your First Skill
 
