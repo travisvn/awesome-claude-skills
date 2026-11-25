@@ -112,6 +112,7 @@ Skills for working with complex file formats:
 
 ### Individual Skills
 
+- **[atris-x402](https://github.com/atrislabs/clawhub-skills/tree/master/atris-x402)** - Zero-API-key agent skill and public MCP (`https://api.atris.ai/x402/mcp`) for checked AI answers (`team-1`), AEO visibility audits across ChatGPT & Perplexity, brand design extraction, verified PDF parsing, and YouTube discovery via Base USDC x402 v2 (includes a free `$0` tryout).
 > These will be broken down into categories once there are enough community skills available to list
 
 | Skill | Description |
