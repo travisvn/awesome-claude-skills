@@ -134,6 +134,7 @@ _More community skills coming soon! Submit a PR to add your skill._
 ### Tools
 
 - **[yusufkaraaslan/Skill_Seekers](https://github.com/yusufkaraaslan/Skill_Seekers)** - Convert documentation websites into Claude Skills
+- **[Deploy on MindPal](https://mindpal.space/deploy-on-mindpal)** - Try any public skill in the browser, then share it as an AI tool people open from a link, without Claude or an AI subscription
 
 ## ✏️ Creating Your First Skill
 
