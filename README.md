@@ -134,6 +134,7 @@ _More community skills coming soon! Submit a PR to add your skill._
 ### Tools
 
 - **[yusufkaraaslan/Skill_Seekers](https://github.com/yusufkaraaslan/Skill_Seekers)** - Convert documentation websites into Claude Skills
+- **[Calyban](https://calyban.com)** - Free Windows and Linux app that installs Claude skills (one skill or a whole skill repo) into Claude Code, Codex, Cursor, Copilot and Gemini CLI, scans each SKILL.md for hidden instructions first, and can undo the install
 
 ## ✏️ Creating Your First Skill
 
