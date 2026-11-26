@@ -128,6 +128,7 @@ Skills for working with complex file formats:
 | **[Expo Skills](https://github.com/expo/skills)** | Official skills by the Expo team for developing Expo apps |
 | **[shadcn/ui](https://ui.shadcn.com/docs/skills)** | Give Claude Code context on shadcn components as well as pattern enforcement |
 | **[get-shit-done](https://github.com/gsd-build/get-shit-done)** | Lightweight meta-prompting, context engineering, and spec-driven development system for Claude Code by TÂCHES |
+| **[EYROVE Image MCP](https://eyrove.com)** | Turns any web image into an editable prompt across eight dimensions, searches 100,000+ prompts for GPT Image 2.5, Gemini, Midjourney, Seedream, Grok and Flux, and generates the result |
 
 _More community skills coming soon! Submit a PR to add your skill._
 
@@ -451,3 +452,4 @@ A: For skills from git repositories, pull the latest changes. For manually insta
 ## 🤝 Contributing
 
 Contributions welcome! See [contribution guidelines](CONTRIBUTING.md) for details. To add a skill or resource: fork, add to appropriate section, submit PR.
+| **[EYROVE Image MCP](https://eyrove.com)** | Turns any web image into an editable prompt across eight dimensions, searches 100,000+ prompts for GPT Image 2.5, Gemini, Midjourney, Seedream, Grok and Flux, and generates the result |
