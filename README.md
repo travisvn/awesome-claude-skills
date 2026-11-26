@@ -130,6 +130,8 @@ Skills for working with complex file formats:
 | **[get-shit-done](https://github.com/gsd-build/get-shit-done)** | Lightweight meta-prompting, context engineering, and spec-driven development system for Claude Code by TÂCHES |
 
 _More community skills coming soon! Submit a PR to add your skill._
+| **[apple-dev-docs](https://github.com/BingoWon/apple-rag-mcp/tree/main/skills/apple-dev-docs)** | Search 376,000+ Apple Developer doc pages & 1,880+ WWDC transcripts via MCP or CLI |
+
 
 ### Tools
 
