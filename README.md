@@ -60,6 +60,7 @@ client = anthropic.Client(api_key="your-api-key")
 
 ### Document Skills
 
+- [paper-audit](https://github.com/Tomsabay/academic-deai-audit) — Zero-dependency deterministic Academic De-AI Auditor CLI & Agent Skill (`.docx`/`.tex`/`.md`/`.txt`) checking 80+ bilingual CN/EN AI clichés, sentence burstiness, language parity, and quantitative/citation integrity in closed-loop polishing workflows.
 Skills for working with complex file formats:
 
 - **[docx](https://github.com/anthropics/skills/tree/main/skills/docx)** - Create, edit, and analyze Word documents with support for tracked changes, comments, formatting preservation, and text extraction
