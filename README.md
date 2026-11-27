@@ -110,6 +110,10 @@ Skills for working with complex file formats:
   - Install from `superpowers-marketplace` plugin
 
 
+- **[unzooai/unzooai-skills](https://github.com/unzooai/unzooai-skills)** - Real-browser Claude Skills collection powered by [Unzoo Browser](https://unzoo.ai) for automating and publishing workflows across WeChat MP, X, Xiaohongshu, and more
+  - Built for local Chromium with per-account profile isolation and native MCP integration
+  - Handles real-world web automation edge cases such as `isTrusted` file uploads, rich-text editors, and multi-account session isolation
+
 ### Individual Skills
 
 > These will be broken down into categories once there are enough community skills available to list
