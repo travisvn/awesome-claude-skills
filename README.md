@@ -109,6 +109,10 @@ Skills for working with complex file formats:
   - [Blog post about its development](https://blog.fsck.com/2025/10/23/naming-claude-plugins/)
   - Install from `superpowers-marketplace` plugin
 
+- **[awesome-game-skill](https://github.com/gdfsdjj145/awesome-game-skill)** - 15 MIT-licensed game development skills (`SKILL.md`) for Claude Code, Codex, and Cursor covering combat juice, shaders, AI video-to-sprite pipelines, puzzle solvability solvers, and roguelike economy/RNG math
+  - Interactive zero-login browser labs & full catalog at [gameskill.dev](https://gameskill.dev)
+  - 1-line agent install guide: [gameskill.dev/install.md](https://gameskill.dev/install.md)
+
 
 ### Individual Skills
 
