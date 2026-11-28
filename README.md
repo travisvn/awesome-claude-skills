@@ -130,6 +130,7 @@ Skills for working with complex file formats:
 | **[get-shit-done](https://github.com/gsd-build/get-shit-done)** | Lightweight meta-prompting, context engineering, and spec-driven development system for Claude Code by TÂCHES |
 
 _More community skills coming soon! Submit a PR to add your skill._
+- **[Edgepedia](https://github.com/EdgePlat/edgepedia-mcp/tree/main/skills/edgepedia)** - Search and read 519,000+ cited encyclopedia articles across 31 languages via Edgepedia's keyless JSON API and hosted MCP server.
 
 ### Tools
 
